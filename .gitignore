@@ -1,3 +1,7 @@
-score_follower
-feature_gen/ouput
+__pycache__
+score_pipeline
+score_follower/sf_track
+score_follower/tl
+feature_gen/output
 gutim_1/output
+gutim_1/edits/pedal_archive
