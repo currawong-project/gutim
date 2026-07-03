@@ -1,3 +1,5 @@
+This project contains data and utilities for transforming and visualizing GUTIM related data files.
+
 Table Of Contents:
 
 score_pipeline/

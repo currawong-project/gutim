@@ -2,9 +2,9 @@
 # CLI arguments override these values at runtime.
 
 # Directory paths — override to relocate inputs, edits, or outputs.
-inputs_dir: ../gutim_1/scores   # directory containing all input source files
-edits_dir:  ../gutim_1/edits    # directory containing all edit YAML files
-output_dir: ../gutim_1/output   # directory for all pipeline outputs
+inputs_dir: gutim_1/scores   # directory containing all input source files
+edits_dir:  gutim_1/edits    # directory containing all edit YAML files
+output_dir: gutim_1/output   # directory for all pipeline outputs
 
 # Source file names within inputs_dir.
 source_files:
