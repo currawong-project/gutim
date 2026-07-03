@@ -1,0 +1,12 @@
+# 
+# meas last         first      next         section id      label
+ 45 n45_6C2e_1   re45_5Re_1 sb46_5932   Scriabin-1_Op74_1  Scr-1_Op74_1  # insert at bar line
+ 80 n80_1F1s     re80_1Rw   n81_5C3h    Scriabin-2_Op74_2  Scr-2_Op74_2  # before rest restarts on C at end of 81
+136 re136_5Rq_3  None       re137_1Re_0 Scriabin-3_Op74_4  Scr-3_Op74_4  # down beat of 137
+196 n196_6Cs4b   None       sb196_5967  Scriabin-4_Op74_3  Scr-4_Op74_3  # down beat of 197
+247 n247_1Gs1x   None       sb247_5986  Scriabin-5_Op65_1  Scr-5_Op65_1  # at section boundary
+283 re283_5Rq    None       sb284_6001  Scriabin-6_Op67_2  Scr-6_Op67_2  # down beat of 284
+311 re311_5Re    re311_5Rq  sb311_6012  Scriabin-7_Op74_5  Scr-7_Op74_5  # prior to quarter note rest
+344 n344_6Ds1e_1 None       re344_1Rh   Scriabin-8_Op65_2  Scr-8_Op65_2  # prior to chord
+367 n367_6E5q    None       n367_1C7t_1 Scriabin-9_Op51_2  Scr-9_Op51_2  # after rhs C/E
+404 n404_1C3s    None       sb405_6060  Scriabin-10_Op65_3 Scr-10_Op65_3 # down beat 405

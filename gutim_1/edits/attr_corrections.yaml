@@ -1,0 +1,40 @@
+# edits/attr_corrections.yaml
+#
+# Set attributes on notes or grace notes by element ID.
+# Multiple attributes may be set under a single note ID.
+# Unknown IDs, unknown attribute names, and type mismatches produce warnings and are skipped.
+# Absent or empty file is a no-op.
+#
+# Supported attributes:
+#   dmark:  str   — dynamic marking (e.g. 'p', 'mf', 'ff')
+#   dlevel: int   — dynamic level
+#
+# Example:
+#   n42_1C4q:
+#     dmark: ff
+#     dlevel: 3
+#
+#   ng107_2Bb3e:
+#     dmark: p
+
+
+n42_2E6t:
+  dmark: f
+  dlevel: 20
+  
+n49_1A6q:
+  dmark: ppp
+  dlevel: 5
+  
+n362_5E3q:
+  dmark: p
+  dlevel: 11
+  
+n374_6Db3s:
+  dmark: ppp
+  dlevel: 5
+  
+n428_1D5s:
+  dmark: mf
+  dlevel: 17
+  

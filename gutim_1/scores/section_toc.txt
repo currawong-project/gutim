@@ -1,0 +1,178 @@
+# Scriabin loc's identify the last onset note prior to the start of the Scriabin section.
+# Colors and names are synonmous: rose=HC, yellow=NN, green=AG, purple=AK, blue=EP
+# meas, loc, section, color, player, piano
+  1   S 5918 5918 rose HC  B
+  7   S 5919 5919 yellow NN A
+ 12   S 5920 5920 green AG C
+ 17   S 5921 5921
+ 20   S 5922 5922 blue EP B
+ 23   S 5923 5923
+ 24   S 5924 5924 purple AK A
+ 27   S 5925 5925
+ 29   S 5926 5926 green AG C
+ 30   S 5927 5927
+ 33   S 5928 5928 rose HC B
+ 40   S 5929 5929
+ 41   S 5930 5930 yellow NN A
+ 44   S 5931 5931
+ 45   X Scriabin-1_Op74_1 None green AG  C  
+ 46   S 5932 5932 purple AK B
+ 50   S 5933 5933
+ 54   S 5934 5934 blue EP A
+ 58   S 5935 5935
+ 58   S 5936 5936 yellow NN C
+ 60   S 5937 5937
+ 66   S 5938 5938 purple AK B
+ 71   S 5939 5939
+ 76   S 5940 5940a green AG A
+ 80   X Scriabin-2_Op74_2 None rose HC C
+ 81   P 5940 5940b green AG A
+ 82   S 5941 5941 blue EP B
+ 90   S 5942 5942 purple AK A
+ 92   S 5943 5943
+ 95   S 5944 5944 green AG B
+ 96   S 5945 5945
+100   S 5946 5946 rose HC C
+102   S 5947 5947
+103   S 5948 5948 purple AK A
+109   S 5949 5949 yellow NN B
+114   S 5950 5950 blue EP C
+118   S 5951 5951
+124   S 5952 5952 rose HC A
+128   S 5953 5953
+130   S 5954 5954 yellow NN B
+136   X Scriabin-3_Op74_4 None yellow NN B
+136   S 5955 5955 yellow NN B
+141   S 5956 5956 blue EP C
+144   S 5957 5957
+148   S 5958 5958 green AG A
+153   S 5959 5959 rose HC B
+158   S 5960 5960 purple AK C
+166   S 5961 5961 yellow NN B
+173   S 5962 5962 rose HC A
+174   S 5963 5963
+180   S 5964 5964 green AG C
+186   S 5965 5965 blue EP B
+193   S 5966 5966
+196   X Scriabin-4_Op74_3 None purple AK A
+# Part S 2
+197   S 5967 5967 purple AK A
+201   S 5968 5968 green AG C
+204   S 5969 5969 blue EP B
+207   S 5970 5970 yellow NN A
+208   S 5971 5971
+212   S 5972 5972 rose HC C
+214   S 5973 5973
+215   S 5974 5974 green AG B
+215   S 5975 5975
+219   S 5976 5976 rose HC C
+221   S 5977 5977
+224   S 5978 5978 yellow NN A
+227   S 5979 5979
+234   S 5980 5980 green AG B
+238   S 5981 5981
+241   S 5982 5982 blue EP C
+243   S 5983 5983
+243   S 5984 5984 purple AK A
+247   S 5985 5985
+247   X Scriabin-5_Op65_1 None blue EP C
+247   S 5986 5986 yellow NN B
+250   S 5987 5987
+253   S 5988 5988 blue EP C
+257   S 5989 5989 green AG A
+258   S 5990 5990
+259   S 5991 5991
+260   S 5992 5992 yellow NN B
+262   S 5993 5993
+264   S 5994 5994 purple AK A
+266   S 5995 5995
+267   S 5996 5996 rose HC C
+268   S 5997 5997
+271   S 5998 5998 blue EP B
+274   S 5999 5999 green AG A
+279   S 6000 6000 yellow NN C
+283   X Scriabin-6_Op67_2 None green AG B
+284   S 6001 6001 yellow NN C
+286   S 6002 6002 purple AK A
+288   S 6003 6003
+290   S 6004 6004 green AG B
+294   S 6005 6005
+298   S 6006 6006 blue EP C
+300   S 6007 6007
+302   S 6008 6008 rose HC A
+303   S 6009 6009
+306   S 6010 6010 purple AK B
+310   S 6011 6011
+311   X Scriabin-7_Op74_5 None rose HC C
+311   S 6012 6012 blue EP B
+313   S 6013 6013
+316   S 6014 6014 yellow NN A
+318   S 6015 6015
+322   S 6016 6016 purple AK B
+323   S 6017 6017
+324   S 6018 6018 green AG C
+326   S 6019 6019
+327   S 6020 6020 yellow NN A
+329   S 6021 6021
+330   S 6022 6022 blue EP B
+336   S 6023 6023
+339   S 6024 6024 purple AK A
+343   S 6025 6025a
+344   X Scriabin-8_Op65_2 None yellow NN C
+344   P 6025 6025b purple AK A
+346   S 6026 6026 green AG B
+350   S 6027 6027 green AG C
+353   S 6028 6028 blue EP A
+354   S 6029 6029
+357   S 6030 6030 yellow NN B
+359   S 6031 6031
+361   S 6032 6032 rose HC C
+364   S 6033 6033
+366   S 6034 6034a purple AK A
+367   X Scriabin-9_Op51_2 None blue EP B
+367   P 6034 6034b purple AK A
+368   S 6035 6035
+371   S 6036 6036 green AG C
+373   S 6037 6037
+375   S 6038 6038 purple AK A
+376   S 6039 6039
+377   S 6040 6040 rose HC B
+379   S 6041 6041
+381   S 6042 6042 green AG C
+382   S 6043 6043
+383   S 6044 6044 yellow NN A
+383   S 6045 6045
+384   S 6046 6046 rose HC B
+385   S 6047 6047
+387   S 6048 6048 purple AK C
+387   S 6049 6049
+389   S 6050 6050 yellow NN A
+390   S 6051 6051
+392   S 6052 6052 blue EP B
+393   S 6053 6053
+394   S 6054 6054 purple AK C
+396   S 6055 6055
+398   S 6056 6056 yellow NN A
+399   S 6057 6057
+401   S 6058 6058 rose HC B
+402   S 6059 6059
+404   X Scriabin-10_Op65_3 None purple AK C
+405   S 6060 6060 blue EP A
+408   S 6061 6061
+410   S 6062 6062 green AG B
+411   S 6063 6063
+413   S 6064 6064 rose HC C
+415   S 6065 6065
+417   S 6066 6066 blue EP A
+420   S 6067 6067 rose HC C
+422   S 6068 6068 purple AK B
+427   S 6069 6069
+428   S 6070 6070 yellow NN A
+430   S 6071 6071
+434   S 6072 6072 rose HC C
+435   S 6073 6073
+439   S 6074 6074 blue EP B
+442   S 6075 6075
+444   S 6076 6076 green AG A
+449   S 6077 6077
+456   S 6078 6078

@@ -1,0 +1,95 @@
+rs214:
+  end_metronome: mm214_63
+  first_note:    n214_1A3e_0
+  interpolation: linear
+  restore_tempo: false
+
+rs215:
+  end_metronome: mm218_60
+  first_note:    n215_1Fs4q_0
+  interpolation: linear
+  restore_tempo: false
+
+rs266:
+  end_metronome: mm266_56
+  first_note:    n266_2Eb5h_3
+  interpolation: linear
+  restore_tempo: false
+
+rs296:
+  end_metronome: mm298_38
+  first_note:    n296_1Fs4t_0
+  interpolation: linear
+  restore_tempo: false
+
+rs299:
+  end_metronome: mm300_44
+  first_note:    n299_1Gs4q
+  interpolation: linear
+  restore_tempo: false
+
+rs301:
+  end_metronome: mm301_48
+  first_note:    n301_1Gb6q
+  interpolation: linear
+  restore_tempo: false
+
+rs304:
+  end_metronome: mm304_48
+  first_note:    n304_5G2x_0
+  interpolation: linear
+  restore_tempo: false
+
+rs305:
+  end_metronome: mm305_48
+  first_note:    n305_1Gb1t
+  interpolation: linear
+  restore_tempo: false
+
+rs307:
+  end_metronome: mm308_48
+  first_note:    n307_1Fs3t_0
+  interpolation: linear
+  restore_tempo: false
+
+rs334:
+  end_metronome: mm338_50
+  first_note:    n334_1E6q
+  interpolation: linear
+  restore_tempo: false
+
+rs345:
+  end_metronome: mm346_50
+  first_note:    n345_5C3e
+  interpolation: linear
+  restore_tempo: true
+
+rs346_0:
+  end_metronome: mm346_49
+  first_note:    n346_5Ab2t
+  interpolation: linear
+  restore_tempo: false
+
+rs346_1:
+  end_metronome: mm346_46
+  first_note:    n346_1B4q
+  interpolation: linear
+  restore_tempo: true
+
+rs351:
+  end_metronome: mm351_44
+  first_note:    n351_5B1t
+  interpolation: linear
+  restore_tempo: false
+
+rs367:
+  end_metronome: mm368_44
+  first_note:    n367_1C7t_1
+  interpolation: linear
+  restore_tempo: true
+
+rs387:
+  end_metronome: mm387_56
+  first_note:    n387_1C6e_0
+  interpolation: linear
+  restore_tempo: false

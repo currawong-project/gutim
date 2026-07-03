@@ -1,0 +1,77 @@
+# Legacy CSV → data model Note ID overrides.
+#
+# When a CSV non row cannot be matched automatically, add an entry here.
+# Key:   "{measure}/{index}" — the measure number and per-measure index from the CSV
+#        (both values appear in the merge-csv warning for that row)
+# Value: the data model Note ID to match it to
+#
+# Example:
+#   "12/3": n12_1F4q
+#
+# A key that maps to a non-existent Note ID is an error.
+
+
+# warning: Unmatched CSV non row: measure=56 index=10 oloc=469 csv_id='n56_1C4e'  (add to edits/csv_match.yaml as '56/10' to resolve)
+"56/10": ng56_1C4e
+
+# warning: Unmatched CSV non row: measure=56 index=11 oloc=469 csv_id='n56_1D5e'  (add to edits/csv_match.yaml as '56/11' to resolve)
+"56/11": ng56_1D5e
+
+# warning: Unmatched CSV non row: measure=67 index=38 oloc=554 csv_id='n67_2D4e_1'  (add to edits/csv_match.yaml as '67/38' to resolve)
+"67/38": n67_2D4e
+
+# warning: Unmatched CSV non row: measure=121 index=7 oloc=919 csv_id='n121_5E3e'  (add to edits/csv_match.yaml as '121/7' to resolve)
+"121/7": ng121_5E3e
+
+# warning: Unmatched CSV non row: measure=150 index=21 oloc=1105 csv_id='ng150_2Eb4e'  (add to edits/csv_match.yaml as '150/21' to resolve)
+"150/21": ng150_2Ds4e
+
+# warning: Unmatched CSV non row: measure=156 index=23 oloc=1153 csv_id='ng156_5Bb3e'  (add to edits/csv_match.yaml as '156/23' to resolve)
+"156/23": ng156_5As3e
+
+# warning: Unmatched CSV non row: measure=166 index=7 oloc=1207 csv_id='n166_2B4h'  (add to edits/csv_match.yaml as '166/7' to resolve)
+"166/7": n166_2Cb5h
+
+# warning: Unmatched CSV non row: measure=179 index=22 oloc=1297 csv_id='n179_6Gb2e'  (add to edits/csv_match.yaml as '179/22' to resolve)
+"179/22": ng179_6Gb2e
+
+# warning: Unmatched CSV non row: measure=187 index=8 oloc=1347 csv_id='ng187_1Gs5e'  (add to edits/csv_match.yaml as '187/8' to resolve)
+"187/8": ng187_1Ab5e
+
+# warning: Unmatched CSV non row: measure=187 index=9 oloc=1347 csv_id='ng187_1Cs6e'  (add to edits/csv_match.yaml as '187/9' to resolve)
+"187/9": ng187_1Db6e
+
+# warning: Unmatched CSV non row: measure=189 index=10 oloc=1357 csv_id='ng189_5Ab1e'  (add to edits/csv_match.yaml as '189/10' to resolve)
+"189/10": ng189_5Gs1e
+
+# warning: Unmatched CSV non row: measure=189 index=11 oloc=1358 csv_id='ng189_6Gb2e'  (add to edits/csv_match.yaml as '189/11' to resolve)
+"189/11": ng189_6Fs2e
+
+# warning: Unmatched CSV non row: measure=374 index=42 oloc=5933 csv_id='n374_1Cs3s'  (add to edits/csv_match.yaml as '374/42' to resolve)
+"374/42": n374_6C3e
+
+# warning: Unmatched CSV non row: measure=448 index=36 oloc=7786 csv_id='n448_1A4t'  (add to edits/csv_match.yaml as '448/36' to resolve)
+"448/36": n448_1Ab4t
+
+
+
+# warning: Unmatched CSV non row: measure=31 index=39 oloc=281 csv_id='ng31_5Cs7e'  (add to edits/csv_match.yaml as '31/39' to resolve)
+"31/39": ng31_1Cs7e
+
+# warning: Unmatched CSV non row: measure=87 index=5 oloc=680 csv_id='ng87_2D4e'  (add to edits/csv_match.yaml as '87/5' to resolve)
+"87/5": ng87_1D4e
+
+# warning: Unmatched CSV non row: measure=357 index=5 oloc=5393 csv_id='ng357_2Bb3e'  (add to edits/csv_match.yaml as '357/5' to resolve)
+"357/5": ng357_1Bb3e
+
+# warning: Unmatched CSV non row: measure=357 index=6 oloc=5394 csv_id='ng357_2E6e_0'  (add to edits/csv_match.yaml as '357/6' to resolve)
+"357/6": ng357_1E6e_0
+
+# warning: Unmatched CSV non row: measure=357 index=7 oloc=5395 csv_id='ng357_2F7e_0'  (add to edits/csv_match.yaml as '357/7' to resolve)
+"357/7": ng357_1F7e_0
+
+# warning: Unmatched CSV non row: measure=357 index=8 oloc=5396 csv_id='ng357_2E6e_1'  (add to edits/csv_match.yaml as '357/8' to resolve)
+"357/8": ng357_1E6e_1
+
+# warning: Unmatched CSV non row: measure=357 index=9 oloc=5397 csv_id='ng357_2F7e_1'  (add to edits/csv_match.yaml as '357/9' to resolve)
+"357/9": ng357_1F7e_1

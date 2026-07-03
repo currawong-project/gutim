@@ -1,0 +1,15 @@
+# Scriabin loc's identify the last onset note prior to the start of the Scriabin section.
+# Colors and names are synonmous: rose=HC, yellow=NN, green=AG, purple=AK, blue=EP
+# meas, loc, section, color, player, piano
+
+meas last         first      next         section id      
+ 45 n45_6C2e_1   re45_5Re_1 sb46_5932   Scriabin-1_Op74_1  Scr-1_Op74_1
+ 80 n80_1F1s     re80_1Rw   re81_1Rw_0  Scriabin-2_Op74_2  Scr-2_Op74_2  
+136 re136_5Rq_3             re137_1Re_0 Scriabin-3_Op74_4  Scr-3_Op74_4  
+196 n196_6Cs4b              sb196_5967  Scriabin-4_Op74_3  Scr-4_Op74_3 
+247 n247_1Gs1x              sb247_5986  Scriabin-5_Op65_1  Scr-5_Op65_1  
+283 n283_5B0h    re283_5Rq  sb284_6001  Scriabin-6_Op67_2  Scr-6_Op67_2  
+311 re311_5Rq    re311_5Rw  sb311_6012  Scriabin-7_Op74_5  Scr-7_Op74_5  
+344 n344_6Ds1e_1            re344_1Rh   Scriabin-8_Op65_2  Scr-8_Op65_2  
+367 n367_6E5q               n367_1C7t_1 Scriabin-9_Op51_2  Scr-9_Op51_2  
+404 n404_1C3s               sb405_6060  Scriabin-10_Op65_3 Scr-10_Op65_3 

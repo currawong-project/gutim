@@ -1,0 +1,74 @@
+# New markers — created by apply-metronome (parser did not emit these)
+missing_marker_1:
+  measure:        336
+  bpm:            38
+  beat_unit:      q
+  reference_note: n336_6Eb1q
+
+# rall. in m.345 is missing an end tempo marking
+missing_marker_2:
+  measure:        346
+  bpm:            50
+  beat_unit:      q
+  reference_note: n346_1D7t
+
+# missing tempo between rit. and molto rit.
+missing_marker_3:
+  measure:        346
+  bpm:            49
+  beat_unit:      q
+  reference_note: n346_1B4q
+
+
+missing_marker_4:
+  measure:        359
+  bpm:            50
+  beat_unit:      q
+  reference_note: re359_1Re_0
+
+
+# Existing markers — pin each MetronomeMarking to its anchor note/rest
+mm1_84:      n1_1Eb6w
+mm12_116:    n12_1Db6q
+mm13_174:    n13_1Gs4e
+mm14_116:    n14_1D4h
+mm18_174:    n18_1D7e
+mm19_116:    n19_5B2e
+mm23_112:    n23_2Eb4w
+mm102_104:   n103_2D4h
+mm103_104:   n103_2D4h
+mm196_80:    n197_5A2t_0
+mm197_80:    n197_5A2t_0
+mm208_63:    n208_1Eb5h
+mm210_80:    n211_1F4t_0
+mm211_80:    n211_1F4t_0
+mm214_63:    n214_1A3e_0
+mm214_80:    n214_5Cs2t_0
+mm218_60:    n218_1Db5w
+mm218_80:    re218_1Rq
+mm235_66:    n235_1Bb4h
+mm246_51:    n247_1E5s
+mm247_51:    n247_1E5s
+mm266_56:    n266_1Bb1t
+mm298_38:    re298_6Re
+mm298_54:    re298_6Rh
+mm300_44:    n300_2D4q
+mm301_66:    n301_1Gb6q
+mm301_48:    n301_1E2x
+mm302_80:    n302_1E1q
+mm303_66:    n303_1Ds5t_0
+mm304_48:    n304_1A1s
+mm305_66:    n305_1E1e
+mm305_48:    n305_1Bb3t_2
+mm306_80:    n306_1Cs6t_0
+mm308_48:    n308_1Ab4t_2
+mm309_69:    n309_1D5s_0
+mm334_56:    n334_1E6q
+mm338_50:    n338_5F3h
+mm343_58:    re343_1Rw
+mm346_46:    n346_5Gb1e
+mm351_44:    n351_5Bb4t_0
+mm364_38:    re364_1Rq_1
+mm368_44:    n368_1A5h
+mm377_56:    re377_2Rh
+mm387_56:    n387_1E5s

@@ -1,0 +1,69 @@
+# Format — patch an existing slur:
+#   <slur_id>:
+#     end_note_id:   <note_id>   # required when slur has no end marker in XML
+#     start_note_id: <note_id>   # optional; only when start note ID is missing
+#
+# Format — create a new slur (XML had a stop marker but no matching start):
+#   <slur_id>:
+#     create:        true
+#     start_note_id: <note_id>   # required
+#     end_note_id:   <note_id>   # required
+#
+# Format — delete a slur (zero-length or otherwise invalid XML artefact):
+#   <slur_id>:
+#     delete:        true
+#
+# start_measure, end_measure, and voice are derived automatically from the notes.
+      
+# zero-length slurs (start and end resolve to the same note — XML artefacts)
+sl26_6:
+  delete: true
+
+sl61_1_0:
+  delete: true
+
+sl90_5_0:
+  delete: true
+
+sl277_5_0:
+  delete: true
+
+# warning: slur stop (number=8) at note 'n364_1Cs5q' in measure 364 voice 1 has no matching slur start; ignored
+sl364_1_new:
+    create:        true
+    start_note_id: ng364_1B5e
+    end_note_id:   n364_1Cs5q
+
+
+
+# warning: slur 'sl112_6' (start='n112_6A2e') has no end marker; add an entry to edits/slur_corrections.yaml
+sl112_6:
+  end_note_id: n112_1E5s
+  
+# warning: slur 'sl151_6_1' (start='ng151_6F3e') has no end marker; add an entry to edits/slur_corrections.yaml
+sl151_6_1:
+  end_note_id: ng151_6Bb2e
+  
+# warning: slur 'sl152_2' (start='n152_2Eb4e') has no end marker; add an entry to edits/slur_corrections.yaml
+sl152_2:
+  end_note_id: n152_1Ab3q
+  
+# warning: slur 'sl163_5' (start='n163_5E4q') has no end marker; add an entry to edits/slur_corrections.yaml
+sl163_5:
+  end_note_id: n163_2E4e
+  
+# warning: slur 'sl287_5' (start='n287_5Ds4t') has no end marker; add an entry to edits/slur_corrections.yaml
+sl287_5:
+  end_note_id: n287_5G2t
+  
+# warning: slur 'sl323_5_1' (start='n323_5Cs7x') has no end marker; add an entry to edits/slur_corrections.yaml
+sl323_5_1:
+  end_note_id: n323_1Gs2t_0
+  
+# warning: slur 'sl357_1' (start='ng357_1Bb3e') has no end marker; add an entry to edits/slur_corrections.yaml
+sl357_1:
+  end_note_id: n357_1As4t
+  
+# warning: slur 'sl364_1_0' (start='n364_1B6s') has no end marker; add an entry to edits/slur_corrections.yaml
+sl364_1_0: 
+  end_note_id: n364_1Fs4s

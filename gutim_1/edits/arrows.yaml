@@ -1,0 +1,54 @@
+ar10:
+  grace_note: ng10_1Cs2e
+  reference_note: re10_1Rw
+ar31:
+  grace_note: ng31_1C6e
+  reference_note: n31_1C6q
+ar79:
+  grace_note: ng79_1Fs7e
+  reference_note: re79_1Re_0
+ar102_0:
+  grace_note: ng102_1C6e
+  reference_note: n102_1C3e_0
+ar102_1:
+  grace_note: ng102_1F4e
+  reference_note: re102_1Rq_2
+ar106:
+  grace_note: ng106_1Bb6e
+  reference_note: n106_1F7e
+ar111:
+  grace_note: ng111_2D4e
+  reference_note: n111_2F4t
+ar131:
+  grace_note: ng131_5C5e
+  reference_note: re131_5Rs
+ar149:
+  grace_note: ng149_1E5e
+  reference_note: n149_1E5q
+ar150:
+  grace_note: ng150_2Bb7e
+  reference_note: re150_2Rq
+ar151:
+  grace_note: ng151_6F3e
+  reference_note: re151_6Rq_0
+ar161:
+  grace_note: ng161_1E5e
+  reference_note: n161_1C6q
+ar166:
+  grace_note: ng166_5As4e
+  reference_note: re166_5Rh_1
+ar182:
+  grace_note: ng182_6B5e
+  reference_note: re182_6Rs
+ar186_0:
+  grace_note: ng186_6A0e
+  reference_note: re186_6Rq_0
+ar186_1:
+  grace_note: ng186_6A2e
+  reference_note: re186_6Rh_1
+ar187:
+  grace_note: ng187_1Ab5e
+  reference_note: re187_1Rh
+ar191:
+  grace_note: ng191_1Gs4e
+  reference_note: re191_1Rq
