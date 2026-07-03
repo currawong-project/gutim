@@ -1,0 +1,138 @@
+rs26:
+  end_metronome: mm28_60
+  first_note: re26_5RM  # measure rest
+  interpolation: linear
+  restore_tempo: False
+
+rs30:
+  end_metronome: mm31_80
+  first_note: n30_1A4h_1 # 6144
+  interpolation: linear
+  restore_tempo: False
+
+rs34:
+  end_metronome: mm34_80
+  first_note: n34_1A4s  # measure start
+  interpolation: linear
+  restore_tempo: False
+
+rs57:
+  end_metronome: mm58_51
+  first_note: re57_1RM  # measure rest
+  interpolation: linear
+  restore_tempo: False
+
+rs68:
+  end_metronome: mm69_63
+  first_note: n68_1Eb5h # measure start
+  interpolation: linear
+  restore_tempo: False
+
+rs78:
+  end_metronome: mm78_112
+  first_note: re78_1RM # measure rest
+  interpolation: linear
+  restore_tempo: False
+
+rs82:
+  end_metronome: mm82_51
+  first_note: re82_1Rh # measure start
+  interpolation: linear
+  restore_tempo: False
+
+rs91:
+  end_metronome: mm92_112
+  first_note: re91_1RM # measure start
+  interpolation: linear
+  restore_tempo: False
+
+rs140:
+  end_metronome: mm142_38
+  first_note: re140_1RM # measure rest
+  interpolation: linear
+  restore_tempo: False
+
+rs143:
+  end_metronome: mm144_44
+  first_note: re143_2Rh_1 # 2304 (3072)
+  interpolation: linear
+  restore_tempo: False
+
+rs145:
+  end_metronome: mm146_48
+  first_note: re144_1RM # measure rest
+  interpolation: linear
+  restore_tempo: False
+
+rs148:
+  end_metronome: mm148_48
+  first_note: n148_5G2x_0 # 1152
+  interpolation: linear
+  restore_tempo: False
+
+rs149:
+  end_metronome: mm149_48
+  first_note: n149_1Gb1t # 1536
+  interpolation: linear
+  restore_tempo: False
+
+rs152:
+  end_metronome: mm152_69
+  first_note: n152_1B4h  # measure start
+  interpolation: linear
+  restore_tempo: False
+
+rs165:
+  end_metronome: mm166_38
+  first_note: n165_1Bb6t_1 # 2304
+  interpolation: linear
+  restore_tempo: False
+
+rs176:
+  end_metronome: mm176_48
+  first_note: n176_5Gb2h_0 # measure start
+  interpolation: linear
+  restore_tempo: False
+
+rs185:
+  end_metronome: mm188_50
+  first_note: n185_1Bb7s_0 # 3072 (2688)
+  interpolation: linear
+  restore_tempo: False
+
+rs203:
+  end_metronome: mm205_80
+  first_note: n203_5A0e # 2304
+  interpolation: linear
+  restore_tempo: False
+
+rs204_0:
+  end_metronome: mm205_80
+  first_note: n204_1Bb4e # 3072
+  interpolation: linear
+  restore_tempo: False
+
+rs204_1:
+  end_metronome: mm205_80
+  first_note: n204_1Ab4h # 4608
+  interpolation: linear
+  restore_tempo: False
+
+rs261:
+  end_metronome: mm261_51
+  first_note: n261_1C6e_0 # measure start
+  interpolation: linear
+  restore_tempo: False
+
+rs317:
+  end_metronome: mm318_44
+  first_note: re317_1Rq_1 # 3840
+  interpolation: linear
+  restore_tempo: False
+
+rs346:
+  end_metronome: mm348_35
+  first_note: n346_1E3w  # 3072
+  interpolation: linear
+  restore_tempo: False
+

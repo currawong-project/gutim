@@ -1,0 +1,34 @@
+# Format:
+#   <note_id>: <tied_to_note_id>   set tied_to, fixing an unresolved tie_start
+#   <note_id>: null                strip tie_stop, marking an orphaned tie-stop as an onset
+#   <note_id>: '!'                 strip tie_start=True and clear tied_to on any Note or GraceNote
+#
+# The key is always the earlier note in time order.
+# Multi-note chains need one entry per broken link.
+
+# n238_2Gs4h: ???   # tie_start with no match — supply tied_to ID
+# n238_2Gs4h: null  # Remove tie-end
+
+ng22_1Fs4e_0: ng22_1Fs4e_1
+ng22_1Fs4e_1: n22_1Fs4q
+
+
+n37_1C6q: n37_1C6s  # intervening C6 gracenote
+ng56_2A7e: n56_2A7q
+
+# n57_1C6h: '!' # tie to no-where
+# n58_1D4h: '!'
+
+ng131_2A7e: n131_2A7q
+
+ng131_1C6e: n131_1C6e
+
+# n157_1D3q: '!'
+
+n161_5F3q: n162_5F3h
+# n178_5A2q: '!'
+
+n236_1Ds6t_2: n236_1Ds6e
+n259_1C2q: n259_5C2s
+
+

@@ -1,0 +1,27 @@
+# Format:
+#   <note_id>: <tied_to_note_id>   set tied_to, fixing an unresolved tie_start
+#   <note_id>: null                strip tie_stop, marking an orphaned tie-stop as an onset
+#
+# The key is always the earlier note in time order.
+# Multi-note chains need one entry per broken link.
+
+# n238_2Gs4h: ???   # tie_start with no match — supply tied_to ID
+# n238_2Gs4h: null  # Remove tie-end
+
+
+# n134_1E6h: '!' # tie to nowhere
+
+n172_5D4q_1:  n172_5D4q_2
+n172_5Bb4q_1: n172_5Bb4q_2 
+n172_5E5q_1:  n172_5E5q_2
+n172_5Fs6q_1: n172_5Fs6q_2
+
+n236_1Fs7x: n236_1Fs7t
+
+n257_5Eb4e:  n258_5Eb4e
+
+n316_1Fs7x: n316_1Fs7t
+
+n317_1Ds6t_2: n317_1Ds6e
+
+ng241_5E1e: n241_5E1h
