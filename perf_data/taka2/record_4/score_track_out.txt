@@ -1,0 +1,3 @@
+  Score Score Score MIDI  MIDI MIDI
+  Bar   UUID  Pitch UUID  Ptch Vel.
+- ----- ----- ----- ----- ---- ----
