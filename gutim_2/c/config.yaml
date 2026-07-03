@@ -8,7 +8,7 @@ output_dir: gutim_2/c/output   # directory for all pipeline outputs
 
 # Source file names within inputs_dir.
 source_files:
-  score:       gutim_x2_3c_piano_c.musicxml
+  score:       gutim_20260702_piano_c.musicxml
   catalog:     m1_458_trans_5.txt
   legacy_csv:  score_20240504_edited.csv
   seq_cmp_csv: score_20240504.csv
