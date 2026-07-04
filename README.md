@@ -14,6 +14,9 @@ feature_gen/
 - Combine section based score features and preset trigger location feature with performance features to
   produce training data.
 
+score_editor/
+- Produce text 'edit' files that can be manually edited to refine the score.
+
 caw_utils/
 - Generate configuration files used by the caw real-time system.
 
@@ -25,7 +28,5 @@ gutim_1/
 
 gutim_2/
 - Score,feature,caw data for GUTIM part 2
-
-
 
   
