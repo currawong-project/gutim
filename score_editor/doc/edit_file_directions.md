@@ -1,3 +1,5 @@
+# Score Editor Files
+
 Score File Editing Introduction
 -------------------------------
 Score edit files are derived from a Sibelius score and are used to set the location and values of certain score attributes
