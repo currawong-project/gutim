@@ -1,5 +1,15 @@
-The goal of modifing a score editor file is to set the the location and values of score attributes
-that are not available from the Sibelius score.
+Score File Editing Introduction
+-------------------------------
+Score edit files are derived from a Sibelius score and are used to set the location and values of certain score attributes
+which are not otherwise available with sufficient precision.
+
+Obtain the score editor files from each of these links.
+
+- [Part A](https://github.com/currawong-project/gutim/blob/main/gutim_2/a/editor/piano_a_mod.txt)
+- [Part B](https://github.com/currawong-project/gutim/blob/main/gutim_2/b/editor/piano_b_mod.txt)
+- [Part C](https://github.com/currawong-project/gutim/blob/main/gutim_2/c/editor/piano_c_mod.txt)
+
+Use the download button (Hover text: _Download Raw File_ ) button in the upper right to obtain a local copy of the file for editing.
 
 The attributes that available to edit are:
 - __Section Markers__ 
@@ -10,20 +20,13 @@ The attributes that available to edit are:
 
 Detailed directions regarding each of these attributes is included below.
 
-Obtain the score editor files from each of these links.
 
-- [Part A](https://github.com/currawong-project/gutim/blob/main/gutim_2/a/editor/piano_a_mod.txt)
-- [Part B](https://github.com/currawong-project/gutim/blob/main/gutim_2/b/editor/piano_b_mod.txt)
-- [Part C](https://github.com/currawong-project/gutim/blob/main/gutim_2/c/editor/piano_c_mod.txt)
+Score editor file layout
+-------------------------
 
-Use the download button (Hover text: _Download Raw File_ ) button in the upper right to obtain a local copy of the file for editing.
-
-The score editor file is organized into measures consisting of time orderd _event_ lines describing notes and rests.
+The score editor file is organized into measures consisting of time orderd _event_ lines which describe notes and rests.
 Event lines are divided into a right and left part by a '|' character.
 The left part of the line should never be modified, all of the editing is done on the right part.
-
-Parts of an event line:
------------------------
 
 Here is an example event line:
 
@@ -135,8 +138,8 @@ d:>:ppp   # end a sequence at ppp
 ```
 In this case the dynamics will decrease from fff to ppp.
 
-WARNING: Sequence markers may not overlap. 
-THIS EXAMPLE WILL NOT WORK BECAUSE THE SEQUENCE MARKERS OVERLAP.
+__WARNING: Sequence markers may not overlap. 
+THIS EXAMPLE WILL NOT WORK BECAUSE THE SEQUENCE MARKERS OVERLAP.__
 ```
 d:fff:>   # start a sequence at fff
 ...
@@ -186,7 +189,7 @@ Notice that the previously existing dynamic marks on voice 1 were removed to ind
 that the system should fill these dynamics automatically. 
  
 
-Note that it is also possible to set sequences of dynamics to the same value
+It is also possible to set sequences of dynamics to the same value
 by setting the begin and end sequence marker to the same dynamic level
 Like this:
 
@@ -229,7 +232,7 @@ In this case all unmarked notes between the two markers will be set to `mf+`.
 
 ## 5. Grace Notes:
 
-It is possible that grace notes are not correctly sequenced relative to the notes around them.
+In some cases grace notes are not correctly sequenced relative to the notes around them.
 In this case the grace note lines should be moved to the correct location and sequence.
 In moving the lines do not edit any of the content to the left of the '|' marker.
 The system can only notice the reordering and apply the correct updates if the content to the left of the '|' is unaltered.
