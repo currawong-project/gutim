@@ -10,6 +10,7 @@ Obtain the score editor files from each of these links.
 - [Part C](https://github.com/currawong-project/gutim/blob/main/gutim_2/c/editor/piano_c_mod.txt)
 
 Use the download button (Hover text: _Download Raw File_ ) button in the upper right to obtain a local copy of the file for editing.
+Use a text file editor to edit the files, DO NOT use a standard word processor like MS Word. 
 
 The attributes that available to edit are:
 - __Section Markers__ 
