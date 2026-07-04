@@ -49,8 +49,8 @@ Flag field codes:
 
 
 
-1. Section Markers:
---------------------
+## 1. Section Markers:
+----------------------
 
 Section markers look like this `section:1234`. Where 1234 indicates a section id.
 
@@ -58,7 +58,7 @@ Verify that the section markers are assigned to the first event in the section
 and move them if necessary.  Once the section marker is correctly positioned
 add the suffix ':ok' to the marker.
 
-2. Pedal Markers:
+## 2. Pedal Markers:
 -----------------
 
 Most pedal markers look like this: `damp:down`,`damp:up`,`sost:down`,`sost:up`, however
@@ -93,7 +93,7 @@ on the line with the pedal marker.
 | sost:up                  | Sostenuto up                                    |
 
 
-3. Metronome Markers:
+## 3. Metronome Markers:
 ---------------------
 
 These markers look like this: 'metro:q:65'.  The BPM values are already
@@ -101,7 +101,7 @@ verified to be correct however the marker may have to moved to the first note in
 Add the suffix ':ok' to indicate that the marker was reviewed.
 
 
-4. Dynamics Markers:
+## 4. Dynamics Markers:
 --------------------
 
 Every note that has an 'o' marker requires an explicit dynamics
@@ -146,7 +146,8 @@ In this exaple all notes in the sequence will be set to mf+.
 d:mf+:>
 ...
 d:>:mf+
-``
+```
+
 | Legal Dynamics Marks|
 |:--------------------|
 | d:s (silent note)   |
@@ -176,7 +177,7 @@ d:>:mf+
 | d:fff               |
 
 
-5. Grace Notes:
+## 5. Grace Notes:
 ---------------
 It is possible that grace notes are not correctly sequenced relative to the notes around them.
 In this case the grace note lines should be moved to the correct location and sequence.
@@ -184,7 +185,7 @@ In moving the lines do not edit any of the content to the left of the '|' marker
 The system can only notice the reordering and apply the correct updates if the content to the left of the '|' is unaltered.
 
 
-6. General Notes:
+## 6. More Notes:
 ----------------------
 1. Only edit to right of '|' marker
 2. move and add 'ok' to each section boundary.
