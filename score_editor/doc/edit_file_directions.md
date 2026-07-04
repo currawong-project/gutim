@@ -50,7 +50,6 @@ Flag field codes:
 
 
 ## 1. Section Markers:
-----------------------
 
 Section markers look like this `section:1234`. Where 1234 indicates a section id.
 
@@ -59,14 +58,15 @@ and move them if necessary.  Once the section marker is correctly positioned
 add the suffix ':ok' to the marker.
 
 ## 2. Pedal Markers:
------------------
 
 Most pedal markers look like this: `damp:down`,`damp:up`,`sost:down`,`sost:up`, however
 more complex variants are possible such as:
 
-`damp:clear:down`   : Quickly clear the pedal before depressing it again.
-`damp:depth=0.5`    : Half pedal
-`damp:depth=0:ramp` : Gradually press the pedal down to the depth of the next pedal event.d
+| Pedal Examples      |  Description                                             |
+|:----------          | :--------------------------------------------------------|
+| `damp:clear:down`   | Quickly clear the pedal before depressing it again.      |
+| `damp:depth=0.5`    | Half pedal                                               |
+| `damp:depth=0:ramp` | Gradually press the pedal down to the depth of the next pedal event.d |
 
 Verify that the pedal markers are assigned to a reference note which occurs at the same time as the event.
 If the existing pedal event is assigned to the wrong note then move it the correct one.
@@ -87,6 +87,8 @@ on the line with the pedal marker.
 | damp:down:ramp          | Full down gradually move to next pedal depth.    |
 | `down:up:ramp`          | Full up and gradually move to next pedal depth.  |
 
+Sostenuto Pedal Commands
+
 | Legal Sostenuto Commands | Description                                     |
 | -------------------------|-------------------------------------------------|
 | sost:down                | Sostenuto down                                  |
@@ -94,7 +96,6 @@ on the line with the pedal marker.
 
 
 ## 3. Metronome Markers:
----------------------
 
 These markers look like this: 'metro:q:65'.  The BPM values are already
 verified to be correct however the marker may have to moved to the first note in the new tempo regime.
@@ -102,7 +103,6 @@ Add the suffix ':ok' to indicate that the marker was reviewed.
 
 
 ## 4. Dynamics Markers:
---------------------
 
 Every note that has an 'o' marker requires an explicit dynamics
 value. Scan the score and choose from one of the 25 possible dynamics
@@ -178,7 +178,7 @@ d:>:mf+
 
 
 ## 5. Grace Notes:
----------------
+
 It is possible that grace notes are not correctly sequenced relative to the notes around them.
 In this case the grace note lines should be moved to the correct location and sequence.
 In moving the lines do not edit any of the content to the left of the '|' marker.
@@ -186,7 +186,7 @@ The system can only notice the reordering and apply the correct updates if the c
 
 
 ## 6. More Notes:
-----------------------
+
 1. Only edit to right of '|' marker
 2. move and add 'ok' to each section boundary.
 3. insert/move/correct and add 'ok' to pedal markers
