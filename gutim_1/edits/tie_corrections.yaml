@@ -50,7 +50,7 @@ n37_5E3w : n38_2E3b
 n38_2E3b : n38_2E3h
 
 # CROSS VOICE: warning: tie from 'n42_1D4h' (measure 42) to 'n84_1D4h' (measure 84) skips 41 measure(s) with no continuation note
-n42_1D4h : n43_5D4h
+# n42_1D4h : n43_5D4h
 # n43_5D4h : n43_1D4e  # won't work because they are on the same tick.
 
 # warning: tie from 'n328_5D4q_1' (measure 328) to 'n356_5D4e' (measure 356) skips 27 measure(s) with no continuation note

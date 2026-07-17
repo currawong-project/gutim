@@ -121,7 +121,7 @@
 344   X Scriabin-8_Op65_2 None yellow NN C
 344   P 6025 6025b purple AK A
 346   S 6026 6026 green AG B
-350   S 6027 6027 green AG C
+350   S 6027 6027 rose HC C
 353   S 6028 6028 blue EP A
 354   S 6029 6029
 357   S 6030 6030 yellow NN B
