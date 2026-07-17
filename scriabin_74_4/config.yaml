@@ -1,0 +1,76 @@
+# System-wide defaults for the piano score processing pipeline.
+# CLI arguments override these values at runtime.
+
+# Directory paths — override to relocate inputs, edits, or outputs.
+inputs_dir: scriabin_74_4/scores   # directory containing all input source files
+edits_dir:  scriabin_74_4/edits    # directory containing all edit YAML files
+output_dir: scriabin_74_4/output   # directory for all pipeline outputs
+
+# Source file names within inputs_dir.
+source_files:
+  score:       "Scriabin_74_4_20260709.musicxml"
+  catalog:     null  #m1_458_trans_5.txt
+  legacy_csv:  null  # score_20240504_edited.csv
+  seq_cmp_csv: null  # score_20240504.csv
+  ext_markers: ext_markers.txt
+  section_toc: null
+
+
+grace_note_duration: 0.075          # seconds allocated to an entire grace note group
+score_feat_lead_wnd_sec:   3.0      # leading note density window (seconds)
+score_feat_trail_wnd_sec:  3.0      # trailing note density window (seconds)
+preset_feat_trail_wnd_sec: 3.0      # trailing note density window for preset span features (seconds)
+min_steal_dur_seconds: 0.1          # minimum gap between an onset note and any following grace notes
+rit_interpolation:   linear        # tempo interpolation shape across rit spans: linear | exponential
+timeline_window:     3             # default number of measures shown in the Timeline Graphic
+tick_sum_warn_delta: 15            # minimum |delta| ticks before a voice tick-sum mismatch warning is issued
+beat_group_error_ms: 10.0          # max. error from expected periodic position of beat group locations
+min_beat_group_loc_cnt: 4          # minimum number of locations in a beat group
+damper_clear_delay_ms: 75          # delay (ms) between pedal-release and pedal-activate for clear events
+damper_ramp_enable_flag: true      # enable linear damper pedal depth ramping between ramp events
+pedal_ramp_rate_ms: 50             # interval (ms) between generated ramp step events
+
+default_section:
+  section_id: 1000
+  section_label: "1000"
+  player: NN      # These fields are used when there is no section_toc file
+  player_color: yellow
+  piano: B
+  dlevel: 11  # dlevel of note events that have no valid dlevel value or null to ignore
+
+# Translates Legacy_CSV voice IDs to data model voice IDs.
+# Keys are CSV voice ID strings; values are integer data model voice IDs.
+csv_voice_map: { 1: 1, 2: 2, 3: 5, 4: 6 }
+
+# Maps each data model voice ID to a CSS color for the Timeline Graphic.
+# Keys are integer voice IDs; values are CSS color strings.
+voice_colors: {}
+
+# Maps articulation categories to the fraction of the note's metric duration
+# that is sounded (1.0 = full value, 0.5 = half, etc.).
+# 'slur' and 'no-articulation' are not MusicXML articulation names; they are
+# special keys used when a note is under a slur or has no articulation marking.
+# When multiple articulations apply, the product of their percentages is used.
+# Articulations on the known_articulations list but absent from this table use
+# the no-articulation percentage silently.
+articulation_durations:
+  slur:             0.95
+  tenuto:           0.95
+  no-articulation:  0.80
+  staccato:         0.50
+  staccatissimo:    0.25
+
+# Complete list of MusicXML articulation names that can appear in this score.
+# An articulation found in the score but not on this list triggers a warning
+# and falls back to the no-articulation percentage.
+known_articulations:
+  - accent
+  - staccato
+  - tenuto
+  - staccatissimo
+  - strong-accent
+  - detached-legato
+  - arpeggiate
+  - arpeggiate-up
+  - arpeggiate-down
+
