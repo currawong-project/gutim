@@ -54,6 +54,24 @@ missing_marker_1:
   reference_note: re348_1Rh # Piano A
   reference_note: n348_1A4h # Piano B
   reference_note: re348_1Rh # Piano C
+  
+  missing_marker_2:
+  measure:        204
+  bpm:            56
+  beat_unit:      q
+  reference_note: re204_1Rw  # A
+  reference_note: re204_1Rh  # B
+  reference_note: n204_1D7t  # C
+  
+
+missing_marker_3:
+  measure:        204
+  bpm:            46
+  beat_unit:      q
+  reference_note: re204_1Rh_1 # A
+  reference_note: n204_1Ab4h  # B
+  reference_note: n204_1B4q   # C
+
 
 # Generate gutim_2/*/edits/apply-metronome.pkl
 python -m piano --config gutim_2/a/config.yaml apply-metronome
@@ -76,10 +94,14 @@ python -m piano --config gutim_2/a/config.yaml timing
 python -m piano --config gutim_2/b/config.yaml timing
 python -m piano --config gutim_2/c/config.yaml timing
 
+# Check that the metronome marking locations and tick values match across all pianos
+python score_editor/check_metro.py
+
 # Use the gutim-1/output/cache/apply_sustain.pkl, gutim_2/*/output/cache/timing.pkl, and gutim_2/gutim_2_sync_sheet_edited.csv.
 # to create gutim_2/*/editor/note_attr.json [ { <new_section_id>:{score:<>,mismatchN:<>,noteL:[note_id:<>, base_id:<>, attr:{oloc,dmark,dlevel}  ]}}]
 # The output data structure specifies the element from the gutim_1 score which maps to each matching element in the gutim_2.
 # Uses Smith_waterman.py to align gutim_2 score to gutim_1 score.
+# Uses manually created gutim_2/gutim_2_sync_sheet_edited.csv to map from gutim_1 section numbers (5000-6000) to gutim_2 (7000-8000) section numbers.
 python score_editor/gen_sync.py
 
 # Usee gutim_2/*/output/cache/timing.pkl and gutim_2/*/editor/note_attr.json to generate a text 'edit' file

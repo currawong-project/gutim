@@ -1,10 +1,11 @@
 import sys
+import csv
 import json
 import types
 import pickle
 from piano.model import (Note,GraceNote,GraceRest,Rest,MetronomeMarking,SectionBoundary)
 
-def main(score_fname,attr_fname, out_fname):
+def main(score_fname,attr_fname, out_fname, piano_id, sectToPianoD ):
 
     def _sci_pitch( e ):
         if isinstance(e,(Rest,GraceRest)):
@@ -64,39 +65,43 @@ def main(score_fname,attr_fname, out_fname):
             base_sec = _meas_sec(m.events)
             
             for e in m.events:
-              if isinstance(e,SectionBoundary):
+                if isinstance(e,SectionBoundary):
                   
-                  if e.first_note_id is None:
-                      print(f"{e.section_id} has no start note.")
+                    if e.first_note_id is None:
+                        print(f"{e.section_id} has no start note.")
                       
-                  elif e.first_note_id in sectD:
-                      print(sectD[e.first_note_id], e.section_id)
-                      assert sectD[e.first_note_id] == e.section_id
-                      
-                  sectD[e.first_note_id] = e.section_id
+                    elif e.first_note_id in sectD:
+                        print(sectD[e.first_note_id], e.section_id)                      
+                        assert sectD[e.first_note_id] == e.section_id
 
-              elif isinstance(e,MetronomeMarking):
-                  if e.anchor_note_id is None:
-                      print(f"Metro {e.id} has not anchor note.")
-                  else:
-                      label = f"{e.beat_unit}:{e.bpm}"
-                      metroD[ e.anchor_note_id ] = dict(id=e.id,bpm=e.bpm,beat_unit=e.beat_unit,label=label)
+                    section_id = f"{e.section_id}{piano_id.upper()}"
+
+                    # if this section is assigned to this piano
+                    if section_id in sectToPianoD and sectToPianoD[section_id] == piano_id:                    
+                        sectD[e.first_note_id] = e.section_id
                   
-              elif isinstance(e,(Note,GraceNote,Rest,GraceRest)):
+                elif isinstance(e,MetronomeMarking):
+                    if e.anchor_note_id is None:
+                        print(f"Metro {e.id} has not anchor note.")
+                    else:
+                        label = f"{e.beat_unit}:{e.bpm}"
+                        metroD[ e.anchor_note_id ] = dict(id=e.id,bpm=e.bpm,beat_unit=e.beat_unit,label=label)
+                  
+                elif isinstance(e,(Note,GraceNote,Rest,GraceRest)):
                                     
-                  measL[-1].evtL.append(types.SimpleNamespace(**dict(id=e.id,
-                                                                     tick=e.tick,
-                                                                     sec=e.abs_time - base_sec,
-                                                                     voice_id=e.voice,
-                                                                     staff_id=e.staff,
-                                                                     pitch=_sci_pitch(e),
-                                                                     rval=_rval(e),
-                                                                     tie_label=_tie_label(e),
-                                                                     onset_fl=_has_onset(e),
-                                                                     chord_fl=_is_chord(e,m.events),
-                                                                     grace_fl=isinstance(e,(GraceNote,GraceRest)),
-                                                                     dmark=None,
-                                                                     pedL=[])))
+                    measL[-1].evtL.append(types.SimpleNamespace(**dict(id=e.id,
+                                                                       tick=e.tick,
+                                                                       sec=e.abs_time - base_sec,
+                                                                       voice_id=e.voice,
+                                                                       staff_id=e.staff,
+                                                                       pitch=_sci_pitch(e),
+                                                                       rval=_rval(e),
+                                                                       tie_label=_tie_label(e),
+                                                                       onset_fl=_has_onset(e),
+                                                                       chord_fl=_is_chord(e,m.events),
+                                                                       grace_fl=isinstance(e,(GraceNote,GraceRest)),
+                                                                       dmark=None,
+                                                                       pedL=[])))
 
         for m in measL:
             m.evtL = sorted(m.evtL,key=lambda x:(x.sec,x.voice_id))
@@ -221,21 +226,39 @@ def main(score_fname,attr_fname, out_fname):
         score = pickle.load(f)
 
     measL,sectD,metroD = _parse_score(score)
-    print(len(sectD))
+    print("sectN:",len(sectD))
     pedalL = _parse_pedals(score.pedal_events)
     _assign_pedals_to_events( measL, pedalL )
     _assign_dyn_to_events( measL, attr_fname )
     _print_file( out_fname, measL, sectD, metroD )
     _write_link_file( link_out_fname, sectD, pedalL, metroD )
 
+def get_section_to_piano_map(section_sync_csv_fname):
+
+    sectPianoMapD = {}
+    with open(section_sync_csv_fname) as f:
+        rdr = csv.DictReader(f)
+        for r in rdr:
+            
+            if r['new_id'].isdigit():
+                r['new_id'] = f"{r['new_id']}{r['piano'].upper()}"
+                
+            sectPianoMapD[ r['new_id'] ] = r['piano'].lower()
+
+    return sectPianoMapD
+    
+    
 if __name__ == "__main__":
 
-    cache_name = 'timing'
+    section_sync_csv_fname = "gutim_2/gutim_2_sync_sheet_edited.csv"
 
+    cache_name = 'timing'
     if len(sys.argv)>1:
         cache_name = sys.argv[1]
 
-
+    sectPianoMapD = get_section_to_piano_map(section_sync_csv_fname)
+    # print(sectPianoMapD)
+          
     for c in ['a','b','c']:
 
         print("Processing piano:",c.upper())
@@ -248,4 +271,4 @@ if __name__ == "__main__":
         link_out_fname = f"{editor_dir}/link_{c}_mod.txt"
         
 
-        main(score_fname,attr_fname,out_fname)
+        main(score_fname,attr_fname, out_fname, c, sectPianoMapD )
