@@ -4404,9 +4404,45 @@
     ]
   },
   "7015": {
-    "score": 0.9908256880733946,
+    "score": 0.9867256637168141,
     "mismatchN": 0,
     "noteL": [
+      {
+        "note_id": "n26_1Fs4q",
+        "base_id": "n215_1Fs4q_1",
+        "attr": {
+          "oloc": 2106,
+          "dmark": "pp",
+          "dlevel": 8,
+          "dyn": "d",
+          "even": null,
+          "tempo": null
+        }
+      },
+      {
+        "note_id": "n26_1Gs6q",
+        "base_id": "n215_1Gs6q_1",
+        "attr": {
+          "oloc": 2106,
+          "dmark": "pp",
+          "dlevel": 8,
+          "dyn": "d",
+          "even": null,
+          "tempo": null
+        }
+      },
+      {
+        "note_id": "n26_1F7q",
+        "base_id": "n215_1F7q",
+        "attr": {
+          "oloc": 2106,
+          "dmark": "pp",
+          "dlevel": 8,
+          "dyn": "5975",
+          "even": null,
+          "tempo": null
+        }
+      },
       {
         "note_id": "n26_2A6t",
         "base_id": "n215_2A6t",
@@ -5701,6 +5737,18 @@
           "dyn": null,
           "even": null,
           "tempo": null
+        }
+      },
+      {
+        "note_id": "n30_5Ab4e",
+        "base_id": "n219_5Ab4e",
+        "attr": {
+          "oloc": 2191,
+          "dmark": "ppp",
+          "dlevel": 5,
+          "dyn": "d",
+          "even": null,
+          "tempo": "t"
         }
       }
     ]
@@ -11418,8 +11466,8 @@
     ]
   },
   "7051": {
-    "score": 0.75,
-    "mismatchN": 1,
+    "score": 0.782608695652174,
+    "mismatchN": 0,
     "noteL": [
       {
         "note_id": "n78_1F4w",
@@ -11645,18 +11693,6 @@
           "dmark": "f",
           "dlevel": 20,
           "dyn": "5935",
-          "even": null,
-          "tempo": null
-        }
-      },
-      {
-        "note_id": "n82_5Cs2s_0",
-        "base_id": "n54_6Db2b",
-        "attr": {
-          "oloc": 462,
-          "dmark": "f",
-          "dlevel": 20,
-          "dyn": "5936",
           "even": null,
           "tempo": null
         }
@@ -17798,6 +17834,42 @@
     "mismatchN": 0,
     "noteL": [
       {
+        "note_id": "n116_5C2e",
+        "base_id": "n279_5C2e",
+        "attr": {
+          "oloc": 3765,
+          "dmark": "f",
+          "dlevel": 20,
+          "dyn": null,
+          "even": null,
+          "tempo": null
+        }
+      },
+      {
+        "note_id": "n116_5Fs2e",
+        "base_id": "n279_5Fs2e",
+        "attr": {
+          "oloc": 3765,
+          "dmark": "f",
+          "dlevel": 20,
+          "dyn": null,
+          "even": null,
+          "tempo": null
+        }
+      },
+      {
+        "note_id": "n116_5A4e",
+        "base_id": "n279_5A4e",
+        "attr": {
+          "oloc": 3765,
+          "dmark": "f",
+          "dlevel": 20,
+          "dyn": null,
+          "even": null,
+          "tempo": null
+        }
+      },
+      {
         "note_id": "n116_5C1e",
         "base_id": "n279_5C1e",
         "attr": {
@@ -22016,7 +22088,7 @@
         }
       },
       {
-        "note_id": "n145_1Gb6q",
+        "note_id": "n145_1Gb6e_0",
         "base_id": "n301_1Gb6q",
         "attr": {
           "oloc": 4203,
@@ -41462,7 +41534,7 @@
     ]
   },
   "7185": {
-    "score": 0.6666666666666666,
+    "score": 0.7222222222222222,
     "mismatchN": 1,
     "noteL": [
       {
@@ -41646,7 +41718,7 @@
         }
       },
       {
-        "note_id": "n259_5Bb4e_0",
+        "note_id": "n259_1Bb4e_0",
         "base_id": "n164_1Bb4q",
         "attr": {
           "oloc": 1202,
@@ -41700,6 +41772,30 @@
           "oloc": 1206,
           "dmark": "ff",
           "dlevel": 22,
+          "dyn": null,
+          "even": null,
+          "tempo": null
+        }
+      },
+      {
+        "note_id": "n260_2Cb5e_0",
+        "base_id": "n166_2Cb5h",
+        "attr": {
+          "oloc": 1207,
+          "dmark": "mf",
+          "dlevel": 17,
+          "dyn": null,
+          "even": null,
+          "tempo": null
+        }
+      },
+      {
+        "note_id": "ng260_5Fs2e",
+        "base_id": "ng166_5Fs2e",
+        "attr": {
+          "oloc": 1209,
+          "dmark": "p",
+          "dlevel": 11,
           "dyn": null,
           "even": null,
           "tempo": null
@@ -45372,7 +45468,7 @@
         }
       },
       {
-        "note_id": "n284_5A1q",
+        "note_id": "n284_6A1q",
         "base_id": "n404_5A1q",
         "attr": {
           "oloc": 6766,
@@ -45396,7 +45492,7 @@
         }
       },
       {
-        "note_id": "n284_5F2q",
+        "note_id": "n284_6F2q",
         "base_id": "n404_5F2q",
         "attr": {
           "oloc": 6766,
@@ -45408,7 +45504,7 @@
         }
       },
       {
-        "note_id": "n284_6B2q",
+        "note_id": "n284_5B2q_0",
         "base_id": "n404_6B2q",
         "attr": {
           "oloc": 6767,
@@ -51680,8 +51776,8 @@
     ]
   },
   "7237": {
-    "score": 1.0,
-    "mismatchN": 0,
+    "score": 0.9825581395348837,
+    "mismatchN": 1,
     "noteL": [
       {
         "note_id": "n313_1F2e",
@@ -51870,18 +51966,6 @@
           "oloc": 7341,
           "dmark": "p",
           "dlevel": 11,
-          "dyn": null,
-          "even": null,
-          "tempo": null
-        }
-      },
-      {
-        "note_id": "n313_5F2e",
-        "base_id": "n430_5F2e",
-        "attr": {
-          "oloc": 7342,
-          "dmark": "mf",
-          "dlevel": 17,
           "dyn": null,
           "even": null,
           "tempo": null
@@ -53184,7 +53268,7 @@
         }
       },
       {
-        "note_id": "ng321_1As4e",
+        "note_id": "ng321_1Bb4e",
         "base_id": "ng187_1As4e",
         "attr": {
           "oloc": 1349,
