@@ -2,10 +2,22 @@ missing_marker_1:
   measure:        348
   bpm:            35
   beat_unit:      q
-  reference_note: re348_1Rh
+  reference_note: re348_1Rh 
+
+missing_marker_2:
+  measure:        204
+  bpm:            56
+  beat_unit:      q
+  reference_note: re204_1Rw 
+
+missing_marker_3:
+  measure:        204
+  bpm:            46
+  beat_unit:      q
+  reference_note: re204_1Rh_1
 
 mm1_80: re1_1RM
-mm15_108: re16_1RM
+mm15_108: re15_1Rh
 mm20_63: n20_1D4w
 mm20_80: re20_1Rh_1
 mm24_108: re24_2Rh_1
@@ -13,9 +25,9 @@ mm25_80: re25_1Rq_2
 mm28_60: n28_1Db5w
 mm29_112: re29_1RM
 mm30_96: n30_1Eb5h
-mm31_80: re31_6Rq_0
+mm31_80: re31_1Rh
 mm33_112: re33_1RM
-mm34_80: re35_1Rq_0
+mm34_80: re34_1Rh_1
 mm45_66: n45_1A5h_0
 mm52_88: re52_1Rh_0
 mm52_66: re52_1Rq
@@ -33,46 +45,46 @@ mm92_112: re92_1Rq
 mm99_56: re99_1RM
 mm104_112: re104_1Rh
 mm108_48: re108_1Rw_0
-mm111_56: re112_1RM
+mm111_56: re111_1Rw
 mm122_112: re122_1RM
 mm125_56: n125_1E4t
 mm131_112: re131_1Rw
 mm132_56: re132_1Rq_0
 mm133_112: n133_1Ds6w
-mm133_56: n133_6A0s
+mm133_56: n133_1Bb5e
 mm134_112: re134_1Rq
-mm136_56: re137_1RM
-mm136_112: re137_1RM
+mm136_56: re136_1Rh_0
+mm136_112: re136_1Rh_2
 mm139_56: n139_1D4w
-mm142_38: n143_1Gs4q
-mm142_54: n143_1Gs4q
+mm142_38: re142_5Rh_1
+mm142_54: re142_1Rh
 mm144_44: n144_1Bb4e_0
-mm145_66: n145_1Gb6q
+mm145_66: n145_1Gb6e_0
 mm146_48: n146_1E2x
-mm146_80: re147_1RM
-mm147_66: re148_1RM
-mm148_48: re149_1Rq_0
-mm148_66: re149_1Rq_0
-mm149_48: n149_2E4q
+mm146_80: re146_1Rq_1
+mm147_66: re147_1Re_1
+mm148_48: re148_1Rq_1
+mm149_66: re149_1Rq_0
+mm149_48: re149_1Rq_3
 mm150_112: re150_1RM
 mm151_80: n151_1Cs6t_0
 mm152_69: re152_5Rq
 mm159_104: n159_1A4q
 mm159_69: re159_1Rh
 mm164_56: re164_1RM
-mm166_38: re167_1Rh
-mm166_54: re167_1Rh
-mm168_66: re169_1Rw
+mm166_38: re166_1Rq_1
+mm166_54: re166_1Rq_2
+mm168_66: re168_1Rq_1
 mm173_104: re173_1RM
-mm174_63: re175_1Rw
-mm176_48: n176_1Ab6x_5
+mm174_63: re174_1Rw
+mm176_48: n176_5Fs6s_0
 mm176_63: re176_5Re
 mm178_104: n178_1Fs6q
 mm185_52: re185_1Re
 mm188_50: n188_1Fs3e
 mm190_104: re190_1RM
 mm192_50: re192_1RM
-mm195_104: re195_1Rh
+mm195_104: re195_1Re_1
 mm199_50: re199_1RM
 mm200_72: re200_1Rw_0
 mm202_56: n202_1F5h_0
@@ -81,7 +93,7 @@ mm206_40: n206_1E4h
 mm213_104: re213_1Rq
 mm214_50: n214_2F3q
 mm215_80: re215_1Rh
-mm215_50: re215_1Rs
+mm215_50: re215_1Rq
 mm216_104: n216_1E5w
 mm222_44: n222_1Cs7e
 mm228_50: n228_1E6t_0
@@ -92,4 +104,4 @@ mm261_51: n261_1B4t
 mm273_104: n273_1F1s_0
 mm274_51: re274_1Rq
 mm318_44: re318_1RM
-mm320_51: re321_1Re_0
+mm320_51: re320_1Rh_1

@@ -1,30 +1,30 @@
 rs26:
   end_metronome: mm28_60
-  first_note: re26_5Rq_0
+  first_note: re26_5Rq_0 # 768
   interpolation: linear
   restore_tempo: False
 
 rs30:
   end_metronome: mm31_80
-  first_note: re30_1RM # measure rest
+  first_note: re30_1Rq # 6144
   interpolation: linear
   restore_tempo: False
 
 rs34:
   end_metronome: mm34_80
-  first_note: re34_1Rw # measure start
+  first_note: re34_1Rw  # 0
   interpolation: linear
   restore_tempo: False
 
 rs57:
   end_metronome: mm58_51
-  first_note: re57_1Rh # 3840 (3072)
+  first_note: n57_1E5q # 3072
   interpolation: linear
   restore_tempo: False
 
 rs68:
   end_metronome: mm69_63
-  first_note: n68_2D4b # measure start
+  first_note: re68_1Rw # 0
   interpolation: linear
   restore_tempo: False
 
@@ -36,49 +36,49 @@ rs78:
 
 rs82:
   end_metronome: mm82_51
-  first_note: n82_5Bb2w # measure start
+  first_note: re82_1Rh_0 # 0
   interpolation: linear
   restore_tempo: False
 
 rs91:
   end_metronome: mm92_112
-  first_note: n91_2Eb5h_3 # 4096
+  first_note: n91_1B4e
   interpolation: linear
   restore_tempo: False
 
 rs140:
   end_metronome: mm142_38
-  first_note: n140_1Bb6t_0 # 2840
+  first_note: n140_1Fs4t_0 # 2688
   interpolation: linear
   restore_tempo: False
 
 rs143:
   end_metronome: mm144_44
-  first_note: n143_5E4s # 3072
+  first_note: re143_1Rq # 3072
   interpolation: linear
   restore_tempo: False
 
 rs145:
   end_metronome: mm146_48
-  first_note: n145_1Gs6e # 2688
+  first_note: n145_1B3s # 2304
   interpolation: linear
   restore_tempo: False
 
 rs148:
   end_metronome: mm148_48
-  first_note: re148_1RM # measure rest
+  first_note: re148_1Rh # 768
   interpolation: linear
   restore_tempo: False
 
 rs149:
-  end_metronome: mm149_48
-  first_note: re149_1RM # measure rest
+  end_metronome: mm149_66
+  first_note: re149_1Rh # 1536
   interpolation: linear
   restore_tempo: False
 
 rs152:
   end_metronome: mm152_69
-  first_note: n152_5F3e # measure start
+  first_note: re152_1Rw # 0
   interpolation: linear
   restore_tempo: False
 
@@ -90,7 +90,7 @@ rs165:
 
 rs176:
   end_metronome: mm176_48
-  first_note: n176_1D6h_0 # measure start
+  first_note: n176_1D6h_0 # 0
   interpolation: linear
   restore_tempo: False
 
@@ -101,26 +101,26 @@ rs185:
   restore_tempo: False
 
 rs203:
-  end_metronome: mm205_80
-  first_note: re203_1RM # measure rest
+  end_metronome: mm204_56
+  first_note: re203_5Rq # 3072
   interpolation: linear
   restore_tempo: False
 
 rs204_0:
-  end_metronome: mm205_80
+  end_metronome: mm204_46
   first_note: n204_1Ab3e # 3072
   interpolation: linear
   restore_tempo: False
 
 rs204_1:
   end_metronome: mm205_80
-  first_note: n204_1B4q # 4608
+  first_note: re204_2Rh # 4608
   interpolation: linear
   restore_tempo: False
 
 rs261:
   end_metronome: mm261_51
-  first_note: re261_1Rh # measure start
+  first_note: re261_1Rh # 0
   interpolation: linear
   restore_tempo: False
 
@@ -132,7 +132,7 @@ rs317:
 
 rs346:
   end_metronome: mm348_35
-  first_note: re346_5Rh # 3072
+  first_note: re346_1Rw_1 # 3072
   interpolation: linear
   restore_tempo: False
 
