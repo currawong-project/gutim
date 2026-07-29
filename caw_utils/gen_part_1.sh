@@ -8,4 +8,8 @@ python -m piano --config scriabin_74_4/config.yaml build --clean
 python -m piano --config scriabin_74_4/config.yaml build-seg-list
 python -m piano --config scriabin_74_4/config.yaml gen-legacy-sf-score-csv
 
+python -m piano --config scriabin_74_3/config.yaml build --clean
+python -m piano --config scriabin_74_3/config.yaml build-seg-list
+python -m piano --config scriabin_74_3/config.yaml gen-legacy-sf-score-csv
+
 python caw_utils/gen_part_1_files.py

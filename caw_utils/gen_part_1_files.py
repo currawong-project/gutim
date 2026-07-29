@@ -8,9 +8,11 @@ from pathlib import Path
 
 from piano.model import (Note, GraceNote, Rest, GraceRest)
 
-CSV_TITLES = [('meas','i'),('sec','f'),('status','i'),('d0','i'),('d1','i'),('oloc','i'),('section','s'),('sci_pitch','s'),('even','s'),('even_target','s'),('dyn','s'),('dyn_target','s'),('tempo','s'),('tempo_target','s') ]
+INVALID_UID = -1
 
-from const import (PLAYER_MAP,
+
+from const import (SCORE_CSV_TITLES,
+                   PLAYER_MAP,
                    PIANO_MAP,
                    MIDI_NOTE_ON_STATUS,
                    MIDI_NOTE_OFF_STATUS,
@@ -25,6 +27,13 @@ from const import (PLAYER_MAP,
 
 _PC_OFFSET  = {'C': 0, 'D': 2, 'E': 4, 'F': 5, 'G': 7, 'A': 9, 'B': 11}
 _ACC_OFFSET = {'s': 1, 'b': -1, '': 0}
+
+def _beg_loc( seg ):
+    return next(( d['uid'] for d in seg['msgL'] if d['uid'] is not INVALID_UID ),  INVALID_UID)
+    
+def _end_loc( seg ):
+    return next(( d['uid'] for d in reversed(seg['msgL']) if d['uid'] is not INVALID_UID ), INVALID_UID)
+
 
 def gen_sf_score( cfg ):
     def _read_score_csv( fname ):
@@ -46,7 +55,7 @@ def gen_sf_score( cfg ):
         with open(fname) as f:
             rdr = csv.DictReader(f)
             for r in rdr:
-                for title,type_code in CSV_TITLES:
+                for title,type_code in SCORE_CSV_TITLES:
                     r[title] = _parse_value(r[title].strip(),type_code)
                 r['src'] = None
                 r['src_meas'] = None
@@ -155,7 +164,7 @@ def gen_sf_score( cfg ):
     def _write_score(cfg,outL):
 
         print(cfg.out_score_csv_fname)
-        titleL = [ title for title,_ in CSV_TITLES ] + ['src','src_meas']
+        titleL = [ title for title,_ in SCORE_CSV_TITLES ] + ['src','src_meas']
         with open(cfg.out_score_csv_fname,"w") as f:
             wtr = csv.DictWriter(f,fieldnames=titleL)
             wtr.writeheader()
@@ -169,7 +178,7 @@ def gen_sf_score( cfg ):
 
     _write_score(cfg,outL)
 
-    return locMapD
+    return locMapD,outL
 
 def update_preset_catalog( cfg, locMapD ):
 
@@ -177,11 +186,11 @@ def update_preset_catalog( cfg, locMapD ):
         pc = json.load(f)
         
     for frag in pc['fragL']:
-        frag["beg_loc"] = locMapD[ frag["beg_loc"] ]
-        frag["end_loc"] = locMapD[ frag["end_loc"] ]
+        frag["begLoc"] = locMapD[ frag["begLoc"] ]
+        frag["endLoc"] = locMapD[ frag["endLoc"] ]
 
     with open(cfg.out_preset_json_fname,"w") as f:
-        json.dump(pc,f)
+        json.dump(pc,f,indent=2)
 
 
 def _gen_multi_player( score_pkl_fname, seg_list_pkl_fname, locMapD, locMapSrc ):
@@ -212,6 +221,7 @@ def _gen_multi_player( score_pkl_fname, seg_list_pkl_fname, locMapD, locMapSrc )
                     mpSegD['label']     = sect.section_label
                     mpSegD['player_id'] = PLAYER_MAP[sect.player]['id']
                     mpSegD['port_id']   = PIANO_MAP[sect.piano]
+                    
                 mpSegD['sectL'].append(sect.section_label)
                 mpSegD['noteD'].update( _form_section_note_dict(sect) )
                 
@@ -263,10 +273,9 @@ def _gen_multi_player( score_pkl_fname, seg_list_pkl_fname, locMapD, locMapSrc )
             is_note_fl = e is not None and isinstance(e,(Note,GraceNote))
             is_rest_fl = e is not None and isinstance(e,(Rest,GraceRest))
             
+            
             # if this is a note
             if is_note_fl and e.has_onset:
-
-                #print(e.id,e.loc)
                 
                 n0 = dict(uid    = locMapD[locMapSrc][e.loc],
                           sec    = e.abs_time,
@@ -275,8 +284,10 @@ def _gen_multi_player( score_pkl_fname, seg_list_pkl_fname, locMapD, locMapSrc )
                           d0     = _midi_pitch(e),
                           d1     = e.dlevel)
 
+                if n0['d1'] is None:
+                    print("NO VEL:",e.id)
 
-                n1 = dict(uid    = None,
+                n1 = dict(uid    = INVALID_UID,
                           sec    = e.abs_time + e.art_dur_sec,
                           ch     = 0,
                           status = MIDI_NOTE_OFF_STATUS,
@@ -293,7 +304,7 @@ def _gen_multi_player( score_pkl_fname, seg_list_pkl_fname, locMapD, locMapSrc )
                 if hasattr(pe,'clear_depth') and pe.clear_depth is not None:
                     clear_offs_sec = DAMPER_CLEAR_OFFSET_SEC if pe.clear_depth == 0 else 0.0
 
-                    p0 = dict(uid = None,
+                    p0 = dict(uid = INVALID_UID,
                               sec = e.abs_time + clear_offs_sec,
                               ch  = 0,
                               status = MIDI_CTL_STATUS,
@@ -302,7 +313,7 @@ def _gen_multi_player( score_pkl_fname, seg_list_pkl_fname, locMapD, locMapSrc )
 
                     msgL.append(p0)
 
-                p1 = dict(uid = None,
+                p1 = dict(uid = INVALID_UID,
                           sec = e.abs_time,
                           ch  = 0,
                           status = MIDI_CTL_STATUS,
@@ -321,13 +332,21 @@ def _gen_multi_player( score_pkl_fname, seg_list_pkl_fname, locMapD, locMapSrc )
                 # convert the event to it's MIDI form
                 mpSegD['msgL'] += _form_event_msg_list(e)
 
-            # sort msgL on time
+            # sort msgL on ascending time
             mpSegD['msgL'] = sorted(mpSegD['msgL'],key=lambda x:x['sec'])
+
+            # shift the msg sequence to start at time 0.0
+            if len(mpSegD['msgL']) > 0:
+                base_sec = mpSegD['msgL'][0]['sec']
+                for msg in mpSegD['msgL']:
+                    msg['sec'] -= base_sec
+
+        
             
 
             
                 
-    pedalL  = _get_pedal_list( score_pkl_fname )
+    pedalL = _get_pedal_list( score_pkl_fname )
     mpSegL = _form_mp_segment_list( seg_list_pkl_fname )
     _attach_pedal_events(mpSegL,pedalL)
     _load_msg_list(mpSegL,locMapD,locMapSrc)
@@ -348,17 +367,22 @@ def gen_multi_player(cfg,locMapD):
                     break
 
     def _write_mp_file(fname, mpSegL):
+        segPlayerMapD = {}
         outD = {}
-        for mpSegD in mpSegL:
-            outD[mpSegD['label']] = dict(player_id = mpSegD['player_id'],
+        for seg_id,mpSegD in enumerate(mpSegL):
+            outD[mpSegD['label']] = dict(player_id = seg_id,
                                          label     = mpSegD['label'],
                                          port_id   = mpSegD['port_id'],
                                          sectL     = mpSegD['sectL'],
                                          msgL      = mpSegD['msgL'])
+
+            segPlayerMapD[seg_id] = mpSegD['player_id']
+            
                  
         with open(fname,"w") as f:
             json.dump(outD,f,indent=2)
-    
+
+        return segPlayerMapD
 
     # get the base segments
     mpSegL = _gen_multi_player( cfg.score_pkl_fname,
@@ -375,43 +399,36 @@ def gen_multi_player(cfg,locMapD):
         _insert_scriabin_section(mpSegL,ssMpSegL,scriabin_score.section_label)
 
     # write the MP player json file
-    _write_mp_file(cfg.out_mult_play_json_fname,mpSegL)
+    segPlayerMapD = _write_mp_file(cfg.out_mult_play_json_fname,mpSegL)
 
-def print_mp_directory(mp_json_fname):
+    return segPlayerMapD
 
-    def _beg_loc( seg ):
-        return next(( d['uid'] for d in seg['msgL'] if d['uid'] is not None ),None)
-    
-    def _end_loc( seg ):
-        return next(( d['uid'] for d in reversed(seg['msgL']) if d['uid'] is not None ),None)
+
+
+def print_mp_directory(mp_json_fname,segPlayerMapD):
+
 
     playerMap = { v['id']:k for k,v in PLAYER_MAP.items() }
     pianoMap  = { v:k for k,v in PIANO_MAP.items() }
 
-    print(pianoMap)
-    
     with open(mp_json_fname) as f:
         mpSegD = json.load(f)
 
     for label,seg in mpSegD.items():
-        player = playerMap[seg['player_id']]
+        seg_id = seg['player_id']
+        player_id = segPlayerMapD[seg_id]
+        player = playerMap[player_id]
         piano  = pianoMap[seg['port_id']]
         
-        print(label,player,piano,_beg_loc(seg),_end_loc(seg),end=" ")
+        print(seg_id,label,player,piano,'b:',_beg_loc(seg),'e:',_end_loc(seg),end=" : ")
         for sect_label in seg['sectL']:
             print(sect_label,end=" ")
         print("")
             
-def gen_pgm_ctl_file( mult_play_json_fname, out_ctl_json_fname ):
+def gen_pgm_ctl_file( mult_play_json_fname, segPlayerMapD, out_ctl_json_fname ):
 
     player_map  = { v['id']:k for k,v in PLAYER_MAP.items() }
     player_cntD = { v['id']:0 for _,v in PLAYER_MAP.items() }
-
-    def _beg_loc( seg ):
-        return next(( d['uid'] for d in seg['msgL'] if d['uid'] is not None ),None)
-    
-    def _end_loc( seg ):
-        return next(( d['uid'] for d in reversed(seg['msgL']) if d['uid'] is not None ),None)
 
     def _player_seg_num( player_id ):
         player_cntD[player_id] += 1
@@ -422,36 +439,37 @@ def gen_pgm_ctl_file( mult_play_json_fname, out_ctl_json_fname ):
             if seg_id > cur_seg_id and seg['port_id'] == piano_id:
                 return _beg_loc(seg), _end_loc(seg)
 
-        return None,None
+        return INVALID_UID,INVALID_UID
             
     with open(mult_play_json_fname) as f:
         mpSegD = json.load(f)
 
     ctlL = []
     
-    for seg_id,(label,seg) in enumerate(mpSegD.items()):
+    for label,seg in mpSegD.items():
         beg_loc = _beg_loc(seg)
         end_loc = _end_loc(seg)
         cur_piano_id = seg['port_id']
-        cur_player_id = seg['player_id']
+        cur_seg_id = seg['player_id']
+        cur_player_id = segPlayerMapD[cur_seg_id]
 
         # Get the current segment details
         playD = {'type':'play',
                  'seg_type':'simul',
                  'seg_label':seg['label'],
-                 'seg_id':seg_id,
+                 'seg_id':cur_seg_id,
                  'piano_id':cur_piano_id,
                  'player_label':player_map[cur_player_id],
                  'player_seg_num':_player_seg_num(cur_player_id),
                  'bloc':beg_loc,
                  'eloc':end_loc}
                  
-        ctlD = dict(loc_id=beg_loc, seg_id=seg_id, active_sf_id=cur_piano_id, cmdL=[ playD ])
+        ctlD = dict(loc_id=beg_loc, seg_id=cur_seg_id, active_sf_id=cur_piano_id, cmdL=[ playD ])
 
         # Set the score-follower ctl records to the next location where they will be active
         for _,piano_id in PIANO_MAP.items():
             if piano_id != cur_piano_id:
-                bloc,eloc = _next_bloc_eloc_on_piano(mpSegD,seg_id,piano_id)
+                bloc,eloc = _next_bloc_eloc_on_piano(mpSegD,cur_seg_id,piano_id)
                 if bloc is not None:
                     ctlD['cmdL'].append( { 'type':'sf', 'sf_id':piano_id, 'bloc':bloc, 'eloc':eloc, 'enable_fl':True } )
                 
@@ -471,6 +489,12 @@ def gen_toc( mp_play_json_fname, score_csv_fname, toc_fname ):
          
     pass
 
+        
+        
+        
+    
+    
+
 def get_cfg():
 
     cfg = dict(
@@ -483,6 +507,15 @@ def get_cfg():
                                       score_pkl_fname    = "scriabin_74_4/output/cache/assign_sustain.pkl",
                                       seg_list_pkl_fname = "scriabin_74_4/output/cache/seg_list.pkl",
                                       section_label      = "Scriabin-3_Op74_4",
+                                      beg_meas_correct   = -1,  # transition meas number adjust
+                                      end_meas_correct   = -1,
+                                      beg_sec_correct    = -0.9, # transition time adjust
+                                      end_sec_correct    = 0.5,
+                                      rowL               = None ),
+                                 dict(fname              = "scriabin_74_3/output/legacy_sf_score.csv",
+                                      score_pkl_fname    = "scriabin_74_3/output/cache/assign_sustain.pkl",
+                                      seg_list_pkl_fname = "scriabin_74_3/output/cache/seg_list.pkl",
+                                      section_label      = "Scriabin-4_Op74_3",
                                       beg_meas_correct   = -1,  # transition meas number adjust
                                       end_meas_correct   = -1,
                                       beg_sec_correct    = -0.9, # transition time adjust
@@ -519,17 +552,21 @@ if __name__ == "__main__":
     cfg = get_cfg()
 
     # Insert scriabin sections which must be score followed
-    # and update the oloc and meas numbers to reflect the inserted material
-    locMapD = gen_sf_score(cfg)
+    # and update the oloc and meas numbers to reflect the inserted material.
+    # locMapD = {<src>}{ old_loc:new_loc } holds a map of old->new score locations.
+    # New locations needed to be generated to account for the score-follwed Scriabin
+    # sections that were inserted in the score.
+    # The <src> field is a score source (e.g. gutim, Scriabin-3_Op74_4, ...)
+    locMapD, _ = gen_sf_score(cfg)
 
     # Generate a new preset file with updated locations.
     update_preset_catalog(cfg,locMapD['gutim'])
 
     # Generate a multi-player file containing one 'player' for each segment
-    gen_multi_player(cfg,locMapD)
+    segPlayerMapD = gen_multi_player(cfg,locMapD)
 
-    print_mp_directory(cfg.out_mult_play_json_fname)
+    print_mp_directory(cfg.out_mult_play_json_fname,segPlayerMapD)
 
-    gen_pgm_ctl_file(cfg.out_mult_play_json_fname,cfg.out_ctl_json_fname)
+    gen_pgm_ctl_file(cfg.out_mult_play_json_fname, segPlayerMapD, cfg.out_ctl_json_fname)
 
     
