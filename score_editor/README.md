@@ -114,7 +114,11 @@ python score_editor/apply_edit_file.py
 ```
 
 
-
+Sync. Presets in dervied score.
+```
+# Generate new preset catalog files for a,b,c based on finding matching preset fragments in the base score.
+python sync_presets.py 
+```
 
 Notes on sections
 -----------------
