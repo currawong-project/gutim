@@ -12,8 +12,8 @@ source_files:
   catalog:     null
   legacy_csv:  null
   seq_cmp_csv: null
-  ext_markers: null
-  section_toc: null
+  ext_markers: ext_markers.txt
+  section_toc: section_toc.txt
 
 
 grace_note_duration: 0.075          # seconds allocated to an entire grace note group

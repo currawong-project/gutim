@@ -1,0 +1,4 @@
+# 
+# meas last         first      next         section id      label
+202   n202_1D4h     None       n202_1D4q     Spirio_HC_Split_1        Spirio_HC_Split_1  # spirio-player split 1
+304   n304_1C6t_2   None       n304_1D5t_0   Spirio_AG_Split_2        Spirio_AG_Split_2  # spirio-player split 2
