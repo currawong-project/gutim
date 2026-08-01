@@ -1,5 +1,5 @@
 
-Given a recorded performance from ../perf_data and a 'legacy' score produced from the ../score_pipeline/piano pipeline
+Given a recorded performance from `../perf_data` and a 'legacy' score produced from the `../score_pipeline/piano` pipeline
 track the performance to the score and generate two output files:
 
 1. A YAML file containing a record for each performed note along with the score 'loc' value which aligns with it.

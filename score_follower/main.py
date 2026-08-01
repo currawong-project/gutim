@@ -5,6 +5,8 @@ import yaml
 import types
 import logging
 import sf_study_7 as sf7
+import sf_wp_0 as wp0
+
 from timeline import gen_svg_timeline as tl
 
 def _loc_to_section( args, beg_loc, end_loc ):
@@ -98,6 +100,9 @@ def run_tracker( args, perf_fileL, player, sf_track_out_dir, timeline_out_dir, t
 
             trackL.append( dict(player=player, take_numb=take_numb, beg_loc=beg_loc, end_loc=end_loc, tracked_perfL=trackedPerfL) )
 
+            wp0.track_one( args.score_csv_fname, perf_csv_fname, beg_loc, end_loc )
+
+        
 
     for beg_loc,d in plotD.items():        
         tl.gen_file(d['svg_dir'], d['svgD'], beg_loc=beg_loc, end_loc=d['end_loc'], scale=500.0)
