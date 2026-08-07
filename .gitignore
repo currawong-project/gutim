@@ -6,10 +6,14 @@ feature_gen/output
 gutim_1/output
 gutim_1/caw
 gutim_1/edits/pedal_archive
+gutim_2/a/scores/hold
+gutim_2/a/caw
 gutim_2/a/output
 gutim_2/a/edits/pedal_archive
+gutim_2/b/caw
 gutim_2/b/output
 gutim_2/b/edits/pedal_archive
+gutim_2/c/caw
 gutim_2/c/output
 gutim_2/c/edits/pedal_archive
 gutim_2/v1
@@ -17,4 +21,5 @@ scriabin_74_4/output
 scriabin_74_4/edits/pedal_archive
 scriabin_74_3/output
 scriabin_74_3/edits/pedal_archive
+score_editor/working
 

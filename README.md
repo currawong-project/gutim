@@ -30,3 +30,15 @@ gutim_2/
 - Score,feature,caw data for GUTIM part 2
 
   
+  
+Notes on setting up to run `caw_utils/gen_part_1_file.py` on gutim_2/a/b/c 
+```
+score_editor/apply_edit_file.py - creates attr_corrections.yaml
+copy working/*/apply/attr_corrections.yaml gumim_2/*/edits/attr_corrections.yaml
+python -m piano --config gutim_2/*/config.yaml build --clean
+python -m piano --config gutim_2/*/config.yaml build-seg-list
+rm gutim_2/*/output/legacy_sf_score.csv # must erase or next command will do nothing
+python -m piano --config gutim_2/*/config.yaml  gen-legacy-sf-score-csv
+copy score/catalog.json to output/new_catalog.json
+python caw_utils/gen_part_1_files.py 
+```
