@@ -263,7 +263,8 @@ if __name__ == "__main__":
 
         print("Processing piano:",c.upper())
 
-        editor_dir = f"gutim_2/{c}/editor"
+        # editor_dir = f"gutim_2/{c}/editor"
+        editor_dir = f"score_editor/working/{c}/editor"
 
         score_fname    = f"gutim_2/{c}/output/cache/{cache_name}.pkl"
         attr_fname     = f"{editor_dir}/note_attr.json"

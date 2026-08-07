@@ -79,19 +79,43 @@ def assign_new_frag_id( noteL ):
 
     def _is_new_frag_boundary(n0,n1):
         # if the later note has a valid base_frag_id that is not the same as the earlier note
-        return n1.base_frag_id is not None and (n0.base_frag_id is None or n0.base_frag_id != n1.base_frag_id)
+        return n0.base_frag_id != n1.base_frag_id
+    
+        # return n1.base_frag_id is not None and (n0.base_frag_id is None or n0.base_frag_id != n1.base_frag_id)
 
+    def _set_leading_frag_id( noteL ):
+        i = next((i for i,n in enumerate(noteL) if n.base_frag_id is not None),None)
+        for j in range(0,i):
+            noteL[j].base_frag_id = noteL[i].base_frag_id
+
+    def _set_trailing_frag_id( noteL ):
+        cur_base_frag_id = noteL[0].base_frag_id
+        for n in noteL:
+            if n.base_frag_id is None:
+                n.base_frag_id = cur_base_frag_id
+            if n.base_frag_id != cur_base_frag_id:
+                cur_base_frag_id = n.base_frag_id
+
+    # set the base_frag_id of all notes prior to the first note with a valid base_frag_id
+    # to the value of the first valid base_frag_id
+    _set_leading_frag_id(noteL)
+
+    # set the base_frag_id of all notes that do not have a valid base_frag_id to the
+    # value of the previous valid base_frag_id
+    _set_trailing_frag_id(noteL)
+    
     newFragL = [] # [ { new_frag_id:<>, base_frag_id:<>, new_frag_beg_loc:<> } ]
     new_frag_id = 0
+    cur_frag_beg_loc = next((n.loc for n in noteL if n.loc is not None ),None)
     for i,n in enumerate(noteL):
         if i > 0:
             if _is_new_frag_boundary(noteL[i-1],n):
                 n.new_frag_id = new_frag_id
-                new_frag_id += 1
                 assert n.base_frag_id is not None
                 assert n.loc is not None
-                newFragL.append( dict(new_frag_id=new_frag_id, base_frag_id=n.base_frag_id, new_frag_beg_loc=n.loc) )
+                newFragL.append( dict(new_frag_id=new_frag_id, base_frag_id=n.base_frag_id, new_frag_beg_loc=cur_frag_beg_loc,new_frag_end_loc=n.loc-1) )
                 new_frag_id += 1
+                cur_frag_beg_loc = n.loc
 
     print(f"New frag list length: {len(newFragL)}")
     return newFragL
@@ -107,15 +131,11 @@ def create_new_catalog(base_catalog,newFragL):
 
     fragL = []
     for d in newFragL:
-        new_frag_id = d['new_frag_id']
-        base_frag_id = d['base_frag_id']
-        new_beg_loc = d['new_frag_beg_loc']
-
-        presetL = _get_base_preset_list( base_catalog, base_frag_id )
+        presetL = _get_base_preset_list( base_catalog, d['base_frag_id'] )
         
-        fragL.append( dict(fragId=new_frag_id,
-                           begLoc=new_beg_loc,
-                           endLoc=None,
+        fragL.append( dict(fragId=d['new_frag_id'],
+                           begLoc=d['new_frag_beg_loc'],
+                           endLoc=d['new_frag_end_loc'],
                            presetL=presetL,
                            presetN=len(presetL)) )
 
@@ -170,7 +190,7 @@ def gen_catalog( base_catalog_json_fname, note_attr_json_fname, score_pkl_fname,
     assign_base_frag_id(noteL,base_catalog)
 
     # Generate fragL by scanning noteL for changed frag_id and update noteL = [{sec,loc,note_id,oloc,frag_id,new_frag_id}]
-    # This locates the boundaries of each new preset fragment.
+    # This locates the boundaries of each preset fragment.
     newFragL = assign_new_frag_id(noteL)
 
     # Generate catalogD from fragL
@@ -182,7 +202,7 @@ def gen_catalog( base_catalog_json_fname, note_attr_json_fname, score_pkl_fname,
     
     # Write catalogD
     with open(out_catalog_json_fname,'w') as f:
-        json.dump(newCatalogD,f)
+        json.dump(newCatalogD,f,indent=2)
 
 
 if __name__ == "__main__":

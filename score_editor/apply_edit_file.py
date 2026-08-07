@@ -31,7 +31,8 @@ DYN_MAP = {
     'f+':21,
     'ff':22,
     'ff+':23,
-    'fff':24 }
+    'fff':24,
+    'fp': 25}
 
 
 def parse_edit_file( edit_fname ):
@@ -112,9 +113,13 @@ def parse_edit_file( edit_fname ):
         assert tokL[0] == 'metro'
 
         metroD = None
-        if len(tokL) != 3:
-            print(f"meas:{meas_numb} id:{ele_id} : Invalid metro syntax.")
+        if len(tokL) != 4:
+            print(f"meas:{meas_numb} id:{ele_id} : Invalid metro syntax. {':'.join(tokL)}")
         else:
+
+            if tokL[-1] != 'ok':
+                print(f"meas:{meas_numb} id:{ele_id} : Metro no 'ok'.")
+            
             
             beat_unit = tokL[1]
             bpm       = int(tokL[2])
@@ -163,7 +168,7 @@ def parse_edit_file( edit_fname ):
                 
         # If this dyn mark is malformed       
         else:
-            print(f"meas:{meas_numb} id:{ele_id} : Syntax error : Invalid dynamic mark.")
+            print(f"meas:{meas_numb} id:{ele_id} : Syntax error : Invalid dynamic mark. {':'.join(tokL)}")
 
                 
         return dmark
@@ -329,6 +334,8 @@ def apply_dyn_interp( attrL ):
                 if a['onset_fl'] is not None and ['onset_fl'] and a['dmark'] is None:
                     sec = a['sec']
                     dlevel = int(round(b_dlevel + ((e_dlevel - b_dlevel)*(sec-b_sec))/(e_sec - b_sec)))
+
+                    print(a['meas_numb'],a['ele_id'])
                     a['dmark'] = _dlevel_to_dmark(dlevel)
                 
         return attrL
@@ -537,15 +544,15 @@ def main( score_fname, edit_fname, out_dir, overwrite_fl, default_dmark, pedal_o
 if __name__ == "__main__":
 
     char_codeL = [ 'a','b','c' ]
+    char_codeL = ['a']
     
     # Dynamic level to apply to notes that do not have an explicit dynamic level.
     # Set to None to not apply a default dynamic value, and leave the dynamic level blank.
-    default_dmark = None # 'mp' 
-
+    default_dmark = 'mp' 
     for c in char_codeL:
 
         score_fname       = f"gutim_2/{c}/output/cache/timing.pkl"
-        edit_fname        = f"score_editor/working/{c}/editor/piano_{c}_mod.txt"
+        edit_fname        = f"score_editor/working/{c}/editor/piano_{c}_mod_yurii_20260806.txt"
         link_fname        = f"score_editor/working/{c}/editor/link_{c}_mod.txt"
         out_dir           = f"score_editor/working/{c}/apply"
         pedal_out_fname   = "pedal.yaml"

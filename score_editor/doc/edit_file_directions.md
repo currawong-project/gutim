@@ -126,7 +126,7 @@ Add the suffix ':ok' to indicate that the marker was reviewed.
 Every note that has an 'o' flag requires an explicit dynamics
 value. Scan the score and choose from one of the 25 possible dynamics
 values shown in the table below. The dynamics may be entered one note
-at a time or in automatically interpolated sequences.  Use _sequene entry_ to insert dynamic fork values
+at a time or in automatically interpolated sequences.  Use _sequence entry_ to insert dynamic fork values
 automatically without having to do manual interpolation.
 
 Individual dynamics markers look like this: `d:ff`, `d:p+`, `d:s`. Note that `d:s` indicates a 'silent' note.
@@ -202,6 +202,29 @@ d:mf+:>
 d:>:mf+
 ```
 In this case all unmarked notes between the two markers will be set to `mf+`.
+
+Keep in mind when using the sequence markers that begin or end on simultaneous notes (chords) that 
+in general the begin marker should be on the first row of the first note of the chord and the
+end marker should be on the last row of the last note of the chord.  The other notes in the
+chord will automatically be assigned the correct dynamic level.
+
+Here is an example:
+```
+  7 305  0.588 v1 s1 t=384  n305_1Ab1e      Ab1 e    -- c-o | d:pp:>
+  8 305  0.588 v1 s1 t=384  n305_1C4e       C4  e    -- c-o |
+  9 305  0.588 v1 s1 t=384  n305_1G4e       G4  e    -- c-o | 
+ 10 305  0.783 v5 s2 t=511  n305_5D2t_1     D2  t.   -- --o | 
+ 11 305  0.979 v5 s2 t=639  n305_5G5t       G5  t.   -- --o | 
+ 12 305  1.176 v1 s1 t=768  n305_1Bb5h      Bb5 h    -- --o | 
+ 13 305  1.176 v5 s2 t=768  n305_5Ab3h      Ab3 h    -- c-o | 
+ 14 305  1.176 v5 s2 t=768  n305_5C4h       C4  h    -- c-o | 
+ 15 305  1.176 v5 s2 t=768  n305_5Gb4h      Gb4 h    -- c-o | d:>:ff
+```
+Notice that this fork begins on a chord and ends on a chord and that 
+the begin marker is placed on the first row of the starting chord
+and the end marker is placed on the last row of the ending chord.
+The other notes in the chord will automatically be assigned the
+correct dynamic values.
 
 
 | Legal Dynamics Marks|
