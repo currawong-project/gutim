@@ -1,5 +1,5 @@
 
-SCORE_CSV_TITLES = [('meas','i'),('sec','f'),('art_dur_sec','f'),('status','i'),('d0','i'),('d1','i'),('oloc','i'),('section','s'),('sci_pitch','s'),('grace','s'),('even','s'),('even_target','s'),('dyn','s'),('dyn_target','s'),('tempo','s'),('tempo_target','s') ]
+SCORE_CSV_TITLES = [('meas','i'),('sec','f'),('art_dur_sec','f'),('status','i'),('d0','i'),('d1','i'),('oloc','i'),('section','s'),('sci_pitch','s'),('grace','s'),('even','s'),('even_target','s'),('dyn','s'),('dyn_target','s'),('tempo','s'),('tempo_target','s'),('note_id','s') ]
 
 CAW_SCORE_CSV_TITLES = SCORE_CSV_TITLES + [('src','s'),('src_meas','i')]
 
@@ -9,7 +9,8 @@ PLAYER_MAP = {
     "NN":dict(id=1,color='yellow'),
     "AG":dict(id=2,color='green'),
     "EP":dict(id=3,color='blue'),
-    "AK":dict(id=4,color='purple')    
+    "AK":dict(id=4,color='purple'),
+    "SP":dict(id=5,color='white')
 }
 
 PIANO_MAP = {
