@@ -9,11 +9,11 @@ output_dir: gutim_2/b/output   # directory for all pipeline outputs
 # Source file names within inputs_dir.
 source_files:
   score:       gutim_20260721b_piano_b.musicxml
-  catalog:     null
+  catalog:     catalog.json
   legacy_csv:  null
   seq_cmp_csv: null
   ext_markers: null
-  section_toc: null
+  section_toc: section_toc.txt
 
 
 grace_note_duration: 0.075          # seconds allocated to an entire grace note group
