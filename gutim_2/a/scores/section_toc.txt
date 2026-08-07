@@ -48,9 +48,7 @@
 182 S 7132 7132 green AG A
 185 S 7133 7133 green AG A
 200 S 7138 7138 blue EP A
-202 S 7139 7139a white SP A
-202 X Spirio_HC_Split_1 None white SP A
-202 P 7139 7139b rose HC A
+202 S 7139 7139 white SP A
 205 S 7142 7142 blue EP A
 205 S 7143 7143 blue EP A
 210 S 7146 7146 rose HC A
@@ -81,9 +79,7 @@
 295 S 7220 7220 white SP A
 296 S 7221 7221 green AG A
 299 S 7226 7226 blue EP A
-304 S 7230 7230a white SP
-304 X Spirio_AG_Split_2 None white SP
-304 P 7230 7230b green AG A
+304 S 7230 7230 white SP A
 305 S 7232 7232 green AG A
 311 S 7235 7235 yellow NN A
 313 S 7237 7237 yellow NN A

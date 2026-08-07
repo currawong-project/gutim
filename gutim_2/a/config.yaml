@@ -12,7 +12,7 @@ source_files:
   catalog:     null
   legacy_csv:  null
   seq_cmp_csv: null
-  ext_markers: ext_markers.txt
+  ext_markers: null 
   section_toc: section_toc.txt
 
 
