@@ -18250,6 +18250,14 @@ n287_6Db4e:
   dmark: ff
   dlevel: 22
 
+n288_6Gb2t:
+  dmark: mp
+  dlevel: 14
+
+n288_6Db4t:
+  dmark: mp
+  dlevel: 14
+
 n288_1Bb4t_0:
   dmark: pp
   dlevel: 8
@@ -19910,23 +19918,23 @@ n307_1F6s:
   dmark: mp
   dlevel: 14
 
-ng307_2A0e:
+ng307_6A0e:
   dmark: mp
   dlevel: 14
 
-ng307_2E1e:
+ng307_6E1e:
   dmark: mp
   dlevel: 14
 
-ng307_2Bb3e:
+ng307_6Bb3e:
   dmark: mp
   dlevel: 14
 
-ng307_2E2e:
+ng307_6E2e:
   dmark: mp
   dlevel: 14
 
-ng307_2A1e:
+ng307_6A1e:
   dmark: mp
   dlevel: 14
 

@@ -8,8 +8,8 @@ output_dir: gutim_2/b/output   # directory for all pipeline outputs
 
 # Source file names within inputs_dir.
 source_files:
-  score:       gutim_20260721b_piano_b.musicxml
-  catalog:     catalog.json
+  score:       gutim_20260809_piano_b.musicxml # gutim_20260721b_piano_b.musicxml
+  catalog:     null
   legacy_csv:  null
   seq_cmp_csv: null
   ext_markers: null

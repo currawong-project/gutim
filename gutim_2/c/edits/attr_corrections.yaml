@@ -9678,6 +9678,27 @@ n171_5E2s:
   dmark: mp
   dlevel: 14
 
+n172_1B5q:
+  dmark: mp
+  dlevel: 14
+
+n172_2Cs5e:
+  dmark: mp
+  dlevel: 14
+  
+n172_2Fs1e:
+  dmark: mp
+  dlevel: 14
+  
+n172_2B6e:
+  dmark: mp
+  dlevel: 14
+  
+n172_2D7e:
+  dmark: mp
+  dlevel: 14
+
+
 n173_1B4w:
   dmark: f
   dlevel: 20
@@ -16950,6 +16971,7 @@ n287_5E4t_1:
   dmark: ff
   dlevel: 22
 
+
 n288_1Bb3e:
   dmark: f
   dlevel: 20
@@ -18181,6 +18203,11 @@ n297_1E5t:
 n297_1Bb5t:
   dmark: ff+
   dlevel: 23
+
+n298_5B2x:
+  dmark: mp
+  dlevel: 14
+
 
 n298_1Gb4q:
   dmark: fff
