@@ -10,5 +10,15 @@ python -m piano --config gutim_2/a/config.yaml build --clean
 python -m piano --config gutim_2/a/config.yaml build-seg-list
 python -m piano --config gutim_2/a/config.yaml gen-legacy-sf-score-csv
 
+cp gutim_2/b/scores/catalog.json gutim_2/b/output/new_catalog.json
+python -m piano --config gutim_2/b/config.yaml build --clean
+python -m piano --config gutim_2/b/config.yaml build-seg-list
+python -m piano --config gutim_2/b/config.yaml gen-legacy-sf-score-csv
+
+cp gutim_2/c/scores/catalog.json gutim_2/c/output/new_catalog.json
+python -m piano --config gutim_2/c/config.yaml build --clean
+python -m piano --config gutim_2/c/config.yaml build-seg-list
+python -m piano --config gutim_2/c/config.yaml gen-legacy-sf-score-csv
+
 
 python caw_utils/gen_part_2_files.py
