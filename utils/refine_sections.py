@@ -84,7 +84,7 @@ if __name__ == "__main__":
 
     char_codeL = ['a','b','c']
 
-    char_codeL = ['a']
+    char_codeL = ['b','c']
 
 
     if True:
