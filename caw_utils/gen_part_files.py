@@ -344,7 +344,7 @@ def _gen_multi_player( score_pkl_fname, seg_list_pkl_fname, locMapD, locMapSrc )
                               status = MIDI_CTL_STATUS,
                               d0 = _pedal_event_to_midi_ctl(pe),
                               d1 = _pedal_event_depth_to_midi(pe),
-                              evt_id = e.id + "_clear" )
+                              evt_id = pe.id + "_clear" )
 
                     msgL.append(p0)
 
@@ -354,7 +354,7 @@ def _gen_multi_player( score_pkl_fname, seg_list_pkl_fname, locMapD, locMapSrc )
                           status = MIDI_CTL_STATUS,
                           d0 = _pedal_event_to_midi_ctl(pe),
                           d1 = _pedal_event_depth_to_midi(pe),
-                          evt_id = e.id )
+                          evt_id = pe.id )
 
                 msgL.append(p1)
 
@@ -418,7 +418,7 @@ def gen_multi_player(cfg,locMapD):
         with open(fname,"w") as f:
             json.dump(outD,f,indent=2)
 
-        return segPlayerMapD
+        return segPlayerMapD,outD
 
     # get the base segments
     mpSegL = _gen_multi_player( cfg.score_pkl_fname,
@@ -435,9 +435,9 @@ def gen_multi_player(cfg,locMapD):
         _insert_scriabin_section(mpSegL,ssMpSegL,scriabin_score.section_label)
 
     # write the MP player json file
-    segPlayerMapD = _write_mp_file(cfg.out_mult_play_json_fname,mpSegL)
+    segPlayerMapD,outD = _write_mp_file(cfg.out_mult_play_json_fname,mpSegL)
 
-    return segPlayerMapD
+    return segPlayerMapD,outD
 
 
 

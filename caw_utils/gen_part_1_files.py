@@ -108,7 +108,7 @@ if __name__ == "__main__":
     gpf.update_preset_catalog(cfg,locMapD['gutim'])
 
     # Generate a multi-player file containing one 'player' for each segment
-    segPlayerMapD = gen_multi_player(cfg,locMapD)
+    segPlayerMapD,_ = gen_multi_player(cfg,locMapD)
 
     gpf.print_mp_directory(cfg.out_mult_play_json_fname,segPlayerMapD)
 
