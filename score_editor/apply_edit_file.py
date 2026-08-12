@@ -335,7 +335,7 @@ def apply_dyn_interp( attrL ):
                     sec = a['sec']
                     dlevel = int(round(b_dlevel + ((e_dlevel - b_dlevel)*(sec-b_sec))/(e_sec - b_sec)))
 
-                    print(a['meas_numb'],a['ele_id'])
+                    # print(a['meas_numb'],a['ele_id'])
                     a['dmark'] = _dlevel_to_dmark(dlevel)
                 
         return attrL
@@ -449,7 +449,6 @@ def write_dyn_corrections_file( dyn_out_fname, default_dmark, attrL ):
                             print(f"meas:{a['meas_numb']} id:{a['ele_id']} : Missing dynamic marking applying default. {default_dmark}")
                             dmark = default_dmark
 
-                        
                         dlevel = DYN_MAP[ dmark ] 
                         f.write(f"{a['ele_id']}:\n  dmark: {dmark}\n  dlevel: {dlevel}\n\n")
 
@@ -552,7 +551,7 @@ if __name__ == "__main__":
     for c in char_codeL:
 
         score_fname       = f"gutim_2/{c}/output/cache/timing.pkl"
-        edit_fname        = f"score_editor/working/{c}/editor/piano_{c}_mod_yurii_20260806.txt"
+        edit_fname        = f"score_editor/working/{c}/editor/piano_{c}_mod_yurii_20260808.txt"
         link_fname        = f"score_editor/working/{c}/editor/link_{c}_mod.txt"
         out_dir           = f"score_editor/working/{c}/apply"
         pedal_out_fname   = "pedal.yaml"

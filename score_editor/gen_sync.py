@@ -236,6 +236,7 @@ def main( base_score_fname, piano_char, ileav_score_fname, sect_map_csv_fname, o
 
     isect_attrD = get_synced_attributes( syncL, sectMap, base_sect_pitchD, ileav_sect_pitchD )
 
+    print("writing:",out_fname)
     with open(out_fname,"w") as f:
         json.dump(isect_attrD,f,indent=2)
 
@@ -250,7 +251,8 @@ if __name__ == "__main__":
     if len(sys.argv)>1:
         cache_name = sys.argv[1]
 
-    for c in ['a','b','c']:
+    char_codeL = ['a','b','c']
+    for c in char_codeL:
         ileav_score_fname    = f"gutim_2/{c}/output/cache/{cache_name}.pkl"
         out_dir              = f"gutim_2/{c}/editor"
         note_attr_json_fname = f"{out_dir}/note_attr.json"
