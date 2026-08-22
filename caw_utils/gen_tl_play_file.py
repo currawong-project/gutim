@@ -107,7 +107,8 @@ def get_meas_msg_dict( score_pkl_fname, seg_list_pkl_fname, outMeasStartSecD, sc
             # if this is a note
             if is_note_fl and e.has_onset:
 
-                #print(score_meas_start_sec,e.abs_time,e.id)
+                # if meas_numb == 202:
+                #    print("A:",_midi_pitch(e),e.abs_time,e.id,out_meas_start_sec,score_meas_start_sec)
                 
                 n0 = dict(loc           = INVALID_LOC if e.loc is None else e.loc,
                           meas_numb     = meas_numb,
@@ -121,6 +122,7 @@ def get_meas_msg_dict( score_pkl_fname, seg_list_pkl_fname, outMeasStartSecD, sc
                           player_id     = player_id,
                           port_id       = port_id,
                           section_label = section_label)
+                
 
                 if n0['d1'] is None:
                     print("port id:",port_id,"NO VEL:",e.id)
@@ -372,7 +374,7 @@ def get_messages(cfgL, outMeasStartSecD):
     # sort the messages in each measure into time order    
     for meas_num,msgL in measMsgD.items():
         measMsgD[meas_num] = sorted(measMsgD[meas_num],key=lambda x:x['sec'])
-        
+
     return measMsgD
                     
 
@@ -480,11 +482,18 @@ def write_output(measMsgD,tocL,measStartSecD,out_fname):
     msgL = []
     measL = []
     for meas_numb,meas_msgL in measMsgD.items():
-        measL.append(dict( number    = meas_numb,
-                           start_sec = measStartSecD[meas_numb],
-                           msg_idx   = len(msgL),
-                           msg_cnt   = len(meas_msgL)))
         msgL += meas_msgL
+
+    msgL = sorted(msgL,key=lambda x:x['sec'])
+
+    
+    for meas_numb,_ in measStartSecD.items():
+        for msg_idx,r in enumerate(msgL):
+            if r['meas_numb'] == meas_numb:
+                measL.append(dict(number=meas_numb,
+                                  start_sec=r['sec'],
+                                  msg_idx=msg_idx))
+                
     
     #
     # tocL  = [ {port_id,player_id,section_id,start_sec,beg_loc,end_loc} ]
