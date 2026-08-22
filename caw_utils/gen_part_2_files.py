@@ -10,28 +10,28 @@ from const import (CAW_SCORE_CSV_TITLES, PLAYER_MAP, PIANO_MAP, MIDI_NOTE_ON_STA
 
 
 def read_caw_score_csv( fname ):
-        def _parse_value( s, type_code ):
-            """ Convert a string to a value based on 'type_code'. """
-            s =  None if s==None or len(s)==0 else s
-            
-            if type_code == 'i':
-                return None if s is None else int(s)
-            elif type_code == 'f':
-                return None if s is None else float(s)
-            elif type_code == 's':
-                return s
-            else:
-                assert False
+    def _parse_value( s, type_code ):
+        """ Convert a string to a value based on 'type_code'. """
+        s =  None if s==None or len(s)==0 else s
 
-        rowL = []
-        with open(fname) as f:
-            rdr = csv.DictReader(f)
-            for r in rdr:
-                for title,type_code in CAW_SCORE_CSV_TITLES:
-                    r[title] = _parse_value(r[title].strip(),type_code)
-                rowL.append(types.SimpleNamespace(**r))
+        if type_code == 'i':
+            return None if s is None else int(s)
+        elif type_code == 'f':
+            return None if s is None else float(s)
+        elif type_code == 's':
+            return s
+        else:
+            assert False
 
-        return rowL
+    rowL = []
+    with open(fname) as f:
+        rdr = csv.DictReader(f)
+        for r in rdr:
+            for title,type_code in CAW_SCORE_CSV_TITLES:
+                r[title] = _parse_value(r[title].strip(),type_code)
+            rowL.append(types.SimpleNamespace(**r))
+
+    return rowL
 
 def gen_part_2_ctl_file( cfg ):
     # Generate the JSON file for the gutim_2_sf_ctl.
@@ -41,7 +41,7 @@ def gen_part_2_ctl_file( cfg ):
             tocL = json.load(f)
         return tocL
 
-    def _gen_sf_ctl( tocL, scoreL ):
+    def _gen_sf_ctl_0( tocL, scoreL ):
 
         ctlL = []
         
@@ -59,16 +59,162 @@ def gen_part_2_ctl_file( cfg ):
                                piano_id = PIANO_MAP[ toc['piano'] ] ))
         return ctlL
 
-    def _write_sf_ctl_file( fname, sf_ctlL ):
-        with open(fname,"w") as f:
-            json.dump(sf_ctlL,f,indent=2)
-    
-        
-    scoreL  = read_caw_score_csv(cfg.out_score_csv_fname)
-    tocL    = _read_toc_json(cfg.toc_json_fname)
-    sf_ctlL = _gen_sf_ctl( tocL, scoreL )
+    def _gen_sf_ctl_list( scoreL, piano_id, max_gap_dur_sec  ):
+        def _find_segments(scoreL,max_gap_dur_sec):
+            segL = [dict(piano_id=piano_id, beg_loc=0, end_loc=None, post_gap_dur_sec=-1)]
+            sec0 = None
+            for r in scoreL:
+                sec1 = r.sec
+                if sec0 is not None:
+                    dsec = sec1 - sec0
+                    if dsec > max_gap_dur_sec:
+                        segL[-1]['end_loc']          = end_loc
+                        segL[-1]['post_gap_dur_sec'] = dsec
+                        segL.append(dict(piano_id=piano_id, beg_loc=r.oloc, end_loc=None, post_gap_dur_sec=-1))
+                sec0    = sec1
+                end_loc = r.oloc
 
-    _write_sf_ctl_file( cfg.out_sf_ctl_json_fname, sf_ctlL )
+            segL[-1]['end_loc'] = scoreL[-1].oloc
+            return segL
+
+        def _set_max_ioi(scoreL,segL):
+            locSecD  = { r.oloc:r.sec     for r in scoreL }
+            locNoteD = { r.oloc:r.note_id for r in scoreL }
+
+            for seg in segL:
+                max_dur_sec = None
+                max_note_id = None
+                sec0 = None
+                for loc in range(seg['beg_loc'],seg['end_loc']+1):
+                    sec1 = locSecD[loc]
+                    if sec0 is not None:
+                        dsec = sec1 - sec0
+                        if max_dur_sec is None or dsec > max_dur_sec:
+                            max_dur_sec = dsec
+                            max_note_id = locNoteD[ loc ]
+
+                    sec0 = sec1
+                seg['max_dur_sec'] = max_dur_sec
+                seg['max_note_id'] = max_note_id
+
+        scoreL = [ r for r in scoreL if r.note_id is not None and len(r.note_id.strip())> 0 ]
+
+
+        for r in scoreL:
+            if r.sec is None or type(r.sec) != float:
+                print(r)
+        
+        scoreL = sorted(scoreL,key=lambda x:x.sec)
+
+
+        
+        segL = _find_segments(scoreL,max_gap_dur_sec)
+        _set_max_ioi(scoreL,segL)
+        return segL
+    
+
+    def _gen_note_to_loc_map(scoreL):
+        noteLocMapD = {}
+        for r in scoreL:
+            if r.note_id is not None and len(r.note_id.strip()) > 0 and r.oloc is not None:
+                noteLocMapD[ r.note_id ] = r.oloc
+        return noteLocMapD
+
+    def _gen_meas_and_sect_loc_map(scoreL, noteLocMapD ):
+
+        def _fill_in_missing_measures( mlD, max_meas_num ):
+            for meas_num in range(1,max_meas_num+1):
+                if str(meas_num) not in mlD:
+
+                    for mn in range(int(meas_num)+1,max_meas_num+1):
+                        if str(mn) in mlD:
+                            loc = mlD[str(mn)]
+                            break
+                            
+                    mlD[str(meas_num)] = loc
+            return dict(sorted(mlD.items(),key=lambda x:int(x[0])))
+                    
+        
+        measLocMapD = {}
+        sectLocMapD = {}
+        meas_num    = None
+        section     = None
+        max_meas_num = 0
+        
+        for r in scoreL:
+
+            if r.bar is not None and len(r.bar.strip())>0:
+                meas_num = r.bar
+                if int(meas_num) > max_meas_num:
+                    max_meas_num = int(meas_num)
+
+                continue
+            
+            if r.section is not None and len(r.section.strip())>0:
+                section = r.section
+                continue
+
+            if meas_num is not None and r.note_id is not None and len(r.note_id.strip())>0 and r.note_id in noteLocMapD:
+                measLocMapD[ meas_num ] = noteLocMapD[r.note_id]
+                meas_num = None
+
+            if section is not None and r.note_id is not None and len(r.note_id.strip())>0 and r.note_id in noteLocMapD:
+                sectLocMapD[ section ] = noteLocMapD[r.note_id]
+                section = None
+
+        measLocMapD = _fill_in_missing_measures(measLocMapD,max_meas_num)
+        
+        return measLocMapD, sectLocMapD
+                
+    def _refine_sect_loc_map( sectLocMapD, tocL, noteLocMapD ):
+        # Force the section map to be based on the TOC rather than the score
+        # since the TOC has been modified to have sections that may not
+        # be in the score.  Note however that there are also sections
+        # in the score that may not be in the TOC.  These are section
+        # breaks where the player does not change.
+        mapD = {}
+        for toc in tocL:
+            for section in toc['sectL']:
+                if section in sectLocMapD:
+                    mapD[section] = sectLocMapD[section]
+                else:
+                    mapD[section] = noteLocMapD[toc['beg_sf_note_id']]
+
+        return mapD
+        
+    
+    def _write_sf_ctl_file( fname, sf_ctlL, measLocMapD, sectLocMapD ):
+        hdr = dict(sf_ctlL         = sf_ctlL,
+                   meas_loc_map    = measLocMapD,
+                   section_loc_map = sectLocMapD)
+            
+        with open(fname,"w") as f:
+            json.dump(hdr,f,indent=2)
+    
+
+    # Read the score file.
+    scoreL  = read_caw_score_csv(cfg.out_score_csv_fname)
+
+    # Read the table-of-contents file
+    tocL    = _read_toc_json(cfg.toc_json_fname)
+
+    noteLocMapD =  _gen_note_to_loc_map(scoreL)
+
+    noteIdToLocD = _gen_note_to_loc_map(scoreL)
+    
+    # Create a section->loc and meas->loc maps
+    measLocMapD, sectLocMapD = _gen_meas_and_sect_loc_map(scoreL, noteLocMapD)
+
+    # Refine the section->loc map to account for manual sections in the TOC.
+    sectLocMapD = _refine_sect_loc_map( sectLocMapD, tocL, noteLocMapD )
+
+    # Create the SF control file
+    # sf_ctlL = _gen_sf_ctl( tocL, scoreL )
+
+    sf_ctlL = _gen_sf_ctl_list( scoreL, cfg.piano_id, cfg.max_gap_dur_sec )
+
+    # Write the SF control file.
+    _write_sf_ctl_file( cfg.out_sf_ctl_json_fname, sf_ctlL, measLocMapD, sectLocMapD )
 
 def gen_spirio_multi_player( cfg, fullMpD ):
 
@@ -258,6 +404,8 @@ def gen_spirio_multi_player( cfg, fullMpD ):
 def get_part_2_cfg(char_code):
 
     cfg = dict(
+        max_gap_dur_sec      = 4.0,
+        piano_id             = PIANO_MAP[ char_code.upper() ],
         out_dir              = f"gutim_2/{char_code}/caw",
         score_pkl_fname      = f"gutim_2/{char_code}/output/cache/assign_sustain.pkl",
         seg_list_pkl_fname   = f"gutim_2/{char_code}/output/cache/seg_list.pkl",
@@ -297,23 +445,29 @@ def get_part_2_cfg(char_code):
 
 if __name__ == "__main__":
 
-    cfg = get_part_2_cfg('a')
+    # cfg = get_part_2_cfg('a')
     # cfg = get_part_2_cfg('b')
     # cfg = get_part_2_cfg('c')
 
-    # locMapD = {<src>}{ old_loc:new_loc } holds a map of old->new score locations - which should not have
-    # changed since no material was inserted (cfg.scriabin_scoreL[]) is empty)
-    locMapD, _ = gpf.gen_sf_score(cfg)
+    char_codeL = ['a','b','c']
 
-    # Generate a new preset file with updated locations.
-    gpf.update_preset_catalog(cfg,locMapD['gutim'])
+    for c in char_codeL:
 
-    # Generate a multi-player file containing one 'player' for each segment
-    _,fullMpD = gpf.gen_multi_player(cfg,locMapD)
+        cfg = get_part_2_cfg(c)
 
-    # gpf.print_mp_directory(cfg.out_mult_play_json_fname,segPlayerMapD)
+        # locMapD = {<src>}{ old_loc:new_loc } holds a map of old->new score locations - which should not have
+        # changed since no material was inserted (cfg.scriabin_scoreL[]) is empty)
+        locMapD, _ = gpf.gen_sf_score(cfg)
 
-    gen_spirio_multi_player( cfg, fullMpD )
+        # Generate a new preset file with updated locations.
+        gpf.update_preset_catalog(cfg,locMapD['gutim'])
 
-    gen_part_2_ctl_file( cfg )
-    # gen_pgm_ctl_file(cfg.out_mult_play_json_fname, segPlayerMapD, cfg.out_ctl_json_fname)
+        # Generate a multi-player file containing one 'player' for each segment
+        _,fullMpD = gpf.gen_multi_player(cfg,locMapD)
+
+        # gpf.print_mp_directory(cfg.out_mult_play_json_fname,segPlayerMapD)
+
+        gen_spirio_multi_player( cfg, fullMpD )
+
+        gen_part_2_ctl_file( cfg )
+        # gen_pgm_ctl_file(cfg.out_mult_play_json_fname, segPlayerMapD, cfg.out_ctl_json_fname)
