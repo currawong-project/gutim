@@ -132,7 +132,7 @@ def set_target_player_id(tgtL,mpD):
         fl = False;
         for mp_label,d in mpD.items():
             if tgt['target_label'] == mp_label:
-                tgt['id'] = d['label_id']
+                tgt['id'] = d['player_id']
                 fl = True
                 break
 
@@ -154,7 +154,7 @@ def concat_spirio_mp_files( src_fileL ):
 
         for label,d in smD.items():
             assert label not in mpD
-            d['label_id']  = label_id
+            d['player_id']  = label_id
             mpD[label]     = d
             label_id      += 1
 
@@ -176,10 +176,12 @@ def write_output_file( fname, tgtL ):
         json.dump(tgtL,f,indent=2)
         
 
-
-if __name__ == "__main__":
-
+def write_spirio_mp_file( fname, mpD ):
+    with open(fname, 'w') as f:
+        json.dump(mpD,f,indent=2);
+              
     
+if __name__ == "__main__":    
     spirio_json_fname = "gutim_2/spirio_mp.json"
     out_json_fname    = "gutim_2/monitor_state.json"
 
@@ -216,7 +218,7 @@ if __name__ == "__main__":
             print(f"The 'trigger.yaml' file '{trig_yaml_fname}' was not found.")
 
 
-    # TODO: check that there are no duplicate target labels in tgtL:[]
+    # check that there are no duplicate target labels in tgtL:[]
     assert check_for_duplicate_target_labels(tgtL)
     
     # Concatenate the sprio multi-player files from A,B and C
@@ -234,3 +236,5 @@ if __name__ == "__main__":
     # Write the KSM cfg. file
     print("Writing KSM file:",out_json_fname)
     write_output_file( out_json_fname, hdr )
+
+    write_spirio_mp_file( spirio_json_fname, mpD )
