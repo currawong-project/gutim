@@ -1,0 +1,1834 @@
+{
+  "portL": [
+    0,
+    1,
+    2
+  ],
+  "targetL": [
+    {
+      "target_label": "7063_A_90_SP",
+      "id": 0,
+      "sourceL": [
+        {
+          "port_id": 0,
+          "label": "A_5B0s_Nof",
+          "beg_primer_loc": 1174,
+          "end_primer_loc": 1174,
+          "attrL": [
+            "note-off"
+          ],
+          "pitchL": [
+            23,
+            37,
+            41,
+            50
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        },
+        {
+          "port_id": 0,
+          "label": "A_5B0e_KuPu",
+          "beg_primer_loc": 1171,
+          "end_primer_loc": 1174,
+          "attrL": [
+            "all-keys-up",
+            "all-pedals-up"
+          ],
+          "pitchL": [
+            23,
+            37,
+            41,
+            50,
+            31,
+            21,
+            23,
+            37,
+            41,
+            50
+          ],
+          "up_min_dur_ms": 200,
+          "trig_delay_ms": 0
+        },
+        {
+          "port_id": 1,
+          "label": "B_5Bb1q_NofDu",
+          "beg_primer_loc": 1012,
+          "end_primer_loc": 1012,
+          "attrL": [
+            "note-off",
+            "damp-up"
+          ],
+          "pitchL": [
+            66,
+            34
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        },
+        {
+          "port_id": 2,
+          "label": "C_5C3s_Nof",
+          "beg_primer_loc": 964,
+          "end_primer_loc": 964,
+          "attrL": [
+            "note-on"
+          ],
+          "pitchL": [
+            48
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        }
+      ]
+    },
+    {
+      "target_label": "7126_A_171_SP",
+      "id": 1,
+      "sourceL": [
+        {
+          "port_id": 0,
+          "label": "A_1G7s_NofPu",
+          "beg_primer_loc": 2016,
+          "end_primer_loc": 2016,
+          "attrL": [
+            "note-off",
+            "all-pedals-up"
+          ],
+          "pitchL": [
+            103
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        },
+        {
+          "port_id": 0,
+          "label": "A_1Gb1t_KuPu",
+          "beg_primer_loc": 2006,
+          "end_primer_loc": 2016,
+          "attrL": [
+            "all-keys-up",
+            "all-pedals-up"
+          ],
+          "pitchL": [
+            30,
+            70,
+            42,
+            50,
+            58,
+            50,
+            50,
+            79,
+            56,
+            50,
+            58,
+            91,
+            50,
+            56,
+            58,
+            103
+          ],
+          "up_min_dur_ms": 200,
+          "trig_delay_ms": 0
+        },
+        {
+          "port_id": 1,
+          "label": "B_2B6e_Non",
+          "beg_primer_loc": 2091,
+          "end_primer_loc": 2091,
+          "attrL": [
+            "note-on"
+          ],
+          "pitchL": [
+            95,
+            98
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        },
+        {
+          "port_id": 1,
+          "label": "B_1Gs5t_Non",
+          "beg_primer_loc": 2093,
+          "end_primer_loc": 2096,
+          "attrL": [
+            "note-on"
+          ],
+          "pitchL": [
+            80,
+            90,
+            46,
+            53,
+            80
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        }
+      ]
+    },
+    {
+      "target_label": "7128_A_175_SP",
+      "id": 2,
+      "sourceL": [
+        {
+          "port_id": 1,
+          "label": "B_5Gb1s_Non",
+          "beg_primer_loc": 2176,
+          "end_primer_loc": 2178,
+          "attrL": [
+            "note-on"
+          ],
+          "pitchL": [
+            30,
+            65,
+            96,
+            88
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        },
+        {
+          "port_id": 2,
+          "label": "C_1D6q_Non",
+          "beg_primer_loc": 1838,
+          "end_primer_loc": 1838,
+          "attrL": [
+            "note-on"
+          ],
+          "pitchL": [
+            86,
+            30,
+            36
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        }
+      ]
+    },
+    {
+      "target_label": "7139a_A_202_SP",
+      "id": 3,
+      "sourceL": [
+        {
+          "port_id": 0,
+          "label": "A_5A4t_KuPu",
+          "beg_primer_loc": 2412,
+          "end_primer_loc": 2419,
+          "attrL": [
+            "all-keys-up",
+            "all-pedals-up"
+          ],
+          "pitchL": [
+            69,
+            36,
+            42,
+            69,
+            36,
+            42,
+            69,
+            36
+          ],
+          "up_min_dur_ms": 100,
+          "trig_delay_ms": 0
+        },
+        {
+          "port_id": 1,
+          "label": "B_5Gs1h_KuPu",
+          "beg_primer_loc": 2368,
+          "end_primer_loc": 2368,
+          "attrL": [
+            "all-keys-up",
+            "all-pedals-up"
+          ],
+          "pitchL": [
+            32,
+            35,
+            27
+          ],
+          "up_min_dur_ms": 50,
+          "trig_delay_ms": 0
+        },
+        {
+          "port_id": 2,
+          "label": "C_1F5h_Nof",
+          "beg_primer_loc": 1943,
+          "end_primer_loc": 1943,
+          "attrL": [
+            "note-off"
+          ],
+          "pitchL": [
+            77
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        }
+      ]
+    },
+    {
+      "target_label": "7157_A_226_SP",
+      "id": 4,
+      "sourceL": [
+        {
+          "port_id": 0,
+          "label": "A_1Cs6t_KuPu",
+          "beg_primer_loc": 2679,
+          "end_primer_loc": 2687,
+          "attrL": [
+            "all-keys-up",
+            "all-pedals-up"
+          ],
+          "pitchL": [
+            85,
+            68,
+            57,
+            70,
+            84,
+            68,
+            84,
+            88,
+            74,
+            88
+          ],
+          "up_min_dur_ms": 50,
+          "trig_delay_ms": 0
+        },
+        {
+          "port_id": 1,
+          "label": "B_5G1q_Non",
+          "beg_primer_loc": 2649,
+          "end_primer_loc": 2649,
+          "attrL": [
+            "note-on"
+          ],
+          "pitchL": [
+            31,
+            40,
+            65
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        },
+        {
+          "port_id": 2,
+          "label": "C_5Gs2e_Nof",
+          "beg_primer_loc": 2212,
+          "end_primer_loc": 2212,
+          "attrL": [
+            "note-off"
+          ],
+          "pitchL": [
+            44
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        },
+        {
+          "port_id": 2,
+          "label": "C_5C4e_Non",
+          "beg_primer_loc": 2213,
+          "end_primer_loc": 2213,
+          "attrL": [
+            "note-on"
+          ],
+          "pitchL": [
+            60
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        }
+      ]
+    },
+    {
+      "target_label": "7171_A_243_SP",
+      "id": 5,
+      "sourceL": [
+        {
+          "port_id": 1,
+          "label": "B_6G1t_Nof",
+          "beg_primer_loc": 2966,
+          "end_primer_loc": 2963,
+          "attrL": [
+            "note-off"
+          ],
+          "pitchL": [],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        },
+        {
+          "port_id": 1,
+          "label": "B_5B1q_Non",
+          "beg_primer_loc": 2967,
+          "end_primer_loc": 2967,
+          "attrL": [
+            "note-on"
+          ],
+          "pitchL": [
+            35,
+            42,
+            31
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        },
+        {
+          "port_id": 2,
+          "label": "C_1B5t_NofPu",
+          "beg_primer_loc": 2417,
+          "end_primer_loc": 2419,
+          "attrL": [
+            "note-off",
+            "all-pedals-up"
+          ],
+          "pitchL": [
+            83,
+            80,
+            43,
+            32
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        },
+        {
+          "port_id": 2,
+          "label": "C_5Gs5s_Non",
+          "beg_primer_loc": 2420,
+          "end_primer_loc": 2420,
+          "attrL": [
+            "note-on"
+          ],
+          "pitchL": [
+            80
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        }
+      ]
+    },
+    {
+      "target_label": "7220_A_295_SP",
+      "id": 6,
+      "sourceL": [
+        {
+          "port_id": 1,
+          "label": "B_5F5t_Non",
+          "beg_primer_loc": 3651,
+          "end_primer_loc": 3654,
+          "attrL": [
+            "note-on"
+          ],
+          "pitchL": [
+            77,
+            44,
+            48,
+            89
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        },
+        {
+          "port_id": 2,
+          "label": "C_1A7s_Non",
+          "beg_primer_loc": 3253,
+          "end_primer_loc": 3256,
+          "attrL": [
+            "note-on"
+          ],
+          "pitchL": [
+            105,
+            105,
+            29,
+            29,
+            29,
+            51
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        }
+      ]
+    },
+    {
+      "target_label": "7230a_A_304_SP",
+      "id": 7,
+      "sourceL": [
+        {
+          "port_id": 1,
+          "label": "B_5C1h_Nof",
+          "beg_primer_loc": 3822,
+          "end_primer_loc": 3822,
+          "attrL": [
+            "note-off"
+          ],
+          "pitchL": [
+            24,
+            25,
+            35,
+            55
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        },
+        {
+          "port_id": 2,
+          "label": "C_1Db4t_Nof",
+          "beg_primer_loc": 3408,
+          "end_primer_loc": 3413,
+          "attrL": [
+            "note-off"
+          ],
+          "pitchL": [
+            61,
+            80,
+            93,
+            38,
+            93,
+            80
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        },
+        {
+          "port_id": 2,
+          "label": "C_5Cs7h_Non",
+          "beg_primer_loc": 3414,
+          "end_primer_loc": 3414,
+          "attrL": [
+            "note-on"
+          ],
+          "pitchL": [
+            38,
+            40,
+            46,
+            97,
+            105
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        }
+      ]
+    },
+    {
+      "target_label": "7250_A_328_SP",
+      "id": 8,
+      "sourceL": [
+        {
+          "port_id": 0,
+          "label": "A_5A1t_Nof",
+          "beg_primer_loc": 3968,
+          "end_primer_loc": 3970,
+          "attrL": [
+            "note-off"
+          ],
+          "pitchL": [
+            44,
+            33,
+            40,
+            29
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        },
+        {
+          "port_id": 1,
+          "label": "B_5Gs1t_Nof",
+          "beg_primer_loc": 4320,
+          "end_primer_loc": 4322,
+          "attrL": [
+            "note-off"
+          ],
+          "pitchL": [
+            32,
+            25,
+            21
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        },
+        {
+          "port_id": 1,
+          "label": "B_5D3t_KuPu",
+          "beg_primer_loc": 4277,
+          "end_primer_loc": 4322,
+          "attrL": [
+            "all-keys-up",
+            "all-pedals-up"
+          ],
+          "pitchL": [
+            50,
+            37,
+            33,
+            56,
+            32,
+            33,
+            56,
+            50,
+            37,
+            33,
+            56,
+            33,
+            56,
+            38,
+            41,
+            38,
+            25,
+            62,
+            44,
+            70,
+            62,
+            66,
+            68,
+            62,
+            21,
+            65,
+            29,
+            36,
+            26,
+            29,
+            80,
+            26,
+            29,
+            26,
+            32,
+            26,
+            25,
+            26,
+            32,
+            25,
+            21,
+            29,
+            26,
+            32,
+            25,
+            26,
+            32,
+            25,
+            21
+          ],
+          "up_min_dur_ms": 200,
+          "trig_delay_ms": 0
+        },
+        {
+          "port_id": 2,
+          "label": "C_5Ab2t_Nof",
+          "beg_primer_loc": 3926,
+          "end_primer_loc": 3927,
+          "attrL": [
+            "note-off"
+          ],
+          "pitchL": [
+            44,
+            48,
+            64,
+            31,
+            32
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        },
+        {
+          "port_id": 2,
+          "label": "C_5Ds1s_KuPu",
+          "beg_primer_loc": 3899,
+          "end_primer_loc": 3927,
+          "attrL": [
+            "all-keys-up",
+            "all-pedals-up"
+          ],
+          "pitchL": [
+            27,
+            32,
+            37,
+            55,
+            59,
+            36,
+            46,
+            48,
+            41,
+            35,
+            43,
+            88,
+            85,
+            88,
+            73,
+            76,
+            55,
+            48,
+            61,
+            76,
+            61,
+            60,
+            43,
+            56,
+            60,
+            44,
+            72,
+            76,
+            31,
+            61,
+            44,
+            76,
+            48,
+            44,
+            48,
+            49,
+            44,
+            48,
+            64,
+            31,
+            32
+          ],
+          "up_min_dur_ms": 200,
+          "trig_delay_ms": 0
+        }
+      ]
+    },
+    {
+      "target_label": "7024_B_39_SP",
+      "id": 9,
+      "sourceL": [
+        {
+          "port_id": 0,
+          "label": "A_2B0q_Nof",
+          "beg_primer_loc": 708,
+          "end_primer_loc": 708,
+          "attrL": [
+            "note-off"
+          ],
+          "pitchL": [
+            23
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        },
+        {
+          "port_id": 2,
+          "label": "C_1Eb6t_Non",
+          "beg_primer_loc": 490,
+          "end_primer_loc": 494,
+          "attrL": [
+            "note-on"
+          ],
+          "pitchL": [
+            87,
+            74,
+            87,
+            74,
+            48
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        }
+      ]
+    },
+    {
+      "target_label": "7034_B_55_SP",
+      "id": 10,
+      "sourceL": [
+        {
+          "port_id": 2,
+          "label": "C_2Gs3q_Nof",
+          "beg_primer_loc": 680,
+          "end_primer_loc": 680,
+          "attrL": [
+            "note-off"
+          ],
+          "pitchL": [
+            56
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        },
+        {
+          "port_id": 2,
+          "label": "C_1Gs3e_Non",
+          "beg_primer_loc": 681,
+          "end_primer_loc": 681,
+          "attrL": [
+            "note-on"
+          ],
+          "pitchL": [
+            56,
+            78,
+            81,
+            50,
+            59
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        }
+      ]
+    },
+    {
+      "target_label": "7063_B_90_SP",
+      "id": 11,
+      "sourceL": [
+        {
+          "port_id": 0,
+          "label": "A_5B0s_Nof",
+          "beg_primer_loc": 1174,
+          "end_primer_loc": 1174,
+          "attrL": [
+            "note-off"
+          ],
+          "pitchL": [
+            23,
+            37,
+            41,
+            50
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        },
+        {
+          "port_id": 0,
+          "label": "A_5B0e_KuPu",
+          "beg_primer_loc": 1171,
+          "end_primer_loc": 1174,
+          "attrL": [
+            "all-keys-up",
+            "all-pedals-up"
+          ],
+          "pitchL": [
+            23,
+            37,
+            41,
+            50,
+            31,
+            21,
+            23,
+            37,
+            41,
+            50
+          ],
+          "up_min_dur_ms": 200,
+          "trig_delay_ms": 0
+        },
+        {
+          "port_id": 1,
+          "label": "B_5Bb1q_NofDu",
+          "beg_primer_loc": 1012,
+          "end_primer_loc": 1012,
+          "attrL": [
+            "note-off",
+            "damp-up"
+          ],
+          "pitchL": [
+            66,
+            34
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        },
+        {
+          "port_id": 2,
+          "label": "C_5C3s_Nof",
+          "beg_primer_loc": 964,
+          "end_primer_loc": 964,
+          "attrL": [
+            "note-on"
+          ],
+          "pitchL": [
+            48
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        }
+      ]
+    },
+    {
+      "target_label": "7079_B_122_SP",
+      "id": 12,
+      "sourceL": [
+        {
+          "port_id": 2,
+          "label": "C_2F2e_Non",
+          "beg_primer_loc": 1284,
+          "end_primer_loc": 1284,
+          "attrL": [
+            "note-on"
+          ],
+          "pitchL": [
+            41,
+            48
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        }
+      ]
+    },
+    {
+      "target_label": "7111_B_160_SP",
+      "id": 13,
+      "sourceL": [
+        {
+          "port_id": 2,
+          "label": "C_1Fs4t_Non",
+          "beg_primer_loc": 1655,
+          "end_primer_loc": 1655,
+          "attrL": [
+            "note-on"
+          ],
+          "pitchL": [
+            66
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        }
+      ]
+    },
+    {
+      "target_label": "7119_B_167_SP",
+      "id": 14,
+      "sourceL": [
+        {
+          "port_id": 0,
+          "label": "A_5B1t_Non",
+          "beg_primer_loc": 1899,
+          "end_primer_loc": 1902,
+          "attrL": [
+            "note-on"
+          ],
+          "pitchL": [
+            35,
+            36,
+            30,
+            35
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        },
+        {
+          "port_id": 2,
+          "label": "C_2Gb4s_Non",
+          "beg_primer_loc": 1739,
+          "end_primer_loc": 1743,
+          "attrL": [
+            "note-on"
+          ],
+          "pitchL": [
+            66,
+            76,
+            58,
+            73,
+            44
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        }
+      ]
+    },
+    {
+      "target_label": "7124_B_171_SP",
+      "id": 15,
+      "sourceL": [
+        {
+          "port_id": 0,
+          "label": "A_1G7s_Nof",
+          "beg_primer_loc": 2016,
+          "end_primer_loc": 2016,
+          "attrL": [
+            "note-off"
+          ],
+          "pitchL": [
+            103
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        },
+        {
+          "port_id": 0,
+          "label": "A_1Gb1t_Ku",
+          "beg_primer_loc": 2006,
+          "end_primer_loc": 2016,
+          "attrL": [
+            "all-keys-up"
+          ],
+          "pitchL": [
+            30,
+            70,
+            42,
+            50,
+            58,
+            50,
+            50,
+            79,
+            56,
+            50,
+            58,
+            91,
+            50,
+            56,
+            58,
+            103
+          ],
+          "up_min_dur_ms": 200,
+          "trig_delay_ms": 0
+        },
+        {
+          "port_id": 2,
+          "label": "C_5F1e_Non",
+          "beg_primer_loc": 1819,
+          "end_primer_loc": 1823,
+          "attrL": [
+            "note-on"
+          ],
+          "pitchL": [
+            29,
+            29,
+            40,
+            29,
+            40
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        }
+      ]
+    },
+    {
+      "target_label": "7141_B_204_SP",
+      "id": 16,
+      "sourceL": [
+        {
+          "port_id": 2,
+          "label": "C_5C4e_Non",
+          "beg_primer_loc": 1958,
+          "end_primer_loc": 1966,
+          "attrL": [
+            "note-on"
+          ],
+          "pitchL": [
+            60,
+            42,
+            48,
+            44,
+            65,
+            77,
+            72,
+            88,
+            30
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        }
+      ]
+    },
+    {
+      "target_label": "7163_B_234_SP",
+      "id": 17,
+      "sourceL": [
+        {
+          "port_id": 2,
+          "label": "C_5Gs3s_Non",
+          "beg_primer_loc": 2353,
+          "end_primer_loc": 2355,
+          "attrL": [
+            "note-on"
+          ],
+          "pitchL": [
+            73,
+            86,
+            56,
+            81,
+            76
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        }
+      ]
+    },
+    {
+      "target_label": "7184_B_255_SP",
+      "id": 18,
+      "sourceL": [
+        {
+          "port_id": 2,
+          "label": "C_1Ab2s_Non",
+          "beg_primer_loc": 2589,
+          "end_primer_loc": 2591,
+          "attrL": [
+            "note-on"
+          ],
+          "pitchL": [
+            44,
+            42,
+            44,
+            28,
+            32,
+            36,
+            65,
+            66
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        }
+      ]
+    },
+    {
+      "target_label": "7212_B_290_SP",
+      "id": 19,
+      "sourceL": [
+        {
+          "port_id": 2,
+          "label": "C_1F4e_Non",
+          "beg_primer_loc": 3131,
+          "end_primer_loc": 3134,
+          "attrL": [
+            "note-on"
+          ],
+          "pitchL": [
+            58,
+            65,
+            36,
+            70,
+            42,
+            55,
+            58,
+            65,
+            36,
+            58,
+            65,
+            70,
+            36,
+            42
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        },
+        {
+          "port_id": 1,
+          "label": "B_5Ab1t_NofPu",
+          "beg_primer_loc": 3537,
+          "end_primer_loc": 3537,
+          "attrL": [
+            "note-off",
+            "all-pedals-up"
+          ],
+          "pitchL": [
+            32
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        }
+      ]
+    },
+    {
+      "target_label": "7225_B_299_SP",
+      "id": 20,
+      "sourceL": [
+        {
+          "port_id": 1,
+          "label": "B_5F2s_NofPu",
+          "beg_primer_loc": 3740,
+          "end_primer_loc": 3741,
+          "attrL": [
+            "note-off",
+            "all-pedals-up"
+          ],
+          "pitchL": [
+            41,
+            50,
+            56,
+            69,
+            38
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        },
+        {
+          "port_id": 2,
+          "label": "C_1Fs6x_Non",
+          "beg_primer_loc": 3325,
+          "end_primer_loc": 3337,
+          "attrL": [
+            "note-on"
+          ],
+          "pitchL": [
+            90,
+            105,
+            104,
+            100,
+            104,
+            105,
+            84,
+            90,
+            105,
+            84,
+            90,
+            100,
+            105,
+            104
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        }
+      ]
+    },
+    {
+      "target_label": "7238_B_314_SP",
+      "id": 21,
+      "sourceL": [
+        {
+          "port_id": 0,
+          "label": "A_5Bb4t_Non",
+          "beg_primer_loc": 3810,
+          "end_primer_loc": 3814,
+          "attrL": [
+            "note-on"
+          ],
+          "pitchL": [
+            70,
+            43,
+            70,
+            42,
+            70
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        },
+        {
+          "port_id": 2,
+          "label": "C_5E4q_Non",
+          "beg_primer_loc": 3580,
+          "end_primer_loc": 3580,
+          "attrL": [
+            "note-on"
+          ],
+          "pitchL": [
+            64,
+            70,
+            84
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        }
+      ]
+    },
+    {
+      "target_label": "7246_B_325_SP",
+      "id": 22,
+      "sourceL": [
+        {
+          "port_id": 0,
+          "label": "A_5Cs2t_Non",
+          "beg_primer_loc": 3915,
+          "end_primer_loc": 3915,
+          "attrL": [
+            "note-on"
+          ],
+          "pitchL": [
+            37
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        },
+        {
+          "port_id": 2,
+          "label": "C_2G5x_Non",
+          "beg_primer_loc": 3880,
+          "end_primer_loc": 3881,
+          "attrL": [
+            "note-on"
+          ],
+          "pitchL": [
+            79,
+            33
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        }
+      ]
+    },
+    {
+      "target_label": "7250_B_328_SP",
+      "id": 23,
+      "sourceL": [
+        {
+          "port_id": 0,
+          "label": "A_5A1t_Nof",
+          "beg_primer_loc": 3968,
+          "end_primer_loc": 3970,
+          "attrL": [
+            "note-off"
+          ],
+          "pitchL": [
+            44,
+            33,
+            40,
+            29
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        },
+        {
+          "port_id": 1,
+          "label": "B_5Gs1t_Nof",
+          "beg_primer_loc": 4320,
+          "end_primer_loc": 4322,
+          "attrL": [
+            "note-off"
+          ],
+          "pitchL": [
+            32,
+            25,
+            21
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        },
+        {
+          "port_id": 1,
+          "label": "B_5D3t_KuPu",
+          "beg_primer_loc": 4277,
+          "end_primer_loc": 4322,
+          "attrL": [
+            "all-keys-up",
+            "all-pedals-up"
+          ],
+          "pitchL": [
+            50,
+            37,
+            33,
+            56,
+            32,
+            33,
+            56,
+            50,
+            37,
+            33,
+            56,
+            33,
+            56,
+            38,
+            41,
+            38,
+            25,
+            62,
+            44,
+            70,
+            62,
+            66,
+            68,
+            62,
+            21,
+            65,
+            29,
+            36,
+            26,
+            29,
+            80,
+            26,
+            29,
+            26,
+            32,
+            26,
+            25,
+            26,
+            32,
+            25,
+            21,
+            29,
+            26,
+            32,
+            25,
+            26,
+            32,
+            25,
+            21
+          ],
+          "up_min_dur_ms": 200,
+          "trig_delay_ms": 0
+        },
+        {
+          "port_id": 2,
+          "label": "C_5Ab2t_Nof",
+          "beg_primer_loc": 3926,
+          "end_primer_loc": 3927,
+          "attrL": [
+            "note-off"
+          ],
+          "pitchL": [
+            44,
+            48,
+            64,
+            31,
+            32
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        },
+        {
+          "port_id": 2,
+          "label": "C_5Ds1s_KuPu",
+          "beg_primer_loc": 3899,
+          "end_primer_loc": 3927,
+          "attrL": [
+            "all-keys-up",
+            "all-pedals-up"
+          ],
+          "pitchL": [
+            27,
+            32,
+            37,
+            55,
+            59,
+            36,
+            46,
+            48,
+            41,
+            35,
+            43,
+            88,
+            85,
+            88,
+            73,
+            76,
+            55,
+            48,
+            61,
+            76,
+            61,
+            60,
+            43,
+            56,
+            60,
+            44,
+            72,
+            76,
+            31,
+            61,
+            44,
+            76,
+            48,
+            44,
+            48,
+            49,
+            44,
+            48,
+            64,
+            31,
+            32
+          ],
+          "up_min_dur_ms": 200,
+          "trig_delay_ms": 0
+        }
+      ]
+    },
+    {
+      "target_label": "7180_C_253_SP",
+      "id": 24,
+      "sourceL": [
+        {
+          "port_id": 2,
+          "label": "C_5Bb2s_Non",
+          "beg_primer_loc": 2566,
+          "end_primer_loc": 2566,
+          "attrL": [
+            "note-on"
+          ],
+          "pitchL": [
+            46,
+            49
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        },
+        {
+          "port_id": 0,
+          "label": "A_1C6h_Non",
+          "beg_primer_loc": 3094,
+          "end_primer_loc": 3094,
+          "attrL": [
+            "note-on"
+          ],
+          "pitchL": [
+            84,
+            41
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        }
+      ]
+    },
+    {
+      "target_label": "7188_C_260_SP",
+      "id": 25,
+      "sourceL": [
+        {
+          "port_id": 2,
+          "label": "C_5Ab1q_1_Non",
+          "beg_primer_loc": 2669,
+          "end_primer_loc": 2669,
+          "attrL": [
+            "note-on"
+          ],
+          "pitchL": [
+            32
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        },
+        {
+          "port_id": 1,
+          "label": "B_5D4s_Non",
+          "beg_primer_loc": 3212,
+          "end_primer_loc": 3214,
+          "attrL": [
+            "note-on"
+          ],
+          "pitchL": [
+            62,
+            70,
+            98,
+            54,
+            62
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        }
+      ]
+    },
+    {
+      "target_label": "7200_C_274_SP",
+      "id": 26,
+      "sourceL": [
+        {
+          "port_id": 1,
+          "label": "B_5B2t_Non",
+          "beg_primer_loc": 3374,
+          "end_primer_loc": 3376,
+          "attrL": [
+            "note-on"
+          ],
+          "pitchL": [
+            47,
+            62,
+            40,
+            30,
+            50
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        },
+        {
+          "port_id": 0,
+          "label": "A_5F2q_Non",
+          "beg_primer_loc": 3333,
+          "end_primer_loc": 3333,
+          "attrL": [
+            "note-on"
+          ],
+          "pitchL": [
+            41,
+            87
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        }
+      ]
+    },
+    {
+      "target_label": "7215_C_292_SP",
+      "id": 27,
+      "sourceL": [
+        {
+          "port_id": 0,
+          "label": "A_5Fs1e_Non",
+          "beg_primer_loc": 3479,
+          "end_primer_loc": 3480,
+          "attrL": [
+            "note-on"
+          ],
+          "pitchL": [
+            30,
+            35,
+            38,
+            58,
+            32
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        }
+      ]
+    },
+    {
+      "target_label": "7224_C_299_SP",
+      "id": 28,
+      "sourceL": [
+        {
+          "port_id": 1,
+          "label": "B_5F2s_Non",
+          "beg_primer_loc": 3740,
+          "end_primer_loc": 3741,
+          "attrL": [
+            "note-on"
+          ],
+          "pitchL": [
+            41,
+            50,
+            56,
+            69,
+            38
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        },
+        {
+          "port_id": 2,
+          "label": "C_6F3s_Ku",
+          "beg_primer_loc": 3313,
+          "end_primer_loc": 3319,
+          "attrL": [
+            "all-keys-up"
+          ],
+          "pitchL": [
+            102,
+            53,
+            60,
+            36,
+            44,
+            40,
+            45,
+            54
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        }
+      ]
+    },
+    {
+      "target_label": "7233_C_307_SP",
+      "id": 29,
+      "sourceL": [
+        {
+          "port_id": 0,
+          "label": "A_2Fs3q_Nof",
+          "beg_primer_loc": 3712,
+          "end_primer_loc": 3712,
+          "attrL": [
+            "note-off"
+          ],
+          "pitchL": [
+            54
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        },
+        {
+          "port_id": 1,
+          "label": "B_1D5s_Non",
+          "beg_primer_loc": 3857,
+          "end_primer_loc": 3858,
+          "attrL": [
+            "note-on"
+          ],
+          "pitchL": [
+            74,
+            83,
+            82,
+            41,
+            54
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        }
+      ]
+    },
+    {
+      "target_label": "7236_C_311_SP",
+      "id": 30,
+      "sourceL": [
+        {
+          "port_id": 1,
+          "label": "B_5B4s_Non",
+          "beg_primer_loc": 3920,
+          "end_primer_loc": 3922,
+          "attrL": [
+            "note-on"
+          ],
+          "pitchL": [
+            71,
+            41,
+            62,
+            29
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        }
+      ]
+    },
+    {
+      "target_label": "7250_C_328_SP",
+      "id": 31,
+      "sourceL": [
+        {
+          "port_id": 0,
+          "label": "A_5A1t_Nof",
+          "beg_primer_loc": 3968,
+          "end_primer_loc": 3970,
+          "attrL": [
+            "note-off"
+          ],
+          "pitchL": [
+            44,
+            33,
+            40,
+            29
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        },
+        {
+          "port_id": 1,
+          "label": "B_5Gs1t_Nof",
+          "beg_primer_loc": 4320,
+          "end_primer_loc": 4322,
+          "attrL": [
+            "note-off"
+          ],
+          "pitchL": [
+            32,
+            25,
+            21
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        },
+        {
+          "port_id": 1,
+          "label": "B_5D3t_KuPu",
+          "beg_primer_loc": 4277,
+          "end_primer_loc": 4322,
+          "attrL": [
+            "all-keys-up",
+            "all-pedals-up"
+          ],
+          "pitchL": [
+            50,
+            37,
+            33,
+            56,
+            32,
+            33,
+            56,
+            50,
+            37,
+            33,
+            56,
+            33,
+            56,
+            38,
+            41,
+            38,
+            25,
+            62,
+            44,
+            70,
+            62,
+            66,
+            68,
+            62,
+            21,
+            65,
+            29,
+            36,
+            26,
+            29,
+            80,
+            26,
+            29,
+            26,
+            32,
+            26,
+            25,
+            26,
+            32,
+            25,
+            21,
+            29,
+            26,
+            32,
+            25,
+            26,
+            32,
+            25,
+            21
+          ],
+          "up_min_dur_ms": 200,
+          "trig_delay_ms": 0
+        },
+        {
+          "port_id": 2,
+          "label": "C_5Ab2t_Nof",
+          "beg_primer_loc": 3926,
+          "end_primer_loc": 3927,
+          "attrL": [
+            "note-off"
+          ],
+          "pitchL": [
+            44,
+            48,
+            64,
+            31,
+            32
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        },
+        {
+          "port_id": 2,
+          "label": "C_5Ds1s_KuPu",
+          "beg_primer_loc": 3899,
+          "end_primer_loc": 3927,
+          "attrL": [
+            "all-keys-up",
+            "all-pedals-up"
+          ],
+          "pitchL": [
+            27,
+            32,
+            37,
+            55,
+            59,
+            36,
+            46,
+            48,
+            41,
+            35,
+            43,
+            88,
+            85,
+            88,
+            73,
+            76,
+            55,
+            48,
+            61,
+            76,
+            61,
+            60,
+            43,
+            56,
+            60,
+            44,
+            72,
+            76,
+            31,
+            61,
+            44,
+            76,
+            48,
+            44,
+            48,
+            49,
+            44,
+            48,
+            64,
+            31,
+            32
+          ],
+          "up_min_dur_ms": 200,
+          "trig_delay_ms": 0
+        }
+      ]
+    }
+  ]
+}
