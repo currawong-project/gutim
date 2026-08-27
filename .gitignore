@@ -4,7 +4,16 @@ score_follower/sf_track
 score_follower/tl
 feature_gen/output
 gutim_1/output
-gutim_1/caw
+
+gutim_1/caw/Op74_3_multi_play.json
+gutim_1/caw/Op74_4_multi_play.json
+gutim_1/caw/gutim_multi_play.json
+gutim_1/caw/multi_player.json
+gutim_1/caw/score.csv
+gutim_1/caw/way_point.json
+
+
+
 gutim_1/edits/pedal_archive
 gutim_2/a/scores/hold
 gutim_2/a/output
