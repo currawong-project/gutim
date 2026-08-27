@@ -385,7 +385,7 @@ if __name__ == "__main__":
     # 8. DONE: assign a measure numbers to messages
     # 9. DONE: assign player_id,port_id,section_label to messages based on the TOC
 
-    out_tl_json_fname = "gutim_1/tl_play.json"
+    out_tl_json_fname = "gutim_1/caw/tl_play.json"
     out_score_csv_fname = "gutim_1/caw/tl_score.csv"
     out_caw_toc_fname = "gutim_1/output/caw_toc.json"
     score_csv_fname   = "gutim_1/caw/score.csv"
