@@ -36,10 +36,12 @@ def read_caw_score_csv( fname ):
 def gen_part_2_ctl_file( cfg ):
     # Generate the JSON file for the gutim_2_sf_ctl.
     
-    def _read_toc_json( fname ):
+    def _read_toc_json( fname, piano_id ):
         with open(fname) as f:
             tocL = json.load(f)
-        return tocL
+
+        
+        return [toc for toc in tocL if PIANO_MAP[toc['piano']] == piano_id ]
 
     def _gen_sf_ctl_0( tocL, scoreL ):
 
@@ -97,16 +99,16 @@ def gen_part_2_ctl_file( cfg ):
                 seg['max_dur_sec'] = max_dur_sec
                 seg['max_note_id'] = max_note_id
 
+
+
+                
         scoreL = [ r for r in scoreL if r.note_id is not None and len(r.note_id.strip())> 0 ]
-
-
+        
         for r in scoreL:
             if r.sec is None or type(r.sec) != float:
                 print(r)
         
         scoreL = sorted(scoreL,key=lambda x:x.sec)
-
-
         
         segL = _find_segments(scoreL,max_gap_dur_sec)
         _set_max_ioi(scoreL,segL)
@@ -196,7 +198,7 @@ def gen_part_2_ctl_file( cfg ):
     scoreL  = read_caw_score_csv(cfg.out_score_csv_fname)
 
     # Read the table-of-contents file
-    tocL    = _read_toc_json(cfg.toc_json_fname)
+    tocL    = _read_toc_json(cfg.toc_json_fname,cfg.piano_id)
 
     noteLocMapD =  _gen_note_to_loc_map(scoreL)
 
@@ -382,7 +384,7 @@ def gen_spirio_multi_player( cfg, fullMpD ):
 
                 msgL = _get_msg_list( fullMpD, toc['beg_mp_id'], toc['end_mp_id'] )
 
-                mp = dict(player_id = PLAYER_MAP[toc['player']],
+                mp = dict(player_id = len(outMpD),
                           label     = toc['seg_label'],
                           port_id   = PIANO_MAP[ toc['piano'] ],
                           sectL     = [ toc['seg_label'] ],
@@ -401,6 +403,22 @@ def gen_spirio_multi_player( cfg, fullMpD ):
             
     _write_spirio_mp_file( spirioMpD, cfg.out_spirio_mp_json_fname )
 
+def merge_all_preset_catalogs( preset_json_fnameL, out_preset_json_fname ):
+
+    segL = []
+    for fname,piano_id in preset_json_fnameL:
+        with open(fname) as f:
+            r = json.load(f)
+
+        r['port_id'] = piano_id
+        segL.append(r)
+
+    with open(out_preset_json_fname,"w") as f:
+        json.dump(segL,f,indent=2)
+        
+        
+    
+    
 def get_part_2_cfg(char_code):
 
     cfg = dict(
@@ -412,6 +430,7 @@ def get_part_2_cfg(char_code):
         base_score_csv_fname = f"gutim_2/{char_code}/output/legacy_sf_score.csv",
         preset_json_fname    = f"gutim_2/{char_code}/output/new_catalog.json",
         toc_json_fname       = f"gutim_2/{char_code}/output/caw_toc.json",
+        full_preset_json_fname = "gutim_2/full_preset_catalog.json",
         scriabin_scoreL      = [],
         
         out_score_csv_fname      = "score.csv",
@@ -439,18 +458,13 @@ def get_part_2_cfg(char_code):
 
     return cfg
 
-    
-    
-
 
 if __name__ == "__main__":
 
-    # cfg = get_part_2_cfg('a')
-    # cfg = get_part_2_cfg('b')
-    # cfg = get_part_2_cfg('c')
-
     char_codeL = ['a','b','c']
 
+    preset_fnameL = []
+    
     for c in char_codeL:
 
         cfg = get_part_2_cfg(c)
@@ -471,3 +485,8 @@ if __name__ == "__main__":
 
         gen_part_2_ctl_file( cfg )
         # gen_pgm_ctl_file(cfg.out_mult_play_json_fname, segPlayerMapD, cfg.out_ctl_json_fname)
+
+        preset_fnameL.append((cfg.out_preset_json_fname,cfg.piano_id))
+
+    merge_all_preset_catalogs( preset_fnameL, cfg.full_preset_json_fname )
+        
