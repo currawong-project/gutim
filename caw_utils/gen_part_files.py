@@ -389,6 +389,24 @@ def _gen_multi_player( score_pkl_fname, seg_list_pkl_fname, locMapD, locMapSrc )
     return mpSegL
 
 
+def _write_mp_file(fname, mpSegL):
+    segPlayerMapD = {}
+    outD = {}
+    for seg_id,mpSegD in enumerate(mpSegL):
+        outD[mpSegD['label']] = dict(player_id = seg_id,
+                                     label     = mpSegD['label'],
+                                     port_id   = mpSegD['port_id'],
+                                     sectL     = mpSegD['sectL'],
+                                     msgL      = mpSegD['msgL'])
+
+        segPlayerMapD[seg_id] = mpSegD['player_id']
+
+
+    with open(fname,"w") as f:
+        json.dump(outD,f,indent=2)
+
+    return segPlayerMapD,outD
+
 
 def gen_multi_player(cfg,locMapD):
 
@@ -402,29 +420,15 @@ def gen_multi_player(cfg,locMapD):
                     mpSectL.insert(i,ssMpSectD)
                     break
 
-    def _write_mp_file(fname, mpSegL):
-        segPlayerMapD = {}
-        outD = {}
-        for seg_id,mpSegD in enumerate(mpSegL):
-            outD[mpSegD['label']] = dict(player_id = seg_id,
-                                         label     = mpSegD['label'],
-                                         port_id   = mpSegD['port_id'],
-                                         sectL     = mpSegD['sectL'],
-                                         msgL      = mpSegD['msgL'])
+        assert False
 
-            segPlayerMapD[seg_id] = mpSegD['player_id']
-            
-                 
-        with open(fname,"w") as f:
-            json.dump(outD,f,indent=2)
-
-        return segPlayerMapD,outD
 
     # get the base segments
     mpSegL = _gen_multi_player( cfg.score_pkl_fname,
                                 cfg.seg_list_pkl_fname,
                                 locMapD, 'gutim' )
-
+    
+    
     # for each of the scriabin segments
     for scriabin_score in cfg.scriabin_scoreL:
         ssMpSegL = _gen_multi_player( scriabin_score.score_pkl_fname,
@@ -439,7 +443,12 @@ def gen_multi_player(cfg,locMapD):
 
     return segPlayerMapD,outD
 
-
+def gen_multi_play_simple( score_pkl_fname, seg_list_pkl_fname, locMapD, src_label, out_json_fname ):
+    
+    mpSegL = _gen_multi_player( score_pkl_fname, seg_list_pkl_fname, locMapD, 'gutim' )
+    
+    _write_mp_file( out_json_fname, mpSegL )
+    
 
 def print_mp_directory(mp_json_fname,segPlayerMapD):
 
