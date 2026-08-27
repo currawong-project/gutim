@@ -10,7 +10,7 @@ _ACC_OFFSET = {'s': 1, 'b': -1, '': 0}
 INVALID_LOC = -1
 INVALID_SCI_PITCH = ""
 
-def get_meas_msg_dict( score_pkl_fname, seg_list_pkl_fname, outMeasStartSecD, scoreMeasStartSecD ):
+def get_meas_msg_dict( score_pkl_fname, seg_list_pkl_fname, outMeasStartSecD, scoreMeasStartSecD, player_filterL ):
 
     def _get_pedal_list( score_pkl_fname ):
         with open(score_pkl_fname,"rb") as f:
@@ -56,9 +56,9 @@ def get_meas_msg_dict( score_pkl_fname, seg_list_pkl_fname, outMeasStartSecD, sc
                 
             
 
-    def _load_msg_list( measEvtD, outMeasStartSecD, scoreMeasStartSecD ):
+    def _load_msg_list( measEvtD, outMeasStartSecD, scoreMeasStartSecD, player_filterL ):
 
-        def _form_event_msg_list(eventD, meas_numb, out_meas_start_sec, score_meas_start_sec):
+        def _form_event_msg_list(eventD, meas_numb, out_meas_start_sec, score_meas_start_sec, player_id_filterL):
 
             def _midi_pitch( e ):
                 return (e.octave + 1) * 12 + _PC_OFFSET[e.pitch_class] + _ACC_OFFSET[e.accidental]
@@ -100,12 +100,13 @@ def get_meas_msg_dict( score_pkl_fname, seg_list_pkl_fname, outMeasStartSecD, sc
             port_id      = PIANO_MAP[eventD['piano']]
             section_label = eventD['section_label']
             
-            is_note_fl = e is not None and isinstance(e,(Note,GraceNote))
-            is_rest_fl = e is not None and isinstance(e,(Rest,GraceRest))
+            is_note_fl     = e is not None and isinstance(e,(Note,GraceNote))
+            is_rest_fl     = e is not None and isinstance(e,(Rest,GraceRest))
+            is_filtered_fl = player_id in player_id_filterL
             
             
             # if this is a note
-            if is_note_fl and e.has_onset:
+            if is_note_fl and e.has_onset and not is_filtered_fl:
 
                 # if meas_numb == 202:
                 #    print("A:",_midi_pitch(e),e.abs_time,e.id,out_meas_start_sec,score_meas_start_sec)
@@ -143,7 +144,7 @@ def get_meas_msg_dict( score_pkl_fname, seg_list_pkl_fname, outMeasStartSecD, sc
                 msgL = [n0,n1]
 
             # if this event has a pedal
-            if pe is not None and (is_note_fl or is_rest_fl):
+            if pe is not None and (is_note_fl or is_rest_fl) and not is_filtered_fl:
 
                 clear_offset_sec = 50/1000.0
                 
@@ -182,6 +183,8 @@ def get_meas_msg_dict( score_pkl_fname, seg_list_pkl_fname, outMeasStartSecD, sc
 
             return msgL
 
+
+        player_id_filterL = [ PLAYER_MAP[ player ] for player in player_filterL ]
         
         # for each measure
         measMsgD = {} # {meas_num:[ msg ]}
@@ -195,7 +198,7 @@ def get_meas_msg_dict( score_pkl_fname, seg_list_pkl_fname, outMeasStartSecD, sc
             for e in eventL:
                 # convert the event to it's MIDI form
 
-                msgL += _form_event_msg_list(e,meas_num,out_meas_start_sec,score_meas_start_sec)
+                msgL += _form_event_msg_list(e,meas_num,out_meas_start_sec,score_meas_start_sec,player_id_filterL)
 
             # sort msgL on ascending time
             measMsgD[meas_num] = sorted(msgL,key=lambda x:x['sec'])
@@ -208,7 +211,7 @@ def get_meas_msg_dict( score_pkl_fname, seg_list_pkl_fname, outMeasStartSecD, sc
     pedalL   = _get_pedal_list( score_pkl_fname )
     measEvtD = _form_meas_event_dict( seg_list_pkl_fname )
     _attach_pedal_events(measEvtD,pedalL)
-    measMsgD = _load_msg_list(measEvtD,outMeasStartSecD,scoreMeasStartSecD)
+    measMsgD = _load_msg_list(measEvtD,outMeasStartSecD,scoreMeasStartSecD,player_filterL)
     
     return measMsgD
 
@@ -359,14 +362,14 @@ def form_meas_time_dict( cfgL ):
     return outMeasStartSecD, pianoMeasTimeD
         
 
-def get_messages(cfgL, outMeasStartSecD):
+def get_messages(cfgL, player_filterL, outMeasStartSecD):
 
     measMsgD = {}
     # for each score/seg_list form meas_num,msgL
     for cfg in cfgL:
 
         # append the msgs for each measure into measMsgD
-        for meas_num,msgL in get_meas_msg_dict( cfg.score_pkl_fname, cfg.seg_list_pkl_fname, outMeasStartSecD, cfg.measStartSecD ).items():
+        for meas_num,msgL in get_meas_msg_dict( cfg.score_pkl_fname, cfg.seg_list_pkl_fname, outMeasStartSecD, cfg.measStartSecD, player_filterL ).items():
             if meas_num not in measMsgD:
                 measMsgD[meas_num] = []
             measMsgD[meas_num] += msgL
@@ -378,7 +381,7 @@ def get_messages(cfgL, outMeasStartSecD):
     return measMsgD
                     
 
-def create_toc_dict(cfgL,measMsgD):
+def create_toc_dict(cfgL,measMsgD, player_filterL):
 
     
     def _get_section_start( measMsgD, port_id, section_id ):
@@ -443,26 +446,29 @@ def create_toc_dict(cfgL,measMsgD):
         with open(toc_json_fname) as f:
             tocL = json.load(f)
 
+        player_id_filterL = [ PLAYER_MAP[player] for player in player_filterL ]
+
         outL = []
         for toc in tocL:
-            port_id = PIANO_MAP[toc['piano']]
-            player_id = PLAYER_MAP[toc['player']]['id']
+            port_id     = PIANO_MAP[toc['piano']]
+            player_id   = PLAYER_MAP[toc['player']]['id']
             beg_note_id = toc['beg_sf_note_id']
-            for section_id in toc['sectL']:
-                if section_id[-1].isdigit():
-                    section_start_sec, section_beg_loc = _get_section_start(measMsgD,port_id,section_id)
-                else:
-                    section_start_sec, section_beg_loc = _get_note_start(measMsgD,port_id,beg_note_id)
+            if player_id not in player_id_filterL:
+                for section_id in toc['sectL']:
+                    if section_id[-1].isdigit():
+                        section_start_sec, section_beg_loc = _get_section_start(measMsgD,port_id,section_id)
+                    else:
+                        section_start_sec, section_beg_loc = _get_note_start(measMsgD,port_id,beg_note_id)
 
-                    
-                section_end_loc = _get_note_loc(measMsgD,port_id,toc['end_sf_note_id'])
 
-                outL.append( dict(port_id=port_id,
-                                  player_id=player_id,
-                                  section_id=section_id,
-                                  start_sec=section_start_sec,
-                                  beg_loc=section_beg_loc,
-                                  end_loc=section_end_loc ))
+                    section_end_loc = _get_note_loc(measMsgD,port_id,toc['end_sf_note_id'])
+
+                    outL.append( dict(port_id=port_id,
+                                      player_id=player_id,
+                                      section_id=section_id,
+                                      start_sec=section_start_sec,
+                                      beg_loc=section_beg_loc,
+                                      end_loc=section_end_loc ))
 
 
         return outL
@@ -523,6 +529,7 @@ if __name__ == "__main__":
 
     out_json_fname      = "gutim_2/tl_play.json"
     cfgL = []
+    player_filterL = [ "SP" ] # drop all messages from this player
 
     for c in char_codeL:
         cfgL.append( types.SimpleNamespace(**dict( piano_id           = PIANO_MAP[c.upper()],
@@ -544,9 +551,9 @@ if __name__ == "__main__":
     
 
     # assign messages to each measure
-    measMsgD = get_messages(cfgL, outMeasStartSecD )
+    measMsgD = get_messages(cfgL, player_filterL, outMeasStartSecD )
 
-    tocL = create_toc_dict(cfgL,measMsgD)
+    tocL = create_toc_dict(cfgL,measMsgD, player_filterL)
         
     write_output(measMsgD,tocL,outMeasStartSecD,out_json_fname)
 
