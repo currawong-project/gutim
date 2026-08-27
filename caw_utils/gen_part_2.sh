@@ -20,5 +20,6 @@ python -m piano --config gutim_2/c/config.yaml build --clean
 python -m piano --config gutim_2/c/config.yaml build-seg-list
 python -m piano --config gutim_2/c/config.yaml gen-legacy-sf-score-csv
 
-
 python caw_utils/gen_part_2_files.py
+
+python caw_utils/gen_state_monitor_file.py
