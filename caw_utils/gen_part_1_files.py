@@ -1,10 +1,11 @@
 import os
+import csv
 import types
 from pathlib import Path
 
 import gen_part_files as gpf
 
-def get_part_1_cfg():
+def get_part_1_cfg( out_score_csv_fname ):
 
     cfg = dict(
         out_dir              = "gutim_1/caw",
@@ -12,7 +13,9 @@ def get_part_1_cfg():
         seg_list_pkl_fname   = "gutim_1/output/cache/seg_list.pkl",
         base_score_csv_fname = "gutim_1/output/legacy_sf_score.csv",
         preset_json_fname    = "gutim_1/output/new_catalog.json",
-        scriabin_scoreL      = [ dict(fname              = "scriabin_74_4/output/legacy_sf_score.csv",
+        scriabin_scoreL      = [
+
+                                 dict(fname              = "scriabin_74_4/output/legacy_sf_score.csv",
                                       score_pkl_fname    = "scriabin_74_4/output/cache/assign_sustain.pkl",
                                       seg_list_pkl_fname = "scriabin_74_4/output/cache/seg_list.pkl",
                                       section_label      = "Scriabin-3_Op74_4",
@@ -21,6 +24,7 @@ def get_part_1_cfg():
                                       beg_sec_correct    = -0.9, # transition time adjust
                                       end_sec_correct    = 0.5,
                                       rowL               = None ),
+                                 
                                  dict(fname              = "scriabin_74_3/output/legacy_sf_score.csv",
                                       score_pkl_fname    = "scriabin_74_3/output/cache/assign_sustain.pkl",
                                       seg_list_pkl_fname = "scriabin_74_3/output/cache/seg_list.pkl",
@@ -29,11 +33,13 @@ def get_part_1_cfg():
                                       end_meas_correct   = -1,
                                       beg_sec_correct    = -0.9, # transition time adjust
                                       end_sec_correct    = 0.5,
-                                      rowL               = None ) 
+                                      rowL               = None )
+
+
                                 ],
         
         
-        out_score_csv_fname      = "score.csv",
+        out_score_csv_fname      = out_score_csv_fname,
         out_preset_json_fname    = "presets.json",
         out_mult_play_json_fname = "multi_player.json",
         out_ctl_json_fname       = "pgm_ctl.json",
@@ -55,11 +61,70 @@ def get_part_1_cfg():
 
     return cfg
 
+def add_scriabin_to_cfg(cfg,section_labelL):
+
+    
+    for section_label in section_labelL:
+        cfg.scriabin_scoreL.append( types.SimpleNamespace(**dict(fname              = "scriabin_74_3/output/legacy_sf_score.csv",
+                                                                 score_pkl_fname    = "scriabin_74_3/output/cache/assign_sustain.pkl",
+                                                                 seg_list_pkl_fname = "scriabin_74_3/output/cache/seg_list.pkl",
+                                                                 section_label      = section_label,
+                                                                 beg_meas_correct   = -1,  # transition meas number adjust
+                                                                 end_meas_correct   = -1,
+                                                                 beg_sec_correct    = -0.9, # transition time adjust
+                                                                 end_sec_correct    = 0.5,
+                                                                 rowL               = None )))
+
+        
+    return cfg
+                                 
+def change_scriabin_section_numbers( section_labelL, score_csv_fname ):
+
+    section_id = 3000
+    outL = []
+    with open(score_csv_fname) as f:
+        rdr = csv.DictReader(f)
+
+        for r in rdr:
+            if r['src'] in section_labelL and r['section'].isdigit() and int(r['section'])==2000:
+                r['section'] = section_id
+                section_id += 100
+            outL.append(r)
+
+    with open(score_csv_fname,"w") as f:
+        fieldnames = list(outL[0].keys())
+        wtr = csv.DictWriter(f,fieldnames)
+
+        wtr.writeheader()
+        for r in outL:
+            wtr.writerow(r)
+
+            
+        
+                
+                
+
+def main( sf_or_all ):
+
+    assert sf_or_all=='all' or sf_or_all == 'sf'
+
+    section_labelL = ["Scriabin-1_Op74_1",
+                      "Scriabin-2_Op74_2",
+                      "Scriabin-5_Op65_1",
+                      "Scriabin-6_Op67_2",
+                      "Scriabin-7_Op74_5",
+                      "Scriabin-8_Op65_2",
+                      "Scriabin-9_Op51_2",
+                      "Scriabin-10_Op65_3"]
 
 
-if __name__ == "__main__":
+    
+    out_score_csv_fname = { "sf":"score_csv", "all":"timeline_all/all_score.csv" }[sf_or_all]
 
-    cfg = get_part_1_cfg()
+    cfg = get_part_1_cfg(out_score_csv_fname)
+
+    if sf_or_all == 'all':
+        add_scriabin_to_cfg(cfg,section_labelL)
 
     # Insert scriabin sections which must be score followed
     # and update the oloc and meas numbers to reflect the inserted material.
@@ -69,13 +134,13 @@ if __name__ == "__main__":
     # The <src> field is a score source (e.g. gutim, Scriabin-3_Op74_4, ...)
     locMapD, _ = gpf.gen_sf_score(cfg)
 
-    # Generate a new preset file with updated locations to 'gutim_1/presets.json'
-    gpf.update_preset_catalog(cfg,locMapD['gutim'])
+    if sf_or_all == 'all':
+        change_scriabin_section_numbers( section_labelL, cfg.out_score_csv_fname )
+    
+    if sf_or_all == 'sf':
+        # Generate a new preset file with updated locations to 'gutim_1/presets.json'
+        gpf.update_preset_catalog(cfg,locMapD['gutim'])
 
-    # Generate a multi-player file containing one 'player' for each segment
-    # segPlayerMapD,_ = gpf.gen_multi_player(cfg,locMapD)
-
-    #gpf.print_mp_directory(cfg.out_mult_play_json_fname,segPlayerMapD)
 
     gpf.gen_multi_play_simple( "gutim_1/output/cache/assign_sustain.pkl",
                                "gutim_1/output/cache/seg_list.pkl",
@@ -94,8 +159,12 @@ if __name__ == "__main__":
                                locMapD,
                                "Scriabin-4_Op74_3",
                                "gutim_1/caw/Op74_3_multi_play.json")
-    
 
-    # gen_pgm_ctl_file(cfg.out_mult_play_json_fname, segPlayerMapD, cfg.out_ctl_json_fname)
 
+if __name__ == "__main__":
+
+    "sf:generate score for sections that need to be tracked only"
+    "all: generate score for all sections including scriabin sections that do not need to be tracked."
     
+    sf_or_all = "sf"
+    main(sf_or_all)
