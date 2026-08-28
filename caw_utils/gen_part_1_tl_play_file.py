@@ -2,7 +2,103 @@ import csv
 import json
 import gen_part_2_files as gpf2
 
+import gen_meas_maps as gmm
 from const import (PIANO_MAP,PLAYER_MAP)
+
+
+def main_sf():
+    
+    # 0. DONE: use score to build a TOC: section,player_id,piano_id,start_note_id
+    # 1. DONE: give each note_id in the MP player a prefix (gut|scr) based on it's section:
+    # 2. DONE: give each note_id in the score a prefix based on it's source: 'gut','scr'
+    # 3. DONE: get the note id of the start of each section in the MP player files
+    # 4. DONE: get the time of each note_id from the score.
+    # 4. DONE: find the start time of each MP player from the score.
+    # 6. DONE: set the final time on each MP player message based on the section start time.
+    # 7. DONE: concatenate the msgL from the three MP files into a single list and sort on time
+    # 8. DONE: assign a measure numbers to messages
+    # 9. DONE: assign player_id,port_id,section_label to messages based on the TOC
+
+    out_tl_json_fname = "gutim_1/caw/tl_play.json"
+    out_score_csv_fname = "gutim_1/caw/tl_score.csv"
+    out_caw_toc_fname = "gutim_1/output/caw_toc.json"
+    score_csv_fname   = "gutim_1/caw/score.csv"
+    mp_json_fname     = "gutim_1/caw/multi_player.json"
+    out_meas_meas_json_fname = "gutim_1/caw/meas_meas.json"
+    out_meas_loc_json_fname  = "gutim_1/caw/meas_loc.json"
+
+
+    prefixD = { "Scriabin-4_Op74_3":"op3",
+                "Scriabin-3_Op74_4":"op4",
+                "gutim":"gut" }
+
+    mp_json_fnameL = [
+        ("gutim_1/caw/gutim_multi_play.json",  "gut"),
+        ("gutim_1/caw/Op74_3_multi_play.json", "op3"),
+        ("gutim_1/caw/Op74_4_multi_play.json", "op4")
+        ]
+
+    skip_sectD = { '1000':"Scriabin-3_Op74_4",'2000':"Scriabin-4_Op74_3" }
+    
+    # read the score and generate mappings
+    scoreL,noteSecMapD,measNoteMapD,sectNoteMapD = read_score_file(score_csv_fname,prefixD,skip_sectD);
+
+
+    #report_sections(scoreL)
+    
+    # read the TOC
+    tocL = read_toc("gutim_1/scores/section_toc.txt",sectNoteMapD)
+
+    # Get a { section_label:{player,piano}} for a all scriabin interpolation sections that are not score followed
+    scriabin_tocD = form_scriabin_toc(tocL)
+
+    # read and concatenate the MP files for all sources
+    mpD = form_mp_dict(mp_json_fnameL)
+
+    # convert section times to global times in the MP player files
+    # by shifting the start of each section to the start of the each section in the score
+    # and set the score 'loc' on each event
+    set_mp_time(mpD,noteSecMapD)
+
+    # concatenate all the events into a single time ordered list
+    msgL = concat_msg_list(mpD)
+
+    # set the measure number on each event and generate the timeline player 'measL'
+    tl_measL = set_meas_numb(msgL,measNoteMapD)
+
+    # set the section label on each event and generate the timeline 'tocL'
+    tl_tocD = set_section_label(msgL,sectNoteMapD,noteSecMapD)
+
+    # set the port_id and player_id fields in the tc
+    set_port_and_player(tocL,msgL,tl_tocD)
+
+    # write the timeline_player control file
+    write_tl_player_file(msgL,tl_measL,tl_tocD,out_tl_json_fname)
+
+    # drop the scriabin markers from the score file and convert all section numbers to be numeric
+    # (this is required by cwPianoScore.cpp)
+    scoreL,scriabMarkL = drop_scriabin_from_score(scoreL)
+
+    #for _,toc in tl_tocD.items():
+    #    print(toc)
+
+    # insert the scriabin sections into the toc as 'type_id'='scriabin'
+    tl_tocL = insert_scriabin_toc_markers(tl_tocD, scriabMarkL, skip_sectD, scriabin_tocD)
+
+    # write the score file
+    write_score_file(scoreL,out_score_csv_fname)
+
+    # write the toc file
+    write_caw_toc_file(tl_tocL,out_caw_toc_fname)
+        
+    # The gutim measures have shifted due to inserting scriabin measures
+    # Generate a measL which maps from gutim measures to score measures.
+    # and locL which maps from gutim measures to score loc's
+    measL,locL = gmm.gen_meas_maps(scoreL)
+
+    # Write a json file suitable for the caw 'list' object. 
+    gmm.write_meas_maps(measL,locL,out_meas_meas_json_fname,out_meas_loc_json_fname)
+
 
 def read_toc( toc_txt_fname, sectNoteMapD ):
     
@@ -70,6 +166,7 @@ def read_score_file( score_csv_fname,prefixD, skip_sectD  ):
         # track the first note in each section
         if _is_string_valid(r.section):
 
+            # if this section is intended to be skipped 
             if r.section not in skip_sectD:
             
                 # if the cur_section had no notes
@@ -82,10 +179,11 @@ def read_score_file( score_csv_fname,prefixD, skip_sectD  ):
         # if there is a cur_section and this row has a valid note_id - then it will be the first valid note in the section
         elif cur_section is not None and _is_string_valid(r.note_id):
             assert cur_section not in sectNoteMapD
+            
             sectNoteMapD[cur_section] = r.note_id  # set note_id for this section
             cur_section = None
             
-            
+
     return scoreL,noteSecMapD,measNoteMapD,sectNoteMapD    
 
 
@@ -172,7 +270,7 @@ def set_section_label(msgL,sectNoteMapD,noteSecMapD):
                 print("Warning 'beg_loc' for section '",m['section_label'],"' is invalid.")
 
             _,_,_,beg_meas_numb = noteSecMapD[ m['evt_id'] ]
-            
+
             sectD[ m['section_label'] ]= dict(port_id=None,
                                               player_id=None,
                                               section_id=m['section_label'],
@@ -230,20 +328,31 @@ def report_sections( scoreL ):
         print(r['section'],r['note_id'])
 
 
-def set_port_and_player(tocL,msgL,tl_tocD):
+def set_port_and_player(tocL,msgL,tl_tocD, sectReMapD=None):
 
-    tocD = { d['section_label']:d for d in tocL }
+    def _get_section_label( sectReMapD, section_label):
+        if sectReMapD is not None and section_label in sectReMapD:
+            section_label = sectReMapD[section_label]
+            
+        return section_label
+    
+    tocD = { d['section_label']:d for d in tocL }        
 
     for m in msgL:
-        m['port_id']   = PIANO_MAP[tocD[ m['section_label'] ]['piano']]
-        m['player_id'] = PLAYER_MAP[tocD[ m['section_label'] ]['player']]['id']
+        section_label = _get_section_label(sectReMapD,m['section_label'])
+        
+        m['port_id']   = PIANO_MAP[tocD[section_label ]['piano']]
+        m['player_id'] = PLAYER_MAP[tocD[section_label ]['player']]['id']
 
     for sect_label,toc in tl_tocD.items():
-        toc['port_id']   = PIANO_MAP[tocD[ toc['section_id'] ]['piano']]
-        toc['player_id'] = PLAYER_MAP[tocD[ toc['section_id'] ]['player']]['id']
-        toc['color']     = PLAYER_MAP[tocD[ toc['section_id'] ]['player']]['color']
-        toc['player'] = tocD[ toc['section_id'] ]['player']
-        toc['piano' ] = tocD[ toc['section_id'] ]['piano']
+
+        section_id = _get_section_label( sectReMapD, toc['section_id']  )
+        
+        toc['port_id']   = PIANO_MAP[tocD[ section_id ]['piano']]
+        toc['player_id'] = PLAYER_MAP[tocD[ section_id ]['player']]['id']
+        toc['color']     = PLAYER_MAP[tocD[ section_id ]['player']]['color']
+        toc['player'] = tocD[ section_id ]['player']
+        toc['piano' ] = tocD[ section_id ]['piano']
         toc['sectL' ] = [ sect_label ]
         toc['seg_label'] = sect_label
 
@@ -372,36 +481,32 @@ def write_caw_toc_file(tl_tocL,out_caw_toc_fname):
         json.dump(tocL,f,indent=2)
 
 
-if __name__ == "__main__":
+def main_all():
+    
+    out_tl_json_fname    = "gutim_1/caw/timeline_all/tl_play.json"
+    score_csv_fname      = "gutim_1/caw/timeline_all/all_score.csv"
+    out_meas_meas_json_fname = "gutim_1/caw/timeline_all/all_meas_meas.json"
+    out_meas_loc_json_fname  = "gutim_1/caw/timeline_all/all_meas_loc.json"
+    
+    
+    cfgL = [
+        dict(prefix='gut',   label='gutim',              sf_fl=True,  section_id=None,   fname="gutim_1/caw/gutim_multi_play.json"),
+        dict(prefix='op741', label='Scriabin-1_Op74_1',  sf_fl=False, section_id="3000", fname="gutim_1/caw/timeline_all/stand_in_multi_play_3000.json"),
+        dict(prefix='op742', label='Scriabin-2_Op74_2',  sf_fl=False, section_id="3100", fname="gutim_1/caw/timeline_all/stand_in_multi_play_3100.json"),
+        dict(prefix='op744', label='Scriabin-3_Op74_4',  sf_fl=True,  section_id=None,   fname="gutim_1/caw/Op74_4_multi_play.json"),
+        dict(prefix='op743', label='Scriabin-4_Op74_3',  sf_fl=True,  section_id=None,   fname="gutim_1/caw/Op74_3_multi_play.json"),
+        dict(prefix='op651', label='Scriabin-5_Op65_1',  sf_fl=False, section_id="3200", fname="gutim_1/caw/timeline_all/stand_in_multi_play_3200.json"),
+        dict(prefix='op672', label='Scriabin-6_Op67_2',  sf_fl=False, section_id="3300", fname="gutim_1/caw/timeline_all/stand_in_multi_play_3300.json"),
+        dict(prefix='op745', label='Scriabin-7_Op74_5',  sf_fl=False, section_id="3400", fname="gutim_1/caw/timeline_all/stand_in_multi_play_3400.json"),
+        dict(prefix='op652', label='Scriabin-8_Op65_2',  sf_fl=False, section_id="3500", fname="gutim_1/caw/timeline_all/stand_in_multi_play_3500.json"),
+        dict(prefix='op512', label='Scriabin-9_Op51_2',  sf_fl=False, section_id="3600", fname="gutim_1/caw/timeline_all/stand_in_multi_play_3600.json"),
+        dict(prefix='op653', label='Scriabin-10_Op65_3', sf_fl=False, section_id="3700", fname="gutim_1/caw/timeline_all/stand_in_multi_play_3700.json"),
+        ]    
 
-    # 0. DONE: use score to build a TOC: section,player_id,piano_id,start_note_id
-    # 1. DONE: give each note_id in the MP player a prefix (gut|scr) based on it's section:
-    # 2. DONE: give each note_id in the score a prefix based on it's source: 'gut','scr'
-    # 3. DONE: get the note id of the start of each section in the MP player files
-    # 4. DONE: get the time of each note_id from the score.
-    # 4. DONE: find the start time of each MP player from the score.
-    # 6. DONE: set the final time on each MP player message based on the section start time.
-    # 7. DONE: concatenate the msgL from the three MP files into a single list and sort on time
-    # 8. DONE: assign a measure numbers to messages
-    # 9. DONE: assign player_id,port_id,section_label to messages based on the TOC
-
-    out_tl_json_fname = "gutim_1/caw/tl_play.json"
-    out_score_csv_fname = "gutim_1/caw/tl_score.csv"
-    out_caw_toc_fname = "gutim_1/output/caw_toc.json"
-    score_csv_fname   = "gutim_1/caw/score.csv"
-    mp_json_fname     = "gutim_1/caw/multi_player.json"
-
-
-    prefixD = { "Scriabin-4_Op74_3":"op3",
-                "Scriabin-3_Op74_4":"op4",
-                "gutim":"gut" }
-
-    mp_json_fnameL = [
-        ("gutim_1/caw/gutim_multi_play.json", "gut"),
-        ("gutim_1/caw/Op74_3_multi_play.json","op3"),
-        ("gutim_1/caw/Op74_4_multi_play.json", "op4")
-        ]
-
+    prefixD        = { d['label']:d['prefix'] for d in cfgL }
+    mp_json_fnameL = [ (d['fname'],d['prefix']) for d in cfgL ]
+    sectReMapD     = { d['section_id']:d['label'] for d in cfgL if d['section_id'] is not None }
+    
     skip_sectD = { '1000':"Scriabin-3_Op74_4",'2000':"Scriabin-4_Op74_3" }
     
     # read the score and generate mappings
@@ -413,7 +518,8 @@ if __name__ == "__main__":
     # read the TOC
     tocL = read_toc("gutim_1/scores/section_toc.txt",sectNoteMapD)
 
-    scriabin_tocD = form_scriabin_toc(tocL)
+    # Get a { section_label:{player,piano}} for a all scriabin interpolation sections that are not score followed
+    # scriabin_tocD = form_scriabin_toc(tocL)
 
     # read and concatenate the MP files for all sources
     mpD = form_mp_dict(mp_json_fnameL)
@@ -433,25 +539,22 @@ if __name__ == "__main__":
     tl_tocD = set_section_label(msgL,sectNoteMapD,noteSecMapD)
 
     # set the port_id and player_id fields in the tc
-    set_port_and_player(tocL,msgL,tl_tocD)
+    set_port_and_player(tocL,msgL,tl_tocD,sectReMapD)
 
     # write the timeline_player control file
     write_tl_player_file(msgL,tl_measL,tl_tocD,out_tl_json_fname)
 
-    # drop the scriabin markers from the score file and convert all section numbers to be numeric
-    # (this is required by cwPianoScore.cpp)
-    scoreL,scriabMarkL = drop_scriabin_from_score(scoreL)
 
-    #for _,toc in tl_tocD.items():
-    #    print(toc)
+    # The gutim measures have shifted due to inserting scriabin measures
+    # Generate a measL which maps from gutim measures to score measures.
+    # and locL which maps from gutim measures to score loc's
+    measL,locL = gmm.gen_meas_maps(scoreL)
 
-    # insert the scriabin sections into the toc as 'type_id'='scriabin'
-    tl_tocL = insert_scriabin_toc_markers(tl_tocD, scriabMarkL, skip_sectD, scriabin_tocD)
+    # Write a json file suitable for the caw 'list' object. 
+    gmm.write_meas_maps(measL,locL,out_meas_meas_json_fname,out_meas_loc_json_fname)
+    
+if __name__ == "__main__":
 
-    # write the score file
-    write_score_file(scoreL,out_score_csv_fname)
-
-    # write the toc file
-    write_caw_toc_file(tl_tocL,out_caw_toc_fname)
-
+    main_sf()
+    #main_all()
     
