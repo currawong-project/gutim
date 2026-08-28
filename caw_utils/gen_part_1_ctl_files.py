@@ -1,6 +1,7 @@
 import csv
 import json
 import types
+import gen_meas_maps as gmm
 from const import (PIANO_MAP,PLAYER_MAP)
 
 def read_score( score_csv_fname ):
@@ -173,13 +174,13 @@ def write_seg_menu_file(tocL,seg_menu_json_fname):
         
         
 if __name__ == "__main__":
-
-    
     
     caw_toc_json_fname       = "gutim_1/output/caw_toc.json"
     score_csv_fname          = "gutim_1/caw/tl_score.csv"
     out_gutim_ctl_json_fname = "gutim_1/caw/gutim_ctl.json"
     out_seg_menu_json_fname  = "gutim_1/caw/seg_menu.json"
+    out_meas_loc_json_fname  = "gutim_1/caw/meas_loc.json"
+    out_meas_meas_json_fname = "gutim_1/caw/meas_meas.json"
     
     piano_refL          = [ 'A','B','C' ]
 
@@ -193,3 +194,11 @@ if __name__ == "__main__":
     write_ctl_file(ctlL,out_gutim_ctl_json_fname)
 
     write_seg_menu_file(tocL,out_seg_menu_json_fname)
+
+    # The gutim measures have shifted due to inserting scriabin measures
+    # Generate a measL which maps from gutim measures to score measures.
+    # and locL which maps from gutim measures to score loc's
+    measL,locL = gmm.gen_meas_maps(scoreL)
+
+    # Write a json file suitable for the caw 'list' object. 
+    gmm.write_meas_maps(measL,locL,out_meas_meas_json_fname,out_meas_loc_json_fname)
