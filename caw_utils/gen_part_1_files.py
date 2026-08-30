@@ -5,8 +5,11 @@ from pathlib import Path
 
 import gen_part_files as gpf
 
+SCRIABIN_VEL_TABLE = [ 1, 5,10,16,21,26,32,37,42,48,53,58,64,69,74,80,85,90,96,101,106,112,117,122,127 ]
+
 def get_part_1_cfg( out_score_csv_fname ):
 
+    
     cfg = dict(
         out_dir              = "gutim_1/caw",
         score_pkl_fname      = "gutim_1/output/cache/assign_sustain.pkl",
@@ -23,7 +26,8 @@ def get_part_1_cfg( out_score_csv_fname ):
                                       end_meas_correct   = -1,
                                       beg_sec_correct    = -0.9, # transition time adjust
                                       end_sec_correct    = 0.5,
-                                      rowL               = None ),
+                                      rowL               = None,
+                                      vel_table          = SCRIABIN_VEL_TABLE),
                                  
                                  dict(fname              = "scriabin_74_3/output/legacy_sf_score.csv",
                                       score_pkl_fname    = "scriabin_74_3/output/cache/assign_sustain.pkl",
@@ -33,7 +37,8 @@ def get_part_1_cfg( out_score_csv_fname ):
                                       end_meas_correct   = -1,
                                       beg_sec_correct    = -0.9, # transition time adjust
                                       end_sec_correct    = 0.5,
-                                      rowL               = None )
+                                      rowL               = None,
+                                      vel_table          = SCRIABIN_VEL_TABLE)
 
 
                                 ],
@@ -43,7 +48,7 @@ def get_part_1_cfg( out_score_csv_fname ):
         out_preset_json_fname    = "presets.json",
         out_mult_play_json_fname = "multi_player.json",
         out_ctl_json_fname       = "pgm_ctl.json",
-        out_toc_json_fname       = "toc.json")
+        out_toc_json_fname       = "toc.json")        
 
     
 
@@ -73,7 +78,8 @@ def add_scriabin_to_cfg(cfg,section_labelL):
                                                                  end_meas_correct   = -1,
                                                                  beg_sec_correct    = -0.9, # transition time adjust
                                                                  end_sec_correct    = 0.5,
-                                                                 rowL               = None )))
+                                                                 rowL               = None,
+                                                                 vel_table          = SCRIABIN_VEL_TABLE)))
 
         
     return cfg
@@ -146,19 +152,22 @@ def main( sf_or_all ):
                                "gutim_1/output/cache/seg_list.pkl",
                                locMapD,
                                "gutim",
-                               "gutim_1/caw/gutim_multi_play.json")
+                               "gutim_1/caw/gutim_multi_play.json",
+                               None)
 
     gpf.gen_multi_play_simple( "scriabin_74_4/output/cache/assign_sustain.pkl",
                                "scriabin_74_4/output/cache/seg_list.pkl",
                                locMapD,
                                "Scriabin-3_Op74_4",
-                               "gutim_1/caw/Op74_4_multi_play.json")
+                               "gutim_1/caw/Op74_4_multi_play.json",
+                               SCRIABIN_VEL_TABLE)
 
     gpf.gen_multi_play_simple( "scriabin_74_3/output/cache/assign_sustain.pkl",
                                "scriabin_74_3/output/cache/seg_list.pkl",
                                locMapD,
                                "Scriabin-4_Op74_3",
-                               "gutim_1/caw/Op74_3_multi_play.json")
+                               "gutim_1/caw/Op74_3_multi_play.json",
+                              SCRIABIN_VEL_TABLE)
 
 
 if __name__ == "__main__":

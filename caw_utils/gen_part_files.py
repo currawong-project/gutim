@@ -225,8 +225,30 @@ def update_preset_catalog( cfg, locMapD ):
         json.dump(pc,f,indent=2)
 
 
-def _gen_multi_player( score_pkl_fname, seg_list_pkl_fname, locMapD, locMapSrc ):
 
+        
+def _gen_multi_player( score_pkl_fname, seg_list_pkl_fname, locMapD, locMapSrc, vel_table ):
+
+    def _invert_velocity( d1, tbl ):
+
+        # tbl =  [ 1,1,2,2,3,5,8,10,13,16,20,24,28,33,38,43,49,55,62,68,72,85,94,103,112]
+        # tbl =  [ 1, 5,10,16,21,26,32,37,42,48,53,58,64,69,74,80,85,90,96,101,106,112,117,122,127 ]
+
+        if tbl is None:
+            return d1
+
+        if d1 == 0:
+            return 0
+
+        d1 = max(1,int(d1))
+
+        for i,v in enumerate(tbl):
+
+            if d1 < v:
+                return max(0,i-1)
+
+        return len(tbl)-1
+    
     def _get_pedal_list( score_pkl_fname ):
         with open(score_pkl_fname,"rb") as f:
             score = pickle.load(f)
@@ -274,7 +296,7 @@ def _gen_multi_player( score_pkl_fname, seg_list_pkl_fname, locMapD, locMapSrc )
                 print("The pedal event ",pe.id,"was not found.")
             
 
-    def _load_msg_list( mpSectL, locMapD, locMapSrc ):
+    def _load_msg_list( mpSectL, locMapD, locMapSrc, vel_tbl ):
 
         # uid,sec,ch,status,d0,d1
         def _form_event_msg_list(eventD):
@@ -314,7 +336,7 @@ def _gen_multi_player( score_pkl_fname, seg_list_pkl_fname, locMapD, locMapSrc )
                           ch     = 0,
                           status = MIDI_NOTE_ON_STATUS,
                           d0     = _midi_pitch(e),
-                          d1     = e.dlevel,
+                          d1     = _invert_velocity(e.dlevel,vel_tbl),
                           evt_id = e.id )
 
                 if n0['d1'] is None:
@@ -385,7 +407,7 @@ def _gen_multi_player( score_pkl_fname, seg_list_pkl_fname, locMapD, locMapSrc )
     pedalL = _get_pedal_list( score_pkl_fname )
     mpSegL = _form_mp_segment_list( seg_list_pkl_fname )
     _attach_pedal_events(mpSegL,pedalL)
-    _load_msg_list(mpSegL,locMapD,locMapSrc)
+    _load_msg_list(mpSegL,locMapD,locMapSrc,vel_table)
     return mpSegL
 
 
@@ -426,7 +448,7 @@ def gen_multi_player(cfg,locMapD):
     # get the base segments
     mpSegL = _gen_multi_player( cfg.score_pkl_fname,
                                 cfg.seg_list_pkl_fname,
-                                locMapD, 'gutim' )
+                                locMapD, 'gutim', None )
     
     
     # for each of the scriabin segments
@@ -434,7 +456,8 @@ def gen_multi_player(cfg,locMapD):
         ssMpSegL = _gen_multi_player( scriabin_score.score_pkl_fname,
                                       scriabin_score.seg_list_pkl_fname,
                                       locMapD,
-                                      scriabin_score.section_label )
+                                      scriabin_score.section_label,
+                                      scriabin_score.vel_table )
         # insert the scriabin segment
         _insert_scriabin_section(mpSegL,ssMpSegL,scriabin_score.section_label)
 
@@ -443,9 +466,9 @@ def gen_multi_player(cfg,locMapD):
 
     return segPlayerMapD,outD
 
-def gen_multi_play_simple( score_pkl_fname, seg_list_pkl_fname, locMapD, src_label, out_json_fname ):
+def gen_multi_play_simple( score_pkl_fname, seg_list_pkl_fname, locMapD, src_label, out_json_fname, vel_table ):
     
-    mpSegL = _gen_multi_player( score_pkl_fname, seg_list_pkl_fname, locMapD, 'gutim' )
+    mpSegL = _gen_multi_player( score_pkl_fname, seg_list_pkl_fname, locMapD, 'gutim', vel_table )
     
     _write_mp_file( out_json_fname, mpSegL )
     
