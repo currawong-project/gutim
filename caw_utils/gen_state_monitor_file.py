@@ -179,12 +179,36 @@ def write_output_file( fname, tgtL ):
 def write_spirio_mp_file( fname, mpD ):
     with open(fname, 'w') as f:
         json.dump(mpD,f,indent=2);
-              
+
+def write_fallback_btn_array( targetL, fallback_json_fname, btn_array_json_fname ):
+
+    def _target_label_to_id( tgtL, tgt_label ):
+        return next((tgt['id'] for tgt in tgtL if tgt['target_label'] == tgt_label ),None)
+
+    # open the fallback cfg file 
+    with open(fallback_json_fname) as f:
+        fallbackL = json.load(f)
+        
+    # add the trigger id that matches the target label
+    outL = []
+    for d in fallbackL:
+        tgt_idL = [ _target_label_to_id( tgtL, tgt_label ) for tgt_label in d['labelL'] ]
+            
+        outL.append(dict(title=d['title'],
+                         meas=d['meas'],
+                         dis_idL=tgt_idL,
+                         valueL=tgt_idL))
+
+    # write the btn_array_json fname
+    with open(btn_array_json_fname,"w") as f:
+        json.dump(outL,f,indent=2)
     
 if __name__ == "__main__":    
-    spirio_json_fname = "gutim_2/spirio_mp.json"
-    out_json_fname    = "gutim_2/monitor_state.json"
-
+    spirio_json_fname        = "gutim_2/spirio_mp.json"
+    fallback_cfg_json_fname  = "gutim_2/fallback.json"
+    out_json_fname           = "gutim_2/monitor_state.json"
+    out_btn_array_json_fname = "gutim_2/btn_array_cfg.json"
+    
 
     char_codeL        = [ 'a','b','c']
     portNoteIdLocMapD = {}
@@ -237,4 +261,8 @@ if __name__ == "__main__":
     print("Writing KSM file:",out_json_fname)
     write_output_file( out_json_fname, hdr )
 
+    # Write the Sprio MP file
     write_spirio_mp_file( spirio_json_fname, mpD )
+
+    # Write the fallback button array file
+    write_fallback_btn_array(tgtL, fallback_cfg_json_fname, out_btn_array_json_fname)
