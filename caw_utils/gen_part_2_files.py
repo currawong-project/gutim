@@ -218,7 +218,7 @@ def gen_part_2_ctl_file( cfg ):
     # Write the SF control file.
     _write_sf_ctl_file( cfg.out_sf_ctl_json_fname, sf_ctlL, measLocMapD, sectLocMapD )
 
-def gen_spirio_multi_player( cfg, fullMpD ):
+def gen_spirio_multi_player( cfg, fullMpD, dropNoteL ):
 
     def _get_msg_list( fullMpD, beg_evt_id, end_evt_id ):
 
@@ -376,7 +376,32 @@ def gen_spirio_multi_player( cfg, fullMpD ):
             
         return tocL
 
-    def _gen_spirio_mp_dict( fullMpD, tocL ):
+    def _gen_spirio_mp_dict( fullMpD, tocL, dropNoteL ):
+
+        def _apply_drop_note_list( piano_id, msgL, dropNoteL ):
+
+            apply_cnt = 0
+            # for each drop record
+            for dropD in dropNoteL:
+                # if the piano_id of this message list matches the piano id of the drop record
+                if dropD['piano_id'] == piano_id:
+
+                    # form a note_id to msgL index map of msgL
+                    noteIdxMapD = { m['evt_id']:i for i,m in enumerate(msgL) }
+                    
+                    # is the first drop note_id in this msgL
+                    if dropD['note_idL'][0] in noteIdxMapD:
+                        # if the first drop note_id is in this msg list then they all must be
+                        drop_idxL = [ noteIdxMapD[note_id] for note_id in dropD['note_idL'] ]
+
+                        msgL = [ m for i,m in enumerate(msgL) if i not in drop_idxL ]
+                        apply_cnt += 1
+                        
+
+            if apply_cnt > 0:
+                print(apply_cnt,"Drop records applied.")
+            return msgL
+            
         outMpD = {}
         
         for toc in tocL:
@@ -384,9 +409,12 @@ def gen_spirio_multi_player( cfg, fullMpD ):
 
                 msgL = _get_msg_list( fullMpD, toc['beg_mp_id'], toc['end_mp_id'] )
 
+                piano_id = PIANO_MAP[ toc['piano'] ]
+                msgL = _apply_drop_note_list( piano_id, msgL, dropNoteL )
+
                 mp = dict(player_id = len(outMpD),
                           label     = toc['seg_label'],
-                          port_id   = PIANO_MAP[ toc['piano'] ],
+                          port_id   = piano_id,
                           sectL     = [ toc['seg_label'] ],
                           msgL      = msgL)
 
@@ -399,7 +427,8 @@ def gen_spirio_multi_player( cfg, fullMpD ):
             json.dump(spirioMpD,f,indent=2)
         
     tocL      = _read_toc(cfg.toc_json_fname)    
-    spirioMpD = _gen_spirio_mp_dict( fullMpD, tocL )
+    spirioMpD = _gen_spirio_mp_dict( fullMpD, tocL, dropNoteL )
+
             
     _write_spirio_mp_file( spirioMpD, cfg.out_spirio_mp_json_fname )
 
@@ -461,6 +490,29 @@ def get_part_2_cfg(char_code):
 
 if __name__ == "__main__":
 
+    dropNotesL = [ dict(piano_id=PIANO_MAP['B'], note_idL=[
+        "n315_6Ds1h",
+        "n315_6Ds1h_off",
+        "n315_6E3h",
+        "n315_6E3h_off",
+        "n315_6Fs3h",
+        "n315_6Fs3h_off",
+        "n316_6Ds1h",
+        "n316_6Ds1h_off",
+        "n316_6E3h",
+        "n316_6E3h_off",
+        "n316_6Fs3h",
+        "n316_6Fs3h_off",
+        "n317_1Ds6t_0",
+        "n317_1Ds6t_0_off",
+        "n317_6E3q",
+        "n317_6E3q_off",
+        "n317_6Fs3q",
+        "n317_6Fs3q_off",
+        "n317_6C4q_0",
+        "n317_6C4q_0_off" ])]
+
+    
     char_codeL = ['a','b','c']
 
     preset_fnameL = []
@@ -481,7 +533,7 @@ if __name__ == "__main__":
 
         # gpf.print_mp_directory(cfg.out_mult_play_json_fname,segPlayerMapD)
 
-        gen_spirio_multi_player( cfg, fullMpD )
+        gen_spirio_multi_player( cfg, fullMpD,dropNotesL )
 
         gen_part_2_ctl_file( cfg )
         # gen_pgm_ctl_file(cfg.out_mult_play_json_fname, segPlayerMapD, cfg.out_ctl_json_fname)
