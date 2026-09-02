@@ -856,6 +856,26 @@
       ]
     },
     {
+      "target_label": "7086C_B_133_SP",
+      "id": 13,
+      "sourceL": [
+        {
+          "port_id": 0,
+          "label": "A_5Bb5e_Non",
+          "beg_primer_loc": 1535,
+          "end_primer_loc": 1535,
+          "attrL": [
+            "note-on"
+          ],
+          "pitchL": [
+            82
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        }
+      ]
+    },
+    {
       "target_label": "7111_B_160_SP",
       "id": 14,
       "sourceL": [
@@ -984,6 +1004,65 @@
       ]
     },
     {
+      "target_label": "7125b_B_178_SP",
+      "id": 17,
+      "sourceL": [
+        {
+          "port_id": 0,
+          "label": "A_2F3s_Non",
+          "beg_primer_loc": 2180,
+          "end_primer_loc": 2180,
+          "attrL": [
+            "note-on"
+          ],
+          "pitchL": [
+            53
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        },
+        {
+          "port_id": 1,
+          "label": "B_1Ab4q_KuPu",
+          "beg_primer_loc": 2193,
+          "end_primer_loc": 2193,
+          "attrL": [
+            "all-keys-up",
+            "all-pedals-up"
+          ],
+          "pitchL": [
+            68,
+            30
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        },
+        {
+          "port_id": 2,
+          "label": "C_2C5q_KuPu",
+          "beg_primer_loc": 1843,
+          "end_primer_loc": 1849,
+          "attrL": [
+            "all-keys-up",
+            "all-pedals-up"
+          ],
+          "pitchL": [
+            72,
+            45,
+            101,
+            34,
+            88,
+            76,
+            42,
+            73,
+            58
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        }
+      ]
+    },
+    {
       "target_label": "7141_B_204_SP",
       "id": 18,
       "sourceL": [
@@ -1104,6 +1183,58 @@
           ],
           "pitchL": [
             32
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        }
+      ]
+    },
+    {
+      "target_label": "7217b_B_294_SP",
+      "id": 22,
+      "sourceL": [
+        {
+          "port_id": 0,
+          "label": "A_5B3s_Non",
+          "beg_primer_loc": 3526,
+          "end_primer_loc": 3527,
+          "attrL": [
+            "note-on"
+          ],
+          "pitchL": [
+            51,
+            59,
+            51
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        },
+        {
+          "port_id": 2,
+          "label": "C_1Db6s_None",
+          "beg_primer_loc": 3249,
+          "end_primer_loc": 3252,
+          "attrL": [
+            "note-on"
+          ],
+          "pitchL": [
+            72,
+            85,
+            32,
+            40,
+            32,
+            40,
+            46,
+            60,
+            73,
+            32,
+            40,
+            46,
+            60,
+            73,
+            32,
+            40,
+            46
           ],
           "up_min_dur_ms": 0,
           "trig_delay_ms": 0
@@ -1408,6 +1539,34 @@
             32
           ],
           "up_min_dur_ms": 200,
+          "trig_delay_ms": 0
+        }
+      ]
+    },
+    {
+      "target_label": "7136b_C_203_SP",
+      "id": 27,
+      "sourceL": [
+        {
+          "port_id": 0,
+          "label": "A_6E4q_Non",
+          "beg_primer_loc": 2424,
+          "end_primer_loc": 2426,
+          "attrL": [
+            "note-on"
+          ],
+          "pitchL": [
+            62,
+            84,
+            88,
+            68,
+            64,
+            69,
+            44,
+            44,
+            49
+          ],
+          "up_min_dur_ms": 0,
           "trig_delay_ms": 0
         }
       ]
