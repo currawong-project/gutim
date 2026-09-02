@@ -710,7 +710,7 @@
       "section_id": "7083",
       "start_sec": 728.8818887847821,
       "beg_loc": 1390,
-      "end_loc": 1475
+      "end_loc": 1469
     },
     {
       "port_id": 0,
@@ -726,7 +726,7 @@
       "section_id": "7085",
       "start_sec": 744.2676030704963,
       "beg_loc": 1392,
-      "end_loc": 1475
+      "end_loc": 1469
     },
     {
       "port_id": 1,
@@ -734,7 +734,7 @@
       "section_id": "7086",
       "start_sec": 750.3104602133535,
       "beg_loc": 1428,
-      "end_loc": 1475
+      "end_loc": 1469
     },
     {
       "port_id": 2,
@@ -751,6 +751,14 @@
       "start_sec": 753.8354602133535,
       "beg_loc": 1516,
       "end_loc": 1547
+    },
+    {
+      "port_id": 1,
+      "player_id": 5,
+      "section_id": "7086C",
+      "start_sec": 762.2461744990678,
+      "beg_loc": 1470,
+      "end_loc": 1473
     },
     {
       "port_id": 2,
@@ -1059,7 +1067,7 @@
     {
       "port_id": 1,
       "player_id": 1,
-      "section_id": "7125",
+      "section_id": "7125a",
       "start_sec": 994.5303920013905,
       "beg_loc": 2093,
       "end_loc": 2210
@@ -1095,6 +1103,14 @@
       "start_sec": 1020.6978723188328,
       "beg_loc": 2162,
       "end_loc": 2185
+    },
+    {
+      "port_id": 1,
+      "player_id": 5,
+      "section_id": "7125b",
+      "start_sec": 1025.2000043014334,
+      "beg_loc": 2196,
+      "end_loc": 2209
     },
     {
       "port_id": 1,
@@ -1134,7 +1150,15 @@
       "section_id": "7134",
       "start_sec": 1069.6024183700001,
       "beg_loc": 1891,
-      "end_loc": 1944
+      "end_loc": 1943
+    },
+    {
+      "port_id": 2,
+      "player_id": 1,
+      "section_id": "7136a",
+      "start_sec": 1069.6024183700001,
+      "beg_loc": 1891,
+      "end_loc": 1943
     },
     {
       "port_id": 1,
@@ -1143,14 +1167,6 @@
       "start_sec": 1081.6178029853847,
       "beg_loc": 2318,
       "end_loc": 2398
-    },
-    {
-      "port_id": 2,
-      "player_id": 1,
-      "section_id": "7136",
-      "start_sec": 1100.7581876007694,
-      "beg_loc": 1934,
-      "end_loc": 1944
     },
     {
       "port_id": 1,
@@ -1183,6 +1199,14 @@
       "start_sec": 1130.731539249121,
       "beg_loc": 2424,
       "end_loc": 2446
+    },
+    {
+      "port_id": 2,
+      "player_id": 5,
+      "section_id": "7136b",
+      "start_sec": 1131.8029678205494,
+      "beg_loc": 1944,
+      "end_loc": 1944
     },
     {
       "port_id": 2,
@@ -1870,7 +1894,15 @@
       "section_id": "7214",
       "start_sec": 1639.2010906504959,
       "beg_loc": 3574,
-      "end_loc": 3650
+      "end_loc": 3621
+    },
+    {
+      "port_id": 1,
+      "player_id": 4,
+      "section_id": "7217a",
+      "start_sec": 1639.2010906504959,
+      "beg_loc": 3574,
+      "end_loc": 3621
     },
     {
       "port_id": 2,
@@ -1898,10 +1930,10 @@
     },
     {
       "port_id": 1,
-      "player_id": 4,
-      "section_id": "7217",
-      "start_sec": 1653.3187377093193,
-      "beg_loc": 3621,
+      "player_id": 5,
+      "section_id": "7217b",
+      "start_sec": 1657.436384768143,
+      "beg_loc": 3622,
       "end_loc": 3650
     },
     {
