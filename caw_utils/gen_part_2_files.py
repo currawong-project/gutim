@@ -282,21 +282,29 @@ def gen_spirio_multi_player( cfg, fullMpD, dropNoteL ):
         def _clip_spirio_section( msgL, beg_evt_id, end_evt_id ):
             clipL      = []        # 
             key_stateL = [0] * 128 #
-            ctl_stateL = [0] * 128 # 
+            ctl_stateL = [0] * 128 #
+            end_sec    = None
             gate_fl    = False     # true if we are inside the clip
             decay_fl   = False     # true if we are past the end of the clip waiting for note-offs
             done_fl    = False     # true if we located the end-note and achieved an all-notes off status before the end of the msgL
             damp_cnt   = 0         # count the number of damper up/down messages
             sost_cnt   = 0         # count the number of sostenuto up/down messages
-
+            
             for m in msgL:
+
+                # end sec is set when the last note has been found and we iterating through other notes
+                # in the ending chord
+                if end_sec is not None and m['sec'] > end_sec:
+                    gate_fl = False
+                    end_sec = None
+                    
                 # if this is the clip begin note
                 if not gate_fl and m['evt_id'] == beg_evt_id:
                     gate_fl = True
                     
                 # if this is the clip end note
                 if gate_fl and m['evt_id'] == end_evt_id:
-                    gate_fl = False
+                    end_sec = m['sec']  # include the last note, but setup to turn the gate off after it
                     decay_fl = True
 
                 # if we are inside the clip and this is a note-on msg
@@ -401,17 +409,49 @@ def gen_spirio_multi_player( cfg, fullMpD, dropNoteL ):
             if apply_cnt > 0:
                 print(apply_cnt,"Drop records applied.")
             return msgL
-            
+
+        def _shift_to_zero( msgL ):
+            sec = msgL[0]['sec']
+            start_sec = sec
+            for m in msgL:
+                assert sec <= m['sec']
+                sec = m['sec']
+                m['sec'] -= start_sec
+
+            return msgL
+
+        def _drop_grace_notes( msgL ):
+            outL = []
+            n = 0
+            for m in msgL:
+                if m['evt_id'] is not None and len(m['evt_id'])>2 and m['evt_id'][0:2] == 'ng':
+                    n += 1
+                else:
+                    outL.append(m)
+
+            print(n,"hack grace notes dropped.")
+            return outL
+        
         outMpD = {}
         
         for toc in tocL:
             if toc['player'] == 'SP':
-
+                # generate the event list for this Spirio playback section.
                 msgL = _get_msg_list( fullMpD, toc['beg_mp_id'], toc['end_mp_id'] )
 
+                # shift the notes to start at time 0.
+                msgL = _shift_to_zero(msgL)
+
+
+                #
+                # BEWARE HACK 
+                #
+                if toc['seg_label'] == "7157_A_226_SP":
+                    print("Hack invoked on ", toc['seg_label'] )
+                    msgL = _drop_grace_notes(msgL)
+                
                 piano_id = PIANO_MAP[ toc['piano'] ]
                 msgL = _apply_drop_note_list( piano_id, msgL, dropNoteL )
-
                 mp = dict(player_id = len(outMpD),
                           label     = toc['seg_label'],
                           port_id   = piano_id,
@@ -428,8 +468,7 @@ def gen_spirio_multi_player( cfg, fullMpD, dropNoteL ):
         
     tocL      = _read_toc(cfg.toc_json_fname)    
     spirioMpD = _gen_spirio_mp_dict( fullMpD, tocL, dropNoteL )
-
-            
+    
     _write_spirio_mp_file( spirioMpD, cfg.out_spirio_mp_json_fname )
 
 def merge_all_preset_catalogs( preset_json_fnameL, out_preset_json_fname ):
@@ -533,7 +572,7 @@ if __name__ == "__main__":
 
         # gpf.print_mp_directory(cfg.out_mult_play_json_fname,segPlayerMapD)
 
-        gen_spirio_multi_player( cfg, fullMpD,dropNotesL )
+        gen_spirio_multi_player( cfg, fullMpD, dropNotesL )
 
         gen_part_2_ctl_file( cfg )
         # gen_pgm_ctl_file(cfg.out_mult_play_json_fname, segPlayerMapD, cfg.out_ctl_json_fname)
