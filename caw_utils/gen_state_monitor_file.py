@@ -183,7 +183,11 @@ def write_spirio_mp_file( fname, mpD ):
 def write_fallback_btn_array( targetL, fallback_json_fname, btn_array_json_fname ):
 
     def _target_label_to_id( tgtL, tgt_label ):
-        return next((tgt['id'] for tgt in tgtL if tgt['target_label'] == tgt_label ),None)
+        tgt_id =  next((tgt['id'] for tgt in tgtL if tgt['target_label'] == tgt_label ),None)
+        if tgt_id is None:
+            print("Missing tgt label:",tgt_label)
+        return tgt_id
+            
 
     # open the fallback cfg file 
     with open(fallback_json_fname) as f:
@@ -250,7 +254,7 @@ if __name__ == "__main__":
 
     # Assign MP player_id's to each target by looking up the target label in the Spirio MP file
     tgtL  = set_target_player_id(tgtL,mpD)
-
+    
     # Get the unique port id's
     portL = sorted(list(set([ s['port_id'] for t in tgtL for s in t['sourceL']])))
 
