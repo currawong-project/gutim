@@ -79,112 +79,112 @@ n1_5A2t_7:
   dlevel: 5
 
 n1_5Cs2t_7:
-  dmark: ppp+
-  dlevel: 6
+  dmark: ppp
+  dlevel: 5
 
 n1_5Fs1s_2:
-  dmark: ppp+
-  dlevel: 6
+  dmark: ppp
+  dlevel: 5
 
 n1_5A2t_8:
-  dmark: ppp+
-  dlevel: 6
+  dmark: ppp
+  dlevel: 5
 
 n1_5Cs2t_8:
-  dmark: ppp+
-  dlevel: 6
+  dmark: ppp
+  dlevel: 5
 
 n1_5A2t_9:
-  dmark: ppp+
-  dlevel: 6
+  dmark: ppp
+  dlevel: 5
 
 n1_5Fs1t_3:
-  dmark: ppp+
-  dlevel: 6
+  dmark: ppp
+  dlevel: 5
 
 n1_5Cs2t_9:
-  dmark: ppp+
-  dlevel: 6
+  dmark: ppp
+  dlevel: 5
 
 n1_5A2t_10:
-  dmark: pp-
-  dlevel: 7
+  dmark: ppp
+  dlevel: 5
 
 n1_5Cs2t_10:
-  dmark: pp-
-  dlevel: 7
+  dmark: ppp
+  dlevel: 5
 
 n1_5Fs1s_3:
-  dmark: pp-
-  dlevel: 7
+  dmark: ppp
+  dlevel: 5
 
 n1_5A2t_11:
-  dmark: pp-
-  dlevel: 7
+  dmark: ppp
+  dlevel: 5
 
 n1_5Cs2t_11:
-  dmark: pp-
-  dlevel: 7
+  dmark: ppp
+  dlevel: 5
 
 n1_5A2t_12:
-  dmark: pp-
-  dlevel: 7
+  dmark: ppp
+  dlevel: 5
 
 n1_5Fs1t_4:
-  dmark: pp-
-  dlevel: 7
+  dmark: ppp
+  dlevel: 5
 
 n1_5Cs2t_12:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n1_5A2t_13:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n1_5Cs2t_13:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n1_5Fs1s_4:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n1_5A2t_14:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n1_5Cs2t_14:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n1_5A2t_15:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n1_5Fs1t_5:
-  dmark: pp+
-  dlevel: 9
+  dmark: ppp
+  dlevel: 5
 
 n1_5Cs2t_15:
-  dmark: pp+
-  dlevel: 9
+  dmark: ppp
+  dlevel: 5
 
 n1_5A2t_16:
-  dmark: pp+
-  dlevel: 9
+  dmark: ppp
+  dlevel: 5
 
 n1_5Cs2t_16:
-  dmark: pp+
-  dlevel: 9
+  dmark: ppp
+  dlevel: 5
 
 n1_5Fs1s_5:
-  dmark: pp+
-  dlevel: 9
+  dmark: ppp
+  dlevel: 5
 
 n1_5Cs2s:
-  dmark: pp+
-  dlevel: 9
+  dmark: ppp
+  dlevel: 5
 
 n2_5A2t_0:
   dmark: ppp
@@ -195,236 +195,236 @@ n2_5Fs1t_0:
   dlevel: 5
 
 n2_5Cs2t_0:
-  dmark: ppp
-  dlevel: 5
+  dmark: ppp+
+  dlevel: 6
 
 n2_5A2t_1:
-  dmark: ppp
-  dlevel: 5
+  dmark: ppp+
+  dlevel: 6
 
 n2_5Cs2t_1:
-  dmark: ppp
-  dlevel: 5
+  dmark: ppp+
+  dlevel: 6
 
 n2_5Fs1s_0:
-  dmark: ppp
-  dlevel: 5
+  dmark: ppp+
+  dlevel: 6
 
 n2_5A2t_2:
-  dmark: ppp
-  dlevel: 5
+  dmark: ppp+
+  dlevel: 6
 
 n2_5Cs2t_2:
-  dmark: ppp
-  dlevel: 5
+  dmark: ppp+
+  dlevel: 6
 
 n2_5A2t_3:
-  dmark: ppp
-  dlevel: 5
+  dmark: ppp+
+  dlevel: 6
 
 n2_5Fs1t_1:
-  dmark: ppp
-  dlevel: 5
+  dmark: ppp+
+  dlevel: 6
 
 n2_5Cs2t_3:
-  dmark: ppp
-  dlevel: 5
+  dmark: ppp+
+  dlevel: 6
 
 n2_5A2t_4:
-  dmark: ppp
-  dlevel: 5
+  dmark: ppp+
+  dlevel: 6
 
 n2_5Cs2t_4:
-  dmark: ppp
-  dlevel: 5
+  dmark: ppp+
+  dlevel: 6
 
 n2_5Fs1s_1:
-  dmark: ppp
-  dlevel: 5
+  dmark: ppp+
+  dlevel: 6
 
 n2_5A2t_5:
-  dmark: ppp
-  dlevel: 5
+  dmark: ppp+
+  dlevel: 6
 
 n2_5Cs2t_5:
-  dmark: ppp
-  dlevel: 5
+  dmark: ppp+
+  dlevel: 6
 
 n2_5A2t_6:
-  dmark: ppp
-  dlevel: 5
+  dmark: ppp+
+  dlevel: 6
 
 n2_5Fs1t_2:
-  dmark: ppp
-  dlevel: 5
+  dmark: ppp+
+  dlevel: 6
 
 n2_5Cs2t_6:
-  dmark: ppp
-  dlevel: 5
+  dmark: ppp+
+  dlevel: 6
 
 n2_5A2t_7:
-  dmark: ppp
-  dlevel: 5
+  dmark: ppp+
+  dlevel: 6
 
 n2_5Cs2t_7:
-  dmark: ppp
-  dlevel: 5
+  dmark: ppp+
+  dlevel: 6
 
 n2_5Fs1s_2:
-  dmark: ppp
-  dlevel: 5
+  dmark: ppp+
+  dlevel: 6
 
 n2_5A2t_8:
-  dmark: ppp
-  dlevel: 5
+  dmark: ppp+
+  dlevel: 6
 
 n2_5Cs2t_8:
-  dmark: ppp
-  dlevel: 5
+  dmark: ppp+
+  dlevel: 6
 
 n2_5A2t_9:
-  dmark: ppp
-  dlevel: 5
+  dmark: ppp+
+  dlevel: 6
 
 n2_5Fs1t_3:
-  dmark: ppp
-  dlevel: 5
+  dmark: ppp+
+  dlevel: 6
 
 n2_5Cs2t_9:
-  dmark: ppp
-  dlevel: 5
+  dmark: ppp+
+  dlevel: 6
 
 n2_5A2t_10:
-  dmark: ppp
-  dlevel: 5
+  dmark: ppp+
+  dlevel: 6
 
 n2_5Cs2t_10:
-  dmark: ppp
-  dlevel: 5
+  dmark: ppp+
+  dlevel: 6
 
 n2_5Fs1s_3:
-  dmark: ppp
-  dlevel: 5
+  dmark: ppp+
+  dlevel: 6
 
 n2_5A2t_11:
-  dmark: ppp
-  dlevel: 5
+  dmark: ppp+
+  dlevel: 6
 
 n2_5Cs2t_11:
-  dmark: ppp
-  dlevel: 5
+  dmark: ppp+
+  dlevel: 6
 
 n2_5A2t_12:
-  dmark: ppp
-  dlevel: 5
+  dmark: ppp+
+  dlevel: 6
 
 n2_5Fs1t_4:
-  dmark: ppp
-  dlevel: 5
+  dmark: ppp+
+  dlevel: 6
 
 n2_5Cs2t_12:
-  dmark: ppp
-  dlevel: 5
+  dmark: ppp+
+  dlevel: 6
 
 n2_5A2t_13:
-  dmark: ppp
-  dlevel: 5
+  dmark: ppp+
+  dlevel: 6
 
 n2_5Cs2t_13:
-  dmark: ppp
-  dlevel: 5
+  dmark: ppp+
+  dlevel: 6
 
 n2_5Fs1s_4:
-  dmark: ppp
-  dlevel: 5
+  dmark: ppp+
+  dlevel: 6
 
 n2_5A2t_14:
-  dmark: ppp
-  dlevel: 5
+  dmark: ppp+
+  dlevel: 6
 
 n2_5Cs2t_14:
-  dmark: ppp
-  dlevel: 5
+  dmark: ppp+
+  dlevel: 6
 
 n3_5A2t_0:
-  dmark: ppp
-  dlevel: 5
+  dmark: pp
+  dlevel: 8
 
 n3_5Fs1t_0:
-  dmark: ppp
-  dlevel: 5
+  dmark: pp-
+  dlevel: 7
 
 n3_5Cs2t_0:
-  dmark: ppp
-  dlevel: 5
+  dmark: pp-
+  dlevel: 7
 
 n3_5A2t_1:
-  dmark: ppp
-  dlevel: 5
+  dmark: pp-
+  dlevel: 7
 
 n3_5Cs2t_1:
-  dmark: ppp
-  dlevel: 5
+  dmark: pp-
+  dlevel: 7
 
 n3_5Fs1s_0:
-  dmark: ppp
-  dlevel: 5
+  dmark: pp-
+  dlevel: 7
 
 n3_5A2t_2:
-  dmark: ppp
-  dlevel: 5
+  dmark: pp-
+  dlevel: 7
 
 n3_5Cs2t_2:
-  dmark: ppp
-  dlevel: 5
+  dmark: pp-
+  dlevel: 7
 
 n3_5A2t_3:
-  dmark: mp
-  dlevel: 14
+  dmark: pp-
+  dlevel: 7
 
 n3_5Fs1t_1:
-  dmark: mp
-  dlevel: 14
+  dmark: pp-
+  dlevel: 7
 
 n3_5Cs2t_3:
-  dmark: ppp
-  dlevel: 5
+  dmark: pp-
+  dlevel: 7
 
 n3_5A2t_4:
-  dmark: ppp
-  dlevel: 5
+  dmark: pp-
+  dlevel: 7
 
 n3_5Cs2t_4:
-  dmark: ppp
-  dlevel: 5
+  dmark: pp-
+  dlevel: 7
 
 n3_5Fs1s_1:
-  dmark: ppp
-  dlevel: 5
+  dmark: pp-
+  dlevel: 7
 
 n3_5A2t_5:
-  dmark: ppp+
-  dlevel: 6
+  dmark: pp-
+  dlevel: 7
 
 n3_5Cs2t_5:
-  dmark: ppp+
-  dlevel: 6
+  dmark: pp-
+  dlevel: 7
 
 n3_5A2t_6:
-  dmark: ppp+
-  dlevel: 6
+  dmark: pp-
+  dlevel: 7
 
 n3_5Fs1t_2:
-  dmark: ppp+
-  dlevel: 6
+  dmark: pp-
+  dlevel: 7
 
 n3_5Cs2t_6:
-  dmark: ppp+
-  dlevel: 6
+  dmark: pp-
+  dlevel: 7
 
 n3_5A2t_7:
-  dmark: ppp+
-  dlevel: 6
+  dmark: pp-
+  dlevel: 7
 
 n3_5Cs2t_7:
   dmark: pp-
@@ -451,136 +451,136 @@ n3_5Fs1t_3:
   dlevel: 7
 
 n3_5Cs2t_9:
-  dmark: pp
-  dlevel: 8
+  dmark: pp-
+  dlevel: 7
 
 n3_5A2t_10:
-  dmark: pp
-  dlevel: 8
+  dmark: pp-
+  dlevel: 7
 
 n3_5Cs2t_10:
-  dmark: pp
-  dlevel: 8
+  dmark: pp-
+  dlevel: 7
 
 n3_5Fs1s_3:
-  dmark: pp
-  dlevel: 8
+  dmark: pp-
+  dlevel: 7
 
 n3_5A2t_11:
-  dmark: pp
-  dlevel: 8
+  dmark: pp-
+  dlevel: 7
 
 n3_5Cs2t_11:
-  dmark: pp
-  dlevel: 8
+  dmark: pp-
+  dlevel: 7
 
 n3_5A2t_12:
-  dmark: pp+
-  dlevel: 9
+  dmark: pp-
+  dlevel: 7
 
 n3_5Fs1t_4:
-  dmark: pp+
-  dlevel: 9
+  dmark: pp-
+  dlevel: 7
 
 n3_5Cs2t_12:
-  dmark: pp+
-  dlevel: 9
+  dmark: pp-
+  dlevel: 7
 
 n3_5A2t_13:
-  dmark: pp+
-  dlevel: 9
+  dmark: pp-
+  dlevel: 7
 
 n3_5Cs2t_13:
-  dmark: pp+
-  dlevel: 9
+  dmark: pp-
+  dlevel: 7
 
 n3_5Fs1s_4:
-  dmark: pp+
-  dlevel: 9
+  dmark: pp-
+  dlevel: 7
 
 n3_5A2t_14:
+  dmark: pp-
+  dlevel: 7
+
+n3_5Cs2t_14:
+  dmark: pp-
+  dlevel: 7
+
+ng4_5F4e:
+  dmark: p
+  dlevel: 11
+
+n4_1Eb5h:
+  dmark: p
+  dlevel: 11
+
+n4_5C1e:
   dmark: ppp
   dlevel: 5
 
-n3_5Cs2t_14:
-  dmark: mp
-  dlevel: 14
-
-ng4_5F4e:
-  dmark: mp
-  dlevel: 14
-
-n4_1Eb5h:
-  dmark: mp
-  dlevel: 14
-
-n4_5C1e:
-  dmark: mp
-  dlevel: 14
-
 n4_5Bb1e_0:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n4_5C1s_0:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n4_5Bb1s_0:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n4_5Bb1s_1:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp+
+  dlevel: 6
 
 n4_5C1s_1:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp+
+  dlevel: 6
 
 n4_5Bb1s_2:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp+
+  dlevel: 6
 
 n4_5C1s_3:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp+
+  dlevel: 6
 
 n4_5Bb1e_1:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp+
+  dlevel: 6
 
 n4_5C1s_4:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp+
+  dlevel: 6
 
 n4_5Bb1s_3:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp+
+  dlevel: 6
 
 n4_5C1s_5:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp+
+  dlevel: 6
 
 n4_5Bb1e_2:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp+
+  dlevel: 6
 
 n4_5C1s_6:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp+
+  dlevel: 6
 
 n4_5Bb1e_3:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp+
+  dlevel: 6
 
 n4_1C1h:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n4_5A2t_0:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n4_5Fs1t_0:
   dmark: ppp
@@ -703,320 +703,320 @@ n5_5A2t_5:
   dlevel: 5
 
 n5_5Cs2t_5:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n5_5A2t_6:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n5_5Fs1t_2:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n5_5Cs2t_6:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n5_5A2t_7:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n5_5Cs2t_7:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n5_5Fs1s_2:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n5_5A2t_8:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n5_5Cs2t_8:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n5_5A2t_9:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n5_5Fs1t_3:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n5_5Cs2t_9:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n5_5A2t_10:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n5_5Cs2t_10:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n5_5Fs1s_3:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n5_5A2t_11:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n5_5Cs2t_11:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n5_1Cs5h:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n5_5Cs2t_12:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n5_5A2t_12:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n5_5Cs2t_13:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n5_5Fs1s_4:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n5_5A2t_13:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n5_5Cs2t_14:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp+
+  dlevel: 6
 
 n5_5A2t_14:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp+
+  dlevel: 6
 
 n5_5Fs1t_4:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp+
+  dlevel: 6
 
 n5_5Cs2t_15:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp+
+  dlevel: 6
 
 n5_5A2t_15:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp+
+  dlevel: 6
 
 n5_5Cs2t_16:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp+
+  dlevel: 6
 
 n5_5Fs1s_5:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp+
+  dlevel: 6
 
 n5_5A2t_16:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp+
+  dlevel: 6
 
 n5_5Cs2t_17:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp+
+  dlevel: 6
 
 n6_5A2t_0:
-  dmark: mp
-  dlevel: 14
+  dmark: pp-
+  dlevel: 7
 
 n6_5Fs1t_0:
-  dmark: mp
-  dlevel: 14
+  dmark: pp-
+  dlevel: 7
 
 n6_5Cs2t_0:
-  dmark: mp
-  dlevel: 14
+  dmark: pp-
+  dlevel: 7
 
 n6_5A2t_1:
-  dmark: mp
-  dlevel: 14
+  dmark: pp-
+  dlevel: 7
 
 n6_5Cs2t_1:
-  dmark: mp
-  dlevel: 14
+  dmark: pp-
+  dlevel: 7
 
 n6_5Fs1s_0:
-  dmark: mp
-  dlevel: 14
+  dmark: pp-
+  dlevel: 7
 
 n6_5A2t_2:
-  dmark: mp
-  dlevel: 14
+  dmark: pp-
+  dlevel: 7
 
 n6_5Cs2t_2:
-  dmark: mp
-  dlevel: 14
+  dmark: pp-
+  dlevel: 7
 
 n6_5A2t_3:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n6_5Fs1t_1:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n6_5Cs2t_3:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n6_5A2t_4:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n6_5Cs2t_4:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n6_5Fs1e:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n6_5A2t_5:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n6_1C1w:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n6_5Fs1t_2:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n6_5Cs2t_5:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n6_5A2t_6:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n6_5Cs2t_6:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n6_5Fs1s_1:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n6_5A2t_7:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n6_5Cs2t_7:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n6_5A2t_8:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n6_5Fs1t_3:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n6_5Cs2t_8:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n6_5A2t_9:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n6_5Cs2t_9:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n6_5Fs1s_2:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n6_5A2t_10:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n6_5Cs2t_10:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n6_5A2t_11:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n6_5Fs1t_4:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n6_5Cs2t_11:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n6_5A2t_12:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n6_5Cs2t_12:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n6_5Fs1s_3:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n6_5A2t_13:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n6_5Cs2t_13:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n6_5A2t_14:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n6_5Fs1t_5:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n6_5Cs2t_14:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n6_5A2t_15:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n6_5Cs2t_15:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n6_5Fs1s_4:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n6_5A2t_16:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n6_5Cs2t_16:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n10_5A4t_0:
   dmark: ppp
@@ -1371,12 +1371,12 @@ n12_5A1t_0:
   dlevel: 5
 
 n12_5G5t:
-  dmark: ppp
-  dlevel: 5
+  dmark: ppp+
+  dlevel: 6
 
 n12_5A1t_1:
-  dmark: ppp
-  dlevel: 5
+  dmark: ppp+
+  dlevel: 6
 
 n12_5G5s:
   dmark: ppp+
@@ -1395,192 +1395,192 @@ n13_5Bb1t_1:
   dlevel: 6
 
 n13_1G5s_0:
-  dmark: ppp+
-  dlevel: 6
+  dmark: ppp
+  dlevel: 5
 
 n13_5A1s_0:
   dmark: ppp+
   dlevel: 6
 
 n13_1Db5s_0:
-  dmark: pp-
-  dlevel: 7
+  dmark: ppp
+  dlevel: 5
 
 n13_5Bb1t_2:
-  dmark: pp-
-  dlevel: 7
+  dmark: ppp+
+  dlevel: 6
 
 n13_5A1t_1:
-  dmark: pp-
-  dlevel: 7
+  dmark: ppp+
+  dlevel: 6
 
 n13_1G5s_1:
-  dmark: pp-
-  dlevel: 7
+  dmark: ppp
+  dlevel: 5
 
 n13_5Bb1t_3:
-  dmark: pp-
-  dlevel: 7
+  dmark: ppp+
+  dlevel: 6
 
 n13_5A1s_1:
-  dmark: pp-
-  dlevel: 7
+  dmark: ppp+
+  dlevel: 6
 
 n13_1Db5s_1:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n13_5Bb1t_4:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n13_5A1t_2:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n13_5Bb1t_5:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n13_1G5s_2:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n13_5A1s_2:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n13_1Db5s_2:
-  dmark: pp+
-  dlevel: 9
+  dmark: ppp
+  dlevel: 5
 
 n13_5Bb1t_6:
-  dmark: pp+
-  dlevel: 9
+  dmark: ppp
+  dlevel: 5
 
 n13_5A1t_3:
-  dmark: pp+
-  dlevel: 9
+  dmark: ppp
+  dlevel: 5
 
 n13_1G5s_3:
-  dmark: pp+
-  dlevel: 9
+  dmark: ppp
+  dlevel: 5
 
 n13_5Bb1t_7:
-  dmark: pp+
-  dlevel: 9
+  dmark: ppp
+  dlevel: 5
 
 n13_5A1s_3:
-  dmark: pp+
-  dlevel: 9
+  dmark: ppp
+  dlevel: 5
 
 n13_1Db5s_3:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n13_5Bb1t_8:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n13_5A1t_4:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n13_5Bb1t_9:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n13_1G5s_4:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n13_5A1s_4:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n13_1Db5s_4:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n13_5Bb1t_10:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n13_5A1t_5:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n13_1G5s_5:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n13_5Bb1t_11:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n13_5A1s_5:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n13_1Db5s_5:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n13_5Bb1t_12:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n13_5A1t_6:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n13_5Bb1t_13:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n13_1G5s_6:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n13_5A1s_6:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n13_1Db5s_6:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n13_5Bb1t_14:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n13_5A1t_7:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n13_1G5s_7:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n13_5Bb1t_15:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n13_5A1s_7:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n18_1B3e:
   dmark: pp
   dlevel: 8
 
 n18_5Bb2h:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n18_5E3h:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n18_1F6e:
   dmark: pp
@@ -1671,8 +1671,8 @@ n18_1Fs5e_1:
   dlevel: 9
 
 n18_1Gs4s_1:
-  dmark: ppp
-  dlevel: 5
+  dmark: mf
+  dlevel: 17
 
 n18_1F7s:
   dmark: mf
@@ -1687,24 +1687,24 @@ n19_5D2e:
   dlevel: 14
 
 n20_1D4w:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n20_1E5w:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n20_6B1w:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n20_6B2w:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n20_6C3w:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n21_1D4h:
   dmark: ppp
@@ -1783,20 +1783,20 @@ n21_2A4e:
   dlevel: 14
 
 n21_5Ab3h:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n22_2A4h:
-  dmark: mp
-  dlevel: 14
+  dmark: pp+
+  dlevel: 9
 
 n22_5Ab3q:
   dmark: p
   dlevel: 11
 
 n22_6Bb1b:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n22_1E5h:
   dmark: p
@@ -1843,108 +1843,108 @@ ng22_1Gs4e:
   dlevel: 7
 
 n22_5B2q:
-  dmark: p
-  dlevel: 11
+  dmark: ppp
+  dlevel: 5
 
 n23_1Bb6q:
   dmark: ppp-
   dlevel: 4
 
 n23_2Cs5w:
-  dmark: mp
-  dlevel: 14
+  dmark: ff
+  dlevel: 22
 
 n23_5As3q:
-  dmark: mp
-  dlevel: 14
+  dmark: f
+  dlevel: 20
 
 n23_1E5q:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n23_1Cs7q:
-  dmark: mp
-  dlevel: 14
+  dmark: ff
+  dlevel: 22
 
 n23_5Fs1q:
-  dmark: mp
-  dlevel: 14
+  dmark: f-
+  dlevel: 19
 
 n23_5G3h:
-  dmark: mp
-  dlevel: 14
+  dmark: mf
+  dlevel: 17
 
 n24_5Bb2e_0:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n24_6Gs1h:
-  dmark: mp
-  dlevel: 14
+  dmark: mf
+  dlevel: 17
 
 n24_6Fs2h:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n24_1D2e:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n24_5D3e_0:
-  dmark: mp
-  dlevel: 14
+  dmark: pp-
+  dlevel: 7
 
 n24_1Fs1q:
   dmark: mp
   dlevel: 14
 
 n24_1E4h:
-  dmark: mp
-  dlevel: 14
+  dmark: f
+  dlevel: 20
 
 n24_6Cs3e:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n24_2Fs4e_0:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n24_6G2q:
-  dmark: mp
-  dlevel: 14
+  dmark: f
+  dlevel: 20
 
 n24_2Eb5s:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n24_2F7s:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n24_2D7e:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n24_2Fs4e_1:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n24_6B2s_0:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n24_6Gs3e:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n24_6D2e:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n24_6Bb5s:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n25_1Fs4w:
   dmark: p
@@ -1979,8 +1979,8 @@ n25_5D6t_0:
   dlevel: 7
 
 n25_5B5t_0:
-  dmark: pp-
-  dlevel: 7
+  dmark: ppp+
+  dlevel: 6
 
 n25_5D6t_1:
   dmark: ppp+
@@ -2107,12 +2107,12 @@ n26_1F7q:
   dlevel: 8
 
 n26_5E4q_0:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n26_5Bb4q_0:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n26_2A6t:
   dmark: pp
@@ -2143,12 +2143,12 @@ n26_1Cs5t_0:
   dlevel: 8
 
 n26_5A4q:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n26_5Eb5q:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n26_1B4t_0:
   dmark: pp
@@ -2175,8 +2175,8 @@ n26_1B4t_1:
   dlevel: 9
 
 n26_1A5x:
-  dmark: p-
-  dlevel: 10
+  dmark: pp+
+  dlevel: 9
 
 n26_1Cs4t:
   dmark: p-
@@ -2263,16 +2263,16 @@ n26_1Gb3t_0:
   dlevel: 18
 
 n26_1A4t_3:
-  dmark: f-
-  dlevel: 19
+  dmark: mf+
+  dlevel: 18
 
 n26_1Eb5t_1:
-  dmark: f-
-  dlevel: 19
+  dmark: mf+
+  dlevel: 18
 
 n26_1F5t_1:
-  dmark: f-
-  dlevel: 19
+  dmark: mf+
+  dlevel: 18
 
 n26_1Db4t_0:
   dmark: f-
@@ -2395,12 +2395,12 @@ n27_5B2t:
   dlevel: 13
 
 n27_5D3t_1:
-  dmark: mp-
-  dlevel: 13
+  dmark: p+
+  dlevel: 12
 
 n27_5F5t:
-  dmark: mp-
-  dlevel: 13
+  dmark: p+
+  dlevel: 12
 
 n27_5Cs2t_0:
   dmark: p+
@@ -2411,64 +2411,64 @@ n27_5A4t_1:
   dlevel: 12
 
 n27_5B1t_0:
-  dmark: p+
-  dlevel: 12
+  dmark: p
+  dlevel: 11
 
 n27_5D3t_2:
-  dmark: p+
-  dlevel: 12
+  dmark: p
+  dlevel: 11
 
 n27_5B1t_1:
-  dmark: p
-  dlevel: 11
+  dmark: p-
+  dlevel: 10
 
 n27_5Cs2t_1:
-  dmark: p
-  dlevel: 11
+  dmark: p-
+  dlevel: 10
 
 n27_5F4t:
-  dmark: p
-  dlevel: 11
+  dmark: p-
+  dlevel: 10
 
 n27_5A3t:
-  dmark: p
-  dlevel: 11
+  dmark: p-
+  dlevel: 10
 
 n27_5Cs2t_2:
-  dmark: p
-  dlevel: 11
+  dmark: pp+
+  dlevel: 9
 
 n27_5B1t_2:
-  dmark: p
-  dlevel: 11
+  dmark: pp+
+  dlevel: 9
 
 n27_5A2x:
-  dmark: p-
-  dlevel: 10
+  dmark: pp
+  dlevel: 8
 
 n27_5Cs1t_0:
-  dmark: p-
-  dlevel: 10
+  dmark: pp
+  dlevel: 8
 
 n27_5B0t_0:
-  dmark: p-
-  dlevel: 10
+  dmark: pp
+  dlevel: 8
 
 n27_5D2t_0:
-  dmark: pp+
-  dlevel: 9
+  dmark: pp
+  dlevel: 8
 
 n27_5B0t_1:
-  dmark: pp+
-  dlevel: 9
+  dmark: pp
+  dlevel: 8
 
 n27_5D2t_1:
-  dmark: pp+
-  dlevel: 9
+  dmark: pp
+  dlevel: 8
 
 n27_5F3t:
-  dmark: pp+
-  dlevel: 9
+  dmark: pp
+  dlevel: 8
 
 n27_5A1t_0:
   dmark: pp
@@ -2559,12 +2559,12 @@ n30_5Ab4e:
   dlevel: 5
 
 n30_5D3e:
-  dmark: ppp+
-  dlevel: 6
+  dmark: mp-
+  dlevel: 13
 
 n30_5Fs5q:
-  dmark: pp
-  dlevel: 8
+  dmark: f
+  dlevel: 20
 
 n30_6A1t_0:
   dmark: ff
@@ -2611,20 +2611,20 @@ n30_2F7e:
   dlevel: 8
 
 n30_1Eb5e:
-  dmark: pp-
-  dlevel: 7
+  dmark: ppp
+  dlevel: 5
 
 n30_2Fs5q:
   dmark: ppp
   dlevel: 5
 
 ng30_1B3e:
-  dmark: pp-
-  dlevel: 7
+  dmark: ppp
+  dlevel: 5
 
 ng30_1Gs4e:
-  dmark: pp-
-  dlevel: 7
+  dmark: ppp
+  dlevel: 5
 
 n31_1A4q:
   dmark: pp
@@ -2787,8 +2787,8 @@ n31_6A3t:
   dlevel: 8
 
 n31_5D4s:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n31_6C1q:
   dmark: pp
@@ -2803,12 +2803,12 @@ n31_6B3q:
   dlevel: 11
 
 n31_5C2e:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n31_1A2e:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n31_1A2s:
   dmark: mp
@@ -2819,260 +2819,260 @@ n31_1G5s:
   dlevel: 14
 
 n31_5Bb2s_0:
-  dmark: mp
-  dlevel: 14
+  dmark: mp+
+  dlevel: 15
 
 n31_5Db5s_0:
-  dmark: mp
-  dlevel: 14
+  dmark: mf
+  dlevel: 17
 
 n31_5Bb2s_1:
-  dmark: mp
-  dlevel: 14
+  dmark: mf+
+  dlevel: 18
 
 n31_5F3s:
-  dmark: mp
-  dlevel: 14
+  dmark: mf+
+  dlevel: 18
 
 n31_5Db5s_1:
-  dmark: mp
-  dlevel: 14
+  dmark: mf+
+  dlevel: 18
 
 n31_5A1s:
-  dmark: mp
-  dlevel: 14
+  dmark: f
+  dlevel: 20
 
 ng31_5A5e:
-  dmark: mp
-  dlevel: 14
+  dmark: f+
+  dlevel: 21
 
 ng31_5D5e:
-  dmark: mp
-  dlevel: 14
+  dmark: f+
+  dlevel: 21
 
 n31_5G5s:
-  dmark: mp
-  dlevel: 14
+  dmark: ff
+  dlevel: 22
 
 n31_1Cs2t:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n31_5Bb1q:
-  dmark: mp
-  dlevel: 14
+  dmark: ff
+  dlevel: 22
 
 n31_1B1t:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n31_1D5t:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n31_1F6t:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n31_6D4t:
-  dmark: mp
-  dlevel: 14
+  dmark: f
+  dlevel: 20
 
 n31_6C2t_1:
-  dmark: mp
-  dlevel: 14
+  dmark: ff
+  dlevel: 22
 
 n32_1B3s:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n32_6C1q:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n32_6Bb2q:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n32_6E3q:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n32_1Bb5t_0:
-  dmark: mp
-  dlevel: 14
+  dmark: mf
+  dlevel: 17
 
 n32_1Cs3t:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n32_1B2t:
-  dmark: mp
-  dlevel: 14
+  dmark: p+
+  dlevel: 12
 
 n32_1D5t:
   dmark: mp
   dlevel: 14
 
 n32_1F6t:
-  dmark: mp
-  dlevel: 14
+  dmark: mf-
+  dlevel: 16
 
 n32_1A4e:
-  dmark: mp
-  dlevel: 14
+  dmark: mf
+  dlevel: 17
 
 n32_5E3s:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n32_5D4s:
-  dmark: mp
-  dlevel: 14
+  dmark: mp-
+  dlevel: 13
 
 n32_6Bb1s:
-  dmark: mp
-  dlevel: 14
+  dmark: mp+
+  dlevel: 15
 
 n32_6E3s:
-  dmark: mp
-  dlevel: 14
+  dmark: mf
+  dlevel: 17
 
 n32_5C1s:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n32_6D4s:
-  dmark: mp
-  dlevel: 14
+  dmark: f
+  dlevel: 20
 
 n32_5E4s_0:
-  dmark: mp
-  dlevel: 14
+  dmark: pp+
+  dlevel: 9
 
 n32_5Fs2s:
-  dmark: mp
-  dlevel: 14
+  dmark: p+
+  dlevel: 12
 
 n32_1Gs4h:
-  dmark: mp
-  dlevel: 14
+  dmark: f
+  dlevel: 20
 
 n32_5E4s_1:
   dmark: mp
   dlevel: 14
 
 n32_5Gs3t_0:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n32_5A3t_0:
-  dmark: mp
-  dlevel: 14
+  dmark: p-
+  dlevel: 10
 
 n32_5Gs3t_1:
-  dmark: mp
-  dlevel: 14
+  dmark: pp+
+  dlevel: 9
 
 n32_5A3t_1:
-  dmark: mp
-  dlevel: 14
+  dmark: pp-
+  dlevel: 7
 
 n32_5C1t:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp+
+  dlevel: 6
 
 n32_5Fs1s:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n32_5Bb1e:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n32_5E3e:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n32_5D4e:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n32_5E4e:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n32_6C1e:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n32_6Fs1e:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n32_6Gs3e:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n32_6A3e:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n32_1Gs4e:
-  dmark: mp
-  dlevel: 14
+  dmark: mf
+  dlevel: 17
 
 n32_1Fs5e:
-  dmark: mp
-  dlevel: 14
+  dmark: mf
+  dlevel: 17
 
 n32_1B3e:
-  dmark: mp
-  dlevel: 14
+  dmark: p+
+  dlevel: 12
 
 n32_1D3t_0:
-  dmark: mp
-  dlevel: 14
+  dmark: pp+
+  dlevel: 9
 
 n32_1Bb5t_1:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n32_1B3t_0:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n32_1Bb5t_2:
-  dmark: mp
-  dlevel: 14
+  dmark: pp-
+  dlevel: 7
 
 n32_1B3t_1:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp+
+  dlevel: 6
 
 n32_1Bb6t:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n32_1D3t_1:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n35_6C4e_0:
   dmark: p
   dlevel: 11
 
 n35_1Fs5e:
-  dmark: pp
-  dlevel: 8
+  dmark: pp+
+  dlevel: 9
 
 n35_5Fs2e:
   dmark: ppp
   dlevel: 5
 
 n35_1Ds6e:
-  dmark: pp+
-  dlevel: 9
+  dmark: p
+  dlevel: 11
 
 n35_5C2e_0:
   dmark: ppp
@@ -3087,8 +3087,8 @@ n35_6C2e:
   dlevel: 14
 
 n35_1A4q:
-  dmark: pp+
-  dlevel: 9
+  dmark: pp
+  dlevel: 8
 
 n35_5D4e:
   dmark: mp
@@ -3099,12 +3099,12 @@ n35_1E4e:
   dlevel: 9
 
 n35_5Fs4e:
-  dmark: mf
-  dlevel: 17
+  dmark: mf+
+  dlevel: 18
 
 n35_5A4e:
-  dmark: mf
-  dlevel: 17
+  dmark: mf+
+  dlevel: 18
 
 n35_5C2e_1:
   dmark: f
@@ -3175,8 +3175,8 @@ n36_5Gs4e:
   dlevel: 5
 
 ng36_5Fs3e_0:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 ng36_5D4e:
   dmark: ppp
@@ -3191,16 +3191,16 @@ ng36_1C6e:
   dlevel: 5
 
 ng36_5Es3e:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 ng36_5Fs3e_1:
   dmark: ppp
   dlevel: 5
 
 ng36_6C3e:
-  dmark: mp
-  dlevel: 14
+  dmark: s
+  dlevel: 0
 
 n37_2C3w:
   dmark: mf
@@ -3247,8 +3247,8 @@ n37_5A4e:
   dlevel: 11
 
 n37_1Db4t:
-  dmark: p+
-  dlevel: 12
+  dmark: mp-
+  dlevel: 13
 
 n37_1C5e:
   dmark: mp
@@ -3283,8 +3283,8 @@ n37_5C3h:
   dlevel: 20
 
 ng37_1C6e:
-  dmark: p
-  dlevel: 11
+  dmark: p+
+  dlevel: 12
 
 ng37_1Bb3e:
   dmark: mp+
@@ -3307,8 +3307,8 @@ n38_1E3q:
   dlevel: 15
 
 n38_1Bb5e:
-  dmark: mp
-  dlevel: 14
+  dmark: mf
+  dlevel: 17
 
 n38_6Gs2e_0:
   dmark: f
@@ -3351,32 +3351,32 @@ n39_2B0q:
   dlevel: 20
 
 ng41_5F1e:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 ng41_1A5e:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 ng41_5C3e:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n41_1E5w:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n41_2G3w:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n41_5D4h:
-  dmark: mp
-  dlevel: 14
+  dmark: mf
+  dlevel: 17
 
 n41_6Eb3w:
-  dmark: mp
-  dlevel: 14
+  dmark: mf
+  dlevel: 17
 
 n41_5Cs3e:
   dmark: f
@@ -3399,20 +3399,20 @@ n42_1Fs5q:
   dlevel: 5
 
 n42_1A5q:
-  dmark: pppp
-  dlevel: 2
+  dmark: ppp
+  dlevel: 5
 
 n42_2As3q:
-  dmark: f
-  dlevel: 20
+  dmark: ppp
+  dlevel: 5
 
 n42_2B3q:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n42_2A4q:
-  dmark: ff
-  dlevel: 22
+  dmark: ppp
+  dlevel: 5
 
 n43_6C3q:
   dmark: p
@@ -3507,32 +3507,32 @@ n47_2F7q:
   dlevel: 22
 
 n47_6E2q:
-  dmark: f
-  dlevel: 20
+  dmark: ff
+  dlevel: 22
 
 n48_5E3s:
-  dmark: f
-  dlevel: 20
+  dmark: mp
+  dlevel: 14
 
 n48_5Fs2e:
-  dmark: f
-  dlevel: 20
+  dmark: mp
+  dlevel: 14
 
 n48_2A4e:
   dmark: mp
   dlevel: 14
 
 n48_5E3w:
-  dmark: f
-  dlevel: 20
+  dmark: mp
+  dlevel: 14
 
 n48_6B2h:
   dmark: pp
   dlevel: 8
 
 n48_1F3q:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n50_2Fs2e:
   dmark: pp
@@ -3551,8 +3551,8 @@ ng50_1Gs4e:
   dlevel: 7
 
 ng50_6E3e:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n50_1E4e:
   dmark: mf
@@ -3607,8 +3607,8 @@ n52_2A7t:
   dlevel: 8
 
 n52_5Ds4h:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n52_2E7s:
   dmark: pp+
@@ -3691,40 +3691,40 @@ n53_6Gb3h:
   dlevel: 8
 
 ng56_5Ab5e:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 ng56_5C3e:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 ng56_1C6e:
   dmark: pp
   dlevel: 8
 
 ng56_1E3e:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 ng56_1F5e:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 ng56_2A7e:
-  dmark: fff
-  dlevel: 24
+  dmark: pp
+  dlevel: 8
 
 ng56_5Eb4e:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n56_5B3e:
-  dmark: mp
-  dlevel: 14
+  dmark: pp+
+  dlevel: 9
 
 n56_6G2q:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n56_5G2q:
   dmark: p
@@ -3895,8 +3895,8 @@ n59_1C6q:
   dlevel: 8
 
 n59_5Cs2h_0:
-  dmark: mp
-  dlevel: 14
+  dmark: mf
+  dlevel: 17
 
 ng59_1D6e:
   dmark: mp
@@ -3915,20 +3915,20 @@ n59_1Cs5t:
   dlevel: 8
 
 n59_1E4t_0:
+  dmark: pp
+  dlevel: 8
+
+n59_1Bb5t_0:
   dmark: pp+
   dlevel: 9
 
-n59_1Bb5t_0:
+n59_1Ab3t_0:
   dmark: p-
   dlevel: 10
 
-n59_1Ab3t_0:
+n59_1E4t_1:
   dmark: p
   dlevel: 11
-
-n59_1E4t_1:
-  dmark: p+
-  dlevel: 12
 
 n59_1Ab3t_1:
   dmark: mp-
@@ -4147,8 +4147,8 @@ n60_1B2s_0:
   dlevel: 20
 
 n60_1F4s:
-  dmark: f
-  dlevel: 20
+  dmark: f-
+  dlevel: 19
 
 n60_1B2s_1:
   dmark: mp-
@@ -4315,20 +4315,20 @@ n61_1Gs6q:
   dlevel: 8
 
 n61_5Bb1h_0:
-  dmark: mp
-  dlevel: 14
+  dmark: ff
+  dlevel: 22
 
 n61_6Cs3e:
-  dmark: mp
-  dlevel: 14
+  dmark: fp
+  dlevel: 25
 
 n61_6D4e:
-  dmark: mp
-  dlevel: 14
+  dmark: fp
+  dlevel: 25
 
 n61_5Bb1h_1:
-  dmark: mp
-  dlevel: 14
+  dmark: ff
+  dlevel: 22
 
 ng61_6F2e:
   dmark: p
@@ -4395,12 +4395,12 @@ n62_5Gs2s_0:
   dlevel: 22
 
 n62_1A4q:
-  dmark: pp
-  dlevel: 8
+  dmark: ff
+  dlevel: 22
 
 n62_1Fs6q:
-  dmark: pp
-  dlevel: 8
+  dmark: ff
+  dlevel: 22
 
 n62_5Bb3e:
   dmark: ff
@@ -4519,16 +4519,16 @@ n62_5Bb3h:
   dlevel: 22
 
 ng63_2F5e:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 ng63_5C2e:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n63_2Eb4h:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n63_5D4h:
   dmark: mp
@@ -4539,36 +4539,36 @@ n63_5Eb5h:
   dlevel: 14
 
 n63_6E1h:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n63_6G1h:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n63_1D4e:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n63_1E6e:
-  dmark: mp
-  dlevel: 14
+  dmark: ff
+  dlevel: 22
 
 n63_2Ab5e_0:
   dmark: mp
   dlevel: 14
 
 n63_6C3e:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n63_2Eb5q:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n63_5Db4t:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n63_6Db2q:
   dmark: mp
@@ -4579,36 +4579,36 @@ n63_5Ab1s:
   dlevel: 14
 
 n63_1Bb5s:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n63_1C6s:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n63_5Ab3s:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n63_5C3e:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n63_5E3e:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n63_5A0q_0:
-  dmark: mp
-  dlevel: 14
+  dmark: mf
+  dlevel: 17
 
 n63_5Gs1q_0:
-  dmark: mp
-  dlevel: 14
+  dmark: mf
+  dlevel: 17
 
 n63_5E2q_0:
-  dmark: mp
-  dlevel: 14
+  dmark: mf
+  dlevel: 17
 
 n63_5B2q_0:
   dmark: mp
@@ -4627,12 +4627,12 @@ ng64_2A7e:
   dlevel: 17
 
 n64_1Eb5h:
-  dmark: mp
-  dlevel: 14
+  dmark: f
+  dlevel: 20
 
 n64_2Eb4h:
-  dmark: mp
-  dlevel: 14
+  dmark: f
+  dlevel: 20
 
 n64_5D4e:
   dmark: mf
@@ -4755,32 +4755,32 @@ n70_1Bb3s_0:
   dlevel: 9
 
 n70_1Ab4s_0:
-  dmark: p-
-  dlevel: 10
+  dmark: p+
+  dlevel: 12
 
 n70_1Bb3s_1:
-  dmark: p-
-  dlevel: 10
+  dmark: p+
+  dlevel: 12
 
 n70_1C6s:
-  dmark: p-
-  dlevel: 10
+  dmark: p+
+  dlevel: 12
 
 n70_1Ab4s_1:
-  dmark: p
-  dlevel: 11
+  dmark: p+
+  dlevel: 12
 
 n70_5E4e_1:
   dmark: p
   dlevel: 11
 
 n70_1Bb3s_2:
-  dmark: p
-  dlevel: 11
+  dmark: p+
+  dlevel: 12
 
 n70_1Ab4s_2:
-  dmark: p
-  dlevel: 11
+  dmark: p+
+  dlevel: 12
 
 n70_1Ab4s_3:
   dmark: p+
@@ -4791,16 +4791,16 @@ n70_5Gs2e:
   dlevel: 11
 
 n70_1Bb3s_3:
-  dmark: p+
-  dlevel: 12
+  dmark: mp+
+  dlevel: 15
 
 n70_1Ab4s_4:
-  dmark: p+
-  dlevel: 12
+  dmark: mp+
+  dlevel: 15
 
 n70_1C7s:
-  dmark: p+
-  dlevel: 12
+  dmark: mp+
+  dlevel: 15
 
 n70_1C8x:
   dmark: pp
@@ -4823,116 +4823,116 @@ n70_1Db5x_1:
   dlevel: 10
 
 n70_1E4x_2:
-  dmark: p-
-  dlevel: 10
+  dmark: p
+  dlevel: 11
 
 n70_1Db5x_2:
   dmark: p
   dlevel: 11
 
 n70_1C7x_0:
-  dmark: p
-  dlevel: 11
+  dmark: p+
+  dlevel: 12
 
 n70_1D6x:
   dmark: p+
   dlevel: 12
 
 n70_5A5e:
-  dmark: p+
-  dlevel: 12
+  dmark: mp-
+  dlevel: 13
 
 n70_1E4x_3:
   dmark: mp-
   dlevel: 13
 
 n70_1Db5x_3:
-  dmark: mp-
-  dlevel: 13
+  dmark: mp
+  dlevel: 14
 
 n70_1Bb6x_0:
-  dmark: mp-
-  dlevel: 13
+  dmark: mp
+  dlevel: 14
 
 n70_1C7x_1:
   dmark: mp
   dlevel: 14
 
 n70_1E4x_4:
-  dmark: mp
-  dlevel: 14
+  dmark: mp+
+  dlevel: 15
 
 n70_1Bb6x_1:
   dmark: mp+
   dlevel: 15
 
 n70_1Ab3x:
-  dmark: mp+
-  dlevel: 15
+  dmark: mf-
+  dlevel: 16
 
 n70_1E4x_5:
-  dmark: mp+
-  dlevel: 15
+  dmark: mf-
+  dlevel: 16
 
 n70_1Bb5x_0:
-  dmark: mf-
-  dlevel: 16
+  dmark: mf
+  dlevel: 17
 
 n70_1Ab2x_0:
-  dmark: mf-
-  dlevel: 16
+  dmark: mf
+  dlevel: 17
 
 n70_1Bb5x_1:
-  dmark: mf
-  dlevel: 17
+  dmark: mf+
+  dlevel: 18
 
 n70_1C6x_0:
-  dmark: mf
-  dlevel: 17
+  dmark: mf+
+  dlevel: 18
 
 n70_1Ab2x_1:
-  dmark: mf
-  dlevel: 17
+  dmark: mf+
+  dlevel: 18
 
 n70_1E3x_0:
-  dmark: mf
-  dlevel: 17
+  dmark: mf+
+  dlevel: 18
 
 n70_1Bb5x_2:
-  dmark: mf+
-  dlevel: 18
-
-n70_1C6x_1:
-  dmark: mf+
-  dlevel: 18
-
-n70_1Ab1x_0:
-  dmark: mf+
-  dlevel: 18
-
-n70_1Db4x_0:
   dmark: f-
   dlevel: 19
 
+n70_1C6x_1:
+  dmark: f-
+  dlevel: 19
+
+n70_1Ab1x_0:
+  dmark: f
+  dlevel: 20
+
+n70_1Db4x_0:
+  dmark: f
+  dlevel: 20
+
 n70_1E3x_1:
-  dmark: mp
-  dlevel: 14
+  dmark: f
+  dlevel: 20
 
 n70_1Db4x_1:
-  dmark: mp
-  dlevel: 14
+  dmark: f
+  dlevel: 20
 
 n70_1Ab1x_1:
-  dmark: mp
-  dlevel: 14
+  dmark: f
+  dlevel: 20
 
 n70_1Ab2x_2:
-  dmark: mp
-  dlevel: 14
+  dmark: f
+  dlevel: 20
 
 n70_1Bb5x_3:
-  dmark: mp
-  dlevel: 14
+  dmark: f
+  dlevel: 20
 
 n78_1F4w:
   dmark: p
@@ -4943,18 +4943,22 @@ n78_1Gs5w:
   dlevel: 2
 
 n78_2Ds4w:
-  dmark: mp
-  dlevel: 14
+  dmark: f
+  dlevel: 20
 
 n78_5E4e:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n78_6Gs3w:
-  dmark: mp
-  dlevel: 14
+  dmark: f
+  dlevel: 20
 
 n78_5Fs3e:
+  dmark: mf
+  dlevel: 17
+
+n79_2Ds4q_0:
   dmark: mf
   dlevel: 17
 
@@ -4987,12 +4991,12 @@ n79_1Ds6q:
   dlevel: 22
 
 n80_2A6w:
-  dmark: mp
-  dlevel: 14
+  dmark: ff
+  dlevel: 22
 
 n80_5Fs2w:
-  dmark: mp
-  dlevel: 14
+  dmark: ff
+  dlevel: 22
 
 ng80_1D4e:
   dmark: ppp
@@ -5035,376 +5039,376 @@ n82_1A4q:
   dlevel: 8
 
 n82_1Bb5q:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n82_5Cs2s_0:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n82_6C1e:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n82_5B1s_0:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n82_5Cs2s_1:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n82_5B1s_1:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n82_5A3e:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n82_6E6t_0:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n82_6C1t:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n82_6E6t_1:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n83_1Bb5q:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n83_6A5t_0:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n83_6Fs3t:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n83_6Gs5s:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n83_1D2q:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n83_5Cs1q:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n83_6A5t_1:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n83_6Gs5t:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n83_6C2t_0:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n83_6A4t_0:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n83_6E5s:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n83_6Gs4t_0:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n83_6E5t_0:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n83_6Gs4t_1:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n83_5D2s:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n83_6E5t_1:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n83_6Gs4t_2:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n83_6Fs2t_0:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n83_6A4t_1:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n83_1F5q:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n83_6Gs4t_3:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n83_5Fs4t:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n83_6A4t_2:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n83_6E5t_2:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n83_5Gs3t:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n83_6Gs4t_4:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n83_5D1t:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n83_6Fs2t_1:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n83_6A3t:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n83_5D4s:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n83_6C1q:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n83_6E3q:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n83_6B3q:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n83_5C2e:
-  dmark: p
-  dlevel: 11
+  dmark: ppp
+  dlevel: 5
 
 n83_1A2e:
   dmark: p
   dlevel: 11
 
 n83_1A2s:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n83_1G5s:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n83_5Bb2s_0:
-  dmark: mp+
-  dlevel: 15
+  dmark: ppp
+  dlevel: 5
 
 n83_5Db5s_0:
-  dmark: mf
-  dlevel: 17
+  dmark: ppp
+  dlevel: 5
 
 n83_5Bb2s_1:
-  dmark: mf+
-  dlevel: 18
+  dmark: ppp
+  dlevel: 5
 
 n83_5F3s:
-  dmark: mf+
-  dlevel: 18
+  dmark: ppp
+  dlevel: 5
 
 n83_5Db5s_1:
-  dmark: mf+
-  dlevel: 18
+  dmark: ppp
+  dlevel: 5
 
 n83_5A1s:
-  dmark: f-
-  dlevel: 19
+  dmark: ppp
+  dlevel: 5
 
 ng83_5A5e:
-  dmark: f+
-  dlevel: 21
+  dmark: ppp
+  dlevel: 5
 
 ng83_5D5e:
-  dmark: f+
-  dlevel: 21
+  dmark: ppp
+  dlevel: 5
 
 n83_5G5s:
-  dmark: ff
-  dlevel: 22
+  dmark: ppp
+  dlevel: 5
 
 n83_1Cs2t:
-  dmark: p
-  dlevel: 11
+  dmark: ppp
+  dlevel: 5
 
 n83_5Bb1q:
-  dmark: ff
-  dlevel: 22
+  dmark: ppp
+  dlevel: 5
 
 n83_1B1t:
-  dmark: p
-  dlevel: 11
+  dmark: ppp
+  dlevel: 5
 
 n83_1D5t:
-  dmark: p
-  dlevel: 11
+  dmark: ppp
+  dlevel: 5
 
 n83_1F6t:
-  dmark: p
-  dlevel: 11
+  dmark: ppp
+  dlevel: 5
 
 n83_6D4t:
-  dmark: ff
-  dlevel: 22
+  dmark: ppp
+  dlevel: 5
 
 n83_6C2t_1:
-  dmark: ff
-  dlevel: 22
+  dmark: ppp
+  dlevel: 5
 
 n84_1B3s:
   dmark: mf
   dlevel: 17
 
 n84_6C1q:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n84_6Bb2q:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n84_6E3q:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n84_1Bb5t:
-  dmark: mf
-  dlevel: 17
-
-n84_1Cs3t:
-  dmark: p
-  dlevel: 11
-
-n84_1B2t:
-  dmark: p+
-  dlevel: 12
-
-n84_1D5t:
-  dmark: mp
-  dlevel: 14
-
-n84_1F6t:
-  dmark: mf-
-  dlevel: 16
-
-n84_1A4e:
-  dmark: mf
-  dlevel: 17
-
-n84_5E3s:
-  dmark: p
-  dlevel: 11
-
-n84_5D4s:
-  dmark: mp-
-  dlevel: 13
-
-n84_6Bb1s:
-  dmark: mp+
-  dlevel: 15
-
-n84_6E3s:
-  dmark: mf
-  dlevel: 17
-
-n84_5C1s:
   dmark: pp
   dlevel: 8
 
+n84_1Cs3t:
+  dmark: ppp
+  dlevel: 5
+
+n84_1B2t:
+  dmark: ppp
+  dlevel: 5
+
+n84_1D5t:
+  dmark: ppp
+  dlevel: 5
+
+n84_1F6t:
+  dmark: ppp
+  dlevel: 5
+
+n84_1A4e:
+  dmark: ppp
+  dlevel: 5
+
+n84_5E3s:
+  dmark: ppp
+  dlevel: 5
+
+n84_5D4s:
+  dmark: ppp
+  dlevel: 5
+
+n84_6Bb1s:
+  dmark: ppp
+  dlevel: 5
+
+n84_6E3s:
+  dmark: ppp
+  dlevel: 5
+
+n84_5C1s:
+  dmark: ppp
+  dlevel: 5
+
 n84_6D4s:
-  dmark: f
-  dlevel: 20
+  dmark: ppp
+  dlevel: 5
 
 n84_5E4s_0:
-  dmark: p
-  dlevel: 11
+  dmark: ppp
+  dlevel: 5
 
 n84_5Fs2s:
-  dmark: p+
-  dlevel: 12
+  dmark: ppp
+  dlevel: 5
 
 n84_1Gs4h:
-  dmark: f
-  dlevel: 20
+  dmark: ppp
+  dlevel: 5
 
 n84_5E4s_1:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n84_5Gs3t_0:
-  dmark: p
-  dlevel: 11
+  dmark: ppp
+  dlevel: 5
 
 n84_5A3t_0:
-  dmark: p-
-  dlevel: 10
+  dmark: ppp
+  dlevel: 5
 
 n84_5Gs3t_1:
-  dmark: pp+
-  dlevel: 9
+  dmark: ppp
+  dlevel: 5
 
 n84_5A3t_1:
-  dmark: pp-
-  dlevel: 7
+  dmark: ppp
+  dlevel: 5
 
 n84_5C1t:
-  dmark: ppp+
-  dlevel: 6
+  dmark: ppp
+  dlevel: 5
 
 n84_5Fs1s:
   dmark: ppp
   dlevel: 5
 
 n84_5Bb1e:
-  dmark: p
-  dlevel: 11
+  dmark: pp
+  dlevel: 8
 
 n84_5E3e:
-  dmark: p
-  dlevel: 11
+  dmark: pp
+  dlevel: 8
 
 n84_5D4e:
-  dmark: p
-  dlevel: 11
+  dmark: pp
+  dlevel: 8
 
 n84_5E4e:
-  dmark: p
-  dlevel: 11
+  dmark: pp
+  dlevel: 8
 
 n84_6C1e:
   dmark: pp
@@ -5423,44 +5427,44 @@ n84_6A3e:
   dlevel: 8
 
 n85_1Gs4e:
-  dmark: mf
-  dlevel: 17
+  dmark: mp
+  dlevel: 14
 
 n85_1Fs5e:
-  dmark: mf
-  dlevel: 17
+  dmark: mp
+  dlevel: 14
 
 n85_1B3e:
-  dmark: p
-  dlevel: 11
+  dmark: p+
+  dlevel: 12
 
 n85_1D3t_0:
   dmark: p-
   dlevel: 10
 
 n85_1Bb5t_0:
-  dmark: pp+
-  dlevel: 9
+  dmark: p-
+  dlevel: 10
 
 n85_1B3t_0:
+  dmark: p-
+  dlevel: 10
+
+n85_1Bb5t_1:
   dmark: pp+
   dlevel: 9
 
-n85_1Bb5t_1:
-  dmark: pp
-  dlevel: 8
-
 n85_1B3t_1:
-  dmark: mp
-  dlevel: 14
+  dmark: pp+
+  dlevel: 9
 
 n85_1Bb6t:
-  dmark: mp
-  dlevel: 14
+  dmark: pp+
+  dlevel: 9
 
 n85_1D3t_1:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n87_1C6e:
   dmark: fff
@@ -5471,12 +5475,12 @@ n87_1Db7e:
   dlevel: 24
 
 n87_5E3t:
-  dmark: mp
-  dlevel: 14
+  dmark: fff
+  dlevel: 24
 
 n87_5Bb3t:
-  dmark: mp
-  dlevel: 14
+  dmark: fff
+  dlevel: 24
 
 n87_5Ab1s_0:
   dmark: fff
@@ -5587,44 +5591,44 @@ n87_5Bb2s_0:
   dlevel: 11
 
 n87_1C4t:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n87_1Db5t:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n87_5Ab1t_4:
-  dmark: pp+
-  dlevel: 9
+  dmark: p
+  dlevel: 11
 
 n87_5E2t_4:
-  dmark: pp+
-  dlevel: 9
+  dmark: p
+  dlevel: 11
 
 n87_5Bb2t:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n87_1C4s:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n87_1Db5s:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n87_5Ab1s_3:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n87_5E2s_1:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n87_5Bb2s_1:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n88_1A7s:
   dmark: ff
@@ -5695,44 +5699,44 @@ n88_5Ab1e:
   dlevel: 20
 
 n88_1Bb5s:
-  dmark: ff
-  dlevel: 22
+  dmark: f-
+  dlevel: 19
 
 n88_5Ab1s:
-  dmark: f
-  dlevel: 20
+  dmark: f-
+  dlevel: 19
 
 n88_1Db6s:
-  dmark: ff
-  dlevel: 22
+  dmark: f-
+  dlevel: 19
 
 n88_5Gb2s:
-  dmark: mf+
-  dlevel: 18
+  dmark: mf
+  dlevel: 17
 
 ng88_1A6e:
   dmark: mp
   dlevel: 14
 
 ng88_1C7e_0:
-  dmark: mp
-  dlevel: 14
+  dmark: mp+
+  dlevel: 15
 
 ng88_1E7e:
   dmark: mp+
   dlevel: 15
 
 ng88_5Eb4e_0:
-  dmark: p+
-  dlevel: 12
+  dmark: f-
+  dlevel: 19
 
 ng88_1C7e_1:
-  dmark: mf
-  dlevel: 17
+  dmark: mp+
+  dlevel: 15
 
 ng88_5F3e_0:
-  dmark: p
-  dlevel: 11
+  dmark: f-
+  dlevel: 19
 
 ng88_1D5e:
   dmark: mf+
@@ -5743,8 +5747,8 @@ ng88_5Eb4e_1:
   dlevel: 10
 
 ng88_1Db5e_0:
-  dmark: f
-  dlevel: 20
+  dmark: mf+
+  dlevel: 18
 
 ng88_5F3e_1:
   dmark: p-
@@ -5763,8 +5767,8 @@ ng88_1Db5e_1:
   dlevel: 22
 
 ng88_5F3e_2:
-  dmark: pp+
-  dlevel: 9
+  dmark: pp-
+  dlevel: 7
 
 ng88_5Gb3e:
   dmark: pp
@@ -5803,8 +5807,8 @@ ng88_1C8e_0:
   dlevel: 21
 
 ng88_1Cs7e_1:
-  dmark: f
-  dlevel: 20
+  dmark: f+
+  dlevel: 21
 
 ng88_1C8e_1:
   dmark: f
@@ -5819,12 +5823,12 @@ ng88_1E6e:
   dlevel: 18
 
 ng88_1Bb7e:
-  dmark: mf
-  dlevel: 17
+  dmark: mf+
+  dlevel: 18
 
 ng88_1E5e_0:
-  dmark: mf-
-  dlevel: 16
+  dmark: mf
+  dlevel: 17
 
 ng88_1C7e_2:
   dmark: mf-
@@ -5835,12 +5839,12 @@ ng88_1E5e_1:
   dlevel: 15
 
 ng88_1Bb6e_0:
-  dmark: mp
-  dlevel: 14
+  dmark: mp+
+  dlevel: 15
 
 ng88_1Ab4e_1:
-  dmark: mp-
-  dlevel: 13
+  dmark: mp
+  dlevel: 14
 
 ng88_1E5e_2:
   dmark: mp-
@@ -5851,8 +5855,8 @@ ng88_1Bb6e_1:
   dlevel: 12
 
 ng88_1E4e:
-  dmark: p
-  dlevel: 11
+  dmark: p+
+  dlevel: 12
 
 n88_1B4q:
   dmark: p
@@ -5871,20 +5875,20 @@ ng89_1C8e_0:
   dlevel: 7
 
 ng89_1Cs7e:
-  dmark: ppp+
-  dlevel: 6
+  dmark: ppp-
+  dlevel: 4
 
 ng89_1E5e_0:
-  dmark: ppp+
-  dlevel: 6
+  dmark: ppp
+  dlevel: 5
 
 ng89_1Bb7e:
   dmark: ppp+
   dlevel: 6
 
 ng89_1E5e_1:
-  dmark: ppp+
-  dlevel: 6
+  dmark: ppp
+  dlevel: 5
 
 ng89_1C8e_1:
   dmark: ppp
@@ -5963,16 +5967,16 @@ n89_2Bb4t:
   dlevel: 13
 
 n89_2Db4t_1:
-  dmark: p+
-  dlevel: 12
+  dmark: mp-
+  dlevel: 13
 
 n89_5A3t_3:
   dmark: pp
   dlevel: 8
 
 n89_2E3s:
-  dmark: p
-  dlevel: 11
+  dmark: mp-
+  dlevel: 13
 
 n89_5D3t_2:
   dmark: pp
@@ -5983,8 +5987,8 @@ n89_5F2s_0:
   dlevel: 8
 
 n89_2Gs2s:
-  dmark: pp
-  dlevel: 8
+  dmark: p-
+  dlevel: 10
 
 n89_5B1s:
   dmark: pp
@@ -6115,32 +6119,32 @@ n89_5D3s:
   dlevel: 24
 
 n90_5B0w:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n90_5Cs2w:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n90_5F2w:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n90_5D3w:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n91_5G2e:
-  dmark: mf
-  dlevel: 17
+  dmark: ppp
+  dlevel: 5
 
 n91_1D6t:
   dmark: ppp
   dlevel: 5
 
 n91_5A0s:
-  dmark: p-
-  dlevel: 10
+  dmark: ppp-
+  dlevel: 4
 
 n91_1E2t:
   dmark: ppp
@@ -6155,8 +6159,8 @@ n91_1Gs5w:
   dlevel: 11
 
 n91_2As5t:
-  dmark: ppp
-  dlevel: 5
+  dmark: p
+  dlevel: 11
 
 n91_6A2w:
   dmark: fff
@@ -6391,8 +6395,8 @@ n96_1Cs6b:
   dlevel: 24
 
 n97_1Fs3w:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n97_5Cs3h:
   dmark: pp
@@ -6411,40 +6415,40 @@ n98_1G2e_0:
   dlevel: 2
 
 ng104_1Cs6e:
-  dmark: pp-
-  dlevel: 7
+  dmark: pp
+  dlevel: 8
 
 ng104_1C8e_0:
-  dmark: pp-
-  dlevel: 7
+  dmark: pp
+  dlevel: 8
 
 ng104_1Cs7e:
-  dmark: ppp+
-  dlevel: 6
+  dmark: pp
+  dlevel: 8
 
 ng104_1E5e_0:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 ng104_1Bb7e:
-  dmark: ppp+
-  dlevel: 6
+  dmark: pp
+  dlevel: 8
 
 ng104_1E5e_1:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 ng104_1C8e_1:
-  dmark: ppp
-  dlevel: 5
+  dmark: pp
+  dlevel: 8
 
 ng104_1Ab4e:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n104_5Cs2t_0:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n104_5A3t_0:
   dmark: pp
@@ -6643,40 +6647,40 @@ n104_1G1t_1:
   dlevel: 22
 
 n104_1A0s_1:
-  dmark: mp
-  dlevel: 14
+  dmark: ff
+  dlevel: 22
 
 n104_5B0s:
-  dmark: mp
-  dlevel: 14
+  dmark: fff
+  dlevel: 24
 
 n104_5Cs2s:
-  dmark: mp
-  dlevel: 14
+  dmark: fff
+  dlevel: 24
 
 n104_5F2s_1:
-  dmark: mp
-  dlevel: 14
+  dmark: fff
+  dlevel: 24
 
 n104_5D3s:
-  dmark: mp
-  dlevel: 14
+  dmark: fff
+  dlevel: 24
 
 n104_5B0h:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n104_5Cs2h:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n104_5F2h:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n104_5D3h:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n108_5G3t_0:
   dmark: f
@@ -7207,16 +7211,16 @@ n110_6F1e:
   dlevel: 8
 
 n116_5C2e:
-  dmark: f
-  dlevel: 20
+  dmark: fp
+  dlevel: 25
 
 n116_5Fs2e:
-  dmark: f
-  dlevel: 20
+  dmark: fp
+  dlevel: 25
 
 n116_5A4e:
-  dmark: f
-  dlevel: 20
+  dmark: fp
+  dlevel: 25
 
 n116_5C1e:
   dmark: pp
@@ -7355,8 +7359,8 @@ n117_5Ds5q_0:
   dlevel: 8
 
 n117_1Ds4t:
-  dmark: pp
-  dlevel: 8
+  dmark: f
+  dlevel: 20
 
 n117_1Gs5t_0:
   dmark: f
@@ -7639,20 +7643,20 @@ n120_5B0e:
   dlevel: 5
 
 n125_1E4t:
-  dmark: fff
-  dlevel: 24
+  dmark: f
+  dlevel: 20
 
 n125_1A4t:
-  dmark: fff
-  dlevel: 24
+  dmark: f
+  dlevel: 20
 
 n125_5C2t:
-  dmark: mp
-  dlevel: 14
+  dmark: f
+  dlevel: 20
 
 n125_5Fs2t:
-  dmark: mp
-  dlevel: 14
+  dmark: f
+  dlevel: 20
 
 n125_1E4s:
   dmark: pp
@@ -7711,24 +7715,24 @@ n126_5E3q:
   dlevel: 8
 
 n126_1C5t:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n126_1Ab3t_0:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n126_1F5t_0:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n126_1Ab3t_1:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n126_1F5t_1:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n126_1E4h_0:
   dmark: ppp
@@ -7759,32 +7763,32 @@ n126_6F1e:
   dlevel: 8
 
 n126_1E4h_1:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n126_1Gs4h_1:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n126_5B0q_0:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n126_5F1q_1:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n126_5C2q_0:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n127_5F1t:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n127_5B0e:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n127_5E4s:
   dmark: ppp
@@ -8035,92 +8039,92 @@ ng131_1C6e:
   dlevel: 8
 
 ng131_5Ab5e:
-  dmark: mp
-  dlevel: 14
+  dmark: p-
+  dlevel: 10
 
 ng131_1E3e:
-  dmark: mp
-  dlevel: 14
+  dmark: mp-
+  dlevel: 13
 
 ng131_5C3e:
-  dmark: mp
-  dlevel: 14
+  dmark: mf-
+  dlevel: 16
 
 ng131_1F5e:
-  dmark: mp
-  dlevel: 14
+  dmark: f
+  dlevel: 20
 
 ng131_2A7e:
   dmark: fff
   dlevel: 24
 
 ng131_5Eb4e:
-  dmark: mp
-  dlevel: 14
+  dmark: f
+  dlevel: 20
 
 n131_5B3e:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n131_6G2q:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n131_5G2q:
-  dmark: p
-  dlevel: 11
+  dmark: pp-
+  dlevel: 7
 
 n131_1D4t:
-  dmark: p
-  dlevel: 11
+  dmark: ppp
+  dlevel: 5
 
 n131_1E6t:
-  dmark: p+
-  dlevel: 12
+  dmark: ppp
+  dlevel: 5
 
 n131_1Cs3t:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 ng132_1C7e:
-  dmark: mp
-  dlevel: 14
-
-n132_1E7e:
-  dmark: mp
-  dlevel: 14
-
-n132_1C6w:
-  dmark: ff
-  dlevel: 22
-
-n132_5F1e:
-  dmark: fff
-  dlevel: 24
-
-n132_5Eb3e:
-  dmark: fff
-  dlevel: 24
-
-n132_2Db6e:
-  dmark: ff
-  dlevel: 22
-
-n132_5Ab3e:
-  dmark: mf
-  dlevel: 17
-
-n132_2Db4e:
-  dmark: mp
-  dlevel: 14
-
-n132_5Ab1e:
-  dmark: ff
-  dlevel: 22
-
-n132_5Gb2e:
   dmark: p
   dlevel: 11
+
+n132_1E7e:
+  dmark: p
+  dlevel: 11
+
+n132_1C6w:
+  dmark: p
+  dlevel: 11
+
+n132_5F1e:
+  dmark: pp
+  dlevel: 8
+
+n132_5Eb3e:
+  dmark: pp
+  dlevel: 8
+
+n132_2Db6e:
+  dmark: pp
+  dlevel: 8
+
+n132_5Ab3e:
+  dmark: pp
+  dlevel: 8
+
+n132_2Db4e:
+  dmark: pp
+  dlevel: 8
+
+n132_5Ab1e:
+  dmark: pp
+  dlevel: 8
+
+n132_5Gb2e:
+  dmark: pp
+  dlevel: 8
 
 n133_1Ds6w:
   dmark: f
@@ -8219,8 +8223,8 @@ n133_5F3e_0:
   dlevel: 11
 
 n133_1D4e:
-  dmark: ff
-  dlevel: 22
+  dmark: pp
+  dlevel: 8
 
 n133_6G2e:
   dmark: p
@@ -8235,96 +8239,96 @@ n133_1Bb5e:
   dlevel: 17
 
 n138_1D4q:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n138_5F1q:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n139_1Ab4q:
-  dmark: p
-  dlevel: 11
+  dmark: ppp
+  dlevel: 5
 
 n139_2D4q:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n139_2C6q:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n139_2E6q:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n139_6E4q:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n139_6A4q:
+  dmark: ppp
+  dlevel: 5
+
+n140_1F5e:
   dmark: pp
   dlevel: 8
 
-n140_1F5e:
-  dmark: mp
-  dlevel: 14
-
 n140_6G1e:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n140_6E2e:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n140_2E3t_0:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n140_2C4t_0:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n140_2E3t_1:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n140_2C4t_1:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n140_2E3t_2:
-  dmark: mp
-  dlevel: 14
+  dmark: pp+
+  dlevel: 9
 
 n140_2C4t_2:
-  dmark: mp
-  dlevel: 14
+  dmark: pp+
+  dlevel: 9
 
 n140_2Gb6t_0:
-  dmark: mp
-  dlevel: 14
+  dmark: pp+
+  dlevel: 9
 
 n140_2F4s:
-  dmark: mp
-  dlevel: 14
+  dmark: p+
+  dlevel: 12
 
 n140_2Gb6t_1:
-  dmark: mp
-  dlevel: 14
+  dmark: p+
+  dlevel: 12
 
 n140_2F5t:
-  dmark: mp
-  dlevel: 14
+  dmark: p+
+  dlevel: 12
 
 ng142_5E1e:
-  dmark: mp
-  dlevel: 14
+  dmark: s
+  dlevel: 0
 
 ng142_5C3e:
-  dmark: mp
-  dlevel: 14
+  dmark: s
+  dlevel: 0
 
 n143_1Gs4q:
   dmark: p
@@ -8351,8 +8355,8 @@ ng143_6E3e:
   dlevel: 5
 
 n143_1Cs4h:
-  dmark: p
-  dlevel: 11
+  dmark: pp
+  dlevel: 8
 
 n143_1Fs4h:
   dmark: pp
@@ -8499,8 +8503,8 @@ n143_1Eb1t:
   dlevel: 5
 
 ng144_5E1e:
-  dmark: mp
-  dlevel: 14
+  dmark: fff
+  dlevel: 24
 
 n144_2E4s:
   dmark: mf
@@ -8595,16 +8599,16 @@ n144_1Ab4t_3:
   dlevel: 9
 
 n144_1G6s:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 ng144_5Fs1e:
-  dmark: mp
-  dlevel: 14
+  dmark: mf
+  dlevel: 17
 
 n144_6Gs2s:
-  dmark: mp
-  dlevel: 14
+  dmark: mf
+  dlevel: 17
 
 ng144_5As4e:
   dmark: mf+
@@ -8847,8 +8851,8 @@ n146_5B2t_1:
   dlevel: 8
 
 n146_1E2x:
-  dmark: mp
-  dlevel: 14
+  dmark: ff
+  dlevel: 22
 
 n146_5C2e:
   dmark: ff
@@ -8910,11 +8914,11 @@ n149_6Gs1h:
   dmark: ff
   dlevel: 22
 
-n149_5Gs1t:
-  dmark: mp
-  dlevel: 14
-
 ng149_1Gb4e:
+  dmark: mf
+  dlevel: 17
+
+n149_5Gs1t:
   dmark: mf
   dlevel: 17
 
@@ -8955,16 +8959,16 @@ n149_5Gs1e_0:
   dlevel: 11
 
 ng151_5C3e:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n151_1Cs6t_0:
   dmark: ppp
   dlevel: 5
 
 n151_5C4h_0:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n151_1Fs4t_0:
   dmark: ppp
@@ -9099,8 +9103,8 @@ n151_1Fs4t_11:
   dlevel: 5
 
 n151_1Cs6t_12:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n151_5C4q:
   dmark: p
@@ -9259,8 +9263,8 @@ n152_1Ab5t_1:
   dlevel: 12
 
 n152_5Cs5q:
-  dmark: mp
-  dlevel: 14
+  dmark: p+
+  dlevel: 12
 
 n152_1G6t_0:
   dmark: p+
@@ -9399,12 +9403,12 @@ n152_5F4s:
   dlevel: 14
 
 n152_5Fs5s_0:
-  dmark: mp
-  dlevel: 14
+  dmark: f
+  dlevel: 20
 
 n152_1G6s:
-  dmark: mf
-  dlevel: 17
+  dmark: f
+  dlevel: 20
 
 n152_5C2s_0:
   dmark: ff
@@ -9531,8 +9535,8 @@ n153_1Fs3e:
   dlevel: 11
 
 n153_5E1e:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n153_5Fs1e:
   dmark: mp
@@ -9683,8 +9687,8 @@ n154_5B1s:
   dlevel: 24
 
 n154_5C2s:
-  dmark: fff
-  dlevel: 24
+  dmark: fp
+  dlevel: 25
 
 n155_1D4h:
   dmark: pp-
@@ -9715,8 +9719,8 @@ n157_6Ab1s:
   dlevel: 14
 
 n157_6D3e:
-  dmark: f
-  dlevel: 20
+  dmark: fp
+  dlevel: 25
 
 n157_1D7q:
   dmark: ppp
@@ -9735,8 +9739,8 @@ n157_6C3e:
   dlevel: 5
 
 ng157_2Ab4e_0:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 ng157_2Ab4e_1:
   dmark: pp
@@ -9775,12 +9779,12 @@ ng157_5F3e_1:
   dlevel: 5
 
 ng157_5Gs1e:
-  dmark: mp
-  dlevel: 14
+  dmark: s
+  dlevel: 0
 
 ng157_5Fs2e_1:
-  dmark: mp
-  dlevel: 14
+  dmark: s
+  dlevel: 0
 
 n157_5Ab2s:
   dmark: ppp
@@ -9803,108 +9807,108 @@ n157_5Gb2s:
   dlevel: 5
 
 ng157_5F4e:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 ng157_5Fs1e:
   dmark: ppp
   dlevel: 5
 
 n157_1D3q:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n157_5C3e:
   dmark: ppp
   dlevel: 5
 
 ng158_6A2e:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 ng158_6Cs1e:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 ng158_6Bb3e:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 ng158_6C5e:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n159_1D5e:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n159_2D4h:
-  dmark: mp
-  dlevel: 14
+  dmark: f
+  dlevel: 20
 
 n159_5Db4t:
-  dmark: mp
-  dlevel: 14
+  dmark: f
+  dlevel: 20
 
 n159_5Ab1t:
-  dmark: mp
-  dlevel: 14
+  dmark: ff
+  dlevel: 22
 
 n159_5Eb1s:
-  dmark: mp
-  dlevel: 14
+  dmark: ff
+  dlevel: 22
 
 n159_1A4s:
-  dmark: mp
-  dlevel: 14
+  dmark: f
+  dlevel: 20
 
 n159_5B5q:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n159_6G6e:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n159_6Bb4e:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n159_5Bb2q:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n159_6G2q:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n159_2G3s:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n159_2Fs7s:
-  dmark: mp
-  dlevel: 14
+  dmark: f
+  dlevel: 20
 
 n159_2Eb1s:
-  dmark: mp
-  dlevel: 14
+  dmark: f
+  dlevel: 20
 
 n159_2E6s:
-  dmark: mp
-  dlevel: 14
+  dmark: mf-
+  dlevel: 16
 
 n160_1B5s:
   dmark: mf
   dlevel: 17
 
 n160_2Fs5e:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n160_6C3e:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n160_1Cs5s:
   dmark: p-
@@ -9919,8 +9923,8 @@ n160_6G3s:
   dlevel: 5
 
 n160_2D6s:
-  dmark: pp
-  dlevel: 8
+  dmark: mf
+  dlevel: 17
 
 n160_1B5e:
   dmark: mf
@@ -9943,12 +9947,12 @@ n160_6C3s:
   dlevel: 5
 
 n160_1C5q:
-  dmark: ppp
-  dlevel: 5
-
-n160_5Eb2e:
   dmark: mp
   dlevel: 14
+
+n160_5Eb2e:
+  dmark: ppp
+  dlevel: 5
 
 n160_5A5e:
   dmark: ppp
@@ -9971,8 +9975,8 @@ ng161_1E6e:
   dlevel: 8
 
 ng161_1F7e:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 ng161_1Bb4e:
   dmark: pp
@@ -9991,16 +9995,16 @@ n161_1B6e:
   dlevel: 8
 
 n161_5Cs3h:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n161_6A2w:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n161_6Gs3w:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n161_1E5q_0:
   dmark: pp
@@ -10023,8 +10027,8 @@ ng161_5Cs2e:
   dlevel: 11
 
 n162_1A4h:
-  dmark: p
-  dlevel: 11
+  dmark: ppp
+  dlevel: 5
 
 n162_1D5h:
   dmark: ppp
@@ -10047,8 +10051,8 @@ n162_5Bb2h_0:
   dlevel: 5
 
 n162_1F7e:
-  dmark: f
-  dlevel: 20
+  dmark: mf
+  dlevel: 17
 
 ng162_1Bb6e:
   dmark: mp
@@ -10059,12 +10063,12 @@ ng162_1Ab1e:
   dlevel: 14
 
 n162_1F5e:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n162_2E4h:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n162_6G2q:
   dmark: pp
@@ -10103,36 +10107,36 @@ n163_6D4w:
   dlevel: 20
 
 n163_2Gb4e_0:
-  dmark: mf
-  dlevel: 17
+  dmark: f
+  dlevel: 20
 
 n163_2F4e:
-  dmark: mf
-  dlevel: 17
+  dmark: f
+  dlevel: 20
 
 n165_5Fs2e_0:
   dmark: mp
   dlevel: 14
 
 n165_5Fs2e_1:
-  dmark: fff
-  dlevel: 24
+  dmark: mp
+  dlevel: 14
 
 n165_5C3e:
-  dmark: fff
-  dlevel: 24
+  dmark: mp
+  dlevel: 14
 
 n165_5Fs2s:
-  dmark: fff
-  dlevel: 24
+  dmark: fp
+  dlevel: 25
 
 n165_5B2s:
-  dmark: fff
-  dlevel: 24
+  dmark: fp
+  dlevel: 25
 
 n165_5C3s:
-  dmark: fff
-  dlevel: 24
+  dmark: fp
+  dlevel: 25
 
 n167_5D4t:
   dmark: fff
@@ -10207,8 +10211,8 @@ n167_1D6q:
   dlevel: 5
 
 n167_1Bb6h:
-  dmark: mp
-  dlevel: 14
+  dmark: f
+  dlevel: 20
 
 n167_5Ab1q:
   dmark: pp
@@ -10259,20 +10263,20 @@ n167_5E3t_1:
   dlevel: 8
 
 n167_5Ab1s:
-  dmark: p
-  dlevel: 11
+  dmark: f
+  dlevel: 20
 
 n167_5D2s:
-  dmark: p
-  dlevel: 11
+  dmark: f
+  dlevel: 20
 
 n167_5C3s_1:
-  dmark: p
-  dlevel: 11
+  dmark: f
+  dlevel: 20
 
 n167_5Cs4s:
-  dmark: p
-  dlevel: 11
+  dmark: f
+  dlevel: 20
 
 n167_5Cs7x:
   dmark: ppp
@@ -10443,20 +10447,20 @@ n168_5F3t_2:
   dlevel: 2
 
 n169_5Cs4t:
-  dmark: p-
-  dlevel: 10
+  dmark: pp
+  dlevel: 8
 
 n169_5A1t:
-  dmark: p-
-  dlevel: 10
+  dmark: pp
+  dlevel: 8
 
 n169_5Fs2t:
-  dmark: p-
-  dlevel: 10
+  dmark: pp
+  dlevel: 8
 
 n169_5A1s:
-  dmark: p-
-  dlevel: 10
+  dmark: pp
+  dlevel: 8
 
 n169_1Ds5t_0:
   dmark: p
@@ -10507,16 +10511,16 @@ n169_5G3s_1:
   dlevel: 14
 
 n169_1Gs5t_0:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n169_1Ds5t_4:
-  dmark: mp-
-  dlevel: 13
+  dmark: p
+  dlevel: 11
 
 n169_5G3s_2:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n169_1B4t_3:
   dmark: p+
@@ -10535,128 +10539,128 @@ n169_1Ds5t_5:
   dlevel: 11
 
 n169_5G3s_3:
-  dmark: mp-
-  dlevel: 13
+  dmark: p-
+  dlevel: 10
 
 n169_1B4s_1:
-  dmark: mf
-  dlevel: 17
+  dmark: p-
+  dlevel: 10
 
 n169_1Ds5s_0:
-  dmark: mf
-  dlevel: 17
+  dmark: p-
+  dlevel: 10
 
 n169_1Gs5s:
-  dmark: mf
-  dlevel: 17
+  dmark: p-
+  dlevel: 10
 
 n169_5A2t_0:
-  dmark: mf
-  dlevel: 17
+  dmark: p-
+  dlevel: 10
 
 n169_5G3t_1:
-  dmark: mf-
-  dlevel: 16
+  dmark: p-
+  dlevel: 10
 
 n169_1B4s_2:
-  dmark: p
-  dlevel: 11
+  dmark: p-
+  dlevel: 10
 
 n169_1Ds5s_1:
-  dmark: p
-  dlevel: 11
+  dmark: p-
+  dlevel: 10
 
 n169_5A2t_1:
-  dmark: mp
-  dlevel: 14
+  dmark: p-
+  dlevel: 10
 
 n169_5G3s_4:
-  dmark: mp-
-  dlevel: 13
+  dmark: p-
+  dlevel: 10
 
 n169_1Gs6t:
   dmark: pp-
   dlevel: 7
 
 n169_1Ds4t:
-  dmark: p
-  dlevel: 11
+  dmark: pp-
+  dlevel: 7
 
 n169_1Gs5t_2:
-  dmark: p-
-  dlevel: 10
+  dmark: pp-
+  dlevel: 7
 
 n169_1B3t:
   dmark: pp
   dlevel: 8
 
 n169_5G2x_0:
+  dmark: p
+  dlevel: 11
+
+n169_5Ds3x:
+  dmark: f
+  dlevel: 20
+
+n169_5B2x:
+  dmark: p
+  dlevel: 11
+
+n169_5Gs4x:
   dmark: mp
   dlevel: 14
 
-n169_5Ds3x:
-  dmark: mf
-  dlevel: 17
-
-n169_5B2x:
-  dmark: f-
-  dlevel: 19
-
-n169_5Gs4x:
-  dmark: ff
-  dlevel: 22
-
 n169_5B4x:
-  dmark: ff
-  dlevel: 22
+  dmark: mp
+  dlevel: 14
 
 n169_5Ds5x:
-  dmark: ff
-  dlevel: 22
+  dmark: mp
+  dlevel: 14
 
 n169_5Gs5x:
-  dmark: ff
-  dlevel: 22
+  dmark: mp
+  dlevel: 14
 
 n169_5A1x:
-  dmark: ff
-  dlevel: 22
+  dmark: mp
+  dlevel: 14
 
 n169_5G2x_1:
-  dmark: ff
-  dlevel: 22
+  dmark: mp
+  dlevel: 14
 
 n169_5Ds4x:
-  dmark: ff
-  dlevel: 22
+  dmark: mp
+  dlevel: 14
 
 n169_5B3x:
-  dmark: f+
-  dlevel: 21
+  dmark: mp
+  dlevel: 14
 
 n170_5G2t_0:
-  dmark: f-
-  dlevel: 19
+  dmark: p
+  dlevel: 11
 
 n170_5A1t:
-  dmark: mf-
-  dlevel: 16
+  dmark: p
+  dlevel: 11
 
 n170_5G2t_1:
-  dmark: mp-
-  dlevel: 13
-
-n170_5B3t:
-  dmark: mp-
-  dlevel: 13
-
-n170_5Ds4t:
-  dmark: mp-
-  dlevel: 13
-
-n170_5A0t:
   dmark: p-
   dlevel: 10
+
+n170_5B3t:
+  dmark: pp+
+  dlevel: 9
+
+n170_5Ds4t:
+  dmark: pp+
+  dlevel: 9
+
+n170_5A0t:
+  dmark: pp-
+  dlevel: 7
 
 n170_5G3t:
   dmark: pp-
@@ -10667,800 +10671,800 @@ n170_5Gs4t:
   dlevel: 7
 
 n170_5A0s:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n170_1A1s:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n170_1Fs2s:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n170_1F3s:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n170_1Cs4s:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n170_1G1e_0:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp-
+  dlevel: 4
 
 n170_1A1e_0:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp-
+  dlevel: 4
 
 n170_1Fs2e:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp-
+  dlevel: 4
 
 n170_1F3e:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp-
+  dlevel: 4
 
 n170_1Cs4e:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp-
+  dlevel: 4
 
 n170_1E1e:
-  dmark: mp
-  dlevel: 14
+  dmark: pppp
+  dlevel: 2
 
 ng170_1Fs4e:
-  dmark: mp
-  dlevel: 14
+  dmark: pppp
+  dlevel: 2
 
 n170_1C3e:
-  dmark: mp
-  dlevel: 14
+  dmark: pppp
+  dlevel: 2
 
 ng170_1Gb1e:
-  dmark: mp
-  dlevel: 14
+  dmark: pppp
+  dlevel: 2
 
 ng170_1Bb4e:
-  dmark: mp
-  dlevel: 14
+  dmark: pppp
+  dlevel: 2
 
 n170_1D3e:
-  dmark: mp
-  dlevel: 14
+  dmark: pppp
+  dlevel: 2
 
 n171_1Gb1t:
-  dmark: mp
-  dlevel: 14
+  dmark: pppp
+  dlevel: 2
 
 n171_1Bb4t:
-  dmark: mp
-  dlevel: 14
+  dmark: pppp
+  dlevel: 2
 
 n171_1Gb2t:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n171_1D3t_0:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n171_1Bb3t_0:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n171_1D3t_1:
-  dmark: mp
-  dlevel: 14
+  dmark: pp+
+  dlevel: 9
 
 n171_1D3t_2:
-  dmark: mp
-  dlevel: 14
+  dmark: pp+
+  dlevel: 9
 
 n171_1G5t:
-  dmark: mp
-  dlevel: 14
+  dmark: pp+
+  dlevel: 9
 
 n171_1Ab3t_0:
-  dmark: mp
-  dlevel: 14
+  dmark: pp+
+  dlevel: 9
 
 n171_1D3t_3:
-  dmark: mp
-  dlevel: 14
+  dmark: p-
+  dlevel: 10
 
 n171_1Bb3t_1:
-  dmark: mp
-  dlevel: 14
+  dmark: p-
+  dlevel: 10
 
 n171_1G6t:
-  dmark: mp
-  dlevel: 14
+  dmark: p-
+  dlevel: 10
 
 n171_1D3t_4:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n171_1Ab3t_1:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n171_1Bb3t_2:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n171_1G7s:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 ng171_5C4e:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n171_1Cs7x_0:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n171_5C5e_0:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n171_1Fs5x_0:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n171_1A4x_0:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n171_1Cs7x_1:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n171_1Fs5x_1:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n171_1A4t_0:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n171_1Cs7x_2:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n171_1Fs5x_2:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n171_1Cs7x_3:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n171_1Fs5x_3:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n171_1A4x_1:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n171_1Cs7x_4:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n171_1Fs5x_4:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n171_1A4t_1:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n171_1Cs7x_5:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n171_1Fs5x_5:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n171_5C5e_2:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n171_5F5e:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n171_1Cs7x_6:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n171_1Fs5x_6:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n171_1A4x_2:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n171_1Cs7x_7:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n171_1Fs5x_7:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n171_1A4t_2:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n171_1Cs7x_8:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n171_1Fs5x_8:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n171_1Cs7x_9:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n171_1Fs5x_9:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n171_1A4x_3:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n171_1Cs7x_10:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n171_1Fs5x_10:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n171_1A4t_3:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n171_1Cs7x_11:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n171_1Fs5x_11:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n171_1Cs7x_12:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n171_1Fs5x_12:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n171_1A4x_4:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n171_1Cs7x_13:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n171_1Fs5x_13:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n171_1A4t_4:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n171_1Cs7x_14:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n171_1Fs5x_14:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n171_1Cs7x_15:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n171_1Fs5x_15:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n171_1A4x_5:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n171_1Cs7x_16:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n171_1Fs5x_16:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n171_1A4t_5:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n171_1Cs7x_17:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n171_1Fs5x_17:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n172_1Cs7x_0:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n172_1Fs5x_0:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n172_1A4x_0:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n172_1Cs7x_1:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n172_1Fs5x_1:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n172_1A4t_0:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n172_1Cs7x_2:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n172_1Fs5x_2:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n172_1Cs7x_3:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n172_1Fs5x_3:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n172_1A4x_1:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n172_1Cs7x_4:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n172_1Fs5x_4:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n172_1A4t_1:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n172_1Cs7x_5:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n172_1Fs5x_5:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n175_1Cs7x_0:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n175_5C5e:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n175_5F5e:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n175_1F5x_0:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n175_1A4x_0:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n175_1Cs7x_1:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n175_1F5x_1:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n175_1A4t:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n175_5Ab4e:
-  dmark: mp
-  dlevel: 14
+  dmark: pp-
+  dlevel: 7
 
 n175_1Cs7x_2:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n175_1F5x_2:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n175_1Cs7x_3:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n175_1F5x_3:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n175_1A4x_1:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n175_1F6s:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n175_5Ab4s:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n175_5C5s:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n175_5F5s:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n175_1G4t:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1Fs4x_0:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1D5x_0:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1Bb6x_0:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1Fs4x_1:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1D5x_1:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1Bb6x_1:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1Ab6x_0:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1Fs4x_2:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1D5x_2:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1Ab5x_0:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1Fs4x_3:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1D5x_3:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1Bb6x_2:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1Ab5x_1:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1D4x_0:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1Fs3x_0:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1Ab5x_2:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1Fs3x_1:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1D4x_1:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1Bb6x_3:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1Cs6x:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1Ab6x_1:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1G7x_0:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1D5x_4:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1Ab6x_2:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1D6x:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1Ab6x_3:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1G7x_1:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1D4x_2:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1Fs3x_2:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1D4x_3:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1Bb6x_4:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1Ab5x_3:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1Bb6x_5:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1Fs2x:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1Ab6x_4:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 ng176_5E3e:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1Bb7x:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_5Fs6s_0:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1Fs3x_3:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1Ab6x_5:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1Fs3x_4:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1D4x_4:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1Ab6x_6:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1Bb6x_6:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_5F5t:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_5Fs6t:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1G7t:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_5C3s:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_5F3s:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_5Fs6s_1:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1Ab2t:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1C3t:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1F3t_0:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1Fs5t:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1D6t_0:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1Fs3x_5:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1As2t:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1D6t_1:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1F3t_1:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1D7x:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1F3x:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1As2x:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1B3x_0:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1C4x:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1B3x_1:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1F3t_2:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1C4?_0:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1B3?_0:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1C4?_1:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1B3?_1:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1C4?_2:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1B3?_2:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_1C4?_3:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n176_5Fs1q:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n177_5Fs1q_0:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n177_1Ab1e:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n177_1C2e:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n177_1F2e:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n177_1Fs3e:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n177_5E1e:
   dmark: ppp
@@ -11471,16 +11475,16 @@ n177_5Fs1e:
   dlevel: 14
 
 n177_5Fs1t_0:
-  dmark: mf+
-  dlevel: 18
+  dmark: mf-
+  dlevel: 16
 
 n177_5B1t_0:
-  dmark: f-
-  dlevel: 19
+  dmark: mf-
+  dlevel: 16
 
 n177_5C2t_0:
-  dmark: f
-  dlevel: 20
+  dmark: mf
+  dlevel: 17
 
 ng177_1E6e:
   dmark: mp
@@ -11495,32 +11499,32 @@ ng177_1Bb5e:
   dlevel: 17
 
 n177_1Fs6t:
-  dmark: f
-  dlevel: 20
+  dmark: mf
+  dlevel: 17
 
 n177_5Bb0s:
-  dmark: ff
-  dlevel: 22
+  dmark: f
+  dlevel: 20
 
 n177_1Eb1s:
-  dmark: f
-  dlevel: 20
+  dmark: mf
+  dlevel: 17
 
 n177_5D7s:
-  dmark: ff
-  dlevel: 22
+  dmark: mf
+  dlevel: 17
 
 n177_5Fs1s:
-  dmark: ff
-  dlevel: 22
-
-n177_5Bb0t:
-  dmark: ff
-  dlevel: 22
-
-n177_5Fs1t_1:
   dmark: f
   dlevel: 20
+
+n177_5Bb0t:
+  dmark: mf
+  dlevel: 17
+
+n177_5Fs1t_1:
+  dmark: mf
+  dlevel: 17
 
 n177_5C2s:
   dmark: mf
@@ -11539,60 +11543,60 @@ n177_5B1t_3:
   dlevel: 8
 
 n177_1Fs6q:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n177_5As0q:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n177_5Ds1q:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n177_5E1q:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n177_5Fs1q_1:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n177_5B1q:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n177_5C2q:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n178_2F3s:
-  dmark: mp
-  dlevel: 14
+  dmark: ff
+  dlevel: 22
 
 n178_2Db3s:
-  dmark: mp
-  dlevel: 14
+  dmark: pp-
+  dlevel: 7
 
 n178_5B4s:
-  dmark: mp
-  dlevel: 14
+  dmark: pp-
+  dlevel: 7
 
 n178_5E4s:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n178_5Fs3s:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 ng178_5Bb3e:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp-
+  dlevel: 4
 
 n178_5A2q:
-  dmark: mp
-  dlevel: 14
+  dmark: pppp
+  dlevel: 2
 
 n182_2D4e:
   dmark: mf
@@ -11747,8 +11751,8 @@ n185_1F5s:
   dlevel: 9
 
 n185_1Ab4e:
-  dmark: pp+
-  dlevel: 9
+  dmark: pp
+  dlevel: 8
 
 n185_1Bb2e:
   dmark: pp
@@ -11807,96 +11811,96 @@ n186_5E3t_0:
   dlevel: 8
 
 n186_5D2t_0:
-  dmark: pp-
-  dlevel: 7
+  dmark: pp
+  dlevel: 8
 
 n186_5E3t_1:
   dmark: pp-
   dlevel: 7
 
 n186_5D2t_1:
+  dmark: pp-
+  dlevel: 7
+
+n186_5C6t:
+  dmark: pp-
+  dlevel: 7
+
+n186_1Ab5e:
   dmark: ppp+
   dlevel: 6
 
-n186_5C6t:
-  dmark: mp
-  dlevel: 14
-
-n186_1Ab5e:
-  dmark: f
-  dlevel: 20
-
 n186_5Ab1s_0:
+  dmark: ppp+
+  dlevel: 6
+
+n186_5Ab1e:
   dmark: ppp
   dlevel: 5
 
-n186_5Ab1e:
-  dmark: ppp-
-  dlevel: 4
-
 n186_5Db2e:
-  dmark: ppp-
-  dlevel: 4
+  dmark: ppp
+  dlevel: 5
 
 n186_1C3t:
-  dmark: mf
-  dlevel: 17
+  dmark: mp
+  dlevel: 14
 
 n186_1G3t:
-  dmark: mf
-  dlevel: 17
+  dmark: mp
+  dlevel: 14
 
 n186_1B3t:
-  dmark: mf
-  dlevel: 17
+  dmark: mp
+  dlevel: 14
 
 n186_1Ab5t:
   dmark: pp
   dlevel: 8
 
 n186_1A6t:
-  dmark: mf
-  dlevel: 17
-
-n186_5Ab1s_1:
-  dmark: f
-  dlevel: 20
-
-n186_5Db2s:
-  dmark: ppp-
-  dlevel: 4
-
-n186_5Gb2s:
-  dmark: ppp-
-  dlevel: 4
-
-n186_1E2t:
   dmark: pp
   dlevel: 8
 
+n186_5Ab1s_1:
+  dmark: pp
+  dlevel: 8
+
+n186_5Db2s:
+  dmark: pp
+  dlevel: 8
+
+n186_5Gb2s:
+  dmark: pp
+  dlevel: 8
+
+n186_1E2t:
+  dmark: pp-
+  dlevel: 7
+
 n186_1C5t_0:
-  dmark: pp+
-  dlevel: 9
+  dmark: pp-
+  dlevel: 7
 
 n186_1D6t_0:
-  dmark: p-
-  dlevel: 10
+  dmark: pp-
+  dlevel: 7
 
 n186_1C5t_1:
-  dmark: p-
-  dlevel: 10
+  dmark: ppp+
+  dlevel: 6
 
 n186_1D6t_1:
-  dmark: p
-  dlevel: 11
+  dmark: ppp+
+  dlevel: 6
 
 n186_1C5t_2:
-  dmark: p
-  dlevel: 11
+  dmark: ppp
+  dlevel: 5
 
 n186_1Db4s:
-  dmark: p+
-  dlevel: 12
+  dmark: ppp
+  dlevel: 5
 
 n186_5Cs1t_0:
   dmark: ppp
@@ -11967,24 +11971,24 @@ n186_5E2t_1:
   dlevel: 20
 
 n186_1F5e:
-  dmark: fff
-  dlevel: 24
+  dmark: f
+  dlevel: 20
 
 n186_1Eb6e:
-  dmark: fff
-  dlevel: 24
+  dmark: f
+  dlevel: 20
 
 n186_5G1e:
-  dmark: fff
-  dlevel: 24
+  dmark: f
+  dlevel: 20
 
 n186_5B1e:
-  dmark: fff
-  dlevel: 24
+  dmark: f
+  dlevel: 20
 
 n186_5E2e:
-  dmark: fff
-  dlevel: 24
+  dmark: f
+  dlevel: 20
 
 n187_5Cs1t_0:
   dmark: ppp
@@ -12163,8 +12167,8 @@ n187_1D7t_4:
   dlevel: 5
 
 n187_5A4q:
-  dmark: f
-  dlevel: 20
+  dmark: p
+  dlevel: 11
 
 n187_1C6t_1:
   dmark: ppp
@@ -12175,12 +12179,12 @@ n187_1Db5s:
   dlevel: 5
 
 ng188_1E5e:
-  dmark: mf
-  dlevel: 17
+  dmark: p
+  dlevel: 11
 
 n188_1Cs2q:
-  dmark: mf
-  dlevel: 17
+  dmark: p
+  dlevel: 11
 
 ng188_5D3e_0:
   dmark: ppp
@@ -12211,20 +12215,20 @@ ng188_5Cs2e_2:
   dlevel: 5
 
 ng188_5D4e:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 ng188_5C3e:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n188_1Fs3e:
-  dmark: f
-  dlevel: 20
+  dmark: ppp
+  dlevel: 5
 
 n188_1A4e:
-  dmark: f
-  dlevel: 20
+  dmark: ppp
+  dlevel: 5
 
 n188_5E4t:
   dmark: ppp
@@ -12239,76 +12243,76 @@ n188_5E4e:
   dlevel: 5
 
 n188_1Cs2t:
-  dmark: f
-  dlevel: 20
+  dmark: ppp
+  dlevel: 5
 
 n188_1E5t:
-  dmark: f
-  dlevel: 20
+  dmark: ppp
+  dlevel: 5
 
 n188_1Cs2s:
-  dmark: f
-  dlevel: 20
+  dmark: ppp
+  dlevel: 5
 
 n188_1As2s:
-  dmark: f
-  dlevel: 20
+  dmark: ppp
+  dlevel: 5
 
 n188_1E5s:
-  dmark: f
-  dlevel: 20
+  dmark: ppp
+  dlevel: 5
 
 n188_5F5s:
-  dmark: ff
-  dlevel: 22
+  dmark: pp
+  dlevel: 8
 
 n188_5G1t_0:
-  dmark: mf+
-  dlevel: 18
+  dmark: pp-
+  dlevel: 7
 
 n188_5E2t_0:
-  dmark: mf
-  dlevel: 17
+  dmark: pp-
+  dlevel: 7
 
 n188_5G1t_1:
-  dmark: mp+
-  dlevel: 15
+  dmark: pp-
+  dlevel: 7
 
 n188_5E2t_1:
-  dmark: mp
-  dlevel: 14
+  dmark: pp-
+  dlevel: 7
 
 n188_5G1t_2:
-  dmark: mp-
-  dlevel: 13
+  dmark: ppp+
+  dlevel: 6
 
 n188_5E2t_2:
-  dmark: p
-  dlevel: 11
+  dmark: ppp+
+  dlevel: 6
 
 n188_5G1t_3:
-  dmark: p-
-  dlevel: 10
+  dmark: ppp+
+  dlevel: 6
 
 n188_5E2t_3:
-  dmark: pp+
-  dlevel: 9
+  dmark: ppp+
+  dlevel: 6
 
 n188_5G1t_4:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n188_5G1q:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n188_5E2q:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n188_5F4q:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n189_5G1e_1:
   dmark: pp
@@ -12323,16 +12327,16 @@ n189_5F3e:
   dlevel: 8
 
 n189_1Fs2t:
-  dmark: ff
-  dlevel: 22
+  dmark: f
+  dlevel: 20
 
 n189_1A4t:
-  dmark: ff
-  dlevel: 22
+  dmark: f
+  dlevel: 20
 
 n189_1C2s:
-  dmark: ff
-  dlevel: 22
+  dmark: f
+  dlevel: 20
 
 n189_5Db1t:
   dmark: pp
@@ -12751,88 +12755,88 @@ n201_5C2t_11:
   dlevel: 5
 
 n202_1F5h_0:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n202_2Ab4h_0:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n202_5E2h:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n202_6E4h_0:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n202_6A4h_0:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n202_2Ab4w:
   dmark: ppp
   dlevel: 5
 
 n202_5D3w:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n202_6E4w:
   dmark: mp
   dlevel: 14
 
 n202_6A4w:
-  dmark: ppp
-  dlevel: 5
+  dmark: mp
+  dlevel: 14
 
 n202_1D4s:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n202_1C6s:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n202_1E6s:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n202_1D4h:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n202_1C6h:
-  dmark: f
-  dlevel: 20
+  dmark: p
+  dlevel: 11
 
 n202_1E6h:
-  dmark: f
-  dlevel: 20
+  dmark: p
+  dlevel: 11
 
 n202_2Ab4h_1:
-  dmark: pp
-  dlevel: 8
+  dmark: p
+  dlevel: 11
 
 n202_6E4h_1:
-  dmark: pp
-  dlevel: 8
+  dmark: p
+  dlevel: 11
 
 n202_6A4h_1:
-  dmark: pp
-  dlevel: 8
+  dmark: p
+  dlevel: 11
 
 n202_1D4q:
-  dmark: pp
-  dlevel: 8
+  dmark: p
+  dlevel: 11
 
 n202_1C6q:
-  dmark: pp
-  dlevel: 8
+  dmark: p
+  dlevel: 11
 
 n202_1E6q:
-  dmark: pp
-  dlevel: 8
+  dmark: p
+  dlevel: 11
 
 n202_2Ab4q:
   dmark: p
@@ -12847,8 +12851,8 @@ n202_6A4q:
   dlevel: 8
 
 n202_5Gs2s:
-  dmark: f
-  dlevel: 20
+  dmark: mf
+  dlevel: 17
 
 n202_5Gs2e:
   dmark: p
@@ -12903,56 +12907,56 @@ n203_5B0s_0:
   dlevel: 1
 
 n203_5Cs2t_2:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n203_5A3t_2:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n203_5B1t_2:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp-
+  dlevel: 4
 
 n203_5F2t_3:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp-
+  dlevel: 4
 
 n203_5B1t_3:
-  dmark: mp
-  dlevel: 14
+  dmark: pppp+
+  dlevel: 3
 
 n203_5Cs2t_3:
-  dmark: mp
-  dlevel: 14
+  dmark: pppp+
+  dlevel: 3
 
 n203_5F2t_4:
-  dmark: mp
-  dlevel: 14
+  dmark: pppp+
+  dlevel: 3
 
 n203_5B0t_1:
-  dmark: mp
-  dlevel: 14
+  dmark: pppp+
+  dlevel: 3
 
 n203_5A3t_3:
-  dmark: mp
-  dlevel: 14
+  dmark: pppp+
+  dlevel: 3
 
 n203_5F2t_5:
-  dmark: mp
-  dlevel: 14
+  dmark: pppp
+  dlevel: 2
 
 n203_5B0s_1:
-  dmark: mp
-  dlevel: 14
+  dmark: pppp
+  dlevel: 2
 
 n205_1E5w:
-  dmark: p
-  dlevel: 11
+  dmark: ppp
+  dlevel: 5
 
 n205_5A4t_0:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n205_5C2t_0:
   dmark: ppp
@@ -13071,72 +13075,72 @@ n205_5Fs2s_3:
   dlevel: 5
 
 n205_5A4t_11:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n205_5C2t_11:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n205_2E4w:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n205_2Bb4w:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n205_6Bb3w:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n206_1E4h:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n206_1Bb4h:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n206_5Bb3h:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n206_5E1x:
   dmark: pp
   dlevel: 8
 
 n206_5B2x:
-  dmark: p-
-  dlevel: 10
+  dmark: pp
+  dlevel: 8
 
 n206_5C4x:
-  dmark: p
-  dlevel: 11
+  dmark: pp
+  dlevel: 8
 
 n206_5E2x:
-  dmark: p+
-  dlevel: 12
+  dmark: pp
+  dlevel: 8
 
 n206_5F3x:
-  dmark: mp-
-  dlevel: 13
+  dmark: pp
+  dlevel: 8
 
 n206_5Ab4x:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n206_5F2x:
-  dmark: mp-
-  dlevel: 13
+  dmark: pp
+  dlevel: 8
 
 n206_5Bb3e:
-  dmark: p-
-  dlevel: 10
+  dmark: pp
+  dlevel: 8
 
 n206_1Ab5s:
-  dmark: p
-  dlevel: 11
+  dmark: pp
+  dlevel: 8
 
 n207_2B3e:
   dmark: mp
@@ -13159,24 +13163,24 @@ n207_6D2e:
   dlevel: 14
 
 n208_1E5s:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 ng210_1D6e:
   dmark: mf
   dlevel: 17
 
 ng210_1Cs3e:
-  dmark: mp
-  dlevel: 14
+  dmark: mf
+  dlevel: 17
 
 n210_1A5h:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n210_5D5s:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n210_5Fs3t_0:
   dmark: ppp
@@ -13595,96 +13599,96 @@ n214_1Bb7t:
   dlevel: 4
 
 n215_1E5t:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n215_1Gs1t:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 ng215_1B1e:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 ng215_1Fs4e:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp+
+  dlevel: 6
 
 n215_1E5e:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n215_2D4e:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n215_2Fs4e:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n215_5G1e:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n215_6B1e:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n219_1E5s:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n219_5B1s:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n219_5D4s:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n219_5Fs4s:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n219_6Gs1s:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n220_1Fs7e:
   dmark: mp
   dlevel: 14
 
 n220_1D4q_0:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n220_1Fs4q_0:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n220_1E5q:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n220_5Gs1q_0:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n220_5B1q_0:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n220_6Ds1q_0:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n220_1D4q_1:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n220_1Fs4q_1:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n220_5Gs1q_1:
   dmark: mp
@@ -13695,32 +13699,32 @@ n220_5B1q_1:
   dlevel: 14
 
 n220_5Gs1h:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n220_5B1h:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n220_6Ds1h:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n221_5Gs1w:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n221_5B1w:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n221_6Ds1w:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 ng222_1Ab3e:
-  dmark: p
-  dlevel: 11
+  dmark: pp
+  dlevel: 8
 
 ng222_1C6e:
   dmark: mp
@@ -13731,8 +13735,8 @@ n222_1Cs7e:
   dlevel: 17
 
 n222_5F2s:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n222_5C2t:
   dmark: ppp-
@@ -14131,16 +14135,16 @@ n225_5Ab3s_0:
   dlevel: 22
 
 n225_2D4s_1:
-  dmark: ff
-  dlevel: 22
+  dmark: ff+
+  dlevel: 23
 
 n225_2Cs5s_2:
-  dmark: ff
-  dlevel: 22
+  dmark: ff+
+  dlevel: 23
 
 n225_2E5s:
-  dmark: ff
-  dlevel: 22
+  dmark: ff+
+  dlevel: 23
 
 n225_5A2s_1:
   dmark: ff
@@ -14351,32 +14355,32 @@ n226_5G2t_4:
   dlevel: 14
 
 n226_1B4x_3:
-  dmark: p+
-  dlevel: 12
+  dmark: mp+
+  dlevel: 15
 
 n227_5Eb4h:
   dmark: pp
   dlevel: 8
 
 n228_1E6t_0:
-  dmark: p+
-  dlevel: 12
+  dmark: pp
+  dlevel: 8
 
 n228_1Cs3t_0:
-  dmark: mp-
-  dlevel: 13
+  dmark: pp
+  dlevel: 8
 
 n228_1Cs3t_1:
-  dmark: mp+
-  dlevel: 15
+  dmark: pp
+  dlevel: 8
 
 n228_1E6t_1:
-  dmark: mp+
-  dlevel: 15
+  dmark: pp
+  dlevel: 8
 
 ng228_5A4e:
-  dmark: mp
-  dlevel: 14
+  dmark: mf
+  dlevel: 17
 
 n228_1Gs4t:
   dmark: mf
@@ -14387,8 +14391,8 @@ n228_1E6t_2:
   dlevel: 17
 
 n228_5E4e_0:
-  dmark: mp
-  dlevel: 14
+  dmark: mf
+  dlevel: 17
 
 n228_1C6t:
   dmark: pp
@@ -14475,8 +14479,8 @@ n229_6A4h_1:
   dlevel: 5
 
 n230_1F5h:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n230_2Ab4w_0:
   dmark: pp
@@ -14519,16 +14523,16 @@ n230_1E6w:
   dlevel: 8
 
 n230_2Ab4w_1:
+  dmark: pp
+  dlevel: 8
+
+n230_6E4w_1:
   dmark: p
   dlevel: 11
 
-n230_6E4w_1:
-  dmark: pp
-  dlevel: 8
-
 n230_6A4w_1:
-  dmark: pp
-  dlevel: 8
+  dmark: p
+  dlevel: 11
 
 n230_5Gs2s:
   dmark: f
@@ -14659,24 +14663,24 @@ n231_2Gb6t_1:
   dlevel: 8
 
 n231_2F5t:
-  dmark: ppp
-  dlevel: 5
+  dmark: pp
+  dlevel: 8
 
 n236_1Ds6t_0:
   dmark: ppp
   dlevel: 5
 
 n236_6E3q:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n236_6Fs3q:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n236_6D6q:
-  dmark: mp
-  dlevel: 14
+  dmark: f
+  dlevel: 20
 
 n236_1Fs6t_0:
   dmark: ppp
@@ -14907,16 +14911,16 @@ n237_1Fs4e:
   dlevel: 5
 
 n237_6A3s:
-  dmark: pp+
-  dlevel: 9
-
-n237_5A2s:
   dmark: ff
   dlevel: 22
 
+n237_5A2s:
+  dmark: p+
+  dlevel: 12
+
 n237_6F4s:
-  dmark: p
-  dlevel: 11
+  dmark: mp+
+  dlevel: 15
 
 n237_6C4t:
   dmark: ppp
@@ -14995,8 +14999,8 @@ ng238_1D6e:
   dlevel: 22
 
 ng238_5Gs3e:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n238_1A5h:
   dmark: ff
@@ -15007,8 +15011,8 @@ n238_1D6h:
   dlevel: 22
 
 n238_2Cs6e_0:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n238_5Gs3t_0:
   dmark: ppp
@@ -15579,16 +15583,16 @@ n241_5Db1x_1:
   dlevel: 5
 
 ng243_5C2e:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n243_5A4e:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n243_5Fs3e:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 ng243_1Fs6e_0:
   dmark: pp
@@ -15679,24 +15683,24 @@ n243_1D3x:
   dlevel: 20
 
 n245_1D3s:
-  dmark: f
-  dlevel: 20
+  dmark: p
+  dlevel: 11
 
 n245_1B3s:
-  dmark: f
-  dlevel: 20
+  dmark: p
+  dlevel: 11
 
 n245_1Gs5s:
-  dmark: f
-  dlevel: 20
+  dmark: p
+  dlevel: 11
 
 n245_1Fs6s:
-  dmark: f
-  dlevel: 20
+  dmark: p
+  dlevel: 11
 
 n245_1As6s:
-  dmark: f
-  dlevel: 20
+  dmark: p
+  dlevel: 11
 
 n245_1Bb1s:
   dmark: ff
@@ -15707,12 +15711,12 @@ n245_1Db5s:
   dlevel: 22
 
 n245_5Bb3t:
-  dmark: f
-  dlevel: 20
+  dmark: ff
+  dlevel: 22
 
 n245_5Db6t:
-  dmark: f
-  dlevel: 20
+  dmark: ff
+  dlevel: 22
 
 n245_1E5s:
   dmark: p
@@ -15791,116 +15795,116 @@ n245_1As6t:
   dlevel: 22
 
 n246_5As4x:
-  dmark: p
-  dlevel: 11
+  dmark: ppp
+  dlevel: 5
 
 n246_5Fs4x:
-  dmark: p+
-  dlevel: 12
+  dmark: ppp
+  dlevel: 5
 
 n246_5E6x_0:
-  dmark: mp-
-  dlevel: 13
+  dmark: ppp
+  dlevel: 5
 
 n246_5B4x_0:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n246_5E6x_1:
-  dmark: mp+
-  dlevel: 15
+  dmark: ppp
+  dlevel: 5
 
 n246_5B4x_1:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n246_5G5x_0:
-  dmark: mf
-  dlevel: 17
+  dmark: ppp
+  dlevel: 5
 
 n246_5D7x_0:
-  dmark: mf+
-  dlevel: 18
+  dmark: ppp
+  dlevel: 5
 
 n246_5E5x:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n246_5D7x_1:
-  dmark: f+
-  dlevel: 21
+  dmark: ppp
+  dlevel: 5
 
 n246_5Fs3x_0:
-  dmark: ff
-  dlevel: 22
+  dmark: ppp
+  dlevel: 5
 
 n246_5E6x_2:
-  dmark: ff
-  dlevel: 22
+  dmark: ppp
+  dlevel: 5
 
 n246_5G5x_1:
-  dmark: ff
-  dlevel: 22
+  dmark: ppp
+  dlevel: 5
 
 n246_5Fs3x_1:
-  dmark: ff
-  dlevel: 22
+  dmark: ppp
+  dlevel: 5
 
 n246_5G5x_2:
-  dmark: ff
-  dlevel: 22
+  dmark: ppp
+  dlevel: 5
 
 n246_1A4x_0:
   dmark: mp
   dlevel: 14
 
 n246_1Fs3x:
-  dmark: mf
-  dlevel: 17
+  dmark: mp
+  dlevel: 14
 
 n246_1A4x_1:
-  dmark: mf
-  dlevel: 17
+  dmark: mp
+  dlevel: 14
 
 n246_1Fs3s:
-  dmark: f
-  dlevel: 20
+  dmark: mp
+  dlevel: 14
 
 n246_1Cs4s:
-  dmark: f
-  dlevel: 20
+  dmark: mp
+  dlevel: 14
 
 n246_5A4x:
   dmark: mp
   dlevel: 14
 
 n246_5Cs2x:
-  dmark: mp
-  dlevel: 14
+  dmark: mp-
+  dlevel: 13
 
 n246_5D3s:
-  dmark: mp
-  dlevel: 14
+  dmark: mp-
+  dlevel: 13
 
 n246_5B2s_0:
-  dmark: mp
-  dlevel: 14
+  dmark: p+
+  dlevel: 12
 
 n246_5As6s:
-  dmark: ff
-  dlevel: 22
+  dmark: p+
+  dlevel: 12
 
 n246_1As6s:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n246_5D2s:
-  dmark: ff
-  dlevel: 22
+  dmark: p
+  dlevel: 11
 
 n246_5B2s_1:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n249_1D5t_0:
   dmark: pp
@@ -15983,108 +15987,108 @@ n250_5Bb2e:
   dlevel: 11
 
 n250_5Fs4t_0:
+  dmark: p+
+  dlevel: 12
+
+n250_5B2t_0:
+  dmark: p+
+  dlevel: 12
+
+n250_5Fs4t_1:
   dmark: mp-
   dlevel: 13
 
-n250_5B2t_0:
-  dmark: mp
-  dlevel: 14
-
-n250_5Fs4t_1:
-  dmark: mp
-  dlevel: 14
-
 n250_5B2t_1:
-  dmark: mp+
-  dlevel: 15
+  dmark: mp-
+  dlevel: 13
 
 n250_5Gs3t:
+  dmark: mp-
+  dlevel: 13
+
+n250_5Fs5t_0:
+  dmark: mp
+  dlevel: 14
+
+n250_5B1t:
+  dmark: mp
+  dlevel: 14
+
+n250_5Gs4t_0:
+  dmark: mp
+  dlevel: 14
+
+n250_5D1t_0:
   dmark: mp+
   dlevel: 15
 
-n250_5Fs5t_0:
+n250_5Bb5t_0:
+  dmark: mp+
+  dlevel: 15
+
+n250_5D1t_1:
+  dmark: mp+
+  dlevel: 15
+
+n250_5Fs5t_1:
   dmark: mf-
   dlevel: 16
 
-n250_5B1t:
-  dmark: mf
-  dlevel: 17
-
-n250_5Gs4t_0:
-  dmark: mf
-  dlevel: 17
-
-n250_5D1t_0:
-  dmark: mf+
-  dlevel: 18
-
-n250_5Bb5t_0:
-  dmark: mf+
-  dlevel: 18
-
-n250_5D1t_1:
-  dmark: f-
-  dlevel: 19
-
-n250_5Fs5t_1:
-  dmark: f
-  dlevel: 20
-
 n250_5B2t_2:
-  dmark: f+
-  dlevel: 21
+  dmark: mf-
+  dlevel: 16
 
 n250_5Gs4t_1:
-  dmark: f+
-  dlevel: 21
+  dmark: mf-
+  dlevel: 16
 
 n250_5D2t:
-  dmark: f+
-  dlevel: 21
+  dmark: mf
+  dlevel: 17
 
 n250_5Bb5t_1:
-  dmark: ff
-  dlevel: 22
+  dmark: mf
+  dlevel: 17
 
 n250_1D3t_0:
   dmark: mp
   dlevel: 14
 
 n250_1F6t_0:
-  dmark: mf-
-  dlevel: 16
+  dmark: p+
+  dlevel: 12
 
 n250_1B2t:
+  dmark: p
+  dlevel: 11
+
+n250_1D3t_1:
+  dmark: p+
+  dlevel: 12
+
+n250_1F6t_1:
+  dmark: p-
+  dlevel: 10
+
+n250_1Gs4q:
+  dmark: pp
+  dlevel: 8
+
+n250_5Fs2x:
   dmark: mf
   dlevel: 17
 
-n250_1D3t_1:
-  dmark: mf+
-  dlevel: 18
-
-n250_1F6t_1:
-  dmark: f
-  dlevel: 20
-
-n250_1Gs4q:
-  dmark: fff
-  dlevel: 24
-
-n250_5Fs2x:
-  dmark: fff
-  dlevel: 24
-
 n250_5Cs3x:
-  dmark: fff
-  dlevel: 24
+  dmark: mf
+  dlevel: 17
 
 n250_5Ds5s:
-  dmark: fff
-  dlevel: 24
+  dmark: mf
+  dlevel: 17
 
 n251_2Bb2e:
-  dmark: fff
-  dlevel: 24
+  dmark: mf
+  dlevel: 17
 
 n252_5E3x_0:
   dmark: p
@@ -16123,36 +16127,36 @@ n252_5C1q:
   dlevel: 17
 
 n252_2D4s:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n252_2A5e:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n252_1D4t:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n252_1A5s:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n252_1Bb2e:
-  dmark: fff
-  dlevel: 24
+  dmark: ppp
+  dlevel: 5
 
 n252_1E5e_0:
-  dmark: fff
-  dlevel: 24
+  dmark: ppp
+  dlevel: 5
 
 n252_1E5e_1:
-  dmark: fff
-  dlevel: 24
+  dmark: ppp
+  dlevel: 5
 
 n252_1D7e:
-  dmark: fff
-  dlevel: 24
+  dmark: ppp
+  dlevel: 5
 
 n252_5Ab3t:
   dmark: mp
@@ -16175,12 +16179,12 @@ n252_5Db7t:
   dlevel: 14
 
 n252_1Gs4e:
-  dmark: fff
-  dlevel: 24
+  dmark: ppp
+  dlevel: 5
 
 n252_1Fs5e:
-  dmark: fff
-  dlevel: 24
+  dmark: ppp
+  dlevel: 5
 
 n253_1Cs6e:
   dmark: f
@@ -16191,12 +16195,12 @@ n253_1E7e:
   dlevel: 20
 
 n253_5G1s:
-  dmark: mp
-  dlevel: 14
+  dmark: f
+  dlevel: 20
 
 n253_5Ab2s:
-  dmark: mp
-  dlevel: 14
+  dmark: f
+  dlevel: 20
 
 n253_5C4t:
   dmark: mp
@@ -16531,8 +16535,8 @@ n254_5Ab1t:
   dlevel: 5
 
 n256_5A0w:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n257_1F4w:
   dmark: f
@@ -16543,8 +16547,8 @@ n257_1Db6w:
   dlevel: 20
 
 n257_1Bb3e:
-  dmark: f+
-  dlevel: 21
+  dmark: f
+  dlevel: 20
 
 n257_5E4e:
   dmark: ff
@@ -16555,40 +16559,40 @@ n257_1C5t:
   dlevel: 11
 
 n258_5Gs3x:
-  dmark: mf
-  dlevel: 17
+  dmark: p
+  dlevel: 11
 
 n258_5A1x:
-  dmark: fff
-  dlevel: 24
+  dmark: p
+  dlevel: 11
 
 n258_5C2s:
-  dmark: ff
-  dlevel: 22
+  dmark: p
+  dlevel: 11
 
 n258_1C7x:
-  dmark: f
-  dlevel: 20
+  dmark: p
+  dlevel: 11
 
 n258_1D5x:
-  dmark: mp-
-  dlevel: 13
+  dmark: p
+  dlevel: 11
 
 n258_1E4s:
-  dmark: pp
-  dlevel: 8
+  dmark: p
+  dlevel: 11
 
 n259_6A0e_0:
-  dmark: mp
-  dlevel: 14
+  dmark: f
+  dlevel: 20
 
 n259_6Bb3e_0:
   dmark: f
   dlevel: 20
 
 n259_1C2q:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n259_5F2e:
   dmark: pp
@@ -16599,8 +16603,8 @@ n259_2C5e:
   dlevel: 14
 
 n259_6A0t:
-  dmark: mp
-  dlevel: 14
+  dmark: f
+  dlevel: 20
 
 n259_6E1t:
   dmark: f
@@ -16610,9 +16614,10 @@ n259_5Db3s:
   dmark: p
   dlevel: 11
 
-n259_1Bb4e_0:
-  dmark: ff
-  dlevel: 22
+# n259_5Bb4e_0:
+n259_1Bb4e_0: 
+  dmark: f
+  dlevel: 20
 
 n259_2E4e:
   dmark: p
@@ -16626,89 +16631,93 @@ n259_1F5e:
   dmark: p
   dlevel: 11
 
+n260_1Bb4h:
+  dmark: f
+  dlevel: 20
+
 n260_5D2h:
-  dmark: ff
-  dlevel: 22
+  dmark: f
+  dlevel: 20
 
 ng260_5As4e:
-  dmark: mp
-  dlevel: 14
+  dmark: mf
+  dlevel: 17
 
 n260_2Cb5e_0:
   dmark: mf
   dlevel: 17
 
 ng260_5Fs2e:
-  dmark: p
-  dlevel: 11
+  dmark: mf
+  dlevel: 17
 
 n261_1B4t:
-  dmark: mp
-  dlevel: 14
+  dmark: f
+  dlevel: 20
 
 n261_1C6t:
-  dmark: mp
-  dlevel: 14
+  dmark: f
+  dlevel: 20
 
 n261_5Eb2t:
-  dmark: mp
-  dlevel: 14
+  dmark: f
+  dlevel: 20
 
 n261_1G4t:
-  dmark: mp
-  dlevel: 14
+  dmark: f
+  dlevel: 20
 
 n261_1Gb3s:
   dmark: mp
   dlevel: 14
 
 n261_1E5s:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n261_1Gs3s:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n261_1C7t_0:
-  dmark: mp
-  dlevel: 14
+  dmark: p-
+  dlevel: 10
 
 n261_1A2t_0:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n261_1C7t_1:
-  dmark: mp
-  dlevel: 14
+  dmark: p+
+  dlevel: 12
 
 n261_1A2t_1:
-  dmark: mp
-  dlevel: 14
+  dmark: mp-
+  dlevel: 13
 
 n261_1E5t:
   dmark: mp
   dlevel: 14
 
 n261_1Gs3t_0:
-  dmark: mp
-  dlevel: 14
+  dmark: mp+
+  dlevel: 15
 
 n261_1A2t_2:
-  dmark: mp
-  dlevel: 14
+  dmark: mf
+  dlevel: 17
 
 n261_1D6t_0:
-  dmark: mp
-  dlevel: 14
+  dmark: mf+
+  dlevel: 18
 
 n261_1C7t_2:
-  dmark: mp
-  dlevel: 14
+  dmark: f-
+  dlevel: 19
 
 n261_1D6t_1:
-  dmark: mp
-  dlevel: 14
+  dmark: f
+  dlevel: 20
 
 n261_1A2t_3:
   dmark: f
@@ -16731,8 +16740,8 @@ n261_5Eb2s_0:
   dlevel: 8
 
 n261_1B5s_0:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n261_5Eb2s_1:
   dmark: pp
@@ -16743,8 +16752,8 @@ n261_1B5s_1:
   dlevel: 8
 
 n261_5G3s:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n261_1B5q:
   dmark: pp
@@ -16983,36 +16992,36 @@ n266_5G3e_0:
   dlevel: 24
 
 n266_1D6e:
-  dmark: mp
-  dlevel: 14
+  dmark: fff
+  dlevel: 24
 
 n266_5Fs2e_1:
-  dmark: mp
-  dlevel: 14
+  dmark: fff
+  dlevel: 24
 
 n266_5C3e_1:
-  dmark: mp
-  dlevel: 14
+  dmark: fff
+  dlevel: 24
 
 n266_5G3e_1:
-  dmark: mp
-  dlevel: 14
+  dmark: fff
+  dlevel: 24
 
 n266_1D6q:
-  dmark: fff
-  dlevel: 24
+  dmark: ppp
+  dlevel: 5
 
 n266_5Fs2q:
-  dmark: fff
-  dlevel: 24
+  dmark: ppp
+  dlevel: 5
 
 n266_5C3q:
-  dmark: fff
-  dlevel: 24
+  dmark: ppp
+  dlevel: 5
 
 n266_5G3q:
-  dmark: fff
-  dlevel: 24
+  dmark: ppp
+  dlevel: 5
 
 ng267_1D4e:
   dmark: p
@@ -17139,20 +17148,20 @@ n267_1Ab3t:
   dlevel: 20
 
 n267_5D5t:
-  dmark: mp
-  dlevel: 14
+  dmark: f+
+  dlevel: 21
 
 n267_5Ab1t:
-  dmark: mp
-  dlevel: 14
+  dmark: ff
+  dlevel: 22
 
 n267_1A7s:
-  dmark: mp
-  dlevel: 14
+  dmark: ff
+  dlevel: 22
 
 n267_5C1t:
-  dmark: mp
-  dlevel: 14
+  dmark: ff
+  dlevel: 22
 
 n268_5E4q:
   dmark: ff
@@ -17287,52 +17296,52 @@ n269_1As7t_1:
   dlevel: 11
 
 n271_5Ab1t_0:
+  dmark: p
+  dlevel: 11
+
+n271_5C3t_0:
+  dmark: mp-
+  dlevel: 13
+
+n271_5Ab1t_1:
+  dmark: mf-
+  dlevel: 16
+
+n271_5C3t_1:
   dmark: mf
   dlevel: 17
 
-n271_5C3t_0:
-  dmark: f-
-  dlevel: 19
-
-n271_5Ab1t_1:
-  dmark: f
-  dlevel: 20
-
-n271_5C3t_1:
-  dmark: ff
-  dlevel: 22
-
 n271_5E3t_0:
-  dmark: ff+
-  dlevel: 23
+  dmark: mf+
+  dlevel: 18
 
 n271_5Ab1x:
-  dmark: fff
-  dlevel: 24
-
-n271_5A0x:
-  dmark: fff
-  dlevel: 24
-
-n271_5D2x:
-  dmark: ff
-  dlevel: 22
-
-n271_5Ab1t_2:
   dmark: f
   dlevel: 20
 
+n271_5A0x:
+  dmark: f
+  dlevel: 20
+
+n271_5D2x:
+  dmark: mf+
+  dlevel: 18
+
+n271_5Ab1t_2:
+  dmark: mf
+  dlevel: 17
+
 n271_5C3x:
-  dmark: mp-
-  dlevel: 13
+  dmark: p+
+  dlevel: 12
 
 n271_5E3t_1:
   dmark: p
   dlevel: 11
 
 n271_5E3e:
-  dmark: p
-  dlevel: 11
+  dmark: pp
+  dlevel: 8
 
 ng271_6D5e:
   dmark: pp
@@ -17387,8 +17396,8 @@ n271_1Fs5s_1:
   dlevel: 14
 
 n272_5E3q:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n272_1B7q:
   dmark: ppp
@@ -17415,12 +17424,12 @@ ng272_1A6e:
   dlevel: 14
 
 n272_1E3e:
-  dmark: mf
-  dlevel: 17
+  dmark: mp
+  dlevel: 14
 
 n272_5Bb2e:
-  dmark: mf
-  dlevel: 17
+  dmark: mp
+  dlevel: 14
 
 ng273_5G4e:
   dmark: p
@@ -17431,12 +17440,12 @@ ng273_5Db3e:
   dlevel: 11
 
 n273_1F1s_0:
-  dmark: ppp
-  dlevel: 5
+  dmark: p
+  dlevel: 11
 
 n273_2D1s:
-  dmark: ppp
-  dlevel: 5
+  dmark: p
+  dlevel: 11
 
 n273_5Ab1t:
   dmark: mp
@@ -17507,28 +17516,28 @@ n273_5Bb1s:
   dlevel: 8
 
 n273_6E6s:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n274_5F2q:
   dmark: mp
   dlevel: 14
 
 n274_6Eb6s:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n279_1E7s:
   dmark: fff
   dlevel: 24
 
 n279_5Ab2s:
-  dmark: mp
-  dlevel: 14
+  dmark: fff
+  dlevel: 24
 
 n279_5Eb3s:
-  dmark: mp
-  dlevel: 14
+  dmark: fff
+  dlevel: 24
 
 n279_1A4t:
   dmark: fff
@@ -17543,48 +17552,48 @@ n279_5C1t_0:
   dlevel: 24
 
 n279_5Ab1t_0:
-  dmark: ff+
-  dlevel: 23
+  dmark: fff
+  dlevel: 24
 
 n279_5Eb2t:
-  dmark: f+
-  dlevel: 21
+  dmark: fff
+  dlevel: 24
 
 n279_5C1t_1:
-  dmark: f
-  dlevel: 20
+  dmark: fff
+  dlevel: 24
 
 n279_5Ab1t_1:
-  dmark: f
-  dlevel: 20
+  dmark: fff
+  dlevel: 24
 
 n279_5Eb3t:
-  dmark: mf+
-  dlevel: 18
+  dmark: fff
+  dlevel: 24
 
 n279_5Ab1t_2:
-  dmark: mf-
-  dlevel: 16
+  dmark: f
+  dlevel: 20
 
 n279_5A3t:
   dmark: mp
   dlevel: 14
 
 n279_5E4t:
-  dmark: p+
-  dlevel: 12
+  dmark: p
+  dlevel: 11
 
 n279_5A2t:
-  dmark: p-
-  dlevel: 10
+  dmark: ppp
+  dlevel: 5
 
 n280_5C1s:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n280_5Ab1s:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n280_5E5s:
   dmark: ppp
@@ -17603,8 +17612,8 @@ n280_5C4e:
   dlevel: 8
 
 n280_1Bb4x:
-  dmark: p
-  dlevel: 11
+  dmark: pp
+  dlevel: 8
 
 n280_1Cs7x_0:
   dmark: p
@@ -17619,8 +17628,8 @@ n280_1Cs7x_1:
   dlevel: 10
 
 n280_1E4x:
-  dmark: p-
-  dlevel: 10
+  dmark: pp
+  dlevel: 8
 
 n280_1A7x_2:
   dmark: p-
@@ -17635,8 +17644,8 @@ n280_1Bb4t:
   dlevel: 9
 
 n280_5Eb5e:
-  dmark: pp
-  dlevel: 8
+  dmark: pp+
+  dlevel: 9
 
 n280_1E4t:
   dmark: pp+
@@ -17755,8 +17764,8 @@ n281_5Db4q:
   dlevel: 11
 
 n281_1Eb5e:
-  dmark: pp+
-  dlevel: 9
+  dmark: p-
+  dlevel: 10
 
 n281_1A6s:
   dmark: pp-
@@ -17875,8 +17884,8 @@ n283_1A5s_1:
   dlevel: 13
 
 n283_1E2t:
-  dmark: mp
-  dlevel: 14
+  dmark: mf
+  dlevel: 17
 
 n283_1Cs5t:
   dmark: mf
@@ -17891,12 +17900,12 @@ n283_2E5s:
   dlevel: 22
 
 n283_5E2s:
-  dmark: mp+
-  dlevel: 15
+  dmark: mf
+  dlevel: 17
 
 n283_5F3s:
-  dmark: mp
-  dlevel: 14
+  dmark: mf
+  dlevel: 17
 
 n283_5Fs2e:
   dmark: f
@@ -17947,8 +17956,8 @@ n283_1E3e_1:
   dlevel: 11
 
 n283_5Gb1e:
-  dmark: p
-  dlevel: 11
+  dmark: pp
+  dlevel: 8
 
 n283_1Cs4s:
   dmark: pp
@@ -18007,8 +18016,8 @@ n284_5D6s:
   dlevel: 14
 
 n284_5Gs5t:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 ng284_6Ds2e:
   dmark: pp
@@ -18026,17 +18035,20 @@ n284_1D6q:
   dmark: mp
   dlevel: 14
 
-n284_5B2q_0:
-  dmark: pp
-  dlevel: 8
-
+# n284_5A1q:
 n284_6A1q:
   dmark: mp
   dlevel: 14
 
+#n284_5F2q:
 n284_6F2q:
   dmark: mp
   dlevel: 14
+
+# n284_6B2q:
+n284_5B2q_0:
+  dmark: pp
+  dlevel: 8
 
 n284_1Cs5e:
   dmark: f
@@ -18155,8 +18167,8 @@ n284_1C3s:
   dlevel: 14
 
 n285_5F2q:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 ng286_5F1e:
   dmark: p
@@ -18183,8 +18195,8 @@ n287_6Fs3t:
   dlevel: 11
 
 n287_2D4t:
-  dmark: p-
-  dlevel: 10
+  dmark: pp
+  dlevel: 8
 
 n287_2B5t:
   dmark: mp
@@ -18250,14 +18262,6 @@ n287_6Db4e:
   dmark: ff
   dlevel: 22
 
-n288_6Gb2t:
-  dmark: mp
-  dlevel: 14
-
-n288_6Db4t:
-  dmark: mp
-  dlevel: 14
-
 n288_1Bb4t_0:
   dmark: pp
   dlevel: 8
@@ -18266,25 +18270,33 @@ n288_2G5h:
   dmark: mp
   dlevel: 14
 
+n288_6Gb2t:
+  dmark: mp
+  dlevel: 14
+
 n288_1D6e_0:
   dmark: fff
   dlevel: 24
 
 n288_6Gb2e:
-  dmark: mp
-  dlevel: 14
+  dmark: ff
+  dlevel: 22
+
+n288_6Db4t:
+  dmark: ff
+  dlevel: 22
 
 n288_5Fs2t:
   dmark: f
   dlevel: 20
 
 n288_1D6s:
-  dmark: mp
-  dlevel: 14
+  dmark: ff
+  dlevel: 22
 
 n288_1A6s:
-  dmark: fff
-  dlevel: 24
+  dmark: ff
+  dlevel: 22
 
 n288_5F2s:
   dmark: ff
@@ -18295,8 +18307,8 @@ n288_5Cs3s:
   dlevel: 22
 
 n288_1Cs6s:
-  dmark: mp
-  dlevel: 14
+  dmark: ff
+  dlevel: 22
 
 n288_5D4s_0:
   dmark: ff
@@ -18307,16 +18319,16 @@ n288_5E4s_0:
   dlevel: 22
 
 n288_5Gs4s_0:
-  dmark: mp
-  dlevel: 14
+  dmark: ff
+  dlevel: 22
 
 n288_1Bb4t_1:
-  dmark: mp
-  dlevel: 14
+  dmark: ff
+  dlevel: 22
 
 n288_1F5t:
-  dmark: mp
-  dlevel: 14
+  dmark: ff
+  dlevel: 22
 
 n291_1Bb3e_0:
   dmark: ff
@@ -18331,12 +18343,12 @@ n291_1Bb4e_0:
   dlevel: 22
 
 n291_5C2e:
-  dmark: mp
-  dlevel: 14
+  dmark: ff
+  dlevel: 22
 
 n291_5Fs2e:
-  dmark: mp
-  dlevel: 14
+  dmark: ff
+  dlevel: 22
 
 n291_1B5s_0:
   dmark: pp
@@ -18495,12 +18507,12 @@ n292_5B1e_1:
   dlevel: 10
 
 n292_5D2e_1:
-  dmark: mp
-  dlevel: 14
+  dmark: p-
+  dlevel: 10
 
 n292_5Bb3e_1:
-  dmark: mp
-  dlevel: 14
+  dmark: p-
+  dlevel: 10
 
 n292_5Ab1t_0:
   dmark: pp
@@ -18879,152 +18891,152 @@ n294_5G2s:
   dlevel: 8
 
 ng295_1A6e:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 ng295_1C7e_0:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 ng295_1E7e:
-  dmark: mp+
-  dlevel: 15
+  dmark: pp
+  dlevel: 8
 
 ng295_5Eb4e_0:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 ng295_1C7e_1:
-  dmark: mf
-  dlevel: 17
+  dmark: pp
+  dlevel: 8
 
 ng295_5F3e_0:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 ng295_1D5e:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 ng295_5Eb4e_1:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 ng295_1Db5e_0:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 ng295_5F3e_1:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 ng295_1Ab4e_0:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 ng295_5Eb4e_2:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 ng295_1Db5e_1:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 ng295_5F3e_2:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 ng295_5Gb3e:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n295_1C6q:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n295_1Db6q:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n295_1Eb6q:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n295_1Fb6q:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n295_5C3q:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n295_1Gb3e:
-  dmark: mf
-  dlevel: 17
+  dmark: pp
+  dlevel: 8
 
 ng295_1Cs7e_0:
-  dmark: ff
-  dlevel: 22
-
-ng295_1C8e_0:
-  dmark: f+
-  dlevel: 21
-
-ng295_1Cs7e_1:
-  dmark: f
-  dlevel: 20
-
-ng295_1C8e_1:
-  dmark: f
-  dlevel: 20
-
-ng295_1Cs7e_2:
-  dmark: f-
-  dlevel: 19
-
-ng295_1E6e:
-  dmark: mf+
-  dlevel: 18
-
-ng295_1Bb7e_0:
-  dmark: mf
-  dlevel: 17
-
-ng295_1E5e_0:
-  dmark: mf-
-  dlevel: 16
-
-ng295_1C7e_2:
-  dmark: mf-
-  dlevel: 16
-
-ng295_1E5e_1:
-  dmark: mp+
-  dlevel: 15
-
-ng295_1Bb6e_0:
   dmark: mp
   dlevel: 14
 
-ng295_1Ab4e_1:
+ng295_1C8e_0:
+  dmark: mp
+  dlevel: 14
+
+ng295_1Cs7e_1:
   dmark: mp-
   dlevel: 13
 
-ng295_1E5e_2:
+ng295_1C8e_1:
   dmark: mp-
   dlevel: 13
 
-ng295_1Bb6e_1:
+ng295_1Cs7e_2:
   dmark: p+
   dlevel: 12
 
-ng295_1E4e:
+ng295_1E6e:
+  dmark: p+
+  dlevel: 12
+
+ng295_1Bb7e_0:
+  dmark: p+
+  dlevel: 12
+
+ng295_1E5e_0:
   dmark: p
   dlevel: 11
 
-n295_1B4q:
+ng295_1C7e_2:
   dmark: p
   dlevel: 11
+
+ng295_1E5e_1:
+  dmark: p-
+  dlevel: 10
+
+ng295_1Bb6e_0:
+  dmark: p-
+  dlevel: 10
+
+ng295_1Ab4e_1:
+  dmark: p-
+  dlevel: 10
+
+ng295_1E5e_2:
+  dmark: pp+
+  dlevel: 9
+
+ng295_1Bb6e_1:
+  dmark: pp+
+  dlevel: 9
+
+ng295_1E4e:
+  dmark: pp
+  dlevel: 8
+
+n295_1B4q:
+  dmark: pp
+  dlevel: 8
 
 n295_5Ab3q:
   dmark: pp
@@ -19035,8 +19047,8 @@ ng295_1Cs6e:
   dlevel: 7
 
 ng295_1C8e_2:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp+
+  dlevel: 6
 
 ng295_1Cs7e_3:
   dmark: ppp+
@@ -19047,24 +19059,24 @@ ng295_1E5e_3:
   dlevel: 6
 
 ng295_1Bb7e_1:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp+
+  dlevel: 6
 
 ng295_1E5e_4:
   dmark: ppp+
   dlevel: 6
 
 ng295_1C8e_3:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 ng295_1Ab4e_2:
   dmark: ppp
   dlevel: 5
 
 n296_5Bb3w:
-  dmark: mp
-  dlevel: 14
+  dmark: ff
+  dlevel: 22
 
 n296_5E1s:
   dmark: fff
@@ -19075,8 +19087,8 @@ n296_2A7q:
   dlevel: 24
 
 n296_5Gb2h:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n296_2Cs7e:
   dmark: p
@@ -19127,8 +19139,8 @@ n297_1Gb3s:
   dlevel: 24
 
 n297_2C4x:
-  dmark: f
-  dlevel: 20
+  dmark: fff
+  dlevel: 24
 
 n297_2E3x_0:
   dmark: f
@@ -19179,8 +19191,8 @@ ng297_1Bb4e:
   dlevel: 22
 
 ng297_1Fs2e:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n299_5F2t:
   dmark: mp
@@ -19635,244 +19647,244 @@ n304_1C7x_0:
   dlevel: 6
 
 n304_1Gb7t_0:
-  dmark: ppp+
-  dlevel: 6
+  dmark: ppp
+  dlevel: 5
 
 n304_1Ab6t_1:
-  dmark: pp-
-  dlevel: 7
+  dmark: ppp
+  dlevel: 5
 
 n304_1C7t_0:
-  dmark: pp
-  dlevel: 8
+  dmark: ppp
+  dlevel: 5
 
 n304_1Ab5t_0:
-  dmark: pp+
-  dlevel: 9
+  dmark: ppp
+  dlevel: 5
 
 n304_1C7x_1:
-  dmark: p-
-  dlevel: 10
+  dmark: ppp
+  dlevel: 5
 
 n304_1Gb7t_1:
-  dmark: p
-  dlevel: 11
+  dmark: ppp
+  dlevel: 5
 
 n304_1Ab5t_1:
-  dmark: p+
-  dlevel: 12
+  dmark: ppp
+  dlevel: 5
 
 n304_1C6t_0:
-  dmark: p+
-  dlevel: 12
+  dmark: ppp
+  dlevel: 5
 
 n304_1Ab4t_0:
-  dmark: mp-
-  dlevel: 13
+  dmark: ppp
+  dlevel: 5
 
 n304_1C6t_1:
-  dmark: mp-
-  dlevel: 13
+  dmark: ppp
+  dlevel: 5
 
 n304_1Gb6t:
-  dmark: mp-
-  dlevel: 13
+  dmark: ppp
+  dlevel: 5
 
 n304_1C7x_2:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n304_1Gb7t_2:
-  dmark: mp+
-  dlevel: 15
+  dmark: ppp
+  dlevel: 5
 
 n304_1Ab5t_2:
-  dmark: mf-
-  dlevel: 16
+  dmark: ppp
+  dlevel: 5
 
 n304_1C7t_1:
-  dmark: mf
-  dlevel: 17
+  dmark: ppp
+  dlevel: 5
 
 n304_1Ab4t_1:
-  dmark: mf+
-  dlevel: 18
+  dmark: ppp
+  dlevel: 5
 
 n304_1C7t_2:
-  dmark: mf+
-  dlevel: 18
+  dmark: ppp
+  dlevel: 5
 
 n304_1Gb7t_3:
-  dmark: mf+
-  dlevel: 18
+  dmark: ppp
+  dlevel: 5
 
 n304_1C7x_3:
-  dmark: f-
-  dlevel: 19
+  dmark: ppp
+  dlevel: 5
 
 n304_1Gb7t_4:
-  dmark: f-
-  dlevel: 19
+  dmark: ppp
+  dlevel: 5
 
 n304_1Ab4t_2:
-  dmark: f
-  dlevel: 20
+  dmark: ppp
+  dlevel: 5
 
 n304_1C6t_2:
-  dmark: f
-  dlevel: 20
+  dmark: ppp
+  dlevel: 5
 
 n304_1D5t_0:
   dmark: pp
   dlevel: 8
 
 n304_1G7t_0:
-  dmark: p-
-  dlevel: 10
+  dmark: pp
+  dlevel: 8
 
 n304_1Ab5t_3:
-  dmark: p
-  dlevel: 11
+  dmark: pp
+  dlevel: 8
 
 n304_1D6t:
-  dmark: mp-
-  dlevel: 13
+  dmark: pp
+  dlevel: 8
 
 n304_1G7t_1:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n304_1Fs4t_0:
-  dmark: mf-
-  dlevel: 16
+  dmark: pp
+  dlevel: 8
 
 n304_1D5t_1:
-  dmark: mf
-  dlevel: 17
+  dmark: pp
+  dlevel: 8
 
 n304_1Fs4t_1:
-  dmark: f-
-  dlevel: 19
+  dmark: pp
+  dlevel: 8
 
 n304_1D5t_2:
-  dmark: f-
-  dlevel: 19
+  dmark: pp
+  dlevel: 8
 
 n304_1G6t:
-  dmark: f-
-  dlevel: 19
+  dmark: pp
+  dlevel: 8
 
 n304_1Ab5t_4:
-  dmark: f
-  dlevel: 20
+  dmark: pp
+  dlevel: 8
 
 n304_1D5t_3:
-  dmark: f+
-  dlevel: 21
+  dmark: pp
+  dlevel: 8
 
 n304_1Ab5e:
-  dmark: ff
-  dlevel: 22
+  dmark: pp
+  dlevel: 8
 
 n304_1G6e:
-  dmark: ff
-  dlevel: 22
+  dmark: pp
+  dlevel: 8
 
 n304_5Ab2t_0:
-  dmark: ff
-  dlevel: 22
+  dmark: pp
+  dlevel: 8
 
 n304_5C4t:
-  dmark: ff
-  dlevel: 22
+  dmark: pp
+  dlevel: 8
 
 n304_5Gb4t:
-  dmark: ff
-  dlevel: 22
+  dmark: pp
+  dlevel: 8
 
 n304_5Ab2t_1:
-  dmark: ff
-  dlevel: 22
+  dmark: pp
+  dlevel: 8
 
 n304_5C3t:
-  dmark: ff
-  dlevel: 22
+  dmark: pp
+  dlevel: 8
 
 n305_5Gb1t_0:
-  dmark: f
-  dlevel: 20
+  dmark: pp
+  dlevel: 8
 
 n305_5Bb2t:
-  dmark: f+
-  dlevel: 21
+  dmark: pp
+  dlevel: 8
 
 n305_5Gb1t_1:
-  dmark: ff
-  dlevel: 22
+  dmark: pp-
+  dlevel: 7
 
 n305_5D2t_0:
-  dmark: ff
-  dlevel: 22
+  dmark: pp-
+  dlevel: 7
 
 n305_5Ab2t:
-  dmark: ff+
-  dlevel: 23
+  dmark: pp-
+  dlevel: 7
 
 n305_1Ab1e:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n305_1C4e:
-  dmark: ff
-  dlevel: 22
+  dmark: pp
+  dlevel: 8
 
 n305_1G4e:
-  dmark: ff
-  dlevel: 22
+  dmark: pp
+  dlevel: 8
 
 n305_5D2t_1:
-  dmark: fff
-  dlevel: 24
+  dmark: ppp+
+  dlevel: 6
 
 n305_5G5t:
-  dmark: fff
-  dlevel: 24
+  dmark: ppp+
+  dlevel: 6
 
 n305_1Bb5h:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n305_5Ab3h:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n305_5C4h:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n305_5Gb4h:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n305_2E4e:
-  dmark: p
-  dlevel: 11
+  dmark: pp
+  dlevel: 8
 
 n305_5Gb2e:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n305_1Gs5s_0:
-  dmark: ff
-  dlevel: 22
+  dmark: f
+  dlevel: 20
 
 n305_1A1s_0:
   dmark: mf-
   dlevel: 16
 
 n305_1F2t:
-  dmark: p-
-  dlevel: 10
+  dmark: p
+  dlevel: 11
 
 n306_1D5s:
   dmark: pp-
@@ -19887,8 +19899,8 @@ n306_1Ab1s:
   dlevel: 5
 
 n306_2Fs3q_0:
-  dmark: ppp
-  dlevel: 5
+  dmark: pp
+  dlevel: 8
 
 n307_1Cs7s:
   dmark: p
@@ -19915,28 +19927,29 @@ ng307_1Ab2e:
   dlevel: 14
 
 n307_1F6s:
-  dmark: mp
-  dlevel: 14
+  dmark: mf
+  dlevel: 17
 
 ng307_6A0e:
-  dmark: mp
-  dlevel: 14
+  dmark: mf
+  dlevel: 17
 
 ng307_6E1e:
-  dmark: mp
-  dlevel: 14
+  dmark: mf
+  dlevel: 17
 
 ng307_6Bb3e:
-  dmark: mp
-  dlevel: 14
+  dmark: mf
+  dlevel: 17
 
 ng307_6E2e:
-  dmark: mp
-  dlevel: 14
+  dmark: mf+
+  dlevel: 18
 
-ng307_6A1e:
-  dmark: mp
-  dlevel: 14
+#ng307_2A1e:
+ng307_6A1e: 
+  dmark: f
+  dlevel: 20
 
 n311_1Cs5s:
   dmark: mf
@@ -19955,12 +19968,12 @@ n311_1Cs6s:
   dlevel: 17
 
 n311_5E2e:
-  dmark: mp
-  dlevel: 14
+  dmark: mf
+  dlevel: 17
 
 n311_5Bb2e:
-  dmark: mp
-  dlevel: 14
+  dmark: mf
+  dlevel: 17
 
 n311_1F4e:
   dmark: mf
@@ -20338,9 +20351,10 @@ n313_1A5e:
   dmark: p
   dlevel: 11
 
-n313_5Fs2e:
-  dmark: mp
-  dlevel: 14
+# n313_5F2e:
+n313_5Fs2e: 
+  dmark: mf
+  dlevel: 17
 
 n313_5Db3e:
   dmark: mf
@@ -20759,72 +20773,72 @@ n317_5D2q:
   dlevel: 8
 
 n317_1F5t:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n317_1C5t_0:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n317_1Cs2t_0:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n317_1Gs2t:
-  dmark: mp
-  dlevel: 14
+  dmark: p+
+  dlevel: 12
 
 n317_1C5t_1:
-  dmark: mp
-  dlevel: 14
+  dmark: p+
+  dlevel: 12
 
 n317_1Cs2t_1:
-  dmark: mp
-  dlevel: 14
+  dmark: mp-
+  dlevel: 13
 
 n317_1G6s:
-  dmark: mp
-  dlevel: 14
+  dmark: mp-
+  dlevel: 13
 
 n317_1E3s:
   dmark: mp
   dlevel: 14
 
 n317_1F5q:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n317_1Cs7q:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n317_1A7q:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n321_1Bb5h:
-  dmark: mp
-  dlevel: 14
+  dmark: f
+  dlevel: 20
 
 n321_1D6h:
-  dmark: mp
-  dlevel: 14
+  dmark: f
+  dlevel: 20
 
 n321_1Cs7h:
-  dmark: mp
-  dlevel: 14
+  dmark: f
+  dlevel: 20
 
 n321_2G5h:
-  dmark: mp
-  dlevel: 14
+  dmark: ff
+  dlevel: 22
 
 ng321_5A2e:
-  dmark: mp
-  dlevel: 14
+  dmark: f
+  dlevel: 20
 
 ng321_5Bb3e:
-  dmark: mp
-  dlevel: 14
+  dmark: f
+  dlevel: 20
 
 ng321_1Ab5e:
   dmark: pp
@@ -20846,7 +20860,8 @@ ng321_1Cs4e:
   dmark: pp
   dlevel: 8
 
-ng321_1Bb4e:
+# ng321_1As4e:
+ng321_1Bb4e: 
   dmark: f
   dlevel: 20
 
@@ -21375,36 +21390,36 @@ n327_1B3e:
   dlevel: 11
 
 n327_5A1t_0:
-  dmark: p-
-  dlevel: 10
+  dmark: pp
+  dlevel: 8
 
 n327_5E2t_0:
-  dmark: p-
-  dlevel: 10
+  dmark: pp
+  dlevel: 8
 
 n327_5A1t_1:
-  dmark: p
-  dlevel: 11
+  dmark: pp
+  dlevel: 8
 
 n327_5F1t_0:
-  dmark: p
-  dlevel: 11
+  dmark: pp
+  dlevel: 8
 
 n327_5A1t_2:
-  dmark: p
-  dlevel: 11
+  dmark: pp
+  dlevel: 8
 
 n327_1Gs2e:
   dmark: pp
   dlevel: 8
 
 n327_5E2t_1:
-  dmark: p+
-  dlevel: 12
+  dmark: pp
+  dlevel: 8
 
 n327_5F1t_1:
-  dmark: p+
-  dlevel: 12
+  dmark: pp
+  dlevel: 8
 
 n328_1C4s:
   dmark: ff
@@ -21419,8 +21434,8 @@ n328_1A4s:
   dlevel: 22
 
 n328_5B1t_0:
-  dmark: mp
-  dlevel: 14
+  dmark: f
+  dlevel: 20
 
 n328_5Bb3t_0:
   dmark: f-
@@ -22327,144 +22342,144 @@ n333_5F1s:
   dlevel: 5
 
 n334_5E2t_0:
-  dmark: mp
-  dlevel: 14
-
-n334_5B4t:
-  dmark: mp
-  dlevel: 14
-
-n334_5G1t:
-  dmark: mp
-  dlevel: 14
-
-n334_5Bb1t:
-  dmark: mp
-  dlevel: 14
-
-n334_5E2t_1:
-  dmark: mp
-  dlevel: 14
-
-n334_5Eb6t:
-  dmark: mp
-  dlevel: 14
-
-n334_1D4s_0:
-  dmark: mp
-  dlevel: 14
-
-n334_1B4s_0:
-  dmark: mp
-  dlevel: 14
-
-n334_5F1s_0:
-  dmark: mp
-  dlevel: 14
-
-n334_1D4s_1:
-  dmark: mp
-  dlevel: 14
-
-n334_1B4s_1:
-  dmark: mp
-  dlevel: 14
-
-n334_5F1s_1:
-  dmark: mp
-  dlevel: 14
-
-n334_1D4s_2:
-  dmark: mp
-  dlevel: 14
-
-n334_1B4s_2:
-  dmark: mp
-  dlevel: 14
-
-n334_5F1e:
-  dmark: mp
-  dlevel: 14
-
-n334_5Fs2e:
-  dmark: mp
-  dlevel: 14
-
-n334_1D4s_3:
-  dmark: mp
-  dlevel: 14
-
-n334_1As4s:
-  dmark: mp
-  dlevel: 14
-
-n334_1B4s_3:
-  dmark: mp
-  dlevel: 14
-
-n334_5F1t:
-  dmark: mp
-  dlevel: 14
-
-n334_5Fs2t:
-  dmark: mp
-  dlevel: 14
-
-n334_1D4t:
-  dmark: mp
-  dlevel: 14
-
-n334_1As4t:
-  dmark: mp
-  dlevel: 14
-
-n334_1B4t:
-  dmark: mp
-  dlevel: 14
-
-n337_5F2s:
   dmark: pp
   dlevel: 8
 
+n334_5B4t:
+  dmark: pp
+  dlevel: 8
+
+n334_5G1t:
+  dmark: pp
+  dlevel: 8
+
+n334_5Bb1t:
+  dmark: pp
+  dlevel: 8
+
+n334_5E2t_1:
+  dmark: pp
+  dlevel: 8
+
+n334_5Eb6t:
+  dmark: pp
+  dlevel: 8
+
+n334_1D4s_0:
+  dmark: p
+  dlevel: 11
+
+n334_1B4s_0:
+  dmark: p
+  dlevel: 11
+
+n334_5F1s_0:
+  dmark: p
+  dlevel: 11
+
+n334_1D4s_1:
+  dmark: p-
+  dlevel: 10
+
+n334_1B4s_1:
+  dmark: p-
+  dlevel: 10
+
+n334_5F1s_1:
+  dmark: p-
+  dlevel: 10
+
+n334_1D4s_2:
+  dmark: pp+
+  dlevel: 9
+
+n334_1B4s_2:
+  dmark: pp+
+  dlevel: 9
+
+n334_5F1e:
+  dmark: pp+
+  dlevel: 9
+
+n334_5Fs2e:
+  dmark: pp+
+  dlevel: 9
+
+n334_1D4s_3:
+  dmark: pp+
+  dlevel: 9
+
+n334_1As4s:
+  dmark: pp+
+  dlevel: 9
+
+n334_1B4s_3:
+  dmark: pp+
+  dlevel: 9
+
+n334_5F1t:
+  dmark: pp
+  dlevel: 8
+
+n334_5Fs2t:
+  dmark: pp
+  dlevel: 8
+
+n334_1D4t:
+  dmark: pp
+  dlevel: 8
+
+n334_1As4t:
+  dmark: pp
+  dlevel: 8
+
+n334_1B4t:
+  dmark: pp
+  dlevel: 8
+
+n337_5F2s:
+  dmark: fff
+  dlevel: 24
+
 n337_5Db3s:
-  dmark: mp
-  dlevel: 14
+  dmark: fff
+  dlevel: 24
 
 n337_1Ab3x_0:
-  dmark: mp
-  dlevel: 14
+  dmark: fff
+  dlevel: 24
 
 n337_1A4x:
-  dmark: mp
-  dlevel: 14
+  dmark: fff
+  dlevel: 24
 
 n337_1D2x:
-  dmark: mp
-  dlevel: 14
+  dmark: fff
+  dlevel: 24
 
 n337_1F2x:
-  dmark: mp
-  dlevel: 14
+  dmark: fff
+  dlevel: 24
 
 n337_1Db3x:
-  dmark: mp
-  dlevel: 14
+  dmark: fff
+  dlevel: 24
 
 n337_1Ab3x_1:
-  dmark: mp
-  dlevel: 14
+  dmark: fff
+  dlevel: 24
 
 n337_1Ab4e:
+  dmark: pp
+  dlevel: 8
+
+n339_1Gs2e_0:
   dmark: mp
   dlevel: 14
 
-n339_1Gs2e_0:
-  dmark: ff
-  dlevel: 22
-
 n339_1D3e_0:
-  dmark: ff
-  dlevel: 22
+  dmark: mp
+  dlevel: 14
 
 n339_5A0e_0:
   dmark: mp
@@ -22507,84 +22522,84 @@ n339_5F1s:
   dlevel: 8
 
 n339_1Ab4q:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n339_5D1q:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n339_5F2q:
-  dmark: mp
-  dlevel: 14
+  dmark: pp
+  dlevel: 8
 
 n339_1Bb3e:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n339_1F4e:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n339_5Ab1s:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n339_5C2e:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n339_1Ab4s:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n339_5D1t:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n339_5F2t:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n339_5Db3t:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n339_5D1s:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n339_1Ab4t:
-  dmark: mp
-  dlevel: 14
+  dmark: p
+  dlevel: 11
 
 n344_1Bb6e:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n344_5D2e:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n344_5F2e:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n345_1Ab2e:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n347_1E4w:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n347_1B4w:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n347_5Ab2w:
-  dmark: mp
-  dlevel: 14
+  dmark: ppp
+  dlevel: 5
 
 n347_1E3t:
   dmark: mf
@@ -22599,30 +22614,30 @@ n347_1C4t:
   dlevel: 17
 
 n347_5Db1t:
-  dmark: mp
-  dlevel: 14
+  dmark: mf
+  dlevel: 17
 
 n347_5Ab1t:
   dmark: mf
   dlevel: 17
 
 n347_1E3e:
-  dmark: mf
-  dlevel: 17
+  dmark: ppp
+  dlevel: 5
 
 n347_1B3e:
-  dmark: mf
-  dlevel: 17
+  dmark: ppp
+  dlevel: 5
 
 n347_1C4e:
-  dmark: mf
-  dlevel: 17
+  dmark: ppp
+  dlevel: 5
 
 n347_5Db1e:
-  dmark: mf
-  dlevel: 17
+  dmark: ppp
+  dlevel: 5
 
 n347_5Ab1e:
-  dmark: mf
-  dlevel: 17
+  dmark: ppp
+  dlevel: 5
 
