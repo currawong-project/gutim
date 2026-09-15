@@ -217,10 +217,23 @@ def update_preset_catalog( cfg, locMapD ):
     with open(cfg.preset_json_fname) as f:
         pc = json.load(f)
 
+    fragL = []
     for frag in pc['fragL']:
+
+        if frag["begLoc"] not in locMapD:
+            print("Frag. begin not found dropping: frag beg:",frag["begLoc"],'end:',frag["endLoc"])
+            continue
+        
+        if frag["endLoc"] not in locMapD:
+            print("Frag. end not found dropping: frag end:",frag["begLoc"],'end:',frag["endLoc"])
+            continue
+        
         frag["begLoc"] = locMapD[ frag["begLoc"] ]
         frag["endLoc"] = locMapD[ frag["endLoc"] ]
+        
+        fragL.append(frag)
 
+    pc['fragL'] = fragL
     with open(cfg.out_preset_json_fname,"w") as f:
         json.dump(pc,f,indent=2)
 
