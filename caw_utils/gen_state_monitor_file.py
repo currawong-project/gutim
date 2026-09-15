@@ -269,4 +269,5 @@ if __name__ == "__main__":
     write_spirio_mp_file( spirio_json_fname, mpD )
 
     # Write the fallback button array file
+    print("Writing fallback button array:",out_btn_array_json_fname)
     write_fallback_btn_array(tgtL, fallback_cfg_json_fname, out_btn_array_json_fname)
