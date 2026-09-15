@@ -3,7 +3,7 @@ import json
 import types
 import pickle
 
-from piano.model import MetronomeMarking
+from piano.model import (Note,GraceNote,MetronomeMarking)
 
 
 DYN_MAP = {
@@ -249,9 +249,11 @@ def parse_edit_file( edit_fname ):
 
         ele_id         = None
         sec            = None
+        onset_fl       = False
         pedalL         = []
         new_section_id = None
         dmark          = None
+        metroD         = None
         
         f0 = line.split("|")
 
@@ -295,7 +297,22 @@ def parse_edit_file( edit_fname ):
 
     return attrL
 
-def apply_dyn_interp( attrL ):
+def get_abs_time_dict( score_pkl_fname ):
+
+    evtAbsSecD = {}
+    with open(score_pkl_fname,"rb") as f:
+        score = pickle.load(f)
+        
+    for m  in score.measures:
+        for e in m.events:
+            if isinstance(e,(Note,GraceNote)) and e.has_onset:
+                evtAbsSecD[e.id] = e.abs_time
+
+    return evtAbsSecD
+            
+    
+
+def apply_dyn_interp( attrL, evtAbsTimeD ):
 
     def _form_interpolation_spans( attrL ):
 
@@ -320,29 +337,35 @@ def apply_dyn_interp( attrL ):
     def _apply_spans(attrL):
         def _dlevel_to_dmark( dlevel ):
             return { v:k for k,v in DYN_MAP.items() }[dlevel]
-        
+
         for bi,ei in spanL:
             b_dmark  = attrL[bi]['dmark'].split("_")[1]
             e_dmark  = attrL[ei]['dmark'].split("_")[1]
             b_dlevel = DYN_MAP[b_dmark]
             e_dlevel = DYN_MAP[e_dmark]
-            b_sec    = attrL[bi]['sec']
-            e_sec    = attrL[ei]['sec']
+            b_evt_id = attrL[bi]['ele_id']
+            e_evt_id = attrL[ei]['ele_id']
+            b_sec    = evtAbsTimeD[b_evt_id] # attrL[bi]['sec']
+            e_sec    = evtAbsTimeD[e_evt_id] # attrL[ei]['sec']
             attrL[bi]['dmark'] = b_dmark
             attrL[ei]['dmark'] = e_dmark
             for a in attrL[bi+1:ei]:
-                if a['onset_fl'] is not None and ['onset_fl'] and a['dmark'] is None:
-                    sec = a['sec']
+                if a['onset_fl'] is not None and a['onset_fl'] and a['dmark'] is None:
+                    sec    = evtAbsTimeD[a['ele_id']]
                     dlevel = int(round(b_dlevel + ((e_dlevel - b_dlevel)*(sec-b_sec))/(e_sec - b_sec)))
 
-                    # print(a['meas_numb'],a['ele_id'])
+                    assert b_sec <= sec and sec <= e_sec
+                    assert (b_dlevel <= dlevel and dlevel <= e_dlevel) or (e_dlevel <= dlevel and dlevel <= b_dlevel)
+                    
+                    # print(a['meas_numb'],a['ele_id'],"sec:",b_sec,sec,e_sec,"level:",b_dlevel,e_dlevel," : ",dlevel)
                     a['dmark'] = _dlevel_to_dmark(dlevel)
-                
+
         return attrL
         
     spanL = _form_interpolation_spans(attrL)
     attrL = _apply_spans(attrL)
 
+    
     return attrL
 
 def write_section_correction_file( out_fname, attrL):
@@ -469,23 +492,43 @@ def write_metro_corections_file( score_fname, metro_out_fname, attrL ):
     # get the existing score markers 
     metroRefD = _read_existing_metro_markers(score_fname )
 
-    # if metro_out_fname is not None:
-    #    with open(metro_out_fname,"w") as f:
 
-    
+    newL      = []
+    existingL = []
     for a in attrL:
         if a['metroD'] is not None:
             new_bpm = a['metroD']['bpm']
             new_bu  = a['metroD']['beat_unit']
             new_metro_id = f"mm{a['meas_numb']}_{new_bpm}"
             new_anchor_id = a['ele_id']
+            meas_num = a['meas_numb']
+
             if new_metro_id not in metroRefD:
                 print(f"The new metro {new_metro_id} was not found in the score.")
+                newL.append(dict(marker_id= len(newL) + 1,
+                                 measure= meas_num,
+                                 bpm=new_bpm,
+                                 bu=new_bu,
+                                 anchor_id=a['ele_id'],
+                                 metro_id=new_metro_id))
             else:
+                existingL.append(dict(
+                    metro_id=new_metro_id,
+                    anchor_id=new_anchor_id))
+                
                 if metroRefD[new_metro_id].anchor_note_id != a['ele_id']:
                     print(f"The metro marker {new_metro_id} changed position to {a['ele_id']}.")
-                            
-                        
+
+    if metro_out_fname is not None:
+        with open(metro_out_fname,"w") as f:
+            for d in newL:
+                f.write(f"missing_marker_{d['marker_id']}:\n  measure: {d['measure']}\n  bpm: {d['bpm']}\n  beat_unit: {d['bu']}\n  reference_note:  {d['anchor_id']}\n")
+
+            for d in existingL:
+                f.write(f"{d['metro_id']}: {d['anchor_id']}\n")
+
+   
+
     
 
 def main( score_fname, edit_fname, out_dir, overwrite_fl, default_dmark, pedal_out_fname, section_out_fname, dyn_out_fname, metro_out_fname ):
@@ -519,12 +562,15 @@ def main( score_fname, edit_fname, out_dir, overwrite_fl, default_dmark, pedal_o
                                      section_out_fname,
                                      dyn_out_fname,
                                      metro_out_fname)
-                                     
+
+    # get the absolute time of all sounding notes
+    evtAbsSecD = get_abs_time_dict( score_fname )
+    
     # parse the edit file
     attrL = parse_edit_file(edit_fname)
 
     # apply the dynamic spans
-    attrL = apply_dyn_interp( attrL )
+    attrL = apply_dyn_interp( attrL, evtAbsSecD )
 
     # write sections.yaml correction file
     write_section_correction_file(fnames.section_fname,attrL)
@@ -543,7 +589,7 @@ def main( score_fname, edit_fname, out_dir, overwrite_fl, default_dmark, pedal_o
 if __name__ == "__main__":
 
     char_codeL = [ 'a','b','c' ]
-    char_codeL = ['a']
+    char_codeL = ['c']
     
     # Dynamic level to apply to notes that do not have an explicit dynamic level.
     # Set to None to not apply a default dynamic value, and leave the dynamic level blank.
@@ -551,7 +597,7 @@ if __name__ == "__main__":
     for c in char_codeL:
 
         score_fname       = f"gutim_2/{c}/output/cache/timing.pkl"
-        edit_fname        = f"score_editor/working/{c}/editor/piano_{c}_mod_yurii_20260808.txt"
+        edit_fname        = f"score_editor/working/{c}/editor/piano_{c}_mod.txt"
         link_fname        = f"score_editor/working/{c}/editor/link_{c}_mod.txt"
         out_dir           = f"score_editor/working/{c}/apply"
         pedal_out_fname   = "pedal.yaml"
