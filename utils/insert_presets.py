@@ -98,7 +98,17 @@ if __name__ == "__main__":
     # Create a new preset to be assigned to an entire section
     modL = [
         #                           label,order,play_fl
-        dict(section="7147",port_id=2,stateL=[('dry',1,True)],beg_loc=None,end_loc=None)
+        dict(section="7147",port_id=2,stateL=[('dry',1,True)],beg_loc=None,end_loc=None),
+        dict(section="7149",port_id=2,stateL=[('dry',1,True)],beg_loc=None,end_loc=None),
+        dict(section="7151",port_id=0,stateL=[('dry',1,True)],beg_loc=None,end_loc=None),
+        dict(section="7156",port_id=2,stateL=[('dry',1,True)],beg_loc=None,end_loc=None),        
+        dict(section="7159",port_id=2,stateL=[('dry',1,True)],beg_loc=None,end_loc=None),        
+        dict(section="7163",port_id=1,stateL=[('dry',1,True)],beg_loc=None,end_loc=None),
+        dict(section="7165",port_id=0,stateL=[('dry',1,True)],beg_loc=None,end_loc=None),
+        dict(section="7167",port_id=0,stateL=[('dry',1,True)],beg_loc=None,end_loc=None),
+        dict(section="7168",port_id=2,stateL=[('dry',1,True)],beg_loc=None,end_loc=None),
+        dict(section="7170",port_id=2,stateL=[('dry',1,True)],beg_loc=None,end_loc=None),
+        dict(section="7173",port_id=1,stateL=[('dry',1,True)],beg_loc=None,end_loc=None)        
     ]
     
     # Use the TL play file to associate sections with locations
