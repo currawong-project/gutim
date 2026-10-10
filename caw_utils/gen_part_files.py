@@ -261,7 +261,7 @@ def _gen_multi_player( score_pkl_fname, seg_list_pkl_fname, locMapD, locMapSrc, 
                 return max(0,i-1)
 
         return len(tbl)-1
-    
+
     def _get_pedal_list( score_pkl_fname ):
         with open(score_pkl_fname,"rb") as f:
             score = pickle.load(f)
@@ -336,6 +336,7 @@ def _gen_multi_player( score_pkl_fname, seg_list_pkl_fname, locMapD, locMapSrc, 
 
             msgL = []
             e    = eventD['event'].event
+            meas_num = eventD['event'].meas_numb
             pe   = eventD['pedal']
             is_note_fl = e is not None and isinstance(e,(Note,GraceNote))
             is_rest_fl = e is not None and isinstance(e,(Rest,GraceRest))
@@ -345,7 +346,9 @@ def _gen_multi_player( score_pkl_fname, seg_list_pkl_fname, locMapD, locMapSrc, 
             if is_note_fl and e.has_onset:
                 
                 n0 = dict(uid    = locMapD[locMapSrc][e.loc],
+                          meas_num = meas_num,
                           sec    = e.abs_time,
+                          tick   = e.tick,
                           ch     = 0,
                           status = MIDI_NOTE_ON_STATUS,
                           d0     = _midi_pitch(e),
@@ -356,7 +359,9 @@ def _gen_multi_player( score_pkl_fname, seg_list_pkl_fname, locMapD, locMapSrc, 
                     print("NO VEL:",e.id)
 
                 n1 = dict(uid    = INVALID_UID,
+                          meas_num = None,
                           sec    = e.abs_time + e.art_dur_sec,
+                          tick   = None,
                           ch     = 0,
                           status = MIDI_NOTE_OFF_STATUS,
                           d0     = n0['d0'],
@@ -374,7 +379,9 @@ def _gen_multi_player( score_pkl_fname, seg_list_pkl_fname, locMapD, locMapSrc, 
                     clear_offs_sec = DAMPER_CLEAR_OFFSET_SEC if pe.clear_depth == 0 else 0.0
 
                     p0 = dict(uid = INVALID_UID,
+                              meas_num = None,
                               sec = e.abs_time + clear_offs_sec,
+                              tick= e.tick,
                               ch  = 0,
                               status = MIDI_CTL_STATUS,
                               d0 = _pedal_event_to_midi_ctl(pe),
@@ -384,7 +391,9 @@ def _gen_multi_player( score_pkl_fname, seg_list_pkl_fname, locMapD, locMapSrc, 
                     msgL.append(p0)
 
                 p1 = dict(uid = INVALID_UID,
+                          meas_num = None,
                           sec = e.abs_time,
+                          tick= e.tick,
                           ch  = 0,
                           status = MIDI_CTL_STATUS,
                           d0 = _pedal_event_to_midi_ctl(pe),
@@ -416,8 +425,8 @@ def _gen_multi_player( score_pkl_fname, seg_list_pkl_fname, locMapD, locMapSrc, 
             
 
             
-                
     pedalL = _get_pedal_list( score_pkl_fname )
+    
     mpSegL = _form_mp_segment_list( seg_list_pkl_fname )
     _attach_pedal_events(mpSegL,pedalL)
     _load_msg_list(mpSegL,locMapD,locMapSrc,vel_table)
@@ -459,14 +468,14 @@ def gen_multi_player(cfg,locMapD):
 
 
     # get the base segments
-    mpSegL = _gen_multi_player( cfg.score_pkl_fname,
-                                cfg.seg_list_pkl_fname,
-                                locMapD, 'gutim', None )
+    mpSegL,measD = _gen_multi_player( cfg.score_pkl_fname,
+                                      cfg.seg_list_pkl_fname,
+                                      locMapD, 'gutim', None )
     
     
     # for each of the scriabin segments
     for scriabin_score in cfg.scriabin_scoreL:
-        ssMpSegL = _gen_multi_player( scriabin_score.score_pkl_fname,
+        ssMpSegL,_ = _gen_multi_player( scriabin_score.score_pkl_fname,
                                       scriabin_score.seg_list_pkl_fname,
                                       locMapD,
                                       scriabin_score.section_label,

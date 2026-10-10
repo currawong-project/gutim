@@ -223,7 +223,7 @@ def gen_spirio_multi_player( cfg, fullMpD, dropNoteL ):
     def _get_msg_list( fullMpD, beg_evt_id, end_evt_id ):
 
         def _make_midi_recd( sec, status, d0, d1 ):
-            return dict(uid=-1,sec=sec,ch=0,status=status,d0=d0,d1=d1,evt_id=None)
+            return dict(uid=-1,sec=sec,tick=None,ch=0,status=status,d0=d0,d1=d1,evt_id=None)
         
         def _is_pedal_d1_down(d1):
             return d1 >= MIDI_PEDAL_DOWN_D1
