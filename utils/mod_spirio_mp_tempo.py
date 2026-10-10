@@ -145,46 +145,48 @@ def mod_tempo(tocD,seqD,out_spirio_mp_json_fname):
 
 if __name__ == "__main__":
 
-    spirio_mp_fname = "gutim_2/spirio_mp.json"
-    #spirio_mp_fname = "gutim_2/spirio_mp_mod_tempo.json"
+    #spirio_mp_fname = "gutim_2/spirio_mp.json"
+    spirio_mp_fname = "gutim_2/spirio_mp_mod_tempo.json"
 
     tocD ={
-        "7063_A_90_SP":{ 'mod_tempo_pct':150.0 },
-        "7126_A_171_SP":{ 'mod_tempo_pct':150.0 },
-        "7128_A_175_SP":{ 'mod_tempo_pct':150.0 },
-        "7139a_A_202_SP":{ 'mod_tempo_pct':150.0 },
-        "7157_A_226_SP":{ 'mod_tempo_pct':150.0 },
-        "7171_A_243_SP":{ 'mod_tempo_pct':150.0 },
-        "7220_A_295_SP":{ 'mod_tempo_pct':150.0 },
-        "7230a_A_304_SP":{ 'mod_tempo_pct':150.0 },
-        "7250_A_328_SP":{ 'mod_tempo_pct':150.0 },
-        "7024_B_39_SP":{ 'mod_tempo_pct':150.0 },
-        "7034_B_55_SP":{ 'mod_tempo_pct':150.0 },
-        "7063_B_90_SP":{ 'mod_tempo_pct':150.0 },
-        "7079_B_122_SP":{ 'mod_tempo_pct':150.0 },
-        "7086C_B_133_SP":{ 'mod_tempo_pct':150.0 },
-        "7111_B_160_SP":{ 'mod_tempo_pct':150.0 },
-        "7119_B_167_SP":{ 'mod_tempo_pct':150.0 },
-        "7124_B_171_SP":{ 'mod_tempo_pct':150.0 },
-        "7125b_B_178_SP":{ 'mod_tempo_pct':150.0 },
-        "7141_B_204_SP":{ 'mod_tempo_pct':150.0 },
-        "7163_B_234_SP":{ 'mod_tempo_pct':150.0 },
-        "7184_B_255_SP":{ 'mod_tempo_pct':150.0 },
-        "7212_B_290_SP":{ 'mod_tempo_pct':150.0 },
-        "7217b_B_294_SP":{ 'mod_tempo_pct':150.0 },
-        "7225_B_299_SP":{ 'mod_tempo_pct':150.0 },
-        "7238_B_314_SP":{ 'mod_tempo_pct':150.0 },
-        "7246_B_325_SP":{ 'mod_tempo_pct':150.0 },
-        "7250_B_328_SP":{ 'mod_tempo_pct':150.0 },
-        "7136b_C_203_SP":{ 'mod_tempo_pct':150.0 },
-        "7180_C_253_SP":{ 'mod_tempo_pct':150.0 },
-        "7188_C_260_SP":{ 'mod_tempo_pct':150.0 },
-        "7200_C_274_SP":{ 'mod_tempo_pct':150.0 },
-        "7215_C_292_SP":{ 'mod_tempo_pct':150.0 },
-        "7224_C_299_SP":{ 'mod_tempo_pct':150.0 },
-        "7233_C_307_SP":{ 'mod_tempo_pct':150.0 },
-        "7236_C_311_SP":{ 'mod_tempo_pct':150.0 },
-        "7250_C_328_SP":{ 'mod_tempo_pct':150.0 },
+        "7063_A_90_SP":{ 'mod_tempo_pct':100.0 },
+        "7126_A_171_SP":{ 'mod_tempo_pct':100.0 },
+        "7128_A_175_SP":{ 'mod_tempo_pct':100.0 },
+        "7139a_A_202_SP":{ 'mod_tempo_pct':100.0 },
+        "7157_A_226_SP":{ 'mod_tempo_pct':100.0 },
+        "7171_A_243_SP":{ 'mod_tempo_pct':100.0 },
+        "7220_A_295_SP":{ 'mod_tempo_pct':100.0 },
+        "7230a_A_304_SP":{ 'mod_tempo_pct':100.0 },
+        "7250_A_328_SP":{ 'mod_tempo_pct':100.0 },
+        
+        "7024_B_39_SP":{ 'mod_tempo_pct':10.0 },
+        "7034_B_55_SP":{ 'mod_tempo_pct':100.0 },
+        "7063_B_90_SP":{ 'mod_tempo_pct':100.0 },
+        "7079_B_122_SP":{ 'mod_tempo_pct':100.0 },
+        "7086C_B_133_SP":{ 'mod_tempo_pct':100.0 },
+        "7111_B_160_SP":{ 'mod_tempo_pct':100.0 },
+        "7119_B_167_SP":{ 'mod_tempo_pct':100.0 },
+        "7124_B_171_SP":{ 'mod_tempo_pct':100.0 },
+        "7125b_B_178_SP":{ 'mod_tempo_pct':100.0 },
+        "7141_B_204_SP":{ 'mod_tempo_pct':100.0 },
+        "7163_B_234_SP":{ 'mod_tempo_pct':100.0 },
+        "7184_B_255_SP":{ 'mod_tempo_pct':100.0 },   # 56-56
+        "7212_B_290_SP":{ 'mod_tempo_pct':100.0 },   # 51-51
+        "7217b_B_294_SP":{ 'mod_tempo_pct':100.0 },  
+        "7225_B_299_SP":{ 'mod_tempo_pct':88.0 },   # 51->45
+        "7238_B_314_SP":{ 'mod_tempo_pct':100.0 },
+        "7246_B_325_SP":{ 'mod_tempo_pct':88.0 },  # 51->45
+        "7250_B_328_SP":{ 'mod_tempo_pct':100.0 },
+        
+        "7136b_C_203_SP":{ 'mod_tempo_pct':100.0 },
+        "7180_C_253_SP":{ 'mod_tempo_pct':100.0 },
+        "7188_C_260_SP":{ 'mod_tempo_pct':100.0 },
+        "7200_C_274_SP":{ 'mod_tempo_pct':100.0 },
+        "7215_C_292_SP":{ 'mod_tempo_pct':100.0 },
+        "7224_C_299_SP":{ 'mod_tempo_pct':100.0 },
+        "7233_C_307_SP":{ 'mod_tempo_pct':100.0 },
+        "7236_C_311_SP":{ 'mod_tempo_pct':100.0 },
+        "7250_C_328_SP":{ 'mod_tempo_pct':100.0 },
     }
 
     cfgD= { 0:dict(score_pkl_fname="gutim_2/a/output/cache/assign_sustain.pkl"),
@@ -199,10 +201,10 @@ if __name__ == "__main__":
 
     print(spirio_mp_fname)
 
-    if True:
+    if False:
         estimate_tempo(ref_portD,seqD)
 
-    if False:
+    if True:
         out_spirio_mp_json_fname = "gutim_2/spirio_mp_mod_tempo.json"
         mod_tempo(tocD,seqD,out_spirio_mp_json_fname);
     
