@@ -1,0 +1,140 @@
+- target: 7136b_C_203_SP
+  id: -1
+  sources:
+    - piano: A
+      label: A_6E4q_Non
+      beg_primer: n202_6E4q
+      end_primer: n202_5Gs2e
+      trigger: [ note-on ]
+     
+- target: 7180_C_253_SP
+  id: -1
+  sources:
+    - piano: C
+      label: C_5Bb2s_Non
+      beg_primer: n253_5Bb2s
+      end_primer: n253_5Bb2s
+      trigger:    [ note-on ]
+
+    - piano: A
+      label: A_1C6h_Non
+      beg_primer: n253_1C6h
+      end_primer: n253_1C6h
+      trigger: [ note-on ]
+
+
+- target: 7188_C_260_SP
+  id: -1
+  sources:
+    - piano: C
+      label: C_5Ab1q_1_Non
+      beg_primer: n260_5Ab1q_1
+      end_primer: n260_5Ab1q_1
+      trigger: [ note-on ]
+
+    - piano: B
+      label: B_5D4s_Non
+      beg_primer: n260_5D4s_0
+      end_primer: n260_5D4s_1
+      trigger: [ note-on ]
+
+- target: 7200_C_274_SP
+  id: -1
+  sources:
+    - piano: B
+      label: B_5B2t_Non
+      beg_primer: n274_5B2t_0
+      end_primer: n274_5Fs1t_0
+      trigger: [ note-on ]
+
+    - piano: A
+      label: A_5F2q_Non
+      beg_primer: n274_5F2q
+      end_primer: n274_5F2q
+      trigger: [ note-on ]
+
+- target: 7215_C_292_SP
+  id: -1
+  sources:
+    - piano: A
+      label: A_5Fs1e_Non
+      beg_primer: n292_5Fs1e_1
+      end_primer: n292_5Ab1t_0
+      trigger: [ note-on ]
+
+
+- target: 7224_C_299_SP
+  id: -1
+  sources:
+    - piano: B
+      label: B_5F2s_Non
+      beg_primer: n299_5F2s
+      end_primer: n299_1A4s
+      trigger: [ note-on ]
+
+    - piano: C
+      label: C_6F3s_Ku
+      beg_primer: n298_6F3s_1
+      end_primer: n298_5Fs3q
+      trigger: [ all-keys-up ]
+
+- target: 7233_C_307_SP
+  id: -1
+  sources:
+    - piano: A
+      label: A_2Fs3q_Nof
+      beg_primer: n306_2Fs3q_0
+      end_primer: n306_2Fs3q_0
+      trigger: [ note-off ]
+      
+    - piano: B
+      label: B_1D5s_Non
+      beg_primer: n306_1D5s_2
+      end_primer: n306_5Fs3e
+      trigger: [ note-on ]
+
+
+- target: 7236_C_311_SP
+  id: -1
+  sources:
+     - piano: B
+       label: B_5B4s_Non
+       beg_primer: n310_5B4s
+       end_primer: n310_5F1t
+       trigger: [ note-on ]
+
+
+- target: 7250_C_328_SP
+  id: -1
+  sources:
+    - piano: A
+      label: A_5A1t_Nof
+      beg_primer: n327_5A1t_2
+      end_primer: n327_5F1t_1
+      trigger: [ note-off ]
+
+    - piano: B
+      label: B_5Gs1t_Nof
+      beg_primer: n327_5Gs1t_3
+      end_primer: n327_5A0t_1
+      trigger: [ note-off ]
+
+    - piano: B                      # mark whole SF section and wait for all keys/pedals up
+      label: B_5D3t_KuPu
+      beg_primer: n326_5D3t_0
+      end_primer: n327_5A0t_1
+      trigger: [ all-keys-up, all-pedals-up ]
+      up_min_dur_ms: 200
+
+    - piano: C
+      label: C_5Ab2t_Nof
+      beg_primer: n327_5Ab2t_2
+      end_primer: n327_5Ab1t
+      trigger: [ note-off ]
+
+    - piano: C                    # mark whole SF section and wait for all keys/pedals up
+      label: C_5Ds1s_KuPu
+      beg_primer: n327_5Ds1s
+      end_primer: n327_5Ab1t
+      trigger: [ all-keys-up, all-pedals-up ]
+      up_min_dur_ms: 200

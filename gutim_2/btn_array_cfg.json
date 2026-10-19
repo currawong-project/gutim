@@ -1,0 +1,368 @@
+[
+  {
+    "title": "B m.39 7024",
+    "meas": 39,
+    "dis_idL": [
+      9
+    ],
+    "valueL": [
+      9
+    ]
+  },
+  {
+    "title": "B m.55 7034",
+    "meas": 55,
+    "dis_idL": [
+      10
+    ],
+    "valueL": [
+      10
+    ]
+  },
+  {
+    "title": "AB m.90 7063",
+    "meas": 90,
+    "dis_idL": [
+      11,
+      0
+    ],
+    "valueL": [
+      11,
+      0
+    ]
+  },
+  {
+    "title": "B m.122 7079",
+    "meas": 122,
+    "dis_idL": [
+      12
+    ],
+    "valueL": [
+      12
+    ]
+  },
+  {
+    "title": "B m.133, 7086",
+    "meas": 133,
+    "dis_idL": [
+      13
+    ],
+    "valueL": [
+      13
+    ]
+  },
+  {
+    "title": "B m.160 7111",
+    "meas": 160,
+    "dis_idL": [
+      14
+    ],
+    "valueL": [
+      14
+    ]
+  },
+  {
+    "title": "B m.167 7119",
+    "meas": 167,
+    "dis_idL": [
+      15
+    ],
+    "valueL": [
+      15
+    ]
+  },
+  {
+    "title": "B m.171 7124",
+    "meas": 171,
+    "dis_idL": [
+      16
+    ],
+    "valueL": [
+      16
+    ]
+  },
+  {
+    "title": "A m.171 7126",
+    "meas": 171,
+    "dis_idL": [
+      1
+    ],
+    "valueL": [
+      1
+    ]
+  },
+  {
+    "title": "A m.175 7128",
+    "meas": 175,
+    "dis_idL": [
+      2
+    ],
+    "valueL": [
+      2
+    ]
+  },
+  {
+    "title": "B m.178 7125",
+    "meas": 178,
+    "dis_idL": [
+      17
+    ],
+    "valueL": [
+      17
+    ]
+  },
+  {
+    "title": "A m.202 7139a",
+    "meas": 202,
+    "dis_idL": [
+      3
+    ],
+    "valueL": [
+      3
+    ]
+  },
+  {
+    "title": "C m.203 7136",
+    "meas": 203,
+    "dis_idL": [
+      30
+    ],
+    "valueL": [
+      30
+    ]
+  },
+  {
+    "title": "B m.204 7141",
+    "meas": 204,
+    "dis_idL": [
+      18
+    ],
+    "valueL": [
+      18
+    ]
+  },
+  {
+    "title": "A m.226 7157",
+    "meas": 226,
+    "dis_idL": [
+      4
+    ],
+    "valueL": [
+      4
+    ]
+  },
+  {
+    "title": "B m.234 7163",
+    "meas": 234,
+    "dis_idL": [
+      19
+    ],
+    "valueL": [
+      19
+    ]
+  },
+  {
+    "title": "B m.237 7166",
+    "meas": 237,
+    "dis_idL": [
+      20
+    ],
+    "valueL": [
+      20
+    ]
+  },
+  {
+    "title": "A m.243 7171",
+    "meas": 243,
+    "dis_idL": [
+      5
+    ],
+    "valueL": [
+      5
+    ]
+  },
+  {
+    "title": "C m.253 7180",
+    "meas": 253,
+    "dis_idL": [
+      31
+    ],
+    "valueL": [
+      31
+    ]
+  },
+  {
+    "title": "B m.255 7184",
+    "meas": 255,
+    "dis_idL": [
+      21
+    ],
+    "valueL": [
+      21
+    ]
+  },
+  {
+    "title": "C m.260 7188",
+    "meas": 260,
+    "dis_idL": [
+      32
+    ],
+    "valueL": [
+      32
+    ]
+  },
+  {
+    "title": "C m.274 7200",
+    "meas": 274,
+    "dis_idL": [
+      33
+    ],
+    "valueL": [
+      33
+    ]
+  },
+  {
+    "title": "B m.290 7212",
+    "meas": 290,
+    "dis_idL": [
+      22
+    ],
+    "valueL": [
+      22
+    ]
+  },
+  {
+    "title": "C m.292 7215",
+    "meas": 292,
+    "dis_idL": [
+      34
+    ],
+    "valueL": [
+      34
+    ]
+  },
+  {
+    "title": "B m.294 7217",
+    "meas": 294,
+    "dis_idL": [
+      23
+    ],
+    "valueL": [
+      23
+    ]
+  },
+  {
+    "title": "A m.295 7220",
+    "meas": 295,
+    "dis_idL": [
+      6
+    ],
+    "valueL": [
+      6
+    ]
+  },
+  {
+    "title": "B m.299 7225",
+    "meas": 299,
+    "dis_idL": [
+      24
+    ],
+    "valueL": [
+      24
+    ]
+  },
+  {
+    "title": "C m.299 7224",
+    "meas": 299,
+    "dis_idL": [
+      35
+    ],
+    "valueL": [
+      35
+    ]
+  },
+  {
+    "title": "A m.304 7230a",
+    "meas": 304,
+    "dis_idL": [
+      7
+    ],
+    "valueL": [
+      7
+    ]
+  },
+  {
+    "title": "C m.307 7233",
+    "meas": 307,
+    "dis_idL": [
+      36
+    ],
+    "valueL": [
+      36
+    ]
+  },
+  {
+    "title": "C m.311 7236",
+    "meas": 311,
+    "dis_idL": [
+      37
+    ],
+    "valueL": [
+      37
+    ]
+  },
+  {
+    "title": "B m.314 7238",
+    "meas": 314,
+    "dis_idL": [
+      25
+    ],
+    "valueL": [
+      25
+    ]
+  },
+  {
+    "title": "B m:315 7238",
+    "meas": 315,
+    "dis_idL": [
+      26
+    ],
+    "valueL": [
+      26
+    ]
+  },
+  {
+    "title": "B m:316 7238",
+    "meas": 316,
+    "dis_idL": [
+      27
+    ],
+    "valueL": [
+      27
+    ]
+  },
+  {
+    "title": "B m.325 7246",
+    "meas": 325,
+    "dis_idL": [
+      28
+    ],
+    "valueL": [
+      28
+    ]
+  },
+  {
+    "title": "ABC m.328 7250",
+    "meas": 328,
+    "dis_idL": [
+      8,
+      29,
+      38
+    ],
+    "valueL": [
+      8,
+      29,
+      38
+    ]
+  }
+]

@@ -1,0 +1,312 @@
+- target: 7024_B_39_SP
+  id: -1
+  sources:
+    - piano: A
+      label: A_2B0q_Nof
+      beg_primer: n39_2B0q
+      end_primer: n39_2B0q
+      trigger: [ note-off ]
+
+    - piano: C
+      label: C_1Eb6t_Non
+      beg_primer: n39_1Eb6t_1
+      end_primer: n39_1C3e
+      trigger: [ note-on ]
+      
+- target: 7034_B_55_SP
+  id: -1
+  sources:
+    - piano: C
+      label: C_2Gs3q_Nof
+      beg_primer: n54_2Gs3q_1
+      end_primer: n54_2Gs3q_1
+      trigger: [ note-off ]
+
+    - piano: C
+      label: C_1Gs3e_Non
+      beg_primer: n55_1Gs3e
+      end_primer: n55_1Gs3e
+      trigger: [ note-on ]
+
+- target: 7063_B_90_SP
+  id: -1  
+  sources:
+    - piano: A
+      label: A_5B0s_Nof
+      beg_primer: n89_5B0s
+      end_primer: n89_5B0s
+      trigger: [ note-off  ]   # note-off from one of prime loc notes
+      
+    - piano: A
+      label: A_5B0e_KuPu
+      beg_primer: n89_5B0e     # all keys/pedals up for 200ms after any loc in this range
+      end_primer: n89_5B0s 
+      trigger: [ all-keys-up, all-pedals-up ]
+      up_min_dur_ms: 200
+      
+    - piano: B
+      label: B_5Bb1q_NofDu
+      beg_primer: n89_5Bb1q    # note-off and damper up
+      end_primer: n89_5Bb1q
+      trigger: [note-off, damp-up]
+      
+    - piano: C
+      label: C_5C3s_Nof
+      beg_primer: n89_5C3s   # (best) specific note-on
+      end_primer: n89_5C3s
+      trigger: [note-on]
+
+- target: 7079_B_122_SP
+  id: -1
+  sources:
+    - piano: C
+      label: C_2F2e_Non
+      beg_primer: n122_2F2e
+      end_primer: n122_2F2e
+      trigger: [ note-on ]
+      trigger_delay_ms: 1750
+
+- target: 7086C_B_133_SP
+  id: -1
+  sources:
+    - piano: A
+      label: A_5Bb5e_Non
+      beg_primer: n133_5Bb5e
+      end_primer: n133_5Bb5e
+      trigger: [ note-on ]    
+
+- target: 7111_B_160_SP
+  id: -1
+  sources:
+    - piano: C
+      label: C_1Fs4t_Non
+      beg_primer: n160_1Fs4t
+      end_primer: n160_1Fs4t
+      trigger: [ note-on ]
+
+- target: 7119_B_167_SP
+  id: -1
+  sources:
+    - piano: A
+      label: A_5B1t_Non
+      beg_primer: n167_5B1t_0
+      end_primer: n167_5B1t_1
+      trigger: [ note-on ]
+      
+    - piano: C
+      label: C_2Gb4s_Non
+      beg_primer: n167_2Gb4s
+      end_primer: n167_5Ab2e
+      trigger: [ note-on ]
+      
+- target: 7124_B_171_SP
+  id: -1
+  sources:
+    - piano: A
+      label: A_1G7s_Nof
+      beg_primer: n171_1G7s    # specific note-off
+      end_primer: n171_1G7s
+      trigger: [ note-off ]
+
+    - piano: A
+      label: A_1Gb1t_Ku
+      beg_primer: n171_1Gb1t  # all notes up after seeing a location in a range
+      end_primer: n171_1G7s
+      trigger: [ all-keys-up ]
+      up_min_dur_ms: 200
+
+    - piano: C
+      label: C_5F1e_Non
+      beg_primer: n171_5F1e
+      end_primer: n171_5E2s
+      trigger: [ note-on ]
+
+- target: 7125b_B_178_SP
+  id: -1
+  sources:
+    - piano: A
+      label: A_2F3s_Non
+      beg_primer: n178_2F3s
+      end_primer: n178_2F3s
+      trigger: [ note-on ]
+
+    - piano: B
+      label: B_1Ab4q_KuPu
+      beg_primer: n177_1Ab4w
+      end_primer: n177_6Gb1w
+      trigger: [ all-keys-up, all-pedals-up ]
+
+    - piano: C
+      label: C_2C5q_KuPu
+      beg_primer: n177_2C5q
+      end_primer: n177_2Bb3s
+      trigger: [ all-keys-up, all-pedals-up ]
+
+
+- target: 7141_B_204_SP
+  id: -1
+  sources:
+    - piano: C
+      label: C_5C4e_Non
+      beg_primer: n204_5C4e_1
+      end_primer: n204_1Fs1s
+      trigger: [ note-on ]
+
+- target: 7163_B_234_SP
+  id: -1
+  sources:
+    - piano: C
+      label: C_5Gs3s_Non
+      beg_primer: n234_5Gs3s
+      end_primer: n234_5E5e
+      trigger: [ note-on ]
+
+- target: 7166_B_237_SP
+  id: -1
+  sources:
+    - piano: A
+      label: A_6C4t_Non
+      beg_primer: n237_6F4s
+      end_primer: n237_6C4t
+      trigger: [ note-on ]
+
+
+- target: 7184_B_255_SP
+  id: -1
+  sources:
+    - piano: C
+      label: C_1Ab2s_Non
+      beg_primer: n255_1Ab2s_0
+      end_primer: n255_5E1h
+      trigger:  [ note-on ]
+
+
+- target: 7212_B_290_SP
+  id: -1
+  sources:
+    - piano: C
+      label: C_1F4e_Non
+      beg_primer: n290_1F4e_0
+      end_primer: n290_1Bb4e_1
+      trigger: [ note-on ]
+
+    - piano: B
+      label: B_5Ab1t_NofPu
+      beg_primer: n289_5Ab1t_1
+      end_primer: n289_5Ab1t_1
+      trigger: [ note-off, all-pedals-up ]
+
+- target: 7217b_B_294_SP
+  id: -1
+  sources:
+    - piano: A
+      label: A_5B3s_Non
+      beg_primer: n294_5B3s
+      end_primer: n294_5Ds3s_1
+      trigger: [ note-on ]
+
+    - piano: C
+      label: C_1Db6s_None
+      beg_primer: n294_1Db6s_1
+      end_primer: n294_5Bb2s_1
+      trigger: [ note-on ]
+
+- target: 7225_B_299_SP
+  id: -1
+  sources:
+    - piano: B
+      label: B_5F2s_NofPu
+      beg_primer: n299_5F2s
+      end_primer: n299_5D2s_1
+      trigger: [ note-off, all-pedals-up ]
+
+
+    - piano: C
+      label: C_1Fs6x_Non
+      beg_primer:  n299_1Fs6x_1
+      end_primer: n299_1Gs7t
+      trigger: [ note-on ]
+
+- target: 7238_B_314_SP
+  id: -1
+  sources:
+    - piano: A
+      label: A_5Bb4t_Non
+      beg_primer: n314_5Bb4t_0
+      end_primer: n314_5Bb4t_2
+      trigger: [ note-on ]
+
+    - piano: C
+      label: C_5E4q_Non
+      beg_primer: n314_5E4q
+      end_primer: n314_5E4q
+      trigger: [ note-on ]
+
+- target: 7238_B_315_SP
+  id: -1
+  sources:
+    - piano: B
+      label: B_5Ds6t_0_Non
+      beg_primer: n315_5Ds6t_0
+      end_primer: n315_5Ds6t_0
+      trigger: [ note-on ]
+
+- target: 7238_B_316_SP
+  id: -1
+  sources:
+    - piano: B
+      label: B_6Ds1h_0_Non
+      beg_primer: n316_6Ds1h
+      end_primer: n316_6Ds1h
+      trigger: [ note-on ]
+
+
+- target: 7246_B_325_SP
+  id: -1
+  sources:
+    - piano: A
+      label: A_5Cs2t_Non
+      beg_primer: n324_5Cs2t_1
+      end_primer: n324_5Cs2t_1
+      trigger: [ note-on ]
+      
+    - piano: C
+      label: C_2G5x_Non
+      beg_primer: n324_2G5x
+      end_primer: n324_2A1x
+      trigger: [ note-on ]
+
+- target: 7250_B_328_SP
+  id: -1
+  sources:
+    - piano: A
+      label: A_5A1t_Nof
+      beg_primer: n327_5A1t_2
+      end_primer: n327_5F1t_1
+      trigger: [ note-off ]
+
+    - piano: B
+      label: B_5Gs1t_Nof
+      beg_primer: n327_5Gs1t_3
+      end_primer: n327_5A0t_1
+      trigger: [ note-off ]
+
+    - piano: B                      # mark whole SF section and wait for all keys/pedals up
+      label: B_5D3t_KuPu
+      beg_primer: n326_5D3t_0
+      end_primer: n327_5A0t_1
+      trigger: [ all-keys-up, all-pedals-up ]
+      up_min_dur_ms: 200
+
+    - piano: C
+      label: C_5Ab2t_Nof
+      beg_primer: n327_5Ab2t_2
+      end_primer: n327_5Ab1t
+      trigger: [ note-off ]
+
+    - piano: C                    # mark whole SF section and wait for all keys/pedals up
+      label: C_5Ds1s_KuPu
+      beg_primer: n327_5Ds1s
+      end_primer: n327_5Ab1t
+      trigger: [ all-keys-up, all-pedals-up ]
+      up_min_dur_ms: 200

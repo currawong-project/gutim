@@ -1,0 +1,226 @@
+- target: 7063_A_90_SP
+  id: -1  
+  sources:
+    - piano: A
+      label: A_5B0s_Nof
+      beg_primer: n89_5B0s
+      end_primer: n89_5B0s
+      trigger: [ note-off  ]   # note-off from one of prime loc notes
+      
+    - piano: A
+      label: A_5B0e_KuPu
+      beg_primer: n89_5B0e     # all keys/pedals up for 200ms after any loc in this range
+      end_primer: n89_5B0s 
+      trigger: [ all-keys-up, all-pedals-up ]
+      up_min_dur_ms: 200
+      
+    - piano: B
+      label: B_5Bb1q_NofDu
+      beg_primer: n89_5Bb1q    # note-off and damper up
+      end_primer: n89_5Bb1q
+      trigger: [note-off, damp-up]
+      
+    - piano: C
+      label: C_5C3s_Nof
+      beg_primer: n89_5C3s   # (best) specific note-on
+      end_primer: n89_5C3s
+      trigger: [note-on]
+
+- target: 7126_A_171_SP
+  id: -1
+  sources:
+    - piano: A
+      label: A_1G7s_NofPu
+      beg_primer: n171_1G7s    # specific note-off
+      end_primer: n171_1G7s
+      trigger: [ note-off, all-pedals-up ]
+
+    - piano: A
+      label: A_1Gb1t_KuPu
+      beg_primer: n171_1Gb1t  # all notes and pedal up after seeing a location in a range
+      end_primer: n171_1G7s
+      trigger: [ all-keys-up, all-pedals-up ]
+      up_min_dur_ms: 200
+      
+    - piano: B
+      label: B_2B6e_Non
+      beg_primer: n171_2B6e     # specific note off (best)
+      end_primer: n171_2B6e
+      trigger: [ note-on ]
+
+    # - piano: B
+    #   ext_label: 7124_B_171_SP  # end-of-spirio playback
+    #  ext_evt: done
+      
+    - piano: B
+      label: B_1Gs5t_Non
+      beg_primer: n171_1Gs5t_0  # any note-on in this range
+      end_primer: n171_1Gs5t_1
+      trigger: [ note-on ]
+
+- target: 7128_A_175_SP
+  id: -1
+  sources:
+    - piano: B
+      label: B_5Gb1s_Non
+      beg_primer: n175_5Gb1s   # any note-on in this range
+      end_primer: n175_1E6t
+      trigger: [ note-on ]
+      
+    - piano: C
+      label: C_1D6q_Non
+      beg_primer: n175_1D6q   # specific note-on
+      end_primer: n175_1D6q
+      trigger: [ note-on ]
+
+- target: 7139a_A_202_SP
+  id: -1
+  sources:
+    - piano: A
+      label: A_5A4t_KuPu
+      beg_primer: n201_5A4t_18   # wait for all keys / pedals up at end of section
+      end_primer: n201_5C2t_11
+      trigger: [ all-keys-up, all-pedals-up ]
+      up_min_dur_ms: 100
+
+    - piano: B
+      label: B_5Gs1h_KuPu
+      beg_primer: n201_5Gs1h    # wait for all keys / pedal up at end of section
+      end_primer: n201_5Gs1h  
+      trigger: [ all-keys-up, all-pedals-up ]
+      up_min_dur_ms: 50
+
+      
+    - piano: C
+      label: C_1F5h_Nof
+      beg_primer: n201_1F5h  # (best) specific note off 
+      end_primer: n201_1F5h
+      trigger: [ note-off ]
+
+- target: 7157_A_226_SP
+  id: -1
+  sources:
+    - piano: A                 # delay  2 seconds after key/pedals up
+      label: A_1Cs6t_KuPu
+      beg_primer: n226_1Cs6t
+      end_primer: n226_5E6x
+      trigger: [ all-keys-up, all-pedals-up ]
+      up_min_dur_ms: 50
+      trigger_delay_ms: 2000
+      
+    - piano: B
+      label: B_5G1q_Non
+      beg_primer: n226_5G1q
+      end_primer: n226_5G1q
+      trigger: [ note-on ]   # trigger on loc (best)
+
+    - piano: C
+      label: C_5Gs2e_Nof
+      beg_primer: n226_5Gs2e
+      end_primer: n226_5Gs2e
+      trigger: [ note-off ] # trigger on specific note off
+      
+    - piano: C
+      label: C_5C4e_Non
+      beg_primer: n226_5C4e_0
+      end_primer: n226_5C4e_0 # trigger on specific note-on (best)
+      trigger: [ note-on ]
+
+- target: 7171_A_243_SP
+  id: -1
+  sources:
+    - piano: B
+      label: B_6G1t_Nof
+      beg_primer: n242_6G1t_1
+      end_primer: n242_6A1x
+      trigger: [ note-off ]  # trigger on a note off range  before the trigger point
+
+    - piano: B
+      label: B_5B1q_Non
+      beg_primer: n243_5B1q
+      end_primer: n243_5B1q
+      trigger: [ note-on ] # trigger on a specific note-on at the trigger point
+
+    - piano: C
+      label: C_1B5t_NofPu
+      beg_primer: n242_1B5t_2  # trigger on a note-off range  before the trigger point
+      end_primer: n242_1Ab1t
+      trigger:    [ note-off, all-pedals-up ]
+
+    - piano: C
+      label: C_5Gs5s_Non
+      beg_primer: n243_5Gs5s
+      end_primer: n243_5Gs5s
+      trigger: [ note-on ]  # specific note-on
+
+- target: 7220_A_295_SP
+  id: -1
+  sources:
+    - piano: B
+      label: B_5F5t_Non
+      beg_primer: n295_5F5t
+      end_primer: n295_5F6t
+      trigger: [ note-on ]  # any note-on in a range (best) and low-risk
+
+    - piano: C
+      label: C_1A7s_Non
+      beg_primer: n295_1A7s
+      end_primer: n295_5Eb3e_0
+      trigger: [ note-on ]  # any note-on in a range
+
+
+- target: 7230a_A_304_SP
+  id: -1
+  sources:
+    - piano: B
+      label: B_5C1h_Nof
+      beg_primer: n304_5C1h
+      end_primer: n304_5C1h
+      trigger: [ note-off ] # specific note-off
+
+    - piano: C
+      label: C_1Db4t_Nof
+      beg_primer: n304_1Db4t
+      end_primer: n304_1Ab5t_2
+      trigger: [ note-off ] # any note-off in a range
+      
+    - piano: C
+      label: C_5Cs7h_Non
+      beg_primer: n304_5Cs7h
+      end_primer: n304_5Cs7h
+      trigger: [ note-on ]  # specific note-off
+
+- target: 7250_A_328_SP
+  id: -1
+  sources:
+    - piano: A
+      label: A_5A1t_Nof
+      beg_primer: n327_5A1t_2
+      end_primer: n327_5F1t_1
+      trigger: [ note-off ]
+
+    - piano: B
+      label: B_5Gs1t_Nof
+      beg_primer: n327_5Gs1t_3
+      end_primer: n327_5A0t_1
+      trigger: [ note-off ]
+
+    - piano: B                      # mark whole SF section and wait for all keys/pedals up
+      label: B_5D3t_KuPu
+      beg_primer: n326_5D3t_0
+      end_primer: n327_5A0t_1
+      trigger: [ all-keys-up, all-pedals-up ]
+      up_min_dur_ms: 200
+
+    - piano: C
+      label: C_5Ab2t_Nof
+      beg_primer: n327_5Ab2t_2
+      end_primer: n327_5Ab1t
+      trigger: [ note-off ]
+
+    - piano: C                    # mark whole SF section and wait for all keys/pedals up
+      label: C_5Ds1s_KuPu
+      beg_primer: n327_5Ds1s
+      end_primer: n327_5Ab1t
+      trigger: [ all-keys-up, all-pedals-up ]
+      up_min_dur_ms: 200

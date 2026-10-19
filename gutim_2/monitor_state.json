@@ -1115,8 +1115,29 @@
       ]
     },
     {
-      "target_label": "7184_B_255_SP",
+      "target_label": "7166_B_237_SP",
       "id": 20,
+      "sourceL": [
+        {
+          "port_id": 0,
+          "label": "A_6C4t_Non",
+          "beg_primer_loc": 2819,
+          "end_primer_loc": 2820,
+          "attrL": [
+            "note-on"
+          ],
+          "pitchL": [
+            65,
+            60
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        }
+      ]
+    },
+    {
+      "target_label": "7184_B_255_SP",
+      "id": 21,
       "sourceL": [
         {
           "port_id": 2,
@@ -1143,7 +1164,7 @@
     },
     {
       "target_label": "7212_B_290_SP",
-      "id": 21,
+      "id": 22,
       "sourceL": [
         {
           "port_id": 2,
@@ -1191,7 +1212,7 @@
     },
     {
       "target_label": "7217b_B_294_SP",
-      "id": 22,
+      "id": 23,
       "sourceL": [
         {
           "port_id": 0,
@@ -1243,7 +1264,7 @@
     },
     {
       "target_label": "7225_B_299_SP",
-      "id": 23,
+      "id": 24,
       "sourceL": [
         {
           "port_id": 1,
@@ -1295,7 +1316,7 @@
     },
     {
       "target_label": "7238_B_314_SP",
-      "id": 24,
+      "id": 25,
       "sourceL": [
         {
           "port_id": 0,
@@ -1334,8 +1355,50 @@
       ]
     },
     {
+      "target_label": "7238_B_315_SP",
+      "id": 26,
+      "sourceL": [
+        {
+          "port_id": 1,
+          "label": "B_5Ds6t_0_Non",
+          "beg_primer_loc": 3956,
+          "end_primer_loc": 3956,
+          "attrL": [
+            "note-on"
+          ],
+          "pitchL": [
+            87
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        }
+      ]
+    },
+    {
+      "target_label": "7238_B_316_SP",
+      "id": 27,
+      "sourceL": [
+        {
+          "port_id": 1,
+          "label": "B_6Ds1h_0_Non",
+          "beg_primer_loc": 3984,
+          "end_primer_loc": 3984,
+          "attrL": [
+            "note-on"
+          ],
+          "pitchL": [
+            27,
+            52,
+            54
+          ],
+          "up_min_dur_ms": 0,
+          "trig_delay_ms": 0
+        }
+      ]
+    },
+    {
       "target_label": "7246_B_325_SP",
-      "id": 25,
+      "id": 28,
       "sourceL": [
         {
           "port_id": 0,
@@ -1370,7 +1433,7 @@
     },
     {
       "target_label": "7250_B_328_SP",
-      "id": 26,
+      "id": 29,
       "sourceL": [
         {
           "port_id": 0,
@@ -1545,7 +1608,7 @@
     },
     {
       "target_label": "7136b_C_203_SP",
-      "id": 27,
+      "id": 30,
       "sourceL": [
         {
           "port_id": 0,
@@ -1573,7 +1636,7 @@
     },
     {
       "target_label": "7180_C_253_SP",
-      "id": 28,
+      "id": 31,
       "sourceL": [
         {
           "port_id": 2,
@@ -1609,7 +1672,7 @@
     },
     {
       "target_label": "7188_C_260_SP",
-      "id": 29,
+      "id": 32,
       "sourceL": [
         {
           "port_id": 2,
@@ -1647,7 +1710,7 @@
     },
     {
       "target_label": "7200_C_274_SP",
-      "id": 30,
+      "id": 33,
       "sourceL": [
         {
           "port_id": 1,
@@ -1686,7 +1749,7 @@
     },
     {
       "target_label": "7215_C_292_SP",
-      "id": 31,
+      "id": 34,
       "sourceL": [
         {
           "port_id": 0,
@@ -1710,7 +1773,7 @@
     },
     {
       "target_label": "7224_C_299_SP",
-      "id": 32,
+      "id": 35,
       "sourceL": [
         {
           "port_id": 1,
@@ -1755,7 +1818,7 @@
     },
     {
       "target_label": "7233_C_307_SP",
-      "id": 33,
+      "id": 36,
       "sourceL": [
         {
           "port_id": 0,
@@ -1793,7 +1856,7 @@
     },
     {
       "target_label": "7236_C_311_SP",
-      "id": 34,
+      "id": 37,
       "sourceL": [
         {
           "port_id": 1,
@@ -1816,7 +1879,7 @@
     },
     {
       "target_label": "7250_C_328_SP",
-      "id": 35,
+      "id": 38,
       "sourceL": [
         {
           "port_id": 0,

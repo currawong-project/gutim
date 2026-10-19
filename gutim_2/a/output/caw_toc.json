@@ -1,0 +1,944 @@
+[
+  {
+    "seg_id": "0",
+    "piano": "A",
+    "color": "purple",
+    "player": "AK",
+    "beg_meas_num": 1,
+    "end_meas_num": 6,
+    "beg_mp_id": "re1_1RM",
+    "end_mp_id": "re10_5Rq",
+    "beg_sf_note_id": "n1_5A2t_0",
+    "end_sf_note_id": "n6_5Cs2t_16",
+    "sectL": [
+      "7000"
+    ],
+    "seg_label": "7000_A_1_AK"
+  },
+  {
+    "seg_id": "1",
+    "piano": "A",
+    "color": "blue",
+    "player": "EP",
+    "beg_meas_num": 10,
+    "end_meas_num": 13,
+    "beg_mp_id": "re10_1Rq_1",
+    "end_mp_id": "re18_5Rh",
+    "beg_sf_note_id": "n10_5A4t_0",
+    "end_sf_note_id": "n13_5A1s_7",
+    "sectL": [
+      "7003"
+    ],
+    "seg_label": "7003_A_10_EP"
+  },
+  {
+    "seg_id": "2",
+    "piano": "A",
+    "color": "green",
+    "player": "AG",
+    "beg_meas_num": 18,
+    "end_meas_num": 28,
+    "beg_mp_id": "n18_1B3e",
+    "end_mp_id": "re29_5RM",
+    "beg_sf_note_id": "n18_1B3e",
+    "end_sf_note_id": "n28_1Db5w",
+    "sectL": [
+      "7009",
+      "7014",
+      "7015"
+    ],
+    "seg_label": "7009_A_18_AG"
+  },
+  {
+    "seg_id": "3",
+    "piano": "A",
+    "color": "rose",
+    "player": "HC",
+    "beg_meas_num": 30,
+    "end_meas_num": 32,
+    "beg_mp_id": "n30_1Eb5h",
+    "end_mp_id": "re34_1Rh_2",
+    "beg_sf_note_id": "n30_1Eb5h",
+    "end_sf_note_id": "n32_1D3t_1",
+    "sectL": [
+      "7017"
+    ],
+    "seg_label": "7017_A_30_HC"
+  },
+  {
+    "seg_id": "4",
+    "piano": "A",
+    "color": "green",
+    "player": "AG",
+    "beg_meas_num": 35,
+    "end_meas_num": 41,
+    "beg_mp_id": "re35_1Rq_0",
+    "end_mp_id": "n41_6Eb3w",
+    "beg_sf_note_id": "n35_6C4e_0",
+    "end_sf_note_id": "n41_6Eb3w",
+    "sectL": [
+      "7021",
+      "7023"
+    ],
+    "seg_label": "7021_A_35_AG"
+  },
+  {
+    "seg_id": "5",
+    "piano": "A",
+    "color": "rose",
+    "player": "HC",
+    "beg_meas_num": 41,
+    "end_meas_num": 56,
+    "beg_mp_id": "n41_5D4q",
+    "end_mp_id": "ng56_5C3e",
+    "beg_sf_note_id": "n41_5Cs3e",
+    "end_sf_note_id": "ng56_5C3e",
+    "sectL": [
+      "7027",
+      "7031"
+    ],
+    "seg_label": "7027_A_41_HC"
+  },
+  {
+    "seg_id": "6",
+    "piano": "A",
+    "color": "yellow",
+    "player": "NN",
+    "beg_meas_num": 56,
+    "end_meas_num": 70,
+    "beg_mp_id": "re56_1Rq",
+    "end_mp_id": "re78_6Rq_0",
+    "beg_sf_note_id": "ng56_1C6e",
+    "end_sf_note_id": "n70_1Bb5x_3",
+    "sectL": [
+      "7035",
+      "7038",
+      "7040",
+      "7042",
+      "7046"
+    ],
+    "seg_label": "7035_A_56_NN"
+  },
+  {
+    "seg_id": "7",
+    "piano": "A",
+    "color": "purple",
+    "player": "AK",
+    "beg_meas_num": 78,
+    "end_meas_num": 81,
+    "beg_mp_id": "n78_1F4w",
+    "end_mp_id": "re82_6Rq_1",
+    "beg_sf_note_id": "n78_1F4w",
+    "end_sf_note_id": "n81_6B1h",
+    "sectL": [
+      "7051"
+    ],
+    "seg_label": "7051_A_78_AK"
+  },
+  {
+    "seg_id": "8",
+    "piano": "A",
+    "color": "rose",
+    "player": "HC",
+    "beg_meas_num": 82,
+    "end_meas_num": 85,
+    "beg_mp_id": "n82_1A4q",
+    "end_mp_id": "re87_5Rh",
+    "beg_sf_note_id": "n82_1A4q",
+    "end_sf_note_id": "n85_1D3t_1",
+    "sectL": [
+      "7055",
+      "7056"
+    ],
+    "seg_label": "7055_A_82_HC"
+  },
+  {
+    "seg_id": "9",
+    "piano": "A",
+    "color": "yellow",
+    "player": "NN",
+    "beg_meas_num": 87,
+    "end_meas_num": 89,
+    "beg_mp_id": "n87_1C6e",
+    "end_mp_id": "re89_5Re_1",
+    "beg_sf_note_id": "n87_1C6e",
+    "end_sf_note_id": "n89_5D3s",
+    "sectL": [
+      "7058",
+      "7059"
+    ],
+    "seg_label": "7058_A_87_NN"
+  },
+  {
+    "seg_id": "10",
+    "piano": "A",
+    "color": "white",
+    "player": "SP",
+    "beg_meas_num": 90,
+    "end_meas_num": 90,
+    "beg_mp_id": "n90_5B0w",
+    "end_mp_id": "n90_5D3w",
+    "beg_sf_note_id": "n90_5B0w",
+    "end_sf_note_id": "n90_5D3w",
+    "sectL": [
+      "7063"
+    ],
+    "seg_label": "7063_A_90_SP"
+  },
+  {
+    "seg_id": "11",
+    "piano": "A",
+    "color": "yellow",
+    "player": "NN",
+    "beg_meas_num": 91,
+    "end_meas_num": 98,
+    "beg_mp_id": "re91_1Re",
+    "end_mp_id": "re98_1Rs",
+    "beg_sf_note_id": "n91_5G2e",
+    "end_sf_note_id": "n98_1G2e_0",
+    "sectL": [
+      "7064",
+      "7065"
+    ],
+    "seg_label": "7064_A_91_NN"
+  },
+  {
+    "seg_id": "12",
+    "piano": "A",
+    "color": "yellow",
+    "player": "NN",
+    "beg_meas_num": 104,
+    "end_meas_num": 104,
+    "beg_mp_id": "ng104_1Cs6e",
+    "end_mp_id": "n104_5D3h",
+    "beg_sf_note_id": "ng104_1Cs6e",
+    "end_sf_note_id": "n104_5D3h",
+    "sectL": [
+      "7067",
+      "7068"
+    ],
+    "seg_label": "7067_A_104_NN"
+  },
+  {
+    "seg_id": "13",
+    "piano": "A",
+    "color": "blue",
+    "player": "EP",
+    "beg_meas_num": 108,
+    "end_meas_num": 110,
+    "beg_mp_id": "n108_5G3t_0",
+    "end_mp_id": "re115_5RM",
+    "beg_sf_note_id": "n108_5G3t_0",
+    "end_sf_note_id": "n110_6F1e",
+    "sectL": [
+      "7070"
+    ],
+    "seg_label": "7070_A_108_EP"
+  },
+  {
+    "seg_id": "14",
+    "piano": "A",
+    "color": "yellow",
+    "player": "NN",
+    "beg_meas_num": 116,
+    "end_meas_num": 121,
+    "beg_mp_id": "re116_1Rh",
+    "end_mp_id": "re121_5Rq_0",
+    "beg_sf_note_id": "n116_5C2e",
+    "end_sf_note_id": "n120_5B0e",
+    "sectL": [
+      "7074"
+    ],
+    "seg_label": "7074_A_116_NN"
+  },
+  {
+    "seg_id": "15",
+    "piano": "A",
+    "color": "yellow",
+    "player": "NN",
+    "beg_meas_num": 125,
+    "end_meas_num": 129,
+    "beg_mp_id": "re125_1Rw",
+    "end_mp_id": "re129_5Re",
+    "beg_sf_note_id": "n125_1E4t",
+    "end_sf_note_id": "n129_5A0s_1",
+    "sectL": [
+      "7082",
+      "7084"
+    ],
+    "seg_label": "7082_A_125_NN"
+  },
+  {
+    "seg_id": "16",
+    "piano": "A",
+    "color": "yellow",
+    "player": "NN",
+    "beg_meas_num": 131,
+    "end_meas_num": 133,
+    "beg_mp_id": "re131_1Rw",
+    "end_mp_id": "re138_5Rh",
+    "beg_sf_note_id": "ng131_1C6e",
+    "end_sf_note_id": "n133_1Bb5e",
+    "sectL": [
+      "7087",
+      "7089"
+    ],
+    "seg_label": "7087_A_131_NN"
+  },
+  {
+    "seg_id": "17",
+    "piano": "A",
+    "color": "rose",
+    "player": "HC",
+    "beg_meas_num": 138,
+    "end_meas_num": 140,
+    "beg_mp_id": "n138_1D4q",
+    "end_mp_id": "re142_1Rh",
+    "beg_sf_note_id": "n138_1D4q",
+    "end_sf_note_id": "n140_2F5t",
+    "sectL": [
+      "7093"
+    ],
+    "seg_label": "7093_A_138_HC"
+  },
+  {
+    "seg_id": "18",
+    "piano": "A",
+    "color": "blue",
+    "player": "EP",
+    "beg_meas_num": 142,
+    "end_meas_num": 146,
+    "beg_mp_id": "ng142_5E1e",
+    "end_mp_id": "re148_1Rq_1",
+    "beg_sf_note_id": "ng142_5E1e",
+    "end_sf_note_id": "n146_1Ab2t",
+    "sectL": [
+      "7096",
+      "7099"
+    ],
+    "seg_label": "7096_A_142_EP"
+  },
+  {
+    "seg_id": "19",
+    "piano": "A",
+    "color": "purple",
+    "player": "AK",
+    "beg_meas_num": 149,
+    "end_meas_num": 154,
+    "beg_mp_id": "re149_1Rq_0",
+    "end_mp_id": "re155_5Rw",
+    "beg_sf_note_id": "ng149_6F3e",
+    "end_sf_note_id": "n154_5C2s",
+    "sectL": [
+      "7101",
+      "7104",
+      "7106"
+    ],
+    "seg_label": "7101_A_149_AK"
+  },
+  {
+    "seg_id": "20",
+    "piano": "A",
+    "color": "rose",
+    "player": "HC",
+    "beg_meas_num": 155,
+    "end_meas_num": 159,
+    "beg_mp_id": "n155_1D4h",
+    "end_mp_id": "re160_6Rh_0",
+    "beg_sf_note_id": "n155_1D4h",
+    "end_sf_note_id": "n159_2E6s",
+    "sectL": [
+      "7108"
+    ],
+    "seg_label": "7108_A_155_HC"
+  },
+  {
+    "seg_id": "21",
+    "piano": "A",
+    "color": "purple",
+    "player": "AK",
+    "beg_meas_num": 160,
+    "end_meas_num": 168,
+    "beg_mp_id": "re160_1Re_0",
+    "end_mp_id": "re169_5Rq",
+    "beg_sf_note_id": "n160_1B5s",
+    "end_sf_note_id": "n168_5F3t_2",
+    "sectL": [
+      "7112",
+      "7116",
+      "7118",
+      "7120"
+    ],
+    "seg_label": "7112_A_160_AK"
+  },
+  {
+    "seg_id": "22",
+    "piano": "A",
+    "color": "rose",
+    "player": "HC",
+    "beg_meas_num": 169,
+    "end_meas_num": 171,
+    "beg_mp_id": "re169_1Re",
+    "end_mp_id": "ng171_5C4e",
+    "beg_sf_note_id": "n169_5Cs4t",
+    "end_sf_note_id": "ng171_5C4e",
+    "sectL": [
+      "7123"
+    ],
+    "seg_label": "7123_A_169_HC"
+  },
+  {
+    "seg_id": "23",
+    "piano": "A",
+    "color": "white",
+    "player": "SP",
+    "beg_meas_num": 171,
+    "end_meas_num": 172,
+    "beg_mp_id": "n171_1Cs7x_0",
+    "end_mp_id": "n172_1Fs5x_5",
+    "beg_sf_note_id": "n171_1Cs7x_0",
+    "end_sf_note_id": "n172_1Fs5x_5",
+    "sectL": [
+      "7126"
+    ],
+    "seg_label": "7126_A_171_SP"
+  },
+  {
+    "seg_id": "24",
+    "piano": "A",
+    "color": "white",
+    "player": "SP",
+    "beg_meas_num": 175,
+    "end_meas_num": 176,
+    "beg_mp_id": "n175_1Cs7x_0",
+    "end_mp_id": "n176_5Fs1q",
+    "beg_sf_note_id": "n175_1Cs7x_0",
+    "end_sf_note_id": "n177_1Fs3e",
+    "sectL": [
+      "7128"
+    ],
+    "seg_label": "7128_A_175_SP"
+  },
+  {
+    "seg_id": "25",
+    "piano": "A",
+    "color": "purple",
+    "player": "AK",
+    "beg_meas_num": 177,
+    "end_meas_num": 178,
+    "beg_mp_id": "re177_1Rq_0",
+    "end_mp_id": "re181_5RM",
+    "beg_sf_note_id": "n177_5E1e",
+    "end_sf_note_id": "n178_5A2q",
+    "sectL": [
+      "7129"
+    ],
+    "seg_label": "7129_A_177_AK"
+  },
+  {
+    "seg_id": "26",
+    "piano": "A",
+    "color": "green",
+    "player": "AG",
+    "beg_meas_num": 182,
+    "end_meas_num": 189,
+    "beg_mp_id": "re182_1Rq_0",
+    "end_mp_id": "re200_5Rh",
+    "beg_sf_note_id": "n182_2D4e",
+    "end_sf_note_id": "n189_1C5t_7",
+    "sectL": [
+      "7132",
+      "7133"
+    ],
+    "seg_label": "7132_A_182_AG"
+  },
+  {
+    "seg_id": "27",
+    "piano": "A",
+    "color": "blue",
+    "player": "EP",
+    "beg_meas_num": 200,
+    "end_meas_num": 201,
+    "beg_mp_id": "n200_5A4t_0",
+    "end_mp_id": "re201_1Rh_2",
+    "beg_sf_note_id": "n200_5A4t_0",
+    "end_sf_note_id": "n201_5C2t_11",
+    "sectL": [
+      "7138"
+    ],
+    "seg_label": "7138_A_200_EP"
+  },
+  {
+    "seg_id": "28",
+    "piano": "A",
+    "color": "white",
+    "player": "SP",
+    "beg_meas_num": 202,
+    "end_meas_num": 202,
+    "beg_mp_id": "n202_1F5h_0",
+    "end_mp_id": "n202_6A4h_1",
+    "beg_sf_note_id": "n202_1F5h_0",
+    "end_sf_note_id": "n202_6A4h_1",
+    "sectL": [
+      "7139a"
+    ],
+    "seg_label": "7139a_A_202_SP"
+  },
+  {
+    "seg_id": "29",
+    "piano": "A",
+    "color": "rose",
+    "player": "HC",
+    "beg_meas_num": 202,
+    "end_meas_num": 203,
+    "beg_mp_id": "n202_1D4q",
+    "end_mp_id": "re204_1Rh_1",
+    "beg_sf_note_id": "n202_1D4q",
+    "end_sf_note_id": "n203_5B0s_1",
+    "sectL": [
+      "7139b"
+    ],
+    "seg_label": "7139b_A_202_HC"
+  },
+  {
+    "seg_id": "30",
+    "piano": "A",
+    "color": "blue",
+    "player": "EP",
+    "beg_meas_num": 205,
+    "end_meas_num": 208,
+    "beg_mp_id": "n205_1E5w",
+    "end_mp_id": "re210_5Rq",
+    "beg_sf_note_id": "n205_1E5w",
+    "end_sf_note_id": "n208_1E5s",
+    "sectL": [
+      "7142",
+      "7143"
+    ],
+    "seg_label": "7142_A_205_EP"
+  },
+  {
+    "seg_id": "31",
+    "piano": "A",
+    "color": "rose",
+    "player": "HC",
+    "beg_meas_num": 210,
+    "end_meas_num": 212,
+    "beg_mp_id": "ng210_1D6e",
+    "end_mp_id": "re214_6Rq_0",
+    "beg_sf_note_id": "ng210_1D6e",
+    "end_sf_note_id": "n212_5A3q_0",
+    "sectL": [
+      "7146"
+    ],
+    "seg_label": "7146_A_210_HC"
+  },
+  {
+    "seg_id": "32",
+    "piano": "A",
+    "color": "purple",
+    "player": "AK",
+    "beg_meas_num": 214,
+    "end_meas_num": 221,
+    "beg_mp_id": "re214_6Rq_1",
+    "end_mp_id": "n221_6Ds1w",
+    "beg_sf_note_id": "n214_2F3q",
+    "end_sf_note_id": "n221_6Ds1w",
+    "sectL": [
+      "7148"
+    ],
+    "seg_label": "7148_A_214_AK"
+  },
+  {
+    "seg_id": "33",
+    "piano": "A",
+    "color": "blue",
+    "player": "EP",
+    "beg_meas_num": 222,
+    "end_meas_num": 226,
+    "beg_mp_id": "ng222_1Ab3e",
+    "end_mp_id": "re226_5Rh",
+    "beg_sf_note_id": "ng222_1Ab3e",
+    "end_sf_note_id": "n226_5E6x",
+    "sectL": [
+      "7151",
+      "7154"
+    ],
+    "seg_label": "7151_A_222_EP"
+  },
+  {
+    "seg_id": "34",
+    "piano": "A",
+    "color": "white",
+    "player": "SP",
+    "beg_meas_num": 226,
+    "end_meas_num": 227,
+    "beg_mp_id": "n226_1Ab5x_0",
+    "end_mp_id": "n227_5Eb4h",
+    "beg_sf_note_id": "n226_1Ab5x_0",
+    "end_sf_note_id": "n227_5Eb4h",
+    "sectL": [
+      "7157"
+    ],
+    "seg_label": "7157_A_226_SP"
+  },
+  {
+    "seg_id": "35",
+    "piano": "A",
+    "color": "rose",
+    "player": "HC",
+    "beg_meas_num": 228,
+    "end_meas_num": 231,
+    "beg_mp_id": "n228_1E6t_0",
+    "end_mp_id": "re236_6Rh",
+    "beg_sf_note_id": "n228_1E6t_0",
+    "end_sf_note_id": "n231_2F5t",
+    "sectL": [
+      "7158"
+    ],
+    "seg_label": "7158_A_228_HC"
+  },
+  {
+    "seg_id": "36",
+    "piano": "A",
+    "color": "purple",
+    "player": "AK",
+    "beg_meas_num": 236,
+    "end_meas_num": 241,
+    "beg_mp_id": "n236_1Ds6t_0",
+    "end_mp_id": "re242_5RM",
+    "beg_sf_note_id": "n236_1Ds6t_0",
+    "end_sf_note_id": "n241_5Db1x_1",
+    "sectL": [
+      "7165",
+      "7167"
+    ],
+    "seg_label": "7165_A_236_AK"
+  },
+  {
+    "seg_id": "37",
+    "piano": "A",
+    "color": "white",
+    "player": "SP",
+    "beg_meas_num": 243,
+    "end_meas_num": 243,
+    "beg_mp_id": "ng243_5C2e",
+    "end_mp_id": "n243_1D3x",
+    "beg_sf_note_id": "ng243_5C2e",
+    "end_sf_note_id": "n243_1D3x",
+    "sectL": [
+      "7171"
+    ],
+    "seg_label": "7171_A_243_SP"
+  },
+  {
+    "seg_id": "38",
+    "piano": "A",
+    "color": "yellow",
+    "player": "NN",
+    "beg_meas_num": 245,
+    "end_meas_num": 246,
+    "beg_mp_id": "n245_1D3s",
+    "end_mp_id": "re246_1Rq",
+    "beg_sf_note_id": "n245_1D3s",
+    "end_sf_note_id": "n246_5B2s_1",
+    "sectL": [
+      "7172"
+    ],
+    "seg_label": "7172_A_245_NN"
+  },
+  {
+    "seg_id": "39",
+    "piano": "A",
+    "color": "yellow",
+    "player": "NN",
+    "beg_meas_num": 249,
+    "end_meas_num": 254,
+    "beg_mp_id": "re249_1Rh",
+    "end_mp_id": "re254_1Rq_1",
+    "beg_sf_note_id": "n249_1D5t_0",
+    "end_sf_note_id": "n254_5Ab1t",
+    "sectL": [
+      "7175",
+      "7179",
+      "7181"
+    ],
+    "seg_label": "7175_A_249_NN"
+  },
+  {
+    "seg_id": "40",
+    "piano": "A",
+    "color": "purple",
+    "player": "AK",
+    "beg_meas_num": 256,
+    "end_meas_num": 263,
+    "beg_mp_id": "re256_5Rq",
+    "end_mp_id": "re266_5Rq_0",
+    "beg_sf_note_id": "n256_5A0w",
+    "end_sf_note_id": "n263_1D6e",
+    "sectL": [
+      "7185",
+      "7189",
+      "7190"
+    ],
+    "seg_label": "7185_A_256_AK"
+  },
+  {
+    "seg_id": "41",
+    "piano": "A",
+    "color": "blue",
+    "player": "EP",
+    "beg_meas_num": 266,
+    "end_meas_num": 269,
+    "beg_mp_id": "n266_1Cs7s_0",
+    "end_mp_id": "re271_6Re",
+    "beg_sf_note_id": "n266_1Cs7s_0",
+    "end_sf_note_id": "n269_1As7t_1",
+    "sectL": [
+      "7194",
+      "7195"
+    ],
+    "seg_label": "7194_A_266_EP"
+  },
+  {
+    "seg_id": "42",
+    "piano": "A",
+    "color": "rose",
+    "player": "HC",
+    "beg_meas_num": 271,
+    "end_meas_num": 274,
+    "beg_mp_id": "n271_5Ab1t_0",
+    "end_mp_id": "re274_1Rw",
+    "beg_sf_note_id": "n271_5Ab1t_0",
+    "end_sf_note_id": "n274_6Eb6s",
+    "sectL": [
+      "7197",
+      "7198",
+      "7204",
+      "7205",
+      "7208"
+    ],
+    "seg_label": "7197_A_271_HC"
+  },
+  {
+    "seg_id": "43",
+    "piano": "A",
+    "color": "rose",
+    "player": "HC",
+    "beg_meas_num": 279,
+    "end_meas_num": 288,
+    "beg_mp_id": "re279_1Rh_0",
+    "end_mp_id": "re291_5Rq",
+    "beg_sf_note_id": "n279_1E7s",
+    "end_sf_note_id": "n288_1F5t",
+    "sectL": [
+      "7197",
+      "7198",
+      "7204",
+      "7205",
+      "7208"
+    ],
+    "seg_label": "7197_A_279_HC"
+  },
+  {
+    "seg_id": "44",
+    "piano": "A",
+    "color": "green",
+    "player": "AG",
+    "beg_meas_num": 291,
+    "end_meas_num": 294,
+    "beg_mp_id": "n291_1Bb3e_0",
+    "end_mp_id": "re295_5Rh",
+    "beg_sf_note_id": "n291_1Bb3e_0",
+    "end_sf_note_id": "n294_5G2s",
+    "sectL": [
+      "7213",
+      "7215"
+    ],
+    "seg_label": "7213_A_291_AG"
+  },
+  {
+    "seg_id": "45",
+    "piano": "A",
+    "color": "white",
+    "player": "SP",
+    "beg_meas_num": 295,
+    "end_meas_num": 296,
+    "beg_mp_id": "ng295_1A6e",
+    "end_mp_id": "ng295_1Ab4e_2",
+    "beg_sf_note_id": "ng295_1A6e",
+    "end_sf_note_id": "ng295_1Ab4e_2",
+    "sectL": [
+      "7220"
+    ],
+    "seg_label": "7220_A_295_SP"
+  },
+  {
+    "seg_id": "46",
+    "piano": "A",
+    "color": "green",
+    "player": "AG",
+    "beg_meas_num": 296,
+    "end_meas_num": 297,
+    "beg_mp_id": "re296_1Rq_0",
+    "end_mp_id": "re299_5Rq",
+    "beg_sf_note_id": "n296_5E1s",
+    "end_sf_note_id": "ng297_1Fs2e",
+    "sectL": [
+      "7221"
+    ],
+    "seg_label": "7221_A_296_AG"
+  },
+  {
+    "seg_id": "47",
+    "piano": "A",
+    "color": "blue",
+    "player": "EP",
+    "beg_meas_num": 299,
+    "end_meas_num": 301,
+    "beg_mp_id": "re299_1Rs",
+    "end_mp_id": "re304_5Rh",
+    "beg_sf_note_id": "n299_5F2t",
+    "end_sf_note_id": "n301_5Bb0s_0",
+    "sectL": [
+      "7226"
+    ],
+    "seg_label": "7226_A_299_EP"
+  },
+  {
+    "seg_id": "48",
+    "piano": "A",
+    "color": "white",
+    "player": "SP",
+    "beg_meas_num": 304,
+    "end_meas_num": 304,
+    "beg_mp_id": "n304_1Ab6t_0",
+    "end_mp_id": "n304_1C6t_2",
+    "beg_sf_note_id": "n304_1Ab6t_0",
+    "end_sf_note_id": "n304_1C6t_2",
+    "sectL": [
+      "7230a"
+    ],
+    "seg_label": "7230a_A_304_SP"
+  },
+  {
+    "seg_id": "49",
+    "piano": "A",
+    "color": "green",
+    "player": "AG",
+    "beg_meas_num": 304,
+    "end_meas_num": 307,
+    "beg_mp_id": "n304_1D5t_0",
+    "end_mp_id": "re311_5Re_0",
+    "beg_sf_note_id": "n304_1D5t_0",
+    "end_sf_note_id": "ng307_6A1e",
+    "sectL": [
+      "7230b",
+      "7232"
+    ],
+    "seg_label": "7230b_A_304_AG"
+  },
+  {
+    "seg_id": "50",
+    "piano": "A",
+    "color": "yellow",
+    "player": "NN",
+    "beg_meas_num": 311,
+    "end_meas_num": 317,
+    "beg_mp_id": "n311_1Cs5s",
+    "end_mp_id": "re321_5Re_0",
+    "beg_sf_note_id": "n311_1Cs5s",
+    "end_sf_note_id": "n317_1A7q",
+    "sectL": [
+      "7235",
+      "7237",
+      "7238"
+    ],
+    "seg_label": "7235_A_311_NN"
+  },
+  {
+    "seg_id": "51",
+    "piano": "A",
+    "color": "blue",
+    "player": "EP",
+    "beg_meas_num": 321,
+    "end_meas_num": 327,
+    "beg_mp_id": "n321_1Bb5h",
+    "end_mp_id": "n327_5F1t_1",
+    "beg_sf_note_id": "n321_1Bb5h",
+    "end_sf_note_id": "n327_5F1t_1",
+    "sectL": [
+      "7242",
+      "7245"
+    ],
+    "seg_label": "7242_A_321_EP"
+  },
+  {
+    "seg_id": "52",
+    "piano": "A",
+    "color": "white",
+    "player": "SP",
+    "beg_meas_num": 328,
+    "end_meas_num": 330,
+    "beg_mp_id": "n328_1C4s",
+    "end_mp_id": "n330_5Bb1q",
+    "beg_sf_note_id": "n328_1C4s",
+    "end_sf_note_id": "n330_5Bb1q",
+    "sectL": [
+      "7250",
+      "7252",
+      "7253"
+    ],
+    "seg_label": "7250_A_328_SP"
+  },
+  {
+    "seg_id": "53",
+    "piano": "A",
+    "color": "rose",
+    "player": "HC",
+    "beg_meas_num": 332,
+    "end_meas_num": 334,
+    "beg_mp_id": "n332_1Cs7q",
+    "end_mp_id": "re337_1Rq_2",
+    "beg_sf_note_id": "n332_1Cs7q",
+    "end_sf_note_id": "n334_5Fs2t",
+    "sectL": [
+      "7258"
+    ],
+    "seg_label": "7258_A_332_HC"
+  },
+  {
+    "seg_id": "54",
+    "piano": "A",
+    "color": "purple",
+    "player": "AK",
+    "beg_meas_num": 337,
+    "end_meas_num": 339,
+    "beg_mp_id": "re337_1Rq_3",
+    "end_mp_id": "re344_5Rh",
+    "beg_sf_note_id": "n337_5F2s",
+    "end_sf_note_id": "n339_1Ab4t",
+    "sectL": [
+      "7263",
+      "7266"
+    ],
+    "seg_label": "7263_A_337_AK"
+  },
+  {
+    "seg_id": "55",
+    "piano": "A",
+    "color": "blue",
+    "player": "EP",
+    "beg_meas_num": 344,
+    "end_meas_num": 347,
+    "beg_mp_id": "re344_1Re",
+    "end_mp_id": "re349_5RM",
+    "beg_sf_note_id": "n344_1Bb6e",
+    "end_sf_note_id": "n347_5Ab1e",
+    "sectL": [
+      "7269",
+      "7272"
+    ],
+    "seg_label": "7269_A_344_EP"
+  }
+]
