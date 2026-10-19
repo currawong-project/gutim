@@ -200,6 +200,7 @@ def write_fallback_btn_array( targetL, fallback_json_fname, btn_array_json_fname
             
         outL.append(dict(title=d['title'],
                          meas=d['meas'],
+                         ctl_piano_id=const.PIANO_MAP[ d['src'] ],
                          dis_idL=tgt_idL,
                          valueL=tgt_idL))
 
