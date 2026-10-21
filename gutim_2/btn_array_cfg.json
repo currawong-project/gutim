@@ -1,7 +1,9 @@
 [
   {
-    "title": "B m.39 7024",
+    "title": "B m39 7024 (C-1)",
     "meas": 39,
+    "group_id": 1,
+    "ctl_piano_id": 2,
     "dis_idL": [
       9
     ],
@@ -10,8 +12,10 @@
     ]
   },
   {
-    "title": "B m.55 7034",
+    "title": "B m55 7034 (C-2)",
     "meas": 55,
+    "group_id": 2,
+    "ctl_piano_id": 2,
     "dis_idL": [
       10
     ],
@@ -20,8 +24,10 @@
     ]
   },
   {
-    "title": "AB m.90 7063",
+    "title": "AB m90 7063 (A-3)",
     "meas": 90,
+    "group_id": 3,
+    "ctl_piano_id": 0,
     "dis_idL": [
       11,
       0
@@ -32,8 +38,10 @@
     ]
   },
   {
-    "title": "B m.122 7079",
+    "title": "B m122 7079 (C-4)",
     "meas": 122,
+    "group_id": 4,
+    "ctl_piano_id": 2,
     "dis_idL": [
       12
     ],
@@ -42,8 +50,10 @@
     ]
   },
   {
-    "title": "B m.133, 7086",
+    "title": "B m133 7086 (A-5)",
     "meas": 133,
+    "group_id": 5,
+    "ctl_piano_id": 0,
     "dis_idL": [
       13
     ],
@@ -52,8 +62,10 @@
     ]
   },
   {
-    "title": "B m.160 7111",
+    "title": "B m160 7111 (C-6)",
     "meas": 160,
+    "group_id": 6,
+    "ctl_piano_id": 2,
     "dis_idL": [
       14
     ],
@@ -62,8 +74,10 @@
     ]
   },
   {
-    "title": "B m.167 7119",
+    "title": "B m167 7119 (B-7)",
     "meas": 167,
+    "group_id": 7,
+    "ctl_piano_id": 1,
     "dis_idL": [
       15
     ],
@@ -72,8 +86,10 @@
     ]
   },
   {
-    "title": "B m.171 7124",
+    "title": "B m171 7124 (C-8)",
     "meas": 171,
+    "group_id": 8,
+    "ctl_piano_id": 2,
     "dis_idL": [
       16
     ],
@@ -82,8 +98,10 @@
     ]
   },
   {
-    "title": "A m.171 7126",
+    "title": "A m171 7126 (A-8)",
     "meas": 171,
+    "group_id": 8,
+    "ctl_piano_id": 0,
     "dis_idL": [
       1
     ],
@@ -92,8 +110,10 @@
     ]
   },
   {
-    "title": "A m.175 7128",
+    "title": "A m175 7128 (C-9)",
     "meas": 175,
+    "group_id": 9,
+    "ctl_piano_id": 2,
     "dis_idL": [
       2
     ],
@@ -102,8 +122,10 @@
     ]
   },
   {
-    "title": "B m.178 7125",
+    "title": "B m178 7125 (B-10)",
     "meas": 178,
+    "group_id": 10,
+    "ctl_piano_id": 1,
     "dis_idL": [
       17
     ],
@@ -112,8 +134,10 @@
     ]
   },
   {
-    "title": "A m.202 7139a",
+    "title": "A m202 7139 (A)",
     "meas": 202,
+    "group_id": 11,
+    "ctl_piano_id": 0,
     "dis_idL": [
       3
     ],
@@ -122,8 +146,10 @@
     ]
   },
   {
-    "title": "C m.203 7136",
+    "title": "C m203 7136 (A)",
     "meas": 203,
+    "group_id": 12,
+    "ctl_piano_id": 0,
     "dis_idL": [
       30
     ],
@@ -132,8 +158,10 @@
     ]
   },
   {
-    "title": "B m.204 7141",
+    "title": "B m204 7141 (C)",
     "meas": 204,
+    "group_id": 13,
+    "ctl_piano_id": 2,
     "dis_idL": [
       18
     ],
@@ -142,8 +170,10 @@
     ]
   },
   {
-    "title": "A m.226 7157",
+    "title": "A m226 7157 (B)",
     "meas": 226,
+    "group_id": 14,
+    "ctl_piano_id": 1,
     "dis_idL": [
       4
     ],
@@ -152,8 +182,10 @@
     ]
   },
   {
-    "title": "B m.234 7163",
+    "title": "B m234 7163 (C)",
     "meas": 234,
+    "group_id": 15,
+    "ctl_piano_id": 2,
     "dis_idL": [
       19
     ],
@@ -162,8 +194,10 @@
     ]
   },
   {
-    "title": "B m.237 7166",
+    "title": "B m237 7166 (A)",
     "meas": 237,
+    "group_id": 16,
+    "ctl_piano_id": 0,
     "dis_idL": [
       20
     ],
@@ -172,8 +206,10 @@
     ]
   },
   {
-    "title": "A m.243 7171",
+    "title": "A m243 7171 (B)",
     "meas": 243,
+    "group_id": 17,
+    "ctl_piano_id": 1,
     "dis_idL": [
       5
     ],
@@ -182,8 +218,10 @@
     ]
   },
   {
-    "title": "C m.253 7180",
+    "title": "C m253 7180 (C)",
     "meas": 253,
+    "group_id": 18,
+    "ctl_piano_id": 2,
     "dis_idL": [
       31
     ],
@@ -192,8 +230,10 @@
     ]
   },
   {
-    "title": "B m.255 7184",
+    "title": "B m255 7184 (C)",
     "meas": 255,
+    "group_id": 19,
+    "ctl_piano_id": 2,
     "dis_idL": [
       21
     ],
@@ -202,8 +242,10 @@
     ]
   },
   {
-    "title": "C m.260 7188",
+    "title": "C m260 7188 (C)",
     "meas": 260,
+    "group_id": 20,
+    "ctl_piano_id": 2,
     "dis_idL": [
       32
     ],
@@ -212,8 +254,10 @@
     ]
   },
   {
-    "title": "C m.274 7200",
+    "title": "C m274 7200 (A)",
     "meas": 274,
+    "group_id": 21,
+    "ctl_piano_id": 0,
     "dis_idL": [
       33
     ],
@@ -222,8 +266,10 @@
     ]
   },
   {
-    "title": "B m.290 7212",
+    "title": "B m290 7212 (B)",
     "meas": 290,
+    "group_id": 22,
+    "ctl_piano_id": 1,
     "dis_idL": [
       22
     ],
@@ -232,8 +278,10 @@
     ]
   },
   {
-    "title": "C m.292 7215",
+    "title": "C m292 7215 (A)",
     "meas": 292,
+    "group_id": 22,
+    "ctl_piano_id": 0,
     "dis_idL": [
       34
     ],
@@ -242,8 +290,10 @@
     ]
   },
   {
-    "title": "B m.294 7217",
+    "title": "B m294 7217 (A)",
     "meas": 294,
+    "group_id": 23,
+    "ctl_piano_id": 0,
     "dis_idL": [
       23
     ],
@@ -252,8 +302,10 @@
     ]
   },
   {
-    "title": "A m.295 7220",
+    "title": "A m295 7220 (B)",
     "meas": 295,
+    "group_id": 23,
+    "ctl_piano_id": 1,
     "dis_idL": [
       6
     ],
@@ -262,8 +314,10 @@
     ]
   },
   {
-    "title": "B m.299 7225",
+    "title": "B m299 7225 (C)",
     "meas": 299,
+    "group_id": 24,
+    "ctl_piano_id": 2,
     "dis_idL": [
       24
     ],
@@ -272,8 +326,10 @@
     ]
   },
   {
-    "title": "C m.299 7224",
+    "title": "C m299 7224 (B)",
     "meas": 299,
+    "group_id": 24,
+    "ctl_piano_id": 1,
     "dis_idL": [
       35
     ],
@@ -282,8 +338,10 @@
     ]
   },
   {
-    "title": "A m.304 7230a",
+    "title": "A m304 7230a(B)",
     "meas": 304,
+    "group_id": 25,
+    "ctl_piano_id": 1,
     "dis_idL": [
       7
     ],
@@ -292,8 +350,10 @@
     ]
   },
   {
-    "title": "C m.307 7233",
+    "title": "C m307 7233 (B)",
     "meas": 307,
+    "group_id": 26,
+    "ctl_piano_id": 1,
     "dis_idL": [
       36
     ],
@@ -302,8 +362,10 @@
     ]
   },
   {
-    "title": "C m.311 7236",
+    "title": "C m311 7236 (B)",
     "meas": 311,
+    "group_id": 27,
+    "ctl_piano_id": 1,
     "dis_idL": [
       37
     ],
@@ -312,8 +374,10 @@
     ]
   },
   {
-    "title": "B m.314 7238",
+    "title": "B m314 7238 (B)",
     "meas": 314,
+    "group_id": 28,
+    "ctl_piano_id": 1,
     "dis_idL": [
       25
     ],
@@ -322,8 +386,10 @@
     ]
   },
   {
-    "title": "B m:315 7238",
+    "title": "B m:315 7238 (B)",
     "meas": 315,
+    "group_id": 28,
+    "ctl_piano_id": 1,
     "dis_idL": [
       26
     ],
@@ -332,8 +398,10 @@
     ]
   },
   {
-    "title": "B m:316 7238",
+    "title": "B m:316 7238 (B)",
     "meas": 316,
+    "group_id": 28,
+    "ctl_piano_id": 1,
     "dis_idL": [
       27
     ],
@@ -342,8 +410,10 @@
     ]
   },
   {
-    "title": "B m.325 7246",
+    "title": "B m325 7246 (C)",
     "meas": 325,
+    "group_id": 29,
+    "ctl_piano_id": 2,
     "dis_idL": [
       28
     ],
@@ -352,8 +422,10 @@
     ]
   },
   {
-    "title": "ABC m.328 7250",
+    "title": "ABC m328 7250 (C)",
     "meas": 328,
+    "group_id": 30,
+    "ctl_piano_id": 2,
     "dis_idL": [
       8,
       29,

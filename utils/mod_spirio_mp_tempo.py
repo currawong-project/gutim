@@ -137,6 +137,13 @@ def mod_tempo(tocD,seqD,out_spirio_mp_json_fname):
             m['sec'] = sec*d_tempo_pct
 
     for sect_label, d in tocD.items():
+        if d['mod_tempo_pct'] != 0:
+            mod_tempo_pct = d['mod_tempo_pct']
+        elif d['mod_tempo'] != 0:
+            mod_tempo_pct = 100.0 * (d['mod_tempo']/d['tempo'])
+        else:
+            mod_tempo = 100.0
+            
         _mod_tempo(seqD[sect_label]['msgL'],d['mod_tempo_pct'])
     
     with open(out_spirio_mp_json_fname,"w") as f:
@@ -145,50 +152,53 @@ def mod_tempo(tocD,seqD,out_spirio_mp_json_fname):
 
 if __name__ == "__main__":
 
-    #spirio_mp_fname = "gutim_2/spirio_mp.json"
-    spirio_mp_fname = "gutim_2/spirio_mp_mod_tempo.json"
+    spirio_mp_fname = "gutim_2/spirio_mp.json"
+    #spirio_mp_fname = "gutim_2/spirio_mp_mod_tempo.json"
+
 
     tocD ={
-        "7063_A_90_SP":{ 'mod_tempo_pct':100.0 },
-        "7126_A_171_SP":{ 'mod_tempo_pct':100.0 },
-        "7128_A_175_SP":{ 'mod_tempo_pct':100.0 },
-        "7139a_A_202_SP":{ 'mod_tempo_pct':100.0 },
-        "7157_A_226_SP":{ 'mod_tempo_pct':100.0 },
-        "7171_A_243_SP":{ 'mod_tempo_pct':100.0 },
-        "7220_A_295_SP":{ 'mod_tempo_pct':100.0 },
-        "7230a_A_304_SP":{ 'mod_tempo_pct':100.0 },
-        "7250_A_328_SP":{ 'mod_tempo_pct':100.0 },
-        
-        "7024_B_39_SP":{ 'mod_tempo_pct':10.0 },
-        "7034_B_55_SP":{ 'mod_tempo_pct':100.0 },
-        "7063_B_90_SP":{ 'mod_tempo_pct':100.0 },
-        "7079_B_122_SP":{ 'mod_tempo_pct':100.0 },
-        "7086C_B_133_SP":{ 'mod_tempo_pct':100.0 },
-        "7111_B_160_SP":{ 'mod_tempo_pct':100.0 },
-        "7119_B_167_SP":{ 'mod_tempo_pct':100.0 },
-        "7124_B_171_SP":{ 'mod_tempo_pct':100.0 },
-        "7125b_B_178_SP":{ 'mod_tempo_pct':100.0 },
-        "7141_B_204_SP":{ 'mod_tempo_pct':100.0 },
-        "7163_B_234_SP":{ 'mod_tempo_pct':100.0 },
-        "7184_B_255_SP":{ 'mod_tempo_pct':100.0 },   # 56-56
-        "7212_B_290_SP":{ 'mod_tempo_pct':100.0 },   # 51-51
-        "7217b_B_294_SP":{ 'mod_tempo_pct':100.0 },  
-        "7225_B_299_SP":{ 'mod_tempo_pct':88.0 },   # 51->45
-        "7238_B_314_SP":{ 'mod_tempo_pct':100.0 },
-        "7246_B_325_SP":{ 'mod_tempo_pct':88.0 },  # 51->45
-        "7250_B_328_SP":{ 'mod_tempo_pct':100.0 },
-        
-        "7136b_C_203_SP":{ 'mod_tempo_pct':100.0 },
-        "7180_C_253_SP":{ 'mod_tempo_pct':100.0 },
-        "7188_C_260_SP":{ 'mod_tempo_pct':100.0 },
-        "7200_C_274_SP":{ 'mod_tempo_pct':100.0 },
-        "7215_C_292_SP":{ 'mod_tempo_pct':100.0 },
-        "7224_C_299_SP":{ 'mod_tempo_pct':100.0 },
-        "7233_C_307_SP":{ 'mod_tempo_pct':100.0 },
-        "7236_C_311_SP":{ 'mod_tempo_pct':100.0 },
-        "7250_C_328_SP":{ 'mod_tempo_pct':100.0 },
+        "7024_B_39_SP":{  'tempo':80, 'mod_tempo':70, 'mod_tempo_pct':0 },
+        "7034_B_55_SP":{  'tempo':66, 'mod_tempo':0, 'mod_tempo_pct':0 },
+        "7063_A_90_SP":{  'tempo':51, 'mod_tempo':0, 'mod_tempo_pct':0 },
+        "7063_B_90_SP":{  'tempo':51, 'mod_tempo':0, 'mod_tempo_pct':0 },
+        "7079_B_122_SP":{ 'tempo':112,'mod_tempo':76, 'mod_tempo_pct':0 },
+        "7086C_B_133_SP":{'tempo':112,'mod_tempo':92, 'mod_tempo_pct':0 },
+        "7111_B_160_SP":{ 'tempo':69, 'mod_tempo':60, 'mod_tempo_pct':0 },
+        "7119_B_167_SP":{ 'tempo':54, 'mod_tempo':90, 'mod_tempo_pct':0 },
+        "7124_B_171_SP":{ 'tempo':66, 'mod_tempo':56, 'mod_tempo_pct':0 },
+        "7126_A_171_SP":{ 'tempo':66, 'mod_tempo':56, 'mod_tempo_pct':0 },        
+        "7128_A_175_SP":{ 'tempo':63, 'mod_tempo':56, 'mod_tempo_pct':0 },
+        "7125b_B_178_SP":{'tempo':104,'mod_tempo':0, 'mod_tempo_pct':0 },        
+        "7139a_A_202_SP":{'tempo':56, 'mod_tempo':0, 'mod_tempo_pct':0 },
+        "7136b_C_203_SP":{'tempo':56, 'mod_tempo':0, 'mod_tempo_pct':0 },
+        "7141_B_204_SP":{ 'tempo':56, 'mod_tempo':0, 'mod_tempo_pct':0 },        
+        "7157_A_226_SP":{ 'tempo':44, 'mod_tempo':0, 'mod_tempo_pct':0 },
+        "7163_B_234_SP":{ 'tempo':38, 'mod_tempo':0, 'mod_tempo_pct':0 },
+        "7166_B_237_SP":{ 'tempo':38, 'mod_tempo':0, 'mod_tempo_pct':0 },
+        "7171_A_243_SP":{ 'tempo':44, 'mod_tempo':0, 'mod_tempo_pct':0 },
+        "7180_C_253_SP":{ 'tempo':56, 'mod_tempo':48, 'mod_tempo_pct':0 },
+        "7184_B_255_SP":{ 'tempo':56, 'mod_tempo':0, 'mod_tempo_pct':0 },   # 56-56
+        "7188_C_260_SP":{ 'tempo':56, 'mod_tempo':45, 'mod_tempo_pct':0 },
+        "7200_C_274_SP":{ 'tempo':51, 'mod_tempo':48, 'mod_tempo_pct':0 },
+        "7212_B_290_SP":{ 'tempo':51, 'mod_tempo':0, 'mod_tempo_pct':0 },   # 51-51
+        "7215_C_292_SP":{ 'tempo':51, 'mod_tempo':50, 'mod_tempo_pct':0 },
+        "7217b_B_294_SP":{'tempo':51, 'mod_tempo':50, 'mod_tempo_pct':0 },  
+        "7220_A_295_SP":{ 'tempo':51, 'mod_tempo':46, 'mod_tempo_pct':0 },
+        "7224_C_299_SP":{ 'tempo':51, 'mod_tempo':46, 'mod_tempo_pct':0 },
+        "7225_B_299_SP":{ 'tempo':51, 'mod_tempo':0, 'mod_tempo_pct':0 },   # 51->45        
+        "7230a_A_304_SP":{'tempo':51, 'mod_tempo':46, 'mod_tempo_pct':0 },
+        "7233_C_307_SP":{ 'tempo':51, 'mod_tempo':0, 'mod_tempo_pct':0 },
+        "7236_C_311_SP":{ 'tempo':51, 'mod_tempo':0, 'mod_tempo_pct':0 },
+        "7238_B_314_SP":{ 'tempo':51, 'mod_tempo':50, 'mod_tempo_pct':0 },
+        "7238_B_315_SP":{ 'tempo':51, 'mod_tempo':52, 'mod_tempo_pct':0 },
+        "7238_B_316_SP":{ 'tempo':51, 'mod_tempo':50, 'mod_tempo_pct':0 },
+        "7246_B_325_SP":{ 'tempo':51, 'mod_tempo':0, 'mod_tempo_pct':0 },  # 51->45        
+        "7250_A_328_SP":{ 'tempo':51, 'mod_tempo':0, 'mod_tempo_pct':0 },        
+        "7250_B_328_SP":{ 'tempo':51, 'mod_tempo':0, 'mod_tempo_pct':0 },        
+        "7250_C_328_SP":{ 'tempo':51, 'mod_tempo':0, 'mod_tempo_pct':0 },
     }
 
+    
     cfgD= { 0:dict(score_pkl_fname="gutim_2/a/output/cache/assign_sustain.pkl"),
             1:dict(score_pkl_fname="gutim_2/b/output/cache/assign_sustain.pkl"),
             2:dict(score_pkl_fname="gutim_2/c/output/cache/assign_sustain.pkl") }
