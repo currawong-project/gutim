@@ -142,9 +142,9 @@ def mod_tempo(tocD,seqD,out_spirio_mp_json_fname):
         elif d['mod_tempo'] != 0:
             mod_tempo_pct = 100.0 * (d['mod_tempo']/d['tempo'])
         else:
-            mod_tempo = 100.0
+            mod_tempo_pct = 100.0
             
-        _mod_tempo(seqD[sect_label]['msgL'],d['mod_tempo_pct'])
+        _mod_tempo(seqD[sect_label]['msgL'],mod_tempo_pct)
     
     with open(out_spirio_mp_json_fname,"w") as f:
         json.dump(seqD,f,indent=2)
