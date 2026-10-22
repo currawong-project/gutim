@@ -140,7 +140,7 @@ def mod_tempo(tocD,seqD,out_spirio_mp_json_fname):
         if d['mod_tempo_pct'] != 0:
             mod_tempo_pct = d['mod_tempo_pct']
         elif d['mod_tempo'] != 0:
-            mod_tempo_pct = 100.0 * (d['mod_tempo']/d['tempo'])
+            mod_tempo_pct = 100.0 * (d['tempo']/d['mod_tempo'])
         else:
             mod_tempo_pct = 100.0
             
