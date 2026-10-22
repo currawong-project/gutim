@@ -164,7 +164,7 @@ if __name__ == "__main__":
         "7079_B_122_SP":{ 'tempo':112,'mod_tempo':76, 'mod_tempo_pct':0 },
         "7086C_B_133_SP":{'tempo':112,'mod_tempo':92, 'mod_tempo_pct':0 },
         "7111_B_160_SP":{ 'tempo':69, 'mod_tempo':60, 'mod_tempo_pct':0 },
-        "7119_B_167_SP":{ 'tempo':54, 'mod_tempo':90, 'mod_tempo_pct':0 },
+        "7119_B_167_SP":{ 'tempo':54, 'mod_tempo':54, 'mod_tempo_pct':0 },
         "7124_B_171_SP":{ 'tempo':66, 'mod_tempo':56, 'mod_tempo_pct':0 },
         "7126_A_171_SP":{ 'tempo':66, 'mod_tempo':56, 'mod_tempo_pct':0 },        
         "7128_A_175_SP":{ 'tempo':63, 'mod_tempo':56, 'mod_tempo_pct':0 },
@@ -185,14 +185,14 @@ if __name__ == "__main__":
         "7217b_B_294_SP":{'tempo':51, 'mod_tempo':50, 'mod_tempo_pct':0 },  
         "7220_A_295_SP":{ 'tempo':51, 'mod_tempo':46, 'mod_tempo_pct':0 },
         "7224_C_299_SP":{ 'tempo':51, 'mod_tempo':46, 'mod_tempo_pct':0 },
-        "7225_B_299_SP":{ 'tempo':51, 'mod_tempo':0, 'mod_tempo_pct':0 },   # 51->45        
+        "7225_B_299_SP":{ 'tempo':51, 'mod_tempo':45, 'mod_tempo_pct':0 },   # 51->45        
         "7230a_A_304_SP":{'tempo':51, 'mod_tempo':46, 'mod_tempo_pct':0 },
         "7233_C_307_SP":{ 'tempo':51, 'mod_tempo':0, 'mod_tempo_pct':0 },
         "7236_C_311_SP":{ 'tempo':51, 'mod_tempo':0, 'mod_tempo_pct':0 },
         "7238_B_314_SP":{ 'tempo':51, 'mod_tempo':50, 'mod_tempo_pct':0 },
         "7238_B_315_SP":{ 'tempo':51, 'mod_tempo':52, 'mod_tempo_pct':0 },
         "7238_B_316_SP":{ 'tempo':51, 'mod_tempo':50, 'mod_tempo_pct':0 },
-        "7246_B_325_SP":{ 'tempo':51, 'mod_tempo':0, 'mod_tempo_pct':0 },  # 51->45        
+        "7246_B_325_SP":{ 'tempo':51, 'mod_tempo':45, 'mod_tempo_pct':0 },  # 51->45        
         "7250_A_328_SP":{ 'tempo':51, 'mod_tempo':0, 'mod_tempo_pct':0 },        
         "7250_B_328_SP":{ 'tempo':51, 'mod_tempo':0, 'mod_tempo_pct':0 },        
         "7250_C_328_SP":{ 'tempo':51, 'mod_tempo':0, 'mod_tempo_pct':0 },
