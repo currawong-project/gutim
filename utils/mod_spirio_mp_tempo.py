@@ -164,7 +164,7 @@ if __name__ == "__main__":
         "7079_B_122_SP":{ 'tempo':112,'mod_tempo':76, 'mod_tempo_pct':0 },
         "7086C_B_133_SP":{'tempo':112,'mod_tempo':92, 'mod_tempo_pct':0 },
         "7111_B_160_SP":{ 'tempo':69, 'mod_tempo':60, 'mod_tempo_pct':0 },
-        "7119_B_167_SP":{ 'tempo':54, 'mod_tempo':54, 'mod_tempo_pct':0 },
+        "7119_B_167_SP":{ 'tempo':54, 'mod_tempo':45, 'mod_tempo_pct':0 },
         "7124_B_171_SP":{ 'tempo':66, 'mod_tempo':56, 'mod_tempo_pct':0 },
         "7126_A_171_SP":{ 'tempo':66, 'mod_tempo':56, 'mod_tempo_pct':0 },        
         "7128_A_175_SP":{ 'tempo':63, 'mod_tempo':56, 'mod_tempo_pct':0 },
