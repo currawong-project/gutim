@@ -314,18 +314,6 @@
     ]
   },
   {
-    "title": "B m299 7225 (C)",
-    "meas": 299,
-    "group_id": 24,
-    "ctl_piano_id": 2,
-    "dis_idL": [
-      24
-    ],
-    "valueL": [
-      24
-    ]
-  },
-  {
     "title": "C m299 7224 (B)",
     "meas": 299,
     "group_id": 24,
@@ -335,6 +323,18 @@
     ],
     "valueL": [
       35
+    ]
+  },
+  {
+    "title": "B m299 7225 (C)",
+    "meas": 299,
+    "group_id": 24,
+    "ctl_piano_id": 2,
+    "dis_idL": [
+      24
+    ],
+    "valueL": [
+      24
     ]
   },
   {
