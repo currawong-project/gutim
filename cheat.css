@@ -1,0 +1,28 @@
+
+
+
+.cheat_panel {
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap; /* If children are inline or inline-block elements */
+  display: flex;       /* Alternative approach using Flexbox */
+  flex-direction: column;
+}
+
+.cheat-panel > .cheat_row {
+  flex: 0 0 auto;      /* Prevents flex items from shrinking */
+  display: inline-block;
+}
+
+.cheat_row {
+  position: relative; /* Establishes the coordinate system */
+  width: 800px;
+  height: 40px;
+  background-color: #f0f0f0;
+}
+
+.cheat_ele {
+  position: absolute;
+  top: 10px; /* Aligns vertically */
+}
+
